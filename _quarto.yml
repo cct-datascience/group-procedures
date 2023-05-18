@@ -1,0 +1,15 @@
+project: 
+  type: book
+
+book:
+  title: "CCT Data Science Group Procedures"
+  search: true
+  repo-url: https://github.com/cct-datascience/group-procedures
+  repo-actions: [edit]
+  chapters:
+    - index.qmd
+    - general-info.qmd
+
+format:
+  html:
+    theme: cosmo
