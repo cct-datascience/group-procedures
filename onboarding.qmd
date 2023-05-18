@@ -1,0 +1,119 @@
+---
+title: Onboarding
+---
+
+## First Week
+
+The goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university. Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack). 
+
+*   Read this document
+    *   Suggest changes to this document, comment, and ask questions as you go so that it is more useful to the next person
+* Review [DIAG Group Code of Conduct](https://osf.io/tzmhp/wiki/Code%20of%20Conduct/)
+* Review [UA New Employee Orientation Programs](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs)
+    * [AZ Public Service Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs/arizona-public-service-orientation)
+    * [UA Welcome & Benefits](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs#hdr-1)
+    * [Preventing Discrimination and Harassment](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs#hdr-4)
+* Follow instructions in your new hire emails 
+    * It can take up to two weeks before you can enroll in benefits on [UAccess](https://uaccess.arizona.edu/)
+    * You must select a retirement plan before you have access to other benefits
+* Set up a UA NetID account at [https://it.arizona.edu/getting-started/staff](https://it.arizona.edu/getting-started/staff) to get access to everything at the university  
+* Enroll in and complete Information Security [training](https://security.arizona.edu/content/awareness-completion-instructions)
+
+*   Create accounts on the following collaboration tools (details provided below)
+    *   UITS Accounts, starting here: [https://account.arizona.edu/welcome](https://account.arizona.edu/welcome)
+        *   UA email (Outlook or Gmail)
+        *   UA calendar (Outlook or Gmail)
+        *   UA Google Apps
+        *   UA Box
+        *   UA HPC
+    *   GitHub
+        *  If you already have an account that you wish to use for work, [add your UA email address to your account](https://github.com/settings/emails).
+        *  See [here][1] for more about 2FA for GitHub and SSH protocols
+        *  If you don't already have an account sign up at (https://github.com), used to organize our work. Also join these organizations: 
+         *   CCT Data Science group: [https://github.com/cct-datascience](https://github.com/cct-datascience)
+        *   PEcAn: [https://github.com/PecanProject](https://github.com/PecanProject)
+        *   Agriculture Processing Pipeline: [https://github.com/agpipeline](https://github.com/agpipeline)
+        *   GenoPhenoEnvo: [https://github.com/genophenoenvo](https://github.com/genophenoenvo)
+    *   ZenHub ([https://www.zenhub.com/](https://www.zenhub.com/)), which interfaces with GitHub and we use for group project maangement
+        *   Group board [here](https://app.zenhub.com/workspaces/ua-ag-data-science-5a57a3198339f11ba1c85775/board?repos=80695066,165746676,160253698,151617511,175507213,101220639,185447068,201100988,203868729,42889668,207390055&showPipelineDescriptions=false)
+    *   UA OSF, which is where we store group and project documentation
+        *   Click here and follow instructions to sign up for an account on OSF [https://it.arizona.edu/service/open-science-framework-ua](https://it.arizona.edu/service/open-science-framework-ua)
+        *   Someone will have to add you as a contributor to our group's OSF page: [https://osf.io/emq9s/](https://osf.io/emq9s/) 
+    * Create accounts on relevant Slack channels: 
+        * CCT DS group (#agdata channel within CCT Slack)
+        * PEcAn: [https://pecanproject.slack.com](https://pecanproject.slack.com)
+        * As needed: Danforth (DARPA project), drone pipeline, GenoPhenoEnvo (NSF project)
+    *   UA Office 365: [https://it.arizona.edu/service/microsoft-office-365](https://it.arizona.edu/service/microsoft-office-365)
+    *   Others
+*   CatCard
+    *   The CatCard is your official UA employee identification.
+    *   Get your cat card from the CatCard office in the Student Union ([details](https://catcard.arizona.edu/obtain_catcard))
+    *   They can look up your employee number if you bring a driver’s license or other form of ID
+*   Access to Biosciences Research Lab (BSRL) building second floor
+    *   After getting your Cat Card, fill out the form at https://access.bio5.org/ to request access to BSRL
+    *   Click on request access for Data7
+    *   There is a cafe in first floor lobby with coffee and snacks for purchase
+*   Purchase equipment, either online or at campus bookstore, and set up your office. 
+    *   Each full time employee will be allocated:
+        *   A computer, two monitors, a mouse/track pad/pointing device, a keyboards, and a docking station
+        *   Enough outlets and ethernet ports to meet your needs. We can get additional routers / power strips as needed.
+        *   Office supplies - there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask. 
+    *   If you need anything further, just ask.
+*   Begin learning about and using software and data related to your project
+    *   Can start with [TERRA REF tutorials](https://terraref.github.io/tutorials/) or [PEcAn documentation](https://pecanproject.github.io/pecan-documentation/develop/)
+    *   Improve / update documentation as you're working through materials
+    *   Feel free to develop an Rmarkdown or Jupyter notebook tutorial based on group data/tools
+*   Participate in daily standup meetings, weekly sprint planning/retrospective meetings, and [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ). Review [project management OSF page](https://osf.io/tzmhp/wiki/Project%20Management/) to prepare for these
+*   TBD: Be added to rotating mentor/mentee schedule
+*   Fill out biweekly time sheets every other Friday morning on [UAccess](https://uaccess.arizona.edu/), which also has pay stubs, insurance info, etc. 
+    - If you are salaried, you only need to put in 1 hour of "PAW - Present at Work" for the pay period (doesn't matter which week).
+
+#### For DARPA Project Members: First week CUI Training
+
+Should be completed by ALL personnel working on the DARPA project. Complete training by the end of the first week. Send signed copies of appendix A&B (PIs) or appendix B (all personnel). 
+
+1. Read through [this training](https://www.cdse.edu/Training/Toolkits/Controlled-Unclassified-Information-Toolkit/)
+
+2. Watch all of the videos here https://www.archives.gov/cui/training.html
+3. Read and sign final page of [CUI document](https://docs.google.com/document/d/1OKUQEKP3IJ3ypaKZ8NOqaZGzsZ5daFbmQCt1fSnSZE8/edit?usp=sharing) 
+
+
+## Second Week
+
+* Discuss OKRs and review [OKR overview slides][2] with Kristina.
+  * Review Group Objectives and Key Results
+  * Identify 3-4 Objectives with 3-4 Key Results (<=12 total) for your first Quarter using the template; [see Q3 2019](https://docs.google.com/spreadsheets/d/18ANZGFdBHBU8l9WbFTE0fErcCaTva3LyazuhAex4FFE/edit#gid=129820665)
+* Add your page to the group website
+  * Headshot, Bio, links
+  * Also send Headshot, Bio, Links to Matt Rahr (rahr@ag.arizona.edu) in CCT 
+* Add your skills to the [group skills matrix](https://docs.google.com/spreadsheets/d/1N95GgtAgvpQ9PhpiYwqWYewWu-FOzeIoQxzX2oldUuk/edit?usp=sharing)
+* Read [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+* Order business cards: https://brand.arizona.edu/stationery
+
+## First Month
+
+Objective is to familiarize yourself with the specific project(s) that you will be working on, including: 
+
+*   Project(s) background, platforms, setup, and purpose
+*   The software stack that you will be working on
+*   People, proposals, scientific literature, and other elements of project(s) that you will work on
+*   Identify the skills you will need (and want) to build on in your first year
+*   Other objectives that are specific to your role, which can be determined by working with your supervisor and other project members
+
+**People to Meet / Know**
+
+This depends on what you're working on, but it is useful to know and have chatted with at least some of these people: 
+
+* CyVerse / Data7
+  * Matt Rahr (Director, CCT)
+  * Maliaca Oxnam (Deputy Director, Data Science Institute)
+  * Ellen Bledsoe (SNRE)
+  * Jeff Oliver (Library)
+  * Nirav Marchant (CyVerse, Data Science Institute)
+  * Tyson Swetnam (CyVerse)
+  * Rachel and Conroy (IRL, BSRL Custodians)
+* Project Collaborators
+  * Co-PIs, students, staff involved in projects that you are working on.
+
+  [1]: https://osf.io/tzmhp/wiki/2-Factor%20Authentication%20for%20GitHub/
+  [2]: https://drive.google.com/open?id=1wZBYlYZK4s2HPJAjNqR9-9RXQUY3KGbK "OKR Introduction"

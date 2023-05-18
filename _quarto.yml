@@ -3,12 +3,16 @@ project:
 
 book:
   title: "CCT Data Science Group Procedures"
+  cover-image: cover.png
   search: true
   repo-url: https://github.com/cct-datascience/group-procedures
   repo-actions: [edit]
   chapters:
     - index.qmd
-    - general-info.qmd
+    - part: general-info.qmd
+      chapters:
+        - code-of-conduct.qmd
+        - onboarding.qmd
 
 format:
   html:

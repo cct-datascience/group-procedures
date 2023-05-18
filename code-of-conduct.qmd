@@ -1,0 +1,48 @@
+---
+title: Code of Conduct
+---
+
+## Overview
+
+Our group's mission is to enable scientists. This means treating people with respect and responding in a polite and helpful way.
+
+Our group is committed to ensuring a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.
+
+Examples of unacceptable behavior by members, collaborators, and contributors include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.
+
+## University of Arizona Policies 
+
+The University of Arizona has specific policies related to conduct. See the [UA Nondiscrimination and anti-harrassment policy][2]. 
+
+All employees students, and designated campus colleagues are required to take the [Preventing Harassment and Discrimination training][3] and follow review, understand, and follow:
+* The University of Arizona ethics and conduct guidelines: policy.arizona.edu/ethics-and-conduct
+* The University of Arizona Nondiscrimination and anti-harassment policy: titleix.arizona.edu/nondiscrimination_and_anti-harassment_policy
+
+## Inclusivity
+
+Our group is a Safe & Inclusive Space. You should feel welcome, we should make sure everyone feels welcome and respected. In our work to enable science we will work with each other as well as diverse stakeholders from within and outside the University of Arizona. We are committed to creating an environment that supports inclusivity and respect of all people regardless of race, color, culture, religion, spiritual practice, sex, age, socioeconomic status, perceived or actual sexual orientation, gender identity or gender expression, relationship status or configuration, national origin or physical and mental abilities. (credit: [Matthew LeBauer](https://lebauercounseling.com/about-matthew/inclusivity-statement))
+
+
+
+## Contact information
+
+### University of Arizona
+
+* **If you experience discrimination or harassment by *UA employees, visitors, vendors or contractors***, report it to the Office of Institutional Equity - https://equity.arizona.edu/report-concern 520‐621‐9449; equity@email.arizona.edu.
+* **If a person complains of discrimination or harassment**, ask them to report it to OIE. Then report it immediately - https://equity.arizona.edu/report-concern 520‐621‐9449; equity@email.arizona.edu(link sends e-mail). NEVER promise to “keep it quiet.” NEVER investigate the issue yourself.
+  * ***If a student asks you for help***, refer them to OIE using this guidance - https://equity.arizona.edu/make-referral. NEVER promise to “keep it quiet.” NEVER investigate the issue yourself.
+* **If you witness or are made aware of discrimination or harassment, you must report it immediately** - https://equity.arizona.edu/report-concern ; 520‐621‐9449; equity@email.arizona.edu(link sends e-mail).
+  * **If you witness or are made aware of discrimination or harassment *by students***, submit an Incident Report Referral Form to the Dean of Students - https://arizona-advocate.symplicity.com/public_report
+* **All suspected or alleged criminal activity, especially sexual assault**, must be reported to UAPD immediately - https://uapd.arizona.edu ; 911 (emergency) or 520-621-8273 (non-emergency).
+
+### DIAG
+
+All members of our group are expected and collaborators are requested to report violations of this code of conduct. Reporting, even anonymously, is the first step toward improving the workplace for everyone.
+
+Instances of abusive, harassing, threatening, or otherwise undesirable behavior may be reported by contacting Kristina Riemer at kristinariemer@arizona.edu.
+
+We will use [Aurora and Gardiner's “How to Respond to Code of Conduct Reports,”][1] as a guide to responding to such reports.
+
+  [1]: https://frameshiftconsulting.com/code-of-conduct-book/
+  [2]: https://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy
+  [3]: https://equity.arizona.edu/training/online-training
