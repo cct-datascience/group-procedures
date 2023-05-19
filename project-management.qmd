@@ -1,0 +1,44 @@
+---
+title: Project Management
+---
+
+The [Agile process](https://en.wikipedia.org/wiki/Agile_software_development) we use is dynamic. 
+All of the procedures here can and should be changed to improve the group's productivity, cohesion, and fulfillment. 
+
+Scrum is an [Agile process](https://en.wikipedia.org/wiki/Agile_software_development) for software development and project management that we have adapted to our process. You can learn more about [Scrum on Wikipedia](https://en.wikipedia.org/wiki/Scrum_%28software_development%29), but the key features that we have implemented are described below. 
+
+As part of the Agile process, we continually evaluate and improve these procedures as needed. 
+
+## Rhythm and Hierarchy of Meetings:
+
+Our group uses the following hierarchy of meetings, from brief daily status reports to quarterly reviews and planning.
+
+* Annual: 
+  * [Career Conversations and SMART Goal Setting](https://osf.io/tzmhp/wiki/Annual%20Reviews/)
+* Quarterly: 
+    * **[Objectives and Key Results (OKRs)](https://osf.io/tzmhp/wiki/OKRs%20%26%20Quarterly%20Reviews/)**: Every three months is a quarter, where each quarter has a set of [OKRs](https://osf.io/tzmhp/wiki/OKRs%20%26%20Quarterly%20Reviews/).
+     * **[Quarterly review meetings](https://osf.io/tzmhp/wiki/OKRs%20%26%20Quarterly%20Reviews/):** at the beginning of each quarter, last quarter's OKRs are discussed and the current quarter's OKRs are decided upon. 
+* Monthly 
+  * Review and update OKRs in first 1:1 of the month 
+* Bi-Weekly: 
+    * **[Bi-weekly Sprints](https://osf.io/tzmhp/wiki/Sprint%20Meetings/):** start with a planning meeting and end with a sprint retrospective meeting. 
+* Weekly: Each group member has a one-on-one meeting (30-60 minutes) week with Kristina. 
+* **[Daily standups](https://osf.io/tzmhp/wiki/Standups/):** Daily progress, plans, and blockers are discussed during daily [standup](https://osf.io/tzmhp/wiki/Standups/) meetings (10 minutes).
+
+## Time Tracking
+
+Every individual in the group contributes to multiple projects. 
+
+With the launch of the Data Science Incubator, we found it prudent to track time allocated to each project. The goal is to be fair to our collaborators and funders by quantifying our time spent and making sure that we are fairly allocating our efforts across projects. This will also be used to budget for the time and costs of future projects.
+
+The goal is not to account for 100% of each person's time. The goal is to be able to confidently and correctly report that we have spent a particular number of days or fraction of time on a project. Retrospective tracking with a precision of ~ 1 hour or half days is typically sufficient.
+
+Most members use toggl.com to track time, with a separate project for each funded activity.
+
+## A note on metrics 
+
+Keep in mind:
+
+> "When a measure becomes a target, it ceases to be a good measure." - Marylin Strathern ([Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law))
+
+There are many ways of measuring work - we use OKRs, sprint points, time tracking, among others. These are used to plan, assess, and report. Importantly, these metrics _are not_ used to assess individual performance. Optimizing for such metrics at the individual level is counterproductive, and diminishes the value of such metrics.

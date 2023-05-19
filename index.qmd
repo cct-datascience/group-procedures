@@ -1,9 +1,3 @@
-# Preface {.unnumbered}
+# Preface  {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+This is a demo of what it might look like if our group OSF wiki instead lived on GitHub as .qmd documents and was rendered as a Quarto book.  To edit, use the "Edit this page" link on the right.  Try searching in the search bar.

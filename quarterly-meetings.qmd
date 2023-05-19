@@ -1,0 +1,158 @@
+---
+title: Quarterly Meetings
+---
+
+## Quarters
+
+Quarters are three months long
+
+* Q1 = January - March
+* Q2 = April - June
+* Q3 = July - September
+* Q4 = October - December
+
+### Quarterly review meetings
+
+These meetings happen once during the the first week or two of each quarter, and last one day. This is done outside of our normal office space - typically off campus or in a quiet room on campus.
+
+The purpose is for the group to present progress on last quarter's OKRs and discuss current quarter's OKRs. This is also a time for general discussion about group vision, projects, funding, etc.
+
+#### Preparing for Quarterly Review Meetings
+
+* Two weeks before
+  * Create agenda and notes page using [template](https://hackmd.io/xJeDeVOdS-GNiPlT6PPC3w?both)
+  * Create a new OKR workbook if one doesn't exist ([OKR Template][1])
+  * Update previous quarter OKRs
+  * Draft next quarter OKRs
+  * Review with Kristina
+* One week before
+  * Create a presentation and put it in the [Review and Planning][2] folder
+    * Key accomplishments
+    * What went well, what didn't 
+    * Plans for next quarter
+    * Ideas for group
+  * Review agenda from previous quarter
+  * Review and add to agenda for current quarter
+  
+#### Standing Agenda Topics
+
+* Team building fun stuff
+* Individual Presentations 
+  * Major accomplishments
+  * What went well, what didn't 
+  * Plans for next quarter
+* Review and update mission & vision
+* OKRs
+  * review previous quarter's
+  * individually write next quarter's
+  * review next quarter with group (one at a time)
+
+#### Agendas and notes from previous Quarterly Reviews 
+
+* Agenda Template
+* Presentation Outline
+
+| Year | Quarter | Date | Agenda | OKRs | Presentations |
+|---|---|---|---|---|---|
+| **2019** | Q1 | - | - | [link][3] | [David][4] |
+|  | Q2 | April 4 | [link][5]  | [link][6]| [Kristina][7], [Kimberly][8] |
+|  | Q3 | July 24 |  [link][9]| [link][10]| [Chris][11], [Kristina][12] |
+|  | Q4 | Oct 4 | [link][13] | [link][14]| [Kristina][15] |
+| **2020** | Q1 | Jan 6| [link][16]   | [link][17]| [Chris][18], [David][19] |
+|  | Q2 | April 17 | [link][20] | [link][21] | [David][22], [Ryan][23], [Emily][24], [Kristina][25], [Chris][26] |
+|  | Q3 | July 8 | [link][27] | [link][28] | [Julian][29], [David][30], [Emily][31], [Kristina][32] |
+|  | Q4 | Oct 5 | [link][33] | [link][34] | |
+ **2021** | Q1 | Jan 14| [link][35]   | [link][36]|
+ | |Q2 | April |[link][37] |[link][38] | 
+ | |Q3 | July |[link][39] |[link][40] | 
+ | |Q4 | Oct |[link][41] | [link][42]| 
+  **2022** | Q1 | Jan 26-27 | [link][43]   | link|
+ | |Q2 | April 4 |[link][44] |[link][45] | 
+ | |Q3 | June 22 | [link][46] | [link][47] | 
+ | |Q4 | Oct 12 | [link][48] | [link][49] |
+   **2023** | Q1 | Jan 20-21| [link][51]   | [link][52] |
+ | |Q2 | April 10 | [link][54] | [link][53] | 
+ | |Q3 | TBD | link | link | 
+ | |Q4 | TBD | link | link |
+ 
+
+## OKRs (Objectives and Key Results)
+
+OKRs are a framework for goalsetting developed and used by Google. You can learn more about OKRs from [this overview from Google's rework website][50]. 
+
+Each member has their own set of OKRs per quarter, and there also may be group OKRs. They should all have quantifiable, specific outcomes, and should also be stretch goals. 
+
+You should create draft OKRs before the end of the quarter and discuss them with Kristina before the quarterly review meeting. 
+
+### OKRs as Epics
+
+Each member should make an epic for each of their key results. Epics should include the following: 
+
+* Epic name start with your initials
+* Include label "Key Result (OKR)"
+* Links to any associated issues
+* Add milestone for quarter
+
+### OKRs During the Quarter
+
+Each member should be reviewing their OKRs regularly, at least once per month, on their own. If helpful, also review with Kristina during weekly one-on-one meetings. 
+
+Have a group meeting mid-way through the quarter to review, update, and score OKRs. 
+
+Can add/edit key results during quarter due to unexpected events or priority shifts. 
+
+
+  [1]: https://docs.google.com/spreadsheets/d/1OLj0i05JtxfqNTp_lXmEQv-IpUFNBDvldbCzmftyJn0/edit#gid=1777430460
+  [2]: https://drive.google.com/open?id=1wUZ5bpo1U4cUTXpI9u3fAqCtZUKH3TL8
+  [3]: https://docs.google.com/spreadsheets/d/1dXsF8ZVeT7U6GxHSMOkq36wy5yS6dNrlr-rMzYTdM2A/edit#gid=761446612
+  [4]: https://drive.google.com/open?id=1--AZcjPg0yhRFm5Hh6S22Oe7ck9dIlitkMofxZ4XKWs
+  [5]: https://docs.google.com/document/d/1YUdeMdkmNdyb8AY0vIxSUpsiX7tThxu_HcGWh0tKzhw/edit#
+  [6]: https://docs.google.com/spreadsheets/d/1VpqZSzbI62h8ke0D-9HbkWurdTMp4AswA-eybGox33w/edit#gid=129820665
+  [7]: https://drive.google.com/open?id=1AHV3zydUVpXj5RdVrb97GYNcA-RBWyNWn7Jk8KMbhFc
+  [8]: https://drive.google.com/open?id=1Vag_8yY5GDRn0X1KPOlPgttvUbOSuZTi
+  [9]: https://docs.google.com/document/d/1cBUzMD87zR3FdPqEtxI5FFHilvkRo0teO8_pGRxBw9U/edit
+  [10]: https://docs.google.com/spreadsheets/d/1OLj0i05JtxfqNTp_lXmEQv-IpUFNBDvldbCzmftyJn0/edit#gid=1777430460
+  [11]: https://drive.google.com/open?id=1ykEExaH1dztbR1gbyJvvpTQ9-kW-eVGivjdeO4Hm-4s
+  [12]: https://drive.google.com/open?id=18-Flt1VHzYp7CBk2QR8FfIz97efX5Fc967fUsjEaPWM
+  [13]: https://hackmd.io/VDfLu1r5TreTlSxIeP2C5A
+  [14]: https://docs.google.com/spreadsheets/d/1LSpa24C_ltHGPI1FK5-xjQgobcMmFcbLvO2vRCU6VBw/edit#gid=1777430460
+  [15]: https://docs.google.com/presentation/d/18-Flt1VHzYp7CBk2QR8FfIz97efX5Fc967fUsjEaPWM/edit#slide=id.g61b1f1f9f7_0_245
+  [16]: https://hackmd.io/wSEFzUHoQ8Wuv7w-FwesAQ
+  [17]: https://docs.google.com/spreadsheets/d/1aIKSiWsshnREplxxrJGKRCIxHg1sVGmi2_2h1urMMiY/edit?usp=drive_web&ouid=117840420966686573885
+  [18]: https://docs.google.com/presentation/d/1aD0K_0eKnLTGsSfsdNytQ9eEqZolr23wptficpft3W8/edit#slide=id.p
+  [19]: https://docs.google.com/presentation/d/1DQ2e0XVlssX_FITA7gnMVA2N-azvZi-zaYCFoXPF9pQ/edit#slide=id.p
+  [20]: https://hackmd.io/EuCt5lbASCWpCLUT6Zdbtw
+  [21]: https://docs.google.com/spreadsheets/d/1A5QlZ7QPH2PuIpt2LcywvYO6PSfOSVPlqNTxPk75INQ/edit
+  [22]: https://docs.google.com/presentation/d/10AQW3bJ6GfHSYxR-ZgmGJ0fV790hSHK-ZW9iqRDjMWE/edit?usp=sharing
+  [23]: https://docs.google.com/presentation/d/1QInI2hdORjlcQRfO7joVqI7agqjcO5aEAh4LDPHrt6I/edit#slide=id.p
+  [24]: https://docs.google.com/presentation/d/1DZ77ctlUv1-LmhLsLA5m8RFA_eVUXUIOCHQWqmlO8Zg/edit#slide=id.g733500ec42_0_96
+  [25]: https://docs.google.com/presentation/d/1vKIjJFkLhQXSRL9kMWlbD3sXI1X8HeMW3EIsXSu-ZfM/edit#slide=id.p
+  [26]: https://drive.google.com/file/d/1Yud9lEWy1E7Dmgzbk2oA7YFXIF2v46hP/view
+  [27]: https://hackmd.io/E4x0T3qiREeKFa1gDhGqXA
+  [28]: https://docs.google.com/spreadsheets/d/1hh_OH0rFmdStd1DdcAds5QokrqGXsRkg0SV5WDKFFLM/edit#gid=227822099
+  [29]: https://drive.google.com/file/d/1ck14LOVe-bdn5X1nc5B84GXb3NwQ1au4/view?usp=sharing
+  [30]: https://docs.google.com/presentation/d/1d_q5zZX0IHLsfi8_xixEGh-WJfObyKqqlNhlFzvqRWo/edit?usp=sharing
+  [31]: https://docs.google.com/presentation/d/1Yv5PeNilI7K8bfgd475Y2_neTLj55fSIk7SPfpMyKuY/edit?usp=sharing
+  [32]: https://docs.google.com/presentation/d/1PvYnmFIkSCgTHgj2cRJQq_wJHNNUyHPyhiWp5sCRqFQ/edit?usp=sharing
+  [33]: https://hackmd.io/CvgQXc7YR3yVz_g4VfA6fQ
+  [34]: https://docs.google.com/spreadsheets/d/1c3MHqjS5vXXVy3TgMNjlf2pifE6kzu7U1Zj51McmJMY/edit#gid=1701046844
+  [35]: https://hackmd.io/ra4ywODBRO6nYxuupQhiRA?view
+  [36]: https://docs.google.com/spreadsheets/d/1UGDwChxsfZjp_XPWoo6uUP7xrrkwHWuT-2_PhJ6O4FE/edit#gid=267995325
+  [37]: https://hackmd.io/ZI2JR_spRomGniv1Ha4p7w
+  [38]: https://docs.google.com/spreadsheets/d/1aZ4QMGwld164uwoWFQSYUEDn9p6eYxc5pJA20nzoAC8/edit#gid=267995325
+  [39]: https://hackmd.io/ZHB5cePGRUOXiKK8MGwJtw
+  [40]: https://docs.google.com/spreadsheets/d/1nGV8z5ozEZv6qjrummr-q_PrzAMDLmVbRHnRyDrtEEM/edit#gid=607562223
+  [41]: https://hackmd.io/xJeDeVOdS-GNiPlT6PPC3w
+  [42]: https://docs.google.com/spreadsheets/d/1n8Y1Zv-hkZZLHGwBaBSomaK-YnAfEbpGjm2QcEMKdKY/edit#gid=844680069
+  [43]: https://hackmd.io/CmZtrUfmSGu4r3zfgTkq1g?view
+  [44]: https://hackmd.io/1H0KHpfGQKeAkcvyDzIFkg?both
+  [45]: https://docs.google.com/spreadsheets/d/1qCSGX2JuQG1IKWWgcTnGfeixlGTLYh0u2J-E1HuMq9Q/edit#gid=1322851292
+  [46]: https://hackmd.io/OCIgWokAT-y-Ibcn7fH2Xg
+  [47]: https://docs.google.com/spreadsheets/d/1aVaDajhktBE60VMPssT-Oe5rFRMvQiTKVlLgQRfhH-Y/edit#gid=267995325
+  [48]: https://hackmd.io/dN8_v8TYTVaGZTtowNiRFA
+  [49]: https://docs.google.com/spreadsheets/d/11wG0Zb5C0qxwTzX3dcSaaErDukhko-bUrJUE2uaAShE/edit#gid=267995325
+  [50]: https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/
+  [51]: https://hackmd.io/pOzRdFL5TrGE88rRDqnh3g
+  [52]: https://docs.google.com/spreadsheets/d/1UfCjuf66uwKKzDgOQ7I85BmdNEc2DQceo0tQM5iDhEU/edit#gid=267995325
+  [53]: https://docs.google.com/spreadsheets/d/10vSrxY7YRZm_b-Cs5jURPOBEZ4qYom_jf_1XoxKMw48/edit#gid=844680069
+  [54]: https://hackmd.io/dS_q62fwTj-IwRnufvqGIQ
