@@ -1,3 +1,6 @@
 # Preface  {.unnumbered}
 
 This is a demo of what it might look like if our group OSF wiki instead lived on GitHub as .qmd documents and was rendered as a Quarto book.  To edit, use the "Edit this page" link on the right.  Try searching in the search bar.
+
+
+I've edited this by clicking on the "Edit this page" link.
