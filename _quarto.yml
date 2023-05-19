@@ -19,4 +19,9 @@ book:
 
 format:
   html:
-    theme: cosmo
+    code-copy: true
+    theme: 
+      light: flatly
+      dark: darkly
+
+bibliography: references.bib
