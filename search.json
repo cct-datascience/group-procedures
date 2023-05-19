@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CCT Data Science Group Procedures",
+    "section": "",
+    "text": "Preface\nThis is a demo of what it might look like if our group OSF wiki instead lived on GitHub as .qmd documents and was rendered as a Quarto book. To edit, use the “Edit this page” link on the right. Try searching in the search bar."
+  },
+  {
+    "objectID": "general-info.html",
+    "href": "general-info.html",
+    "title": "General Information",
+    "section": "",
+    "text": "Expectations"
+  },
+  {
+    "objectID": "general-info.html#offices",
+    "href": "general-info.html#offices",
+    "title": "General Information",
+    "section": "Offices",
+    "text": "Offices\nWe work in the Bioscience Research Laboratory (BSRL)\n\nGeneral issues in the building\n\nSubmit a ticket for either IT support or misc. Building related issues https://keating.bio5.org/ticket_support/tickets.php\n\nCopy machine and fax use\n\nLomax can connect you to the color copier downstairs; create a ticket to request his help https://keating.bio5.org/ticket_support/tickets.php\n\nMail. There is a group mailbox in the mailroom on the N side of the building.\nPackages. If you receive a package you will be notified by email.\n\n\nCommuting\n\nBike Commuting. Kudos if you commute by bike!\n\nThere are lockers and showers in the basement that you can use. Find a locker and ask Robert if you can use it.\nThere is a bike storage area on the loading dock; ask Robert for the code.\nTUGO is great for getting around campus\n\nParking Easiest parking is the garage two blocks east of BSRL: \\$2 hourly or \\$8 daily.\nPublic Transportation"
+  },
+  {
+    "objectID": "general-info.html#supporting-scientists-and-building-collaborations",
+    "href": "general-info.html#supporting-scientists-and-building-collaborations",
+    "title": "General Information",
+    "section": "Supporting Scientists and Building Collaborations",
+    "text": "Supporting Scientists and Building Collaborations\nWhile we need to balance our unpaid ‘support’ with work on funded projects, enabling researchers is a first step in building the collaborations from which successful and interesting projects emerge."
+  },
+  {
+    "objectID": "general-info.html#feedback-and-iteration",
+    "href": "general-info.html#feedback-and-iteration",
+    "title": "General Information",
+    "section": "Feedback and Iteration",
+    "text": "Feedback and Iteration\nFeedback is essential to our group. Expect me to ask for it, and expect to provide feedback at any time, through any channel. Please let me know if you have any questions."
+  },
+  {
+    "objectID": "general-info.html#time-reporting",
+    "href": "general-info.html#time-reporting",
+    "title": "General Information",
+    "section": "Time reporting",
+    "text": "Time reporting\n\nInform Kristina by email of upcoming vacation or leave as soon as is practical; at least two weeks in advance.\nEmployees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-deadlines\nFor Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc): https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-exception-reporters-within-uaccess-employee holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure"
+  },
+  {
+    "objectID": "general-info.html#professional-development",
+    "href": "general-info.html#professional-development",
+    "title": "General Information",
+    "section": "Professional Development",
+    "text": "Professional Development\nI encourage all group member to attend (at least)\n\nOne conference or workshop per year. Our group’s mission is inherently collaborative, and this outreach is important.\nSeminars, webinars, and classes that will help you gain skills and knowledge related to your current work or work that you would like to do. For example:\nOn Campus: TRIPODS ecosystem genomics, data7 seminars, phenomics)\nPlant Phenome Journal\nRstudio Webinars\nAlda-Kavli center for Communicating Science Webinars\nHelp writing grants and papers.\n\n(Learn) and use the Pivot database to identify opportunities.\n\n\nThe University of Arizona provides a number of professional development opportunities. * https://ce.arizona.edu/professional-development\n\nFunding: you have the opportunity to seek external funding - this will help with your professional development and our bottom line.\nAll University of Arizona employees age 21-45 should consider joining “Tucson Young Professionals”. The U of A covers membership fees (normally $200/y) - see this website for more information)."
+  },
+  {
+    "objectID": "general-info.html#publishing-under-construction",
+    "href": "general-info.html#publishing-under-construction",
+    "title": "General Information",
+    "section": "Publishing [Under construction]",
+    "text": "Publishing [Under construction]\nDocumentation, GitHub threads, Slack Discussions are all great places to find inspriation for publishable units; peer reviewed publications help provide an academic foundation for our group’s contributions, with outreach as well as future funding.\n\nPapers and Conference Proceedings\n\n\nData\n\n\nSoftware\n\nZenodo: Major releases should get a doi here; can set up a github hook to archive each release.\nJournal of Open Source Software: JOSS https://joss.theoj.org/"
+  },
+  {
+    "objectID": "code-of-conduct.html#overview",
+    "href": "code-of-conduct.html#overview",
+    "title": "1  Code of Conduct",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\nOur group’s mission is to enable scientists. This means treating people with respect and responding in a polite and helpful way.\nOur group is committed to ensuring a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.\nExamples of unacceptable behavior by members, collaborators, and contributors include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct."
+  },
+  {
+    "objectID": "code-of-conduct.html#university-of-arizona-policies",
+    "href": "code-of-conduct.html#university-of-arizona-policies",
+    "title": "1  Code of Conduct",
+    "section": "1.2 University of Arizona Policies",
+    "text": "1.2 University of Arizona Policies\nThe University of Arizona has specific policies related to conduct. See the UA Nondiscrimination and anti-harrassment policy.\nAll employees students, and designated campus colleagues are required to take the Preventing Harassment and Discrimination training and follow review, understand, and follow: * The University of Arizona ethics and conduct guidelines: policy.arizona.edu/ethics-and-conduct * The University of Arizona Nondiscrimination and anti-harassment policy: titleix.arizona.edu/nondiscrimination_and_anti-harassment_policy"
+  },
+  {
+    "objectID": "code-of-conduct.html#inclusivity",
+    "href": "code-of-conduct.html#inclusivity",
+    "title": "1  Code of Conduct",
+    "section": "1.3 Inclusivity",
+    "text": "1.3 Inclusivity\nOur group is a Safe & Inclusive Space. You should feel welcome, we should make sure everyone feels welcome and respected. In our work to enable science we will work with each other as well as diverse stakeholders from within and outside the University of Arizona. We are committed to creating an environment that supports inclusivity and respect of all people regardless of race, color, culture, religion, spiritual practice, sex, age, socioeconomic status, perceived or actual sexual orientation, gender identity or gender expression, relationship status or configuration, national origin or physical and mental abilities. (credit: Matthew LeBauer)"
+  },
+  {
+    "objectID": "code-of-conduct.html#contact-information",
+    "href": "code-of-conduct.html#contact-information",
+    "title": "1  Code of Conduct",
+    "section": "1.4 Contact information",
+    "text": "1.4 Contact information\n\n1.4.1 University of Arizona\n\nIf you experience discrimination or harassment by UA employees, visitors, vendors or contractors, report it to the Office of Institutional Equity - https://equity.arizona.edu/report-concern 520‐621‐9449; equity@email.arizona.edu.\nIf a person complains of discrimination or harassment, ask them to report it to OIE. Then report it immediately - https://equity.arizona.edu/report-concern 520‐621‐9449; equity@email.arizona.edu(link sends e-mail). NEVER promise to “keep it quiet.” NEVER investigate the issue yourself.\n\nIf a student asks you for help, refer them to OIE using this guidance - https://equity.arizona.edu/make-referral. NEVER promise to “keep it quiet.” NEVER investigate the issue yourself.\n\nIf you witness or are made aware of discrimination or harassment, you must report it immediately - https://equity.arizona.edu/report-concern ; 520‐621‐9449; equity@email.arizona.edu(link sends e-mail).\n\nIf you witness or are made aware of discrimination or harassment by students, submit an Incident Report Referral Form to the Dean of Students - https://arizona-advocate.symplicity.com/public_report\n\nAll suspected or alleged criminal activity, especially sexual assault, must be reported to UAPD immediately - https://uapd.arizona.edu ; 911 (emergency) or 520-621-8273 (non-emergency).\n\n\n\n1.4.2 DIAG\nAll members of our group are expected and collaborators are requested to report violations of this code of conduct. Reporting, even anonymously, is the first step toward improving the workplace for everyone.\nInstances of abusive, harassing, threatening, or otherwise undesirable behavior may be reported by contacting Kristina Riemer at kristinariemer@arizona.edu.\nWe will use Aurora and Gardiner’s “How to Respond to Code of Conduct Reports,” as a guide to responding to such reports."
+  },
+  {
+    "objectID": "onboarding.html#first-week",
+    "href": "onboarding.html#first-week",
+    "title": "2  Onboarding",
+    "section": "2.1 First Week",
+    "text": "2.1 First Week\nThe goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university. Feel free to ask anyone in the group questions about these steps, especially in the group’s Slack channel (#datascience channel within CALS CCT Slack).\n\nRead this document\n\nSuggest changes to this document, comment, and ask questions as you go so that it is more useful to the next person\n\nReview DIAG Group Code of Conduct\nReview UA New Employee Orientation Programs\n\nAZ Public Service Orientation\nUA Welcome & Benefits\nPreventing Discrimination and Harassment\n\nFollow instructions in your new hire emails\n\nIt can take up to two weeks before you can enroll in benefits on UAccess\nYou must select a retirement plan before you have access to other benefits\n\nSet up a UA NetID account at https://it.arizona.edu/getting-started/staff to get access to everything at the university\n\nEnroll in and complete Information Security training\nCreate accounts on the following collaboration tools (details provided below)\n\nUITS Accounts, starting here: https://account.arizona.edu/welcome\n\nUA email (Outlook or Gmail)\nUA calendar (Outlook or Gmail)\nUA Google Apps\nUA Box\nUA HPC\n\nGitHub\n\nIf you already have an account that you wish to use for work, add your UA email address to your account.\nSee here for more about 2FA for GitHub and SSH protocols\nIf you don’t already have an account sign up at (https://github.com), used to organize our work. Also join these organizations:\nCCT Data Science group: https://github.com/cct-datascience\nPEcAn: https://github.com/PecanProject\nAgriculture Processing Pipeline: https://github.com/agpipeline\nGenoPhenoEnvo: https://github.com/genophenoenvo\n\nZenHub (https://www.zenhub.com/), which interfaces with GitHub and we use for group project maangement\n\nGroup board here\n\nUA OSF, which is where we store group and project documentation\n\nClick here and follow instructions to sign up for an account on OSF https://it.arizona.edu/service/open-science-framework-ua\nSomeone will have to add you as a contributor to our group’s OSF page: https://osf.io/emq9s/\n\nCreate accounts on relevant Slack channels:\n\nCCT DS group (#agdata channel within CCT Slack)\nPEcAn: https://pecanproject.slack.com\nAs needed: Danforth (DARPA project), drone pipeline, GenoPhenoEnvo (NSF project)\n\nUA Office 365: https://it.arizona.edu/service/microsoft-office-365\nOthers\n\nCatCard\n\nThe CatCard is your official UA employee identification.\nGet your cat card from the CatCard office in the Student Union (details)\nThey can look up your employee number if you bring a driver’s license or other form of ID\n\nAccess to Biosciences Research Lab (BSRL) building second floor\n\nAfter getting your Cat Card, fill out the form at https://access.bio5.org/ to request access to BSRL\nClick on request access for Data7\nThere is a cafe in first floor lobby with coffee and snacks for purchase\n\nPurchase equipment, either online or at campus bookstore, and set up your office.\n\nEach full time employee will be allocated:\n\nA computer, two monitors, a mouse/track pad/pointing device, a keyboards, and a docking station\nEnough outlets and ethernet ports to meet your needs. We can get additional routers / power strips as needed.\nOffice supplies - there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask.\n\nIf you need anything further, just ask.\n\nBegin learning about and using software and data related to your project\n\nCan start with TERRA REF tutorials or PEcAn documentation\nImprove / update documentation as you’re working through materials\nFeel free to develop an Rmarkdown or Jupyter notebook tutorial based on group data/tools\n\nParticipate in daily standup meetings, weekly sprint planning/retrospective meetings, and weekly outreach hour. Review project management OSF page to prepare for these\nTBD: Be added to rotating mentor/mentee schedule\nFill out biweekly time sheets every other Friday morning on UAccess, which also has pay stubs, insurance info, etc.\n\nIf you are salaried, you only need to put in 1 hour of “PAW - Present at Work” for the pay period (doesn’t matter which week).\n\n\n\n2.1.0.1 For DARPA Project Members: First week CUI Training\nShould be completed by ALL personnel working on the DARPA project. Complete training by the end of the first week. Send signed copies of appendix A&B (PIs) or appendix B (all personnel).\n\nRead through this training\nWatch all of the videos here https://www.archives.gov/cui/training.html\nRead and sign final page of CUI document"
+  },
+  {
+    "objectID": "onboarding.html#second-week",
+    "href": "onboarding.html#second-week",
+    "title": "2  Onboarding",
+    "section": "2.2 Second Week",
+    "text": "2.2 Second Week\n\nDiscuss OKRs and review OKR overview slides with Kristina.\n\nReview Group Objectives and Key Results\nIdentify 3-4 Objectives with 3-4 Key Results (&lt;=12 total) for your first Quarter using the template; see Q3 2019\n\nAdd your page to the group website\n\nHeadshot, Bio, links\nAlso send Headshot, Bio, Links to Matt Rahr (rahr@ag.arizona.edu) in CCT\n\nAdd your skills to the group skills matrix\nRead Best Practices in Scientific Computing\nOrder business cards: https://brand.arizona.edu/stationery"
+  },
+  {
+    "objectID": "onboarding.html#first-month",
+    "href": "onboarding.html#first-month",
+    "title": "2  Onboarding",
+    "section": "2.3 First Month",
+    "text": "2.3 First Month\nObjective is to familiarize yourself with the specific project(s) that you will be working on, including:\n\nProject(s) background, platforms, setup, and purpose\nThe software stack that you will be working on\nPeople, proposals, scientific literature, and other elements of project(s) that you will work on\nIdentify the skills you will need (and want) to build on in your first year\nOther objectives that are specific to your role, which can be determined by working with your supervisor and other project members\n\nPeople to Meet / Know\nThis depends on what you’re working on, but it is useful to know and have chatted with at least some of these people:\n\nCyVerse / Data7\n\nMatt Rahr (Director, CCT)\nMaliaca Oxnam (Deputy Director, Data Science Institute)\nEllen Bledsoe (SNRE)\nJeff Oliver (Library)\nNirav Marchant (CyVerse, Data Science Institute)\nTyson Swetnam (CyVerse)\nRachel and Conroy (IRL, BSRL Custodians)\n\nProject Collaborators\n\nCo-PIs, students, staff involved in projects that you are working on."
+  },
+  {
+    "objectID": "project-management.html#rhythm-and-hierarchy-of-meetings",
+    "href": "project-management.html#rhythm-and-hierarchy-of-meetings",
+    "title": "Project Management",
+    "section": "Rhythm and Hierarchy of Meetings:",
+    "text": "Rhythm and Hierarchy of Meetings:\nOur group uses the following hierarchy of meetings, from brief daily status reports to quarterly reviews and planning.\n\nAnnual:\n\nCareer Conversations and SMART Goal Setting\n\nQuarterly:\n\nObjectives and Key Results (OKRs): Every three months is a quarter, where each quarter has a set of OKRs.\nQuarterly review meetings: at the beginning of each quarter, last quarter’s OKRs are discussed and the current quarter’s OKRs are decided upon.\n\nMonthly\n\nReview and update OKRs in first 1:1 of the month\n\nBi-Weekly:\n\nBi-weekly Sprints: start with a planning meeting and end with a sprint retrospective meeting.\n\nWeekly: Each group member has a one-on-one meeting (30-60 minutes) week with Kristina.\nDaily standups: Daily progress, plans, and blockers are discussed during daily standup meetings (10 minutes)."
+  },
+  {
+    "objectID": "project-management.html#time-tracking",
+    "href": "project-management.html#time-tracking",
+    "title": "Project Management",
+    "section": "Time Tracking",
+    "text": "Time Tracking\nEvery individual in the group contributes to multiple projects.\nWith the launch of the Data Science Incubator, we found it prudent to track time allocated to each project. The goal is to be fair to our collaborators and funders by quantifying our time spent and making sure that we are fairly allocating our efforts across projects. This will also be used to budget for the time and costs of future projects.\nThe goal is not to account for 100% of each person’s time. The goal is to be able to confidently and correctly report that we have spent a particular number of days or fraction of time on a project. Retrospective tracking with a precision of ~ 1 hour or half days is typically sufficient.\nMost members use toggl.com to track time, with a separate project for each funded activity."
+  },
+  {
+    "objectID": "project-management.html#a-note-on-metrics",
+    "href": "project-management.html#a-note-on-metrics",
+    "title": "Project Management",
+    "section": "A note on metrics",
+    "text": "A note on metrics\nKeep in mind:\n\n“When a measure becomes a target, it ceases to be a good measure.” - Marylin Strathern (Goodhart’s Law)\n\nThere are many ways of measuring work - we use OKRs, sprint points, time tracking, among others. These are used to plan, assess, and report. Importantly, these metrics are not used to assess individual performance. Optimizing for such metrics at the individual level is counterproductive, and diminishes the value of such metrics."
+  },
+  {
+    "objectID": "quarterly-meetings.html#quarters",
+    "href": "quarterly-meetings.html#quarters",
+    "title": "3  Quarterly Meetings",
+    "section": "3.1 Quarters",
+    "text": "3.1 Quarters\nQuarters are three months long\n\nQ1 = January - March\nQ2 = April - June\nQ3 = July - September\nQ4 = October - December\n\n\n3.1.1 Quarterly review meetings\nThese meetings happen once during the the first week or two of each quarter, and last one day. This is done outside of our normal office space - typically off campus or in a quiet room on campus.\nThe purpose is for the group to present progress on last quarter’s OKRs and discuss current quarter’s OKRs. This is also a time for general discussion about group vision, projects, funding, etc.\n\n3.1.1.1 Preparing for Quarterly Review Meetings\n\nTwo weeks before\n\nCreate agenda and notes page using template\nCreate a new OKR workbook if one doesn’t exist (OKR Template)\nUpdate previous quarter OKRs\nDraft next quarter OKRs\nReview with Kristina\n\nOne week before\n\nCreate a presentation and put it in the Review and Planning folder\n\nKey accomplishments\nWhat went well, what didn’t\nPlans for next quarter\nIdeas for group\n\nReview agenda from previous quarter\nReview and add to agenda for current quarter\n\n\n\n\n3.1.1.2 Standing Agenda Topics\n\nTeam building fun stuff\nIndividual Presentations\n\nMajor accomplishments\nWhat went well, what didn’t\nPlans for next quarter\n\nReview and update mission & vision\nOKRs\n\nreview previous quarter’s\nindividually write next quarter’s\nreview next quarter with group (one at a time)\n\n\n\n\n3.1.1.3 Agendas and notes from previous Quarterly Reviews\n\nAgenda Template\nPresentation Outline\n\n\n\n\nYear\nQuarter\nDate\nAgenda\nOKRs\nPresentations\n\n\n\n\n2019\nQ1\n-\n-\nlink\nDavid\n\n\n\nQ2\nApril 4\nlink\nlink\nKristina, Kimberly\n\n\n\nQ3\nJuly 24\nlink\nlink\nChris, Kristina\n\n\n\nQ4\nOct 4\nlink\nlink\nKristina\n\n\n2020\nQ1\nJan 6\nlink\nlink\nChris, David\n\n\n\nQ2\nApril 17\nlink\nlink\nDavid, Ryan, Emily, Kristina, Chris\n\n\n\nQ3\nJuly 8\nlink\nlink\nJulian, David, Emily, Kristina\n\n\n\nQ4\nOct 5\nlink\nlink\n\n\n\n2021\nQ1\nJan 14\nlink\nlink\n\n\n\n\nQ2\nApril\nlink\nlink\n\n\n\n\nQ3\nJuly\nlink\nlink\n\n\n\n\nQ4\nOct\nlink\nlink\n\n\n\n2022\nQ1\nJan 26-27\nlink\nlink\n\n\n\n\nQ2\nApril 4\nlink\nlink\n\n\n\n\nQ3\nJune 22\nlink\nlink\n\n\n\n\nQ4\nOct 12\nlink\nlink\n\n\n\n2023\nQ1\nJan 20-21\nlink\nlink\n\n\n\n\nQ2\nApril 10\nlink\nlink\n\n\n\n\nQ3\nTBD\nlink\nlink\n\n\n\n\nQ4\nTBD\nlink\nlink"
+  },
+  {
+    "objectID": "quarterly-meetings.html#okrs-objectives-and-key-results",
+    "href": "quarterly-meetings.html#okrs-objectives-and-key-results",
+    "title": "3  Quarterly Meetings",
+    "section": "3.2 OKRs (Objectives and Key Results)",
+    "text": "3.2 OKRs (Objectives and Key Results)\nOKRs are a framework for goalsetting developed and used by Google. You can learn more about OKRs from this overview from Google’s rework website.\nEach member has their own set of OKRs per quarter, and there also may be group OKRs. They should all have quantifiable, specific outcomes, and should also be stretch goals.\nYou should create draft OKRs before the end of the quarter and discuss them with Kristina before the quarterly review meeting.\n\n3.2.1 OKRs as Epics\nEach member should make an epic for each of their key results. Epics should include the following:\n\nEpic name start with your initials\nInclude label “Key Result (OKR)”\nLinks to any associated issues\nAdd milestone for quarter\n\n\n\n3.2.2 OKRs During the Quarter\nEach member should be reviewing their OKRs regularly, at least once per month, on their own. If helpful, also review with Kristina during weekly one-on-one meetings.\nHave a group meeting mid-way through the quarter to review, update, and score OKRs.\nCan add/edit key results during quarter due to unexpected events or priority shifts."
+  }
+]
