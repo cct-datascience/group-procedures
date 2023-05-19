@@ -9,7 +9,7 @@ We work in the Bioscience Research Laboratory (BSRL)
 -   General issues in the building
     -   Submit a ticket for either IT support or misc. Building related issues <https://keating.bio5.org/ticket_support/tickets.php>
 -   Copy machine and fax use
-    -   Lomax can connect you to the color copier downstairs; create a ticket to request his help https://keating.bio5.org/ticket_support/tickets.php
+    -   Lomax can connect you to the color copier downstairs; create a ticket to request his help <https://keating.bio5.org/ticket_support/tickets.php>
 -   Mail. There is a group mailbox in the mailroom on the N side of the building.
 -   Packages. If you receive a package you will be notified by email.
 
@@ -19,7 +19,7 @@ We work in the Bioscience Research Laboratory (BSRL)
     -   There are lockers and showers in the basement that you can use. Find a locker and ask Robert if you can use it.
     -   There is a bike storage area on the loading dock; ask Robert for the code.
     -   TUGO is great for getting around campus
--   Parking Easiest parking is the garage two blocks east of BSRL: \\\$2 hourly or \\\$8 daily.
+-   Parking Easiest parking is the garage two blocks east of BSRL: \$2 hourly or \$8 daily.
 -   Public Transportation
 
 # Expectations
@@ -45,8 +45,8 @@ Please let me know if you have any questions.
 ## Time reporting
 
 -   Inform Kristina by email of upcoming vacation or leave as soon as is practical; *at least two weeks in advance*.
--   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-deadlines
--   *For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc): https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-exception-reporters-within-uaccess-employee holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure*
+-   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See <https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-deadlines>
+-   *For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc): <https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-exception-reporters-within-uaccess-employee> holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: <https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure>*
 
 ## Professional Development
 
