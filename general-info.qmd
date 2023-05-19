@@ -6,32 +6,31 @@ title: General Information
 
 We work in the Bioscience Research Laboratory (BSRL)
 
-*   General issues in the building
-    *   Submit a ticket for either IT support or misc. Building related issues [https://keating.bio5.org/ticket_support/tickets.php](https://keating.bio5.org/ticket_support/tickets.php)
-*   Copy machine and fax use
-    *   Lomax can connect you to the color copier downstairs; create a ticket to request his help https://keating.bio5.org/ticket_support/tickets.php
-*   Mail. There is a group mailbox in the mailroom on the N side of the building. 
-*   Packages. If you receive a package you will be notified by email.
+-   General issues in the building
+    -   Submit a ticket for either IT support or misc. Building related issues <https://keating.bio5.org/ticket_support/tickets.php>
+-   Copy machine and fax use
+    -   Lomax can connect you to the color copier downstairs; create a ticket to request his help https://keating.bio5.org/ticket_support/tickets.php
+-   Mail. There is a group mailbox in the mailroom on the N side of the building.
+-   Packages. If you receive a package you will be notified by email.
 
-### Commuting 
+### Commuting
 
-* Bike Commuting. Kudos if you commute by bike!
-  * There are lockers and showers in the basement that you can use. Find a locker and ask Robert if you can use it. 
-  * There is a bike storage area on the loading dock; ask Robert for the code.
-  * TUGO is great for getting around campus
-* Parking Easiest parking is the garage two blocks east of BSRL: \\$2 hourly or \\$8 daily. 
-* Public Transportation
+-   Bike Commuting. Kudos if you commute by bike!
+    -   There are lockers and showers in the basement that you can use. Find a locker and ask Robert if you can use it.
+    -   There is a bike storage area on the loading dock; ask Robert for the code.
+    -   TUGO is great for getting around campus
+-   Parking Easiest parking is the garage two blocks east of BSRL: \\\$2 hourly or \\\$8 daily.
+-   Public Transportation
 
+# Expectations
 
-# Expectations 
-
-*   Working hours, breaks, sick and annual leave
-    *   Expected to be in during normal working hours
-    *   Please let me know at least 2 weeks in advance of any vacation time 
-    *   You can ask HR about how many sick and vacation days you have. This is an important and valuable part of your compensation!
-*  Communication
-  * We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Software and Computing](https://osf.io/tzmhp/wiki/Software%20and%20Computing%20Resources/) for details.
-  * We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
+-   Working hours, breaks, sick and annual leave
+    -   Expected to be in during normal working hours
+    -   Please let me know at least 2 weeks in advance of any vacation time
+    -   You can ask HR about how many sick and vacation days you have. This is an important and valuable part of your compensation!
+-   Communication
+-   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Software and Computing](https://osf.io/tzmhp/wiki/Software%20and%20Computing%20Resources/) for details.
+-   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
 
 ## Supporting Scientists and Building Collaborations
 
@@ -39,35 +38,38 @@ While we need to balance our unpaid 'support' with work on funded projects, enab
 
 ## Feedback and Iteration
 
-Feedback is essential to our group. Expect me to ask for it, and expect to provide feedback at any time, through any channel. Please let me know if you have any questions.
+Feedback is essential to our group.
+Expect me to ask for it, and expect to provide feedback at any time, through any channel.
+Please let me know if you have any questions.
 
 ## Time reporting
 
-*   Inform Kristina by email of upcoming vacation or leave as soon as is practical; _at least two weeks in advance_.
-*   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-deadlines
-*   _For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc): https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-exception-reporters-within-uaccess-employee holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure_
+-   Inform Kristina by email of upcoming vacation or leave as soon as is practical; *at least two weeks in advance*.
+-   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-deadlines
+-   *For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc): https://hr.arizona.edu/managers-supervisors/compensation/time-reporting-exception-reporters-within-uaccess-employee holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure*
 
 ## Professional Development
 
-I encourage all group member to attend (at least) 
+I encourage all group member to attend (at least)
 
-*   One conference or workshop per year. Our group’s mission is inherently collaborative, and this outreach is important.
-*   Seminars, webinars, and classes that will help you gain skills and knowledge related to your current work or work that you would like to do. For example:
-  * On Campus: TRIPODS ecosystem genomics, data7 seminars, phenomics)
-  * [Plant Phenome Journal](https://dl.sciencesocieties.org/publications/tppj/webinars)
-  * [Rstudio Webinars](https://resources.rstudio.com/webinars)
-  * [Alda-Kavli center for Communicating Science Webinars](https://www.aldacenter.org/aklc/webinars)
-* Help writing grants and papers.
-  * (Learn) and use the  [Pivot](https://pivot-proquest-com.ezproxy3.library.arizona.edu/funding_main) database to identify opportunities.
-  
-The University of Arizona provides a number of professional development opportunities. 
-* https://ce.arizona.edu/professional-development
+-   One conference or workshop per year. Our group's mission is inherently collaborative, and this outreach is important.
+-   Seminars, webinars, and classes that will help you gain skills and knowledge related to your current work or work that you would like to do. For example:
+-   On Campus: TRIPODS ecosystem genomics, data7 seminars, phenomics)
+-   [Plant Phenome Journal](https://dl.sciencesocieties.org/publications/tppj/webinars)
+-   [Rstudio Webinars](https://resources.rstudio.com/webinars)
+-   [Alda-Kavli center for Communicating Science Webinars](https://www.aldacenter.org/aklc/webinars)
+-   Help writing grants and papers.
+    -   (Learn) and use the [Pivot](https://pivot-proquest-com.ezproxy3.library.arizona.edu/funding_main) database to identify opportunities.
 
-* Funding: you have the opportunity to **seek external funding** - this will help with your professional development and our bottom line. 
+The University of Arizona provides a number of professional development opportunities.
+\* https://ce.arizona.edu/professional-development
 
-* All University of Arizona employees age 21-45 should consider joining "Tucson Young Professionals". The U of A covers membership fees (normally $200/y) - see [this website for more information](https://olod.arizona.edu/content/tucson-young-professionals-partnership)).
+-   Funding: you have the opportunity to **seek external funding** - this will help with your professional development and our bottom line.
 
-## Publishing [Under construction]
+-   All University of Arizona employees age 21-45 should consider joining "Tucson Young Professionals".
+    The U of A covers membership fees (normally \$200/y) - see [this website for more information](https://olod.arizona.edu/content/tucson-young-professionals-partnership)).
+
+## Publishing \[Under construction\]
 
 Documentation, GitHub threads, Slack Discussions are all great places to find inspriation for publishable units; peer reviewed publications help provide an academic foundation for our group's contributions, with outreach as well as future funding.
 
@@ -77,5 +79,5 @@ Documentation, GitHub threads, Slack Discussions are all great places to find in
 
 ### Software
 
-* Zenodo: Major releases should get a doi here; can set up a github hook to archive each release.
-* Journal of Open Source Software: JOSS https://joss.theoj.org/
+-   Zenodo: Major releases should get a doi here; can set up a github hook to archive each release.
+-   Journal of Open Source Software: JOSS https://joss.theoj.org/
