@@ -15,7 +15,10 @@ book:
         - onboarding.qmd
     - part: project-management.qmd
       chapters:
+        - annual-reviews.qmd
         - quarterly-meetings.qmd
+        - sprint-planning.qmd
+        - standups.qmd
 
 format:
   html:

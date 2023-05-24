@@ -62,7 +62,8 @@ I encourage all group member to attend (at least)
     -   (Learn) and use the [Pivot](https://pivot-proquest-com.ezproxy3.library.arizona.edu/funding_main) database to identify opportunities.
 
 The University of Arizona provides a number of professional development opportunities.
-\* https://ce.arizona.edu/professional-development
+
+-   <https://ce.arizona.edu/professional-development>
 
 -   Funding: you have the opportunity to **seek external funding** - this will help with your professional development and our bottom line.
 
@@ -71,7 +72,7 @@ The University of Arizona provides a number of professional development opportun
 
 ## Publishing \[Under construction\]
 
-Documentation, GitHub threads, Slack Discussions are all great places to find inspriation for publishable units; peer reviewed publications help provide an academic foundation for our group's contributions, with outreach as well as future funding.
+Documentation, GitHub threads, Slack Discussions are all great places to find inspiration for publishable units; peer reviewed publications help provide an academic foundation for our group's contributions, with outreach as well as future funding.
 
 ### Papers and Conference Proceedings
 
@@ -80,4 +81,4 @@ Documentation, GitHub threads, Slack Discussions are all great places to find in
 ### Software
 
 -   Zenodo: Major releases should get a doi here; can set up a github hook to archive each release.
--   Journal of Open Source Software: JOSS https://joss.theoj.org/
+-   Journal of Open Source Software: JOSS <https://joss.theoj.org/>

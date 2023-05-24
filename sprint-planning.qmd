@@ -1,0 +1,117 @@
+---
+title: "Sprint Planning"
+editor: visual
+---
+
+Each section of the sprint meetings will be timed.
+The Timer is responsible for setting a timer to indicate when the time is up, though the group may collectively decide to continue a conversation.
+
+[Running notes from sprint planning and retrospective](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA)
+
+### Roles
+
+Roles are pre-assigned randomly to different group members in [this Google Sheet](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0).
+
+-   **All Team Members**: Share their own screen when it's their turn to review their tickets, progress, and point estimates
+-   **Timer**: Keeps track of time spent on each section of the meeting and tells group when it is time to move on.
+-   **Scribe**: Keeps track of todo list on HackMD including:
+    -   new issues to create
+    -   issues that need to be broken up into smaller tasks
+    -   follow-up discussions and meetings that are proposed.
+-   **Leader**: Keeps group on topic and on schedule, lets the scribe know when to make a note of something if not already done, and generally directs the flow of the meeting.
+
+## Sprint Review/Planning
+
+In October 2020 we decided to combine Sprint Review and Planning into a single, 1.5 hour biweekly meeting, scheduled for 10:00-11:30 am on Fridays.
+
+The goals of this meeting are:
+
+-   Keep group up to date on new tools, products, and accomplishments
+-   Review previous sprint and identify where we are stuck
+-   Compare estimates with reality, and review progress and velocity
+-   Plan next sprint
+
+### Process
+
+#### Pre-meeting preparation
+
+-   Move completed issues to 'Done' column of Zenhub board
+-   Done issues should include a brief description of the outcome(s) that may include:
+    -   Link to merged pull request
+    -   Links to output such as documentation, datasets, etc
+    -   Figures and screenshots
+-   Incomplete issues are either
+    -   moved to done with a description of what was completed and links one or more new issues containing the remaining tasks
+    -   changed to an epic with sub-tasks
+    -   if little or no progress has been made, bumped to next sprint
+-   Review [previous Sprint meeting notes](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA) for unfinished TODO items
+-   Create new sprints on GitHub board...
+
+### Meeting outline
+
+#### Part I: Review
+
+-   2 minutes
+    -   Check [roles](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0); Scribe records in HackMD sprint notes:
+        -   Title & date
+        -   Meeting attendees
+        -   Roles
+        -   TODO items: checklist with assigned individual
+        -   Misc notes
+    -   Open up this OSF page
+    -   Open up [Sprint planning & retrospective notes (HackMD)](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA)
+    -   Open up [GitHub board](https://github.com/orgs/cct-datascience/projects/8/)
+    -   Review [HackMD notes](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA) for tasks and to-dos that were not addressed before meeting
+-   Demo (10 minutes)
+    -   someone demo something accomplished; this should be assigned at the previous Sprint meeting
+    -   Choose demo presenter for next sprint
+-   Review (30 minutes)
+    -   Each team member will share their screen and review their work from the previous Sprint:
+
+        -   Select previous sprint time period under sprint filter drop down
+        -   If there are any remaining New, Ready, or In Progress issues (which there should not be any), they should quickly be dealt with
+        -   Review all Review/QA and Done issues
+            -   If there is not a sufficient description of the issue or its resolution, close the issue but add a note to HackMD for the issue owner
+        -   Discuss estimated points vs actual effort. Team members can explain and *change* point values at this time, before closing\
+        -   Move completed issues to Closed
+-   Close - if issues are under Sprints, they are closed automatically on the last day of the Sprint.
+
+#### Part II: Planning
+
+-   5 minutes
+    -   On your own / optional break
+        -   Write new issues individually
+        -   Should reflect group discussion, particularly on collaborative projects
+        -   Check to make sure all issues have clearly defined steps and outcomes
+        -   Identify any outstanding PRs and create issues to have them reviewed as necessary.
+-   15 minutes
+    -   Each team member will share their screen and review their work for the subsequent Sprint:
+        -   Select current sprint milestone under milestone filter drop down
+        -   Briefly discuss each issue, the outcomes, point value, and how others might help
+-   End with gratitude towards team members
+
+#### Part III: Report review
+
+-   Do this after the sprint is over, during Monday's standup
+-   Charts (10 minutes)
+    -   Review reports.
+        The leader should share their screen and go through the reports.
+
+    -   Burndown report
+
+        -   select Review/QA, Done, Closed as "completed"
+        -   pipeline should go down at a steady rate
+        -   should end at 0
+        -   if not, discuss why not
+
+    -   Cumulative flow
+
+        -   Uncheck Epic Holding Pen, Icebox, Backlog, Pull Request
+        -   Look at last 6 months
+        -   Make sure no one section is getting substantially larger
+        -   Make sure we aren't accumulating too much too quickly - we should get toward steady state or know why not
+
+    -   Velocity tracking
+
+        -   See if we are going at a consistent pace
+        -   Make sure that scope of next sprint is feasible given running average pace
