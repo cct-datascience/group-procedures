@@ -24,6 +24,7 @@ book:
     - part: "Group Programming"
       chapters:
         - drop-in-hours.qmd
+        - incubator.qmd
     - part: "Resources"
       chapters: 
         - creating-r-packages.qmd
