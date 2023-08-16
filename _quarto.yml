@@ -13,12 +13,14 @@ book:
       chapters:
         - code-of-conduct.qmd
         - onboarding.qmd
-    - part: project-management.qmd
+    - part: "Group Processes"
       chapters:
+        - project-management.qmd
         - annual-reviews.qmd
         - quarterly-meetings.qmd
         - sprint-planning.qmd
         - standups.qmd
+        - hiring.qmd
 
 format:
   html:
