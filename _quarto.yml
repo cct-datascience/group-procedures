@@ -21,6 +21,12 @@ book:
         - sprint-planning.qmd
         - standups.qmd
         - hiring.qmd
+    - part: "Group Programming"
+      chapters:
+        - drop-in-hours.qmd
+    - part: "Resources"
+      chapters: 
+        - creating-r-packages.qmd
 
 format:
   html:
