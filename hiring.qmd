@@ -168,7 +168,7 @@ Salaries in DIAG range from \$30k for a recent graduate to \$85k for developers 
 *Note: 6 and 7 are specific to a pipeline job; other positions may have additional required/desired skills*
 
 | Category of interest               |                                                         Description                                                         |
-|---------------------------------|:------------------------------------:|
+|------------------------------------|:---------------------------------------------------------------------------------------------------------------------------:|
 | **1. Learning new skills**         | Demonstrates ability to acquire new skills, especially technical skills, through self-teaching or by reaching out to others |
 | **2. Collaborative**               |                              Works well with a group and are able to problem solve with others                              |
 | **3. Software development skills** |                                 Able to demonstrate using software tools to solve problems                                  |
