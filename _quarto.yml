@@ -28,6 +28,7 @@ book:
     - part: "Resources"
       chapters: 
         - creating-r-packages.qmd
+    - references.qmd
 
 format:
   html:
