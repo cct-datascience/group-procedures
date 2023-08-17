@@ -35,7 +35,7 @@ The goals of this meeting are:
 
 #### Pre-meeting preparation
 
--   Move completed issues to 'Done' column of Zenhub board
+-   Move completed issues to 'Done' column of GitHub board
 -   Done issues should include a brief description of the outcome(s) that may include:
     -   Link to merged pull request
     -   Links to output such as documentation, datasets, etc
