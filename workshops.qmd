@@ -1,0 +1,172 @@
+---
+title: "Workshops"
+editor: visual
+---
+
+## Task list
+
+To get started creating a workshop, create a new issue on GitHub in the cct-datascience/organization repo using the Workshop Tasks issue template.
+<!--# Shoul this instead by in the CALS-workshops repo? -->This will give you specific tasks to complete.
+Refer to this document for more detailed instructions on specific tasks.
+
+## Before the Workshop
+
+### Creating a template for workshop Zoom meetings
+
+The instructor running the workshop should set this up, as "Alternate Hosts" don't have any control over registrants.
+Follow these instructions to create a template you can use for all future workshops.
+
+1.  Log into Zoom in the browser [here](https://arizona.zoom.us/signin)
+2.  Click "Schedule a Meeting" button
+3.  Fill in "Topic" with "Workshop Wednesdays - \[topic\]"
+4.  Select registration required
+5.  Under Security section, select "Waiting Room" and (optional) "Passcode"
+6.  Under Meeting Options section, select "Allow participants to join anytime", "Mute participants upon entry", and "Automatically record meeting"
+7.  Click "Save" button
+8.  Once created, go to the new meeting
+9.  Scroll to bottom to Registration tab and hit edit on right hand side. Make changes as below: ![](https://i.imgur.com/laxI3Wz.png)
+10. Go to 'Custom Questions' and add the following:
+    -   What College at U of A do you belong to?
+    -   What department(s) are you affiliated with?
+    -   What is your career stage? (undergraduate, graduate, post doc, researcher/staff, faculty)
+    -   How did you hear about this workshop?
+    -   Can we add you to the CCT Data Science mailing list (no more than monthly announcements)?
+11. Save and back at the meeting page click the "Save as Template" button to create a template for workshops.\
+    This will save the meeting options and questions.
+
+### Recording Settings
+
+Change your settings so the active speaker and participants are recorded separately.
+
+1.  Navigate to <https://arizona.zoom.us/profile/setting>
+2.  In the "Recording" tab, make sure "Record active speaker with shared screen" is checked and "Record gallery view with shared screen" is not checked
+3.  Alternatively (**I think this is the preferred option**, you can record to the cloud and select "Record active speaker, gallery view and shared screen separately" to get three separate video files that you can edit together. These could be edited together for YouTube; this can be done in a software like Camtasia or Adobe Premiere Rush.
+
+### Creating a Zoom event for a workshop
+
+To create a Zoom registration for a specific workshop
+
+1.  Log into <https://arizona.zoom.us/signin>
+2.  Click "Schedule a Meeting" and in the "Template" field choose your template
+3.  Edit the title, description, time, and alternate hosts fields, then click save
+4.  On the meeting page, scroll to bottom to the Registration tab and click "edit" to the right of Registration Options
+5.  Go to 'Custom Questions' and add any workshop-specific questions in the "Custom Questions" section
+
+To view registration information, go to 'Analytics & Reports', 'Usage Reports', 'Meeting' and click 'Generate' to download a spreadsheet
+
+From the meeting page, copy the registration link to be included in your workshop announcements
+
+### Advertise
+
+-   Add the workshop to our website at https://datascience.cals.arizona.edu/services-overview/workshops
+-   Add the workshop to the Data Science Institute [events page](https://datascience.arizona.edu/get-involved)
+-   Advertise to other groups and email listservs listed [here](https://osf.io/tzmhp/wiki/Public%20Communications/)
+
+### Workshop reminder email (optional)
+
+Zoom does not have a way to email all participants directly with a custom message, so you will need to download the registrants list to get all emails easily.
+
+1.  Log into Zoom in the browser as per above
+2.  Go to "Analytics & Reports" in the left hand size table of contents
+3.  Select "Usage Reports" tab and "Meeting" option
+4.  Enter time range including workshop date and hit "Search" button
+5.  For workshop, click "Generate" link
+6.  Open downloaded csv in order to copy all registrant emails
+
+### Pre-workshop survey
+
+Still a work-in-progress, but should ask questions about:
+
+-   Skill level with tool(s)
+
+-   Skill level with content
+
+## During the workshop
+
+-   Turn on automatic live transcript on Zoom
+-   Start recording
+
+### Beginning of workshop comments
+
+-   Remind participants that it will be recorded
+-   Request to turn on cameras if comfortable
+-   Encourage to ask questions of attendees and other workshop leader
+-   Let them know that materials will be made available on workshops website
+
+## After the workshop
+
+*The below tasks are ordered.*
+
+### Post recordings to YouTube
+
+-   To record the speaker view and shared screen separately, record to the cloud
+-   Record entire workshop session
+-   After Zoom meeting is ended, a window will pop up with "Converting meeting recording". This will slow down your computer, but let it finish
+-   The recording will be saved somewhere on your computer (it's "zoom_videos" for me)
+-   Edit video locally if necessary
+-   Ask Chris to give you admin permissions to the [CCT Data Science YouTube account](https://www.youtube.com/channel/UCiBfho07gp4LMbWY3_EG8Iw)
+-   Once signed in, go to Content tab
+-   Select "Create" button in upper right hand corner and then "Upload videos"
+-   Drag and drop video
+-   While it's uploading, add name in format "Workshop Wednesdays \[month\] \[year\]: \[workshop title\]"
+-   In description, add this content:
+    -   Date: \[date and time\]
+    -   Instructors: \[instructor names\]
+    -   Presented to: \[audience\]
+    -   Description: \[description of workshop as in email announcements\]
+-   If the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings
+-   If possible, include thumbnail photo from a relevant slide
+-   Add to the 'Workshops' playlist
+-   Once it's uploaded (may take a while), including the HD version, check that the video is clear enough to see text on screen
+-   Advertise video upload via Twitter!
+
+### Share materials
+
+-   Submit a pull request to [cct-datascience/CALS-workshops](https://github.com/cct-datascience/CALS-workshops) with notes and/or slides
+-   Update workshop info on our [workshops website page](https://datascience.cct.arizona.edu/workshops)
+    -   Under **Category**, add "ALVSCE Workshop Wednesdays" option
+    -   Under **Additional Links**, add slides, notes, etc., with corresponding URLs
+    -   Under **Recording**, add URL of YouTube recording of workshop and **Title** to "View Recording"
+    -   Check box under **Archive**
+    -   Make sure workshop event now shows up in "Previous Workshops" section of workshops page
+
+### Get Zoom reports
+
+Two reports should be downloaded from the Analytics & Reports page on arizona.zoom.us:
+
+1)  Registration report ("Meeting"), which contains a csv of all registrants and their answers to the registration questions
+2)  Usage report (filter by date range), click on participants, then export. Provides a csv of all attendees and when they attended. List is not unique and should be sorted by attendance time. Contains email list for follow-up survey.
+
+-   Add registrants to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0)
+-   Import list of registrants who opt into the mailing list to [Emma](https://home.e2ma.net/)
+
+### Post-workshop survey
+
+-   Edit the post-workshop survey [Google form](https://docs.google.com/forms/d/1poDmmcCBr6Z5Gg3U3hft4iOUlewsE8NfDCu4on6o2Oc/edit) to add your workshop.
+
+### Followup email to participants
+
+-   Get registrant emails from Zoom registration report
+-   **Make sure to BCC**
+-   Include link to notes, (e.g. GitHub, RStudio Connect, cct-datascience.quartopub.com, etc.), resources, and post-workshop survey
+-   Include link to our drop-in hours page
+
+Email example:
+
+> Dear workshop participants,
+>
+> Thank you for attending the Workshop Wednesday on \[topic\].
+> We appreciate your feedback (survey link) as we aim to better serve the UA/CALS research community.
+>
+> Below are some links you may find helpful:
+>
+> -   Github link
+> -   Youtube video
+> -   Drop-in hours link
+>
+> Feel free to come chat or ask questions about \[topic\], or any other topic, at our drop-in hours (link above) from 9 to 10 am on Tuesdays!
+> And let me know if you have any questions or comments.
+>
+> Sincerely,
+>
+> \[Your Name\]
