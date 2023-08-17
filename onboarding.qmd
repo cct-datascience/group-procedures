@@ -11,7 +11,7 @@ Feel free to ask anyone in the group questions about these steps, especially in 
 
     -   Suggest changes to this document, comment, and ask questions as you go so that it is more useful to the next person
 
--   Review [DIAG Group Code of Conduct](https://osf.io/tzmhp/wiki/Code%20of%20Conduct/)
+-   Review [DIAG Group Code of Conduct](code-of-conduct.qmd)
 
 -   Review [UA New Employee Orientation Programs](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs)
 
