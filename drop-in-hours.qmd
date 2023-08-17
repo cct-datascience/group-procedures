@@ -13,7 +13,7 @@ editor: visual
 -   Focusing on research with novel challenges related to **computational and data-intensive (CDI) research**
 :::
 
-## Individual office hours
+## Individual office hours <!--# should this go in onboarding? -->
 
 -   Set up appointments for 1-2 hours each week
     -   Google Calendar: create a new event in calendar view, selecting "Appointment slots" option instead of "Event". These can be recurring.
