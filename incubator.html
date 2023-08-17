@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCT Data Science Group Procedures - 6&nbsp; Sprint Planning</title>
+<title>CCT Data Science Group Procedures - 10&nbsp; Data Science Inbucator</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./standups.html" rel="next">
-<link href="./quarterly-meetings.html" rel="prev">
+<link href="./creating-r-packages.html" rel="next">
+<link href="./drop-in-hours.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-management.html">Group Processes</a></li><li class="breadcrumb-item"><a href="./sprint-planning.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./drop-in-hours.html">Group Programming</a></li><li class="breadcrumb-item"><a href="./incubator.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Data Science Inbucator</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sprint-planning.html" class="sidebar-item-text sidebar-link active">
+  <a href="./sprint-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></span></a>
   </div>
 </li>
@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./incubator.html" class="sidebar-item-text sidebar-link">
+  <a href="./incubator.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Data Science Inbucator</span></span></a>
   </div>
 </li>
@@ -231,21 +231,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#roles" id="toc-roles" class="nav-link active" data-scroll-target="#roles"><span class="header-section-number">6.0.1</span> Roles</a></li>
-  <li><a href="#sprint-reviewplanning" id="toc-sprint-reviewplanning" class="nav-link" data-scroll-target="#sprint-reviewplanning"><span class="header-section-number">6.1</span> Sprint Review/Planning</a>
+  <li><a href="#finding-incubator-participants" id="toc-finding-incubator-participants" class="nav-link active" data-scroll-target="#finding-incubator-participants"><span class="header-section-number">10.1</span> Finding incubator participants</a></li>
+  <li><a href="#project-plan-development" id="toc-project-plan-development" class="nav-link" data-scroll-target="#project-plan-development"><span class="header-section-number">10.2</span> Project Plan Development</a></li>
+  <li><a href="#incubator-hour" id="toc-incubator-hour" class="nav-link" data-scroll-target="#incubator-hour"><span class="header-section-number">10.3</span> Incubator Hour</a></li>
+  <li><a href="#starting-incubator-projects" id="toc-starting-incubator-projects" class="nav-link" data-scroll-target="#starting-incubator-projects"><span class="header-section-number">10.4</span> Starting incubator projects</a>
   <ul class="collapse">
-  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process"><span class="header-section-number">6.1.1</span> Process</a></li>
-  <li><a href="#meeting-outline" id="toc-meeting-outline" class="nav-link" data-scroll-target="#meeting-outline"><span class="header-section-number">6.1.2</span> Meeting outline</a></li>
+  <li><a href="#collaboration" id="toc-collaboration" class="nav-link" data-scroll-target="#collaboration"><span class="header-section-number">10.4.1</span> Collaboration</a></li>
+  <li><a href="#internally-managing-time-and-project-progress" id="toc-internally-managing-time-and-project-progress" class="nav-link" data-scroll-target="#internally-managing-time-and-project-progress"><span class="header-section-number">10.4.2</span> Internally managing time and project progress</a></li>
   </ul></li>
+  <li><a href="#finishing-incubator-projects" id="toc-finishing-incubator-projects" class="nav-link" data-scroll-target="#finishing-incubator-projects"><span class="header-section-number">10.5</span> Finishing incubator projects</a>
+  <ul class="collapse">
+  <li><a href="#wrap-up-steps" id="toc-wrap-up-steps" class="nav-link" data-scroll-target="#wrap-up-steps"><span class="header-section-number">10.5.1</span> Wrap-up steps</a></li>
+  <li><a href="#wrap-up-meeting" id="toc-wrap-up-meeting" class="nav-link" data-scroll-target="#wrap-up-meeting"><span class="header-section-number">10.5.2</span> Wrap-up Meeting</a></li>
+  <li><a href="#after-the-meeting" id="toc-after-the-meeting" class="nav-link" data-scroll-target="#after-the-meeting"><span class="header-section-number">10.5.3</span> After the meeting</a></li>
+  </ul></li>
+  <li><a href="#defining-and-acknowledging-contributions" id="toc-defining-and-acknowledging-contributions" class="nav-link" data-scroll-target="#defining-and-acknowledging-contributions"><span class="header-section-number">10.6</span> Defining and acknowledging contributions</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/sprint-planning.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/incubator.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Data Science Inbucator</span></h1>
 </div>
 
 
@@ -260,155 +269,134 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Each section of the sprint meetings will be timed. The Timer is responsible for setting a timer to indicate when the time is up, though the group may collectively decide to continue a conversation.</p>
-<p><a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">Running notes from sprint planning and retrospective</a></p>
-<section id="roles" class="level3" data-number="6.0.1">
-<h3 data-number="6.0.1" class="anchored" data-anchor-id="roles"><span class="header-section-number">6.0.1</span> Roles</h3>
-<p>Roles are pre-assigned randomly to different group members in <a href="https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0">this Google Sheet</a>.</p>
+<section id="finding-incubator-participants" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="finding-incubator-participants"><span class="header-section-number">10.1</span> Finding incubator participants</h2>
 <ul>
-<li><strong>All Team Members</strong>: Share their own screen when it’s their turn to review their tickets, progress, and point estimates</li>
-<li><strong>Timer</strong>: Keeps track of time spent on each section of the meeting and tells group when it is time to move on.</li>
-<li><strong>Scribe</strong>: Keeps track of todo list on HackMD including:
+<li>Incubator project lead should be housed within ALVSCE.</li>
+<li>Where to find?
 <ul>
-<li>new issues to create</li>
-<li>issues that need to be broken up into smaller tasks</li>
-<li>follow-up discussions and meetings that are proposed.</li>
+<li>Office hour and workshop attendees.</li>
+<li>Search arizona.edu for interesting and relevant projects.</li>
+<li>Attend seminars and brainstorm.</li>
 </ul></li>
-<li><strong>Leader</strong>: Keeps group on topic and on schedule, lets the scribe know when to make a note of something if not already done, and generally directs the flow of the meeting.</li>
+<li>Advertising</li>
+</ul>
+<p>Announcement Text:</p>
+<blockquote class="blockquote">
+<p>The CCT Data Science Team is excited to announce the ALVSCE Data Science Incubator. This is an ongoing opportunity for researchers in ALVSCE to work with our team to understand and take advantage of research opportunities enabled by new and emerging data resources and computing methods. This opportunity is open to all researchers and staff in ALVSCE.</p>
+<p>Our team of domain data scientists and software engineers has expertise in state-of-the-art technologies and methods alongside domain expertise. These include statistics, data synthesis, data management, GIS, simulation modeling, analytics, cloud and cluster computing, software design and engineering, visualization, and more. The ALVSCE Data Science Incubator will provide up to ten full-time days of support for ALVSCE projects spread over three months to work on focused, intensive, collaborative projects.</p>
+<p>We invite short project plans (1-2 pages) for a data-intensive research collaboration focusing on a research problem with clearly defined outcomes. This support is funded by USDA Hatch funds, and can be leveraged to develop funding for longer term collaborations. See our <a href="https://docs.google.com/document/d/1mCLUq1mrqEWkmke6-nD4yV0d3nYu0nWkukbbf1XibCE/export?format=pdf">project plan guidelines</a> and contact the group at cct-datascience@arizona.edu for more information.</p>
+</blockquote>
+</section>
+<section id="project-plan-development" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="project-plan-development"><span class="header-section-number">10.2</span> Project Plan Development</h2>
+<ul>
+<li>Generally starts with one or two conversations to be sure the project is appropriate for an incubator</li>
+<li>Ideally, the project lead creates a first draft of a project plan. In practice, this often involves nudging, guidance, and a few rounds of revisions before a project plan is ready.</li>
+<li>Project plans should clearly identify expected product, tasks required to result in that product, and who (project member or data science team member) is responsible for each of the tasks.</li>
+<li>Include any hard deadlines.</li>
+<li>Determine with project lead where to put data/code/outputs and whether they are comfortable with having a public repository and / or planning to share data.</li>
+<li>Proposal can be versioned and modified as the project evolves.</li>
 </ul>
 </section>
-<section id="sprint-reviewplanning" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="sprint-reviewplanning"><span class="header-section-number">6.1</span> Sprint Review/Planning</h2>
-<p>In October 2020 we decided to combine Sprint Review and Planning into a single, 1.5 hour biweekly meeting, scheduled for 10:00-11:30 am on Fridays.</p>
-<p>The goals of this meeting are:</p>
+<section id="incubator-hour" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="incubator-hour"><span class="header-section-number">10.3</span> Incubator Hour</h2>
+<p>To keep the group apprised of developments for each incubator, we will hold a 1-1.5 hour meeting biweekly during the off-week from Sprint Planning.</p>
+<p>Our running notes for incubator hour are <a href="https://hackmd.io/c5RiXUfgTsybKhJBLNKq_g">here</a>.</p>
+</section>
+<section id="starting-incubator-projects" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="starting-incubator-projects"><span class="header-section-number">10.4</span> Starting incubator projects</h2>
+<section id="collaboration" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="collaboration"><span class="header-section-number">10.4.1</span> Collaboration</h3>
 <ul>
-<li>Keep group up to date on new tools, products, and accomplishments</li>
-<li>Review previous sprint and identify where we are stuck</li>
-<li>Compare estimates with reality, and review progress and velocity</li>
-<li>Plan next sprint</li>
+<li>When ready to start, send an email to notify project lead and collaborators that we are ready, propose a rough timeline, and schedule a kickoff meeting.</li>
+<li>Kickoff meeting
+<ul>
+<li>After proposal is accepted</li>
+<li>Review proposal, define scope, see if there are any other changes or updates</li>
+<li>Make sure to define contributions from all parties and how the project will build capacity.</li>
+<li>Set expectations for conclusion, skill development, and eventual hand-off</li>
+<li>Review, update, agree on timeline for each deliverable and project conclusion / next steps post incubator if applicable</li>
+<li>Schedule regular check-ins and co-working times.
+<ul>
+<li>weekly or biweekly is a good starting point</li>
+</ul></li>
+</ul></li>
 </ul>
-<section id="process" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="process"><span class="header-section-number">6.1.1</span> Process</h3>
-<section id="pre-meeting-preparation" class="level4" data-number="6.1.1.1">
-<h4 data-number="6.1.1.1" class="anchored" data-anchor-id="pre-meeting-preparation"><span class="header-section-number">6.1.1.1</span> Pre-meeting preparation</h4>
+</section>
+<section id="internally-managing-time-and-project-progress" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="internally-managing-time-and-project-progress"><span class="header-section-number">10.4.2</span> Internally managing time and project progress</h3>
 <ul>
-<li>Move completed issues to ‘Done’ column of Zenhub board</li>
-<li>Done issues should include a brief description of the outcome(s) that may include:
-<ul>
-<li>Link to merged pull request</li>
-<li>Links to output such as documentation, datasets, etc</li>
-<li>Figures and screenshots</li>
-</ul></li>
-<li>Incomplete issues are either
-<ul>
-<li>moved to done with a description of what was completed and links one or more new issues containing the remaining tasks</li>
-<li>changed to an epic with sub-tasks</li>
-<li>if little or no progress has been made, bumped to next sprint</li>
-</ul></li>
-<li>Review <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">previous Sprint meeting notes</a> for unfinished TODO items</li>
-<li>Create new sprints on GitHub board…</li>
+<li>Create a repository if necessary or ensure you have access to one that exists.</li>
+<li>Add GitHub epic for incubator project to <a href="https://github.com/orgs/cct-datascience/projects/7">proposal board</a> when initially developing the project—that way we can have a backlog of ideas and potential projects.</li>
+<li>Create an Epic with sub-tasks for each proposal to track progress internally.</li>
+<li>Move epic through relevant categories as project progresses.</li>
+<li>Track time in approximately hourly increments on <a href="https://track.toggl.com/5379091/team/members">group’s Toggl page</a>.</li>
+<li>The two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the proposal, and follow up post-proposal aren’t included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent.</li>
 </ul>
 </section>
 </section>
-<section id="meeting-outline" class="level3" data-number="6.1.2">
-<h3 data-number="6.1.2" class="anchored" data-anchor-id="meeting-outline"><span class="header-section-number">6.1.2</span> Meeting outline</h3>
-<section id="part-i-review" class="level4" data-number="6.1.2.1">
-<h4 data-number="6.1.2.1" class="anchored" data-anchor-id="part-i-review"><span class="header-section-number">6.1.2.1</span> Part I: Review</h4>
+<section id="finishing-incubator-projects" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="finishing-incubator-projects"><span class="header-section-number">10.5</span> Finishing incubator projects</h2>
+<section id="wrap-up-steps" class="level3" data-number="10.5.1">
+<h3 data-number="10.5.1" class="anchored" data-anchor-id="wrap-up-steps"><span class="header-section-number">10.5.1</span> Wrap-up steps</h3>
+<p>Before the final meeting:</p>
 <ul>
-<li>2 minutes
+<li>Transfer ownership of GitHub repo(s) to collaborator (if applicable)</li>
+<li>Make sure collaborators feel comfortable taking over as primary maintainers of project</li>
+<li>Archive code with Zenodo or UA Library ReData</li>
+<li>Where data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.</li>
+<li>Preferred license and copyright is CC-0 for data and MIT License for code.
 <ul>
-<li>Check <a href="https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0">roles</a>; Scribe records in HackMD sprint notes:
-<ul>
-<li>Title &amp; date</li>
-<li>Meeting attendees</li>
-<li>Roles</li>
-<li>TODO items: checklist with assigned individual</li>
-<li>Misc notes</li>
+<li>See <a href="http://%20https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/">“Why does Dryad use CC0”</a></li>
+<li>copyright can be listed as “The University of Arizona and Authors”</li>
 </ul></li>
-<li>Open up this OSF page</li>
-<li>Open up <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">Sprint planning &amp; retrospective notes (HackMD)</a></li>
-<li>Open up <a href="https://github.com/orgs/cct-datascience/projects/8/">GitHub board</a></li>
-<li>Review <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">HackMD notes</a> for tasks and to-dos that were not addressed before meeting</li>
-</ul></li>
-<li>Demo (10 minutes)
+</ul>
+<p>Send an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration. Here’s an example email you can build on:</p>
+<blockquote class="blockquote">
+<p>Hi Jeremy,</p>
+<p>As we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we’ve accomplished together. I looked over the goals we set out to accomplish in the original proposal, and I think we’ve done a good job meeting them.</p>
+<ol type="1">
+<li>Static QA/QC routines that check data prior to going into the database ✅</li>
+<li>Static checks for whether data for a station was retrieved in the previous hour: I don’t think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.</li>
+<li>A simple R package to wrap the API ✅</li>
+<li>A “dynamic” QA/QC procedure that compares recent data to historical ✅</li>
+<li>A Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I’d be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the <code>azmet</code> R package.</li>
+<li>Availability of code on GitHub with a permissive open source license ✅</li>
+</ol>
+<p>At our meeting on Monday, we’ll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e.&nbsp;funding continued work on the QA/QC report). We’ll also have a conversation about the incubator process itself—what worked well, what didn’t work, and what could be improved.</p>
+<p>Looking forward to seeing you then!</p>
+</blockquote>
+</section>
+<section id="wrap-up-meeting" class="level3" data-number="10.5.2">
+<h3 data-number="10.5.2" class="anchored" data-anchor-id="wrap-up-meeting"><span class="header-section-number">10.5.2</span> Wrap-up Meeting</h3>
+<p>Have a final meeting. Here are some questions you can ask:</p>
+<ol type="1">
+<li>Do you feel like you have the resources you need to take ownership (with our continued support)?</li>
+<li>Do you feel we met the objectives of the proposal?</li>
+<li>Did the project take longer, shorter, or about as long as you expected?</li>
+<li>For each phase of the incubator (proposal writing, work, and wrap-up): What went well? What didn’t go well? What suggestions do you have for improvement?</li>
+<li>Is it ok to share the product on our blog, social media, in UA newsletters, etc. (as appropriate)?</li>
+<li>What/when is the next step for continued work or funding (as appropriate)?</li>
+</ol>
+<p>Take notes on the answers and share them with the team at the next incubator meeting.</p>
+</section>
+<section id="after-the-meeting" class="level3" data-number="10.5.3">
+<h3 data-number="10.5.3" class="anchored" data-anchor-id="after-the-meeting"><span class="header-section-number">10.5.3</span> After the meeting</h3>
 <ul>
-<li>someone demo something accomplished; this should be assigned at the previous Sprint meeting</li>
-<li>Choose demo presenter for next sprint</li>
-</ul></li>
-<li>Review (30 minutes)
-<ul>
-<li><p>Each team member will share their screen and review their work from the previous Sprint:</p>
-<ul>
-<li>Select previous sprint time period under sprint filter drop down</li>
-<li>If there are any remaining New, Ready, or In Progress issues (which there should not be any), they should quickly be dealt with</li>
-<li>Review all Review/QA and Done issues
-<ul>
-<li>If there is not a sufficient description of the issue or its resolution, close the issue but add a note to HackMD for the issue owner</li>
-</ul></li>
-<li>Discuss estimated points vs actual effort. Team members can explain and <em>change</em> point values at this time, before closing<br>
-</li>
-<li>Move completed issues to Closed</li>
-</ul></li>
-</ul></li>
-<li>Close - if issues are under Sprints, they are closed automatically on the last day of the Sprint.</li>
+<li>Write a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the proposal, README contents, other content generated during the project.</li>
+<li>Add the incubator to our website</li>
+<li>Done isn’t defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in proposal development.</li>
 </ul>
 </section>
-<section id="part-ii-planning" class="level4" data-number="6.1.2.2">
-<h4 data-number="6.1.2.2" class="anchored" data-anchor-id="part-ii-planning"><span class="header-section-number">6.1.2.2</span> Part II: Planning</h4>
-<ul>
-<li>5 minutes
-<ul>
-<li>On your own / optional break
-<ul>
-<li>Write new issues individually</li>
-<li>Should reflect group discussion, particularly on collaborative projects</li>
-<li>Check to make sure all issues have clearly defined steps and outcomes</li>
-<li>Identify any outstanding PRs and create issues to have them reviewed as necessary.</li>
-</ul></li>
-</ul></li>
-<li>15 minutes
-<ul>
-<li>Each team member will share their screen and review their work for the subsequent Sprint:
-<ul>
-<li>Select current sprint milestone under milestone filter drop down</li>
-<li>Briefly discuss each issue, the outcomes, point value, and how others might help</li>
-</ul></li>
-</ul></li>
-<li>End with gratitude towards team members</li>
-</ul>
 </section>
-<section id="part-iii-report-review" class="level4" data-number="6.1.2.3">
-<h4 data-number="6.1.2.3" class="anchored" data-anchor-id="part-iii-report-review"><span class="header-section-number">6.1.2.3</span> Part III: Report review</h4>
-<ul>
-<li>Do this after the sprint is over, during Monday’s standup</li>
-<li>Charts (10 minutes)
-<ul>
-<li><p>Review reports. The leader should share their screen and go through the reports.</p></li>
-<li><p>Burndown report</p>
-<ul>
-<li>select Review/QA, Done, Closed as “completed”</li>
-<li>pipeline should go down at a steady rate</li>
-<li>should end at 0</li>
-<li>if not, discuss why not</li>
-</ul></li>
-<li><p>Cumulative flow</p>
-<ul>
-<li>Uncheck Epic Holding Pen, Icebox, Backlog, Pull Request</li>
-<li>Look at last 6 months</li>
-<li>Make sure no one section is getting substantially larger</li>
-<li>Make sure we aren’t accumulating too much too quickly - we should get toward steady state or know why not</li>
-</ul></li>
-<li><p>Velocity tracking</p>
-<ul>
-<li>See if we are going at a consistent pace</li>
-<li>Make sure that scope of next sprint is feasible given running average pace</li>
-</ul></li>
-</ul></li>
-</ul>
+<section id="defining-and-acknowledging-contributions" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="defining-and-acknowledging-contributions"><span class="header-section-number">10.6</span> Defining and acknowledging contributions</h2>
+<p>Members of the CCT-Data Science team who make substantial and substantive contributions to incubator projects should be acknowledged or included as co-authors as appropriate. This should be discussed early in the project.</p>
+<p>The <a href="https://casrai.org/credit/">CRedIT Taxonomy</a> provides a list of contribution types that may warrant co-authorship. All DIAG contributors should be involved in review and revision - as co-authors, we should feel comfortable with the content.</p>
+<p>More details in the <a href="https://osf.io/tzmhp/wiki/Publications%20and%20Contributors/">Publications and Contributions</a> wiki page.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -762,13 +750,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./quarterly-meetings.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Quarterly Meetings</span></span>
+      <a href="./drop-in-hours.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Drop-in Hours</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./standups.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Standups</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./creating-r-packages.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Creating R Packages</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

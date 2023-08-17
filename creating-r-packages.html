@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCT Data Science Group Procedures - 6&nbsp; Sprint Planning</title>
+<title>CCT Data Science Group Procedures - 11&nbsp; Creating R Packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./standups.html" rel="next">
-<link href="./quarterly-meetings.html" rel="prev">
+<link href="./incubator.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-management.html">Group Processes</a></li><li class="breadcrumb-item"><a href="./sprint-planning.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./creating-r-packages.html">Resources</a></li><li class="breadcrumb-item"><a href="./creating-r-packages.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Creating R Packages</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -163,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sprint-planning.html" class="sidebar-item-text sidebar-link active">
+  <a href="./sprint-planning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></span></a>
   </div>
 </li>
@@ -215,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creating-r-packages.html" class="sidebar-item-text sidebar-link">
+  <a href="./creating-r-packages.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Creating R Packages</span></span></a>
   </div>
 </li>
@@ -231,21 +230,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#roles" id="toc-roles" class="nav-link active" data-scroll-target="#roles"><span class="header-section-number">6.0.1</span> Roles</a></li>
-  <li><a href="#sprint-reviewplanning" id="toc-sprint-reviewplanning" class="nav-link" data-scroll-target="#sprint-reviewplanning"><span class="header-section-number">6.1</span> Sprint Review/Planning</a>
+  <li><a href="#creating-r-packages" id="toc-creating-r-packages" class="nav-link active" data-scroll-target="#creating-r-packages"><span class="header-section-number">12</span> Creating R Packages</a>
   <ul class="collapse">
-  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process"><span class="header-section-number">6.1.1</span> Process</a></li>
-  <li><a href="#meeting-outline" id="toc-meeting-outline" class="nav-link" data-scroll-target="#meeting-outline"><span class="header-section-number">6.1.2</span> Meeting outline</a></li>
+  <li><a href="#r-universe" id="toc-r-universe" class="nav-link" data-scroll-target="#r-universe"><span class="header-section-number">12.0.1</span> R-Universe</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/sprint-planning.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/creating-r-packages.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Sprint Planning</span></h1>
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Creating R Packages</span></h1>
 </div>
 
 
@@ -260,154 +257,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Each section of the sprint meetings will be timed. The Timer is responsible for setting a timer to indicate when the time is up, though the group may collectively decide to continue a conversation.</p>
-<p><a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">Running notes from sprint planning and retrospective</a></p>
-<section id="roles" class="level3" data-number="6.0.1">
-<h3 data-number="6.0.1" class="anchored" data-anchor-id="roles"><span class="header-section-number">6.0.1</span> Roles</h3>
-<p>Roles are pre-assigned randomly to different group members in <a href="https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0">this Google Sheet</a>.</p>
+<section id="creating-r-packages" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> Creating R Packages</h1>
+<p>One of the things our group does is create R packages and help with maintenance of R packages. For example, <a href="https://github.com/Meredith-Lab/volcalc"><code>volcalc</code></a> and <a href="https://github.com/uace-azmet/azmetr"><code>azmetr</code></a> were both initially developed as <a href="https://osf.io/tzmhp/wiki/Incubator%20Program/">incubator projects</a>.</p>
+<p>Things this page should eventually include:</p>
 <ul>
-<li><strong>All Team Members</strong>: Share their own screen when it’s their turn to review their tickets, progress, and point estimates</li>
-<li><strong>Timer</strong>: Keeps track of time spent on each section of the meeting and tells group when it is time to move on.</li>
-<li><strong>Scribe</strong>: Keeps track of todo list on HackMD including:
-<ul>
-<li>new issues to create</li>
-<li>issues that need to be broken up into smaller tasks</li>
-<li>follow-up discussions and meetings that are proposed.</li>
-</ul></li>
-<li><strong>Leader</strong>: Keeps group on topic and on schedule, lets the scribe know when to make a note of something if not already done, and generally directs the flow of the meeting.</li>
+<li>links to best practices for R packages (rOpenSci guide, <code>usethis</code>, style guide)</li>
+<li>link to Hadley’s book on R packages</li>
+<li>discussion about CRAN vs r-universe</li>
+<li>guide on releases and versions and Zotero integration (CITATION.cff, <code>cffr</code> package)</li>
+<li>discussion about package maintainance and handoff of maintainance</li>
+<li>use of repostatus badge to signal lifecycle</li>
+<li></li>
 </ul>
-</section>
-<section id="sprint-reviewplanning" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="sprint-reviewplanning"><span class="header-section-number">6.1</span> Sprint Review/Planning</h2>
-<p>In October 2020 we decided to combine Sprint Review and Planning into a single, 1.5 hour biweekly meeting, scheduled for 10:00-11:30 am on Fridays.</p>
-<p>The goals of this meeting are:</p>
-<ul>
-<li>Keep group up to date on new tools, products, and accomplishments</li>
-<li>Review previous sprint and identify where we are stuck</li>
-<li>Compare estimates with reality, and review progress and velocity</li>
-<li>Plan next sprint</li>
-</ul>
-<section id="process" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="process"><span class="header-section-number">6.1.1</span> Process</h3>
-<section id="pre-meeting-preparation" class="level4" data-number="6.1.1.1">
-<h4 data-number="6.1.1.1" class="anchored" data-anchor-id="pre-meeting-preparation"><span class="header-section-number">6.1.1.1</span> Pre-meeting preparation</h4>
-<ul>
-<li>Move completed issues to ‘Done’ column of Zenhub board</li>
-<li>Done issues should include a brief description of the outcome(s) that may include:
-<ul>
-<li>Link to merged pull request</li>
-<li>Links to output such as documentation, datasets, etc</li>
-<li>Figures and screenshots</li>
-</ul></li>
-<li>Incomplete issues are either
-<ul>
-<li>moved to done with a description of what was completed and links one or more new issues containing the remaining tasks</li>
-<li>changed to an epic with sub-tasks</li>
-<li>if little or no progress has been made, bumped to next sprint</li>
-</ul></li>
-<li>Review <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">previous Sprint meeting notes</a> for unfinished TODO items</li>
-<li>Create new sprints on GitHub board…</li>
-</ul>
-</section>
-</section>
-<section id="meeting-outline" class="level3" data-number="6.1.2">
-<h3 data-number="6.1.2" class="anchored" data-anchor-id="meeting-outline"><span class="header-section-number">6.1.2</span> Meeting outline</h3>
-<section id="part-i-review" class="level4" data-number="6.1.2.1">
-<h4 data-number="6.1.2.1" class="anchored" data-anchor-id="part-i-review"><span class="header-section-number">6.1.2.1</span> Part I: Review</h4>
-<ul>
-<li>2 minutes
-<ul>
-<li>Check <a href="https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0">roles</a>; Scribe records in HackMD sprint notes:
-<ul>
-<li>Title &amp; date</li>
-<li>Meeting attendees</li>
-<li>Roles</li>
-<li>TODO items: checklist with assigned individual</li>
-<li>Misc notes</li>
-</ul></li>
-<li>Open up this OSF page</li>
-<li>Open up <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">Sprint planning &amp; retrospective notes (HackMD)</a></li>
-<li>Open up <a href="https://github.com/orgs/cct-datascience/projects/8/">GitHub board</a></li>
-<li>Review <a href="https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA">HackMD notes</a> for tasks and to-dos that were not addressed before meeting</li>
-</ul></li>
-<li>Demo (10 minutes)
-<ul>
-<li>someone demo something accomplished; this should be assigned at the previous Sprint meeting</li>
-<li>Choose demo presenter for next sprint</li>
-</ul></li>
-<li>Review (30 minutes)
-<ul>
-<li><p>Each team member will share their screen and review their work from the previous Sprint:</p>
-<ul>
-<li>Select previous sprint time period under sprint filter drop down</li>
-<li>If there are any remaining New, Ready, or In Progress issues (which there should not be any), they should quickly be dealt with</li>
-<li>Review all Review/QA and Done issues
-<ul>
-<li>If there is not a sufficient description of the issue or its resolution, close the issue but add a note to HackMD for the issue owner</li>
-</ul></li>
-<li>Discuss estimated points vs actual effort. Team members can explain and <em>change</em> point values at this time, before closing<br>
-</li>
-<li>Move completed issues to Closed</li>
-</ul></li>
-</ul></li>
-<li>Close - if issues are under Sprints, they are closed automatically on the last day of the Sprint.</li>
-</ul>
-</section>
-<section id="part-ii-planning" class="level4" data-number="6.1.2.2">
-<h4 data-number="6.1.2.2" class="anchored" data-anchor-id="part-ii-planning"><span class="header-section-number">6.1.2.2</span> Part II: Planning</h4>
-<ul>
-<li>5 minutes
-<ul>
-<li>On your own / optional break
-<ul>
-<li>Write new issues individually</li>
-<li>Should reflect group discussion, particularly on collaborative projects</li>
-<li>Check to make sure all issues have clearly defined steps and outcomes</li>
-<li>Identify any outstanding PRs and create issues to have them reviewed as necessary.</li>
-</ul></li>
-</ul></li>
-<li>15 minutes
-<ul>
-<li>Each team member will share their screen and review their work for the subsequent Sprint:
-<ul>
-<li>Select current sprint milestone under milestone filter drop down</li>
-<li>Briefly discuss each issue, the outcomes, point value, and how others might help</li>
-</ul></li>
-</ul></li>
-<li>End with gratitude towards team members</li>
-</ul>
-</section>
-<section id="part-iii-report-review" class="level4" data-number="6.1.2.3">
-<h4 data-number="6.1.2.3" class="anchored" data-anchor-id="part-iii-report-review"><span class="header-section-number">6.1.2.3</span> Part III: Report review</h4>
-<ul>
-<li>Do this after the sprint is over, during Monday’s standup</li>
-<li>Charts (10 minutes)
-<ul>
-<li><p>Review reports. The leader should share their screen and go through the reports.</p></li>
-<li><p>Burndown report</p>
-<ul>
-<li>select Review/QA, Done, Closed as “completed”</li>
-<li>pipeline should go down at a steady rate</li>
-<li>should end at 0</li>
-<li>if not, discuss why not</li>
-</ul></li>
-<li><p>Cumulative flow</p>
-<ul>
-<li>Uncheck Epic Holding Pen, Icebox, Backlog, Pull Request</li>
-<li>Look at last 6 months</li>
-<li>Make sure no one section is getting substantially larger</li>
-<li>Make sure we aren’t accumulating too much too quickly - we should get toward steady state or know why not</li>
-</ul></li>
-<li><p>Velocity tracking</p>
-<ul>
-<li>See if we are going at a consistent pace</li>
-<li>Make sure that scope of next sprint is feasible given running average pace</li>
-</ul></li>
-</ul></li>
-</ul>
+<section id="r-universe" class="level3" data-number="12.0.1">
+<h3 data-number="12.0.1" class="anchored" data-anchor-id="r-universe"><span class="header-section-number">12.0.1</span> R-Universe</h3>
+<p><a href="https://ropensci.org/r-universe/">R-Universe</a> is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.</p>
+<p>To add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.</p>
 
 
-</section>
 </section>
 </section>
 
@@ -762,14 +630,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./quarterly-meetings.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Quarterly Meetings</span></span>
+      <a href="./incubator.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Data Science Inbucator</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./standups.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Standups</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
