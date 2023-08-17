@@ -41,7 +41,7 @@ We are committed to creating an environment that supports inclusivity and respec
     -   **If you witness or are made aware of discrimination or harassment *by students***, submit an Incident Report Referral Form to the Dean of Students---<https://arizona-advocate.symplicity.com/public_report>
 -   **All suspected or alleged criminal activity, especially sexual assault**, must be reported to UAPD immediately---<https://uapd.arizona.edu>; 911 (emergency) or 520-621-8273 (non-emergency).
 
-### DIAG
+### CCT-Data Science
 
 All members of our group are expected and collaborators are requested to report violations of this code of conduct.
 Reporting, even anonymously, is the first step toward improving the workplace for everyone.
