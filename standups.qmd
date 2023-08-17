@@ -16,8 +16,8 @@ Everyone answers the following questions:
 
 -   **Is anything blocking your work?**
 
-This often leads to more indepth discussions which should be identified as tangential.
-The leader or any other team memember should suggest that the participants continue their discussion after the meeting or at a different time.
+This often leads to more in depth discussions which should be identified as tangential.
+The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.
 
 ### Weekly Individual Meetings
 
@@ -26,7 +26,7 @@ Once a month, this meeting is extended to an hour to discuss OKR's.
 
 ### Weekly Writing Hour
 
-We meet once per week (currently on Fridays from 11 am to noon on [Zoom](https://arizona.zoom.us/j/95331103083?p=5bGA0w)) to dedicate time to writing tasks.
+We meet once per week (currently on Fridays from 11 am to noon on Zoom) to dedicate time to writing tasks.
 Notes are recorded [here](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ).
 We use the Pomadoro method of writing for 25 minutes followed by a 5 minute break to review progress.
-Writing tasks can be found [here](https://github.com/az-digitalag/organization/labels/writing).
+Writing tasks can be found [here](https://github.com/cct-datascience/organization/labels/writing).
