@@ -1,0 +1,66 @@
+---
+title: "Drop-in Hours"
+editor: visual
+---
+
+::: callout-note
+## Mission & Goals
+
+-   Mission of the drop-in hours / help desk: to provide a drop-in resource pathway to engagement with the ALVSCE researcher community.
+
+-   Scope: to augment other campus resources including ResBaz, Library, UITS, Stats Consulting, Carpentries, and others.
+
+-   Focusing on research with novel challenges related to **computational and data-intensive (CDI) research**
+:::
+
+## Individual office hours
+
+-   Set up appointments for 1-2 hours each week
+    -   Google Calendar: create a new event in calendar view, selecting "Appointment slots" option instead of "Event". These can be recurring.
+    -   [YouCanBook.me](https://youcanbook.me/)
+-   Add link to your [People page](https://datascience.cals.arizona.edu/people)
+
+## Announcement
+
+Do you have hurdles in your research related to data and analysis?
+Would one-on-one conversations with a data scientist help you solve these specific problems?
+
+**What:** CCT Data Science Drop-In Hours is a way for University of Arizona's College of Agriculture and Life Sciences (CALS) researchers, such as you, to get focused and specific help with data science problems in your research.
+
+**Why:** To facilitate and accelerate data-intensive research in CALS
+
+**When:** Every Tuesday, 8-10am (MST)
+
+**Where:** Our [gather.town space](https://app.gather.town/app/hJnpDMJnjJJYtktl/cct-datascience)
+
+We collaborate closely with other groups on campus to get you the help you need, when you need it.
+
+For more information email Dr. Kristina Riemer, Director of Data Science at CALS: kristinariemer\@arizona.edu
+
+Visit the [CCT Data Science website](https://datascience.cals.arizona.edu/) to read about our mission, vision, and services
+
+### Communications Channels
+
+**Weekly reminders**
+
+We post weekly reminders of our Drop-In Hours the day before they're held.
+These reminders contain the following information:
+
+1.  Where we meet (see above)
+
+2.  The time(s) of Office Hours
+
+3.  The overall purpose of Office Hours
+
+4.  The main focus of the upcoming Office Hours (such as R, Docker, ...) *but we're **not** restricted to only that topic*
+
+5.  An invitation to come and participate, or just hang out with us
+
+List of channels weekly reminders are posted on:
+
+-   Mastodon
+-   UA Data Science Slack
+
+# References / further reading
+
+-   [Group brainstorming notes on data science helpdesk concept](https://hackmd.io/VdzVh3jNS1uSKq2renVyWw)

@@ -1,0 +1,590 @@
+---
+title: "Hiring"
+editor: visual
+---
+
+### Resources
+
+-   UA ["Guide to Successful Searches"](https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches)
+-   Manager tools [Hiring podcasts](https://www.manager-tools.com/map-universe/hiring-0)
+
+### Timeline of Tasks
+
+#### Form a Hiring Committee
+
+Members of hiring committee can include people outside of our group.
+
+All members should read through materials at <https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches> and search for relevant trainings on [EDGE learning](https://edgelearning.arizona.edu/).
+
+All members of the hiring committee should be involved in all steps of the hiring process---it is usually not appropriate to delegate steps.
+
+#### Write job ad
+
+-   Create desired skills matrix (specify more vs less important) in Google Sheets
+-   Write position ad with HR input
+-   Post and advertise ad
+-   Choose 2+ people from hiring committee to lead most of process
+-   Make sure there are no "secret skills"---everything you are looking for in a candidate should be in the job ad
+
+#### Venues to advertise
+
+-   [Diversify Tech job board](https://www.diversifytech.co/post-a-job)
+-   [Earth Science Women's Network](https://eswnonline.org/online/earth-and-environmental-science-jobs/)
+-   ES Jobs `Es_jobs_net@ucar.edu`
+-   Academic Data Science Jobs Board <https://academicdatascience.org/jobs>
+-   US-RSE Job Board <https://us-rse.org/jobs/policy/>
+-   Rstudio Community <https://community.rstudio.com/t/post-jobs-gigs-here/9254>
+-   NAU ecoinformatics: email katharyn.duffy\@nau.edu
+-   [Other resources (places to advertise) from UA HR](https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches/advertising-position)
+-   Mastodon
+    -   hastags: #rstats #python #jobs #GetHired
+-   Slack
+    -   ROpenSci
+    -   Carpentries
+    -   R4DS Online Learning Community
+    -   Ecological Forecasting Initiative
+    -   US-RSE
+    -   ESIP (Earth Science Information Partners)
+    -   Rez-Baz
+    -   UA-Data Science
+    -   EDSIN
+
+When advertising the job, you are encouraged to specify that we are committed to seeking a diverse candidate pool, or at the very least include the following statement:
+
+> Equal Opportunity Employer Minorities/Women/Vets/Disabled
+
+#### Initial Review of Applicants
+
+How to download application(s) from [Talent website](https://talent.arizona.edu/hr):
+
+1.  Log in to <https://arizona.csod.com/LMS/catalog/Welcome.aspx>
+2.  Go to hiring dashboard
+3.  Top right of page click menu --\> "Recruit" --\> "Bulk Download Applications"
+4.  Click number under Applicants column
+5.  Select checkmark for all candidates desired
+6.  Click "Download" button
+
+Committee members will perform a first pass at screening the applicant pool.
+The goal here is to provide rapid response to applicants who do not have key skills required for the position or are likely not a good fit for the group.
+
+**Factors that will help an application:**
+
+-   Cover letter that reflects a familiarity with and interest in some aspects of our work and mission.
+-   Experience and skills aligned with the specific position.
+-   Skills that fill current gaps in our group as identified in the DIAG [skills matrix](https://docs.google.com/spreadsheets/d/e/2PACX-1vSuJLGjuWfJwLFGQ1DFpKrpwYuAlEmitBRmdJ1G8zRMDC3p38Wy7-RyrYd0IIyB3l9-k-zN8zNbWa4l/pubhtml?gid=0&single=true).
+-   Cover letter that adequately addresses any disqualifying factors listed below.
+
+**Factors that may warrant rejecting a candidate at this stage:**
+
+-   Do not meet minimum requirements of the position.
+-   Substantially less competitive based on skills or work experience.
+-   A generic cover letter that does not address the specific position or area of research.
+-   Little relevant work experience---this can demonstrate a lack of understanding of the position. *A cover letter that does address this lack of experience and hopes to learn will be viewed favorably.*
+-   A history of short term positions that indicates a low probability of becoming a long term member of the group. (This does not apply to students or early career professionals).
+-   Lack of career progression, evidence of being self-motivated
+-   Poor communication skills as evidenced by cover letter and resume. For example, the cover letter should use paragraphs, complete sentences, and contain few typos or grammatical errors.
+
+#### Comprehensive Review of Applicants
+
+-   Wait 2 weeks minimum after job posting to begin reviewing
+-   Each hiring committee member reviews each applicant's application (CV & cover letter)
+-   Fills out copy of skills matrix in new tab
+-   Compare and discuss results (meeting or asynchronously)
+-   For each applicant, decide on yes, maybe, or no
+-   Send rejection emails to nos
+
+#### Screening interviews
+
+-   [List of questions not to ask](https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches/questions-to-avoid)
+-   Create list of interview questions in HackMD or Google Doc
+    -   See appendix below for possible interview format and questions
+    -   Should take about 30 minutes
+    -   Screening interviews can be conducted by phone or audio-only Zoom to reduce various forms of bias
+    -   Send the interviewees your questions ahead of time so they can be prepared.
+    -   Be sure to allow time for them to ask questions about the position
+-   Choose a set of top candidates to screen
+-   Send emails to schedule screenings. Scheduling can be facilitated by setting up appointment slots on Google Calendar and sharing the link.
+-   Send reminder email day before/of
+-   During interview:
+    -   2+ people switch back and forth asking questions
+    -   Take separate notes
+-   After, each interviewer fill out copy of skills matrix in new tab with yes, no or, maybe
+-   Also write small paragraph about interviewee
+
+#### In-person interviews
+
+-   Compare results from screening interviews by and across each interviewee
+-   Decide who to invite to in-person interview (meeting or asynchronously)
+-   Send out rejection emails if applicable
+-   Send emails to schedule interviews (will require some back and forth)
+    -   This can be facilitated by asking candidates to rank a range of dates.
+-   Create tentative schedule (will require some back and forth)
+    -   Likely full day, including lunch and presentation
+    -   1/2 hour orientation with Kristina
+    -   1 hour: 30 min presentation, 30 min Q&A
+    -   1 - 1.5 hour with each team member
+    -   1 - 1.5 hour Kristina last interview
+    -   Offer to set up optional meetings with researchers or anyone they are interested in meeting with at UA
+-   Send reminder email day before
+-   Send interviewee application materials to everyone with scheduled meetings, and list of questions from screening as brainstorming material
+-   Create Google Form version of skills matrix
+    -   All main skills with 1-5 rating
+    -   Overall impression of fit with 1-5 rating
+    -   Comments section
+-   After interview, everyone should fill out Google Form asap
+-   Collate Google Form results
+
+#### Final hiring decision
+
+-   Entire or subset of group discuss results (meeting or asynchronously)
+-   Choose yes or no for each interviewee
+-   Send rejection emails if applicable
+-   Kristina has salary discussion with individuals we want to hire
+-   Hiring paperwork, etc.
+
+### Salaries
+
+It isn't uncommon for salaries to be significantly less than what a developer could earn working for a company.
+However, there are many benefits that many people find are more valuable than the salary.
+Not only great health insurance and retirement plans but also a better quality of life.
+For example, a better work-life balance, freedom to solve interesting problems and opportunities to work with scientists and engineers at the cutting edge without the constraint of quarterly sales objectives.
+
+The University has a structured system called UCAP, defined below, for standardizing positions and aligning salaries across campus with current market rates.
+
+#### The University Career Architecture Project (UCAP)
+
+Salaries, raises, and promotion are governed by the [University Career Architecture Project](https://ucap.arizona.edu/).
+As an overview, most full time developers in our group will fall in the PC1-PC3 category as defined by the [UA Work Dimensions spreadsheet](https://ucap.arizona.edu/career-architecture/work-dimensions-staff-pay-structure).
+They will be in either the Research and Data Analysis or Research Engineering Job functions within the [Research Job families](arizona.edu/job-functions-families).
+
+We strive to have transparency and equity within the group as well as among our peers.
+Like most public institutions, salaries at the University of Arizona are public ([the library lists salary databases by year](https://new.library.arizona.edu/find/ua-info)).
+Salaries follow the [University of Arizona Pay Structure](https://ucap.arizona.edu/content/university-staff-pay-structure).
+
+Salaries in DIAG range from \$30k for a recent graduate to \$85k for developers with 10-15 years of experience in relevant technologies and the ability to take on substantial leadership and mentoring roles.
+
+### Appendix: Skills Matrix
+
+*Note: 6 and 7 are specific to a pipeline job; other positions may have additional required/desired skills*
+
+| Category of interest               |                                                         Description                                                         |
+|---------------------------------|:------------------------------------:|
+| **1. Learning new skills**         | Demonstrates ability to acquire new skills, especially technical skills, through self-teaching or by reaching out to others |
+| **2. Collaborative**               |                              Works well with a group and are able to problem solve with others                              |
+| **3. Software development skills** |                                 Able to demonstrate using software tools to solve problems                                  |
+| **4. Communication skills**        |          Able to describe challenges and resolutions to those challenges, through verbal or written communication           |
+| 5\. Organizational skills          |                                   Keeps track of schedule, tasks, and overall goals well                                    |
+| 6\. Production/shipping            |                                    Demonstrated ability to produce production-level code                                    |
+| 7\. Databases experience           |                              Has experience with large datasets, SQL, and/or database systems                               |
+| 8\. 2+ programming languages       |                          Familiar with two scripting languages, preferably fluent in at least one                           |
+| 9\. Other technical skills         |                          Includes version control, project management, testing frameworks, science                          |
+
+### Appendix: Email Forms
+
+Replace the content in square brackets with specific details.
+
+#### 1. Rejection
+
+> Dear \[full applicant name\],
+>
+> Thank you for taking the time to \[apply to/speak with us about/meet about\] the \[position title\] position at the University of Arizona.
+>
+> After reviewing many highly qualified applications, the committee has decided to focus on other candidates whose skills and experience more closely meet the current needs of our team.
+> On behalf of our committee, I want to thank you for taking the time to apply for this position and wish you the best in your job search.
+>
+> Sincerely,
+>
+> \[interviewer names\]
+
+Another example:
+
+> header: Follow up on application and interview for Data Scientist III position
+>
+> Dear xxx,
+>
+> I want to thank you for taking the time to interview with us for the position of Data Scientist III at University of Arizona.
+> We appreciate your interest in the position and our group.
+>
+> After careful consideration, we have decided to move forward with other candidates whose qualifications more closely align with the group needs that the position will fill.
+> While your experience and skills are impressive, we are investigating candidates whose background and skills more closely match what we are looking for.
+>
+> We appreciate your investment of effort and time into the application process for this position, and wish you luck with pursuing opportunities that align with your skills and interests.
+>
+> If you have any questions or comments, please feel free to reach out to me.
+> Thank you again for your interest in the position and our group, and we wish you the best.
+>
+> Cheers, Kristina Riemer
+
+#### 2. Initial screening interview
+
+> Subject Line: Invitation to Schedule an Interview for Data Scientist III Position Dear \_\_\_\_,
+>
+> I hope this email finds you well.
+> I am writing to inform you that we have reviewed your application for the Data Scientist III position at University of Arizona, and we are impressed with your qualifications and experience.
+>
+> We would like to invite you for a Zoom interview to learn more about your skills and qualifications, and to give you an opportunity to ask questions about the position.
+> The interview will be conducted by the hiring team, Kristina Riemer and Eric Scott, and it will last approximately 30 minutes.
+>
+> Please use the following link to select a time slot that works best for you: https://calendar.app.google/9yMajJz4ceUBMZJbA
+>
+> After you select a time, we will send a confirmation email with more information about what to expect in the interview.
+> If none of the times in the link work for you, please let us know and we will make our best effort to schedule something soon.
+> Also, please feel free to reach out and let us know if you'd prefer some other modality beside a Zoom call (for example, a phone call or WhatsApp).
+>
+> If you have any questions or concerns, please do not hesitate to contact us.
+> We look forward to talking with you soon.
+>
+> Sincerely,
+>
+> Kristina Riemer
+
+#### 2b. Follow up after time slot is scheduled
+
+> Dear \_\_\_,
+>
+> Thanks for booking a time for a Zoom interview at \_\_\_\_ MST on \_\_\_\_.
+> The interview should take about 30 minutes.
+> We'll start with some brief introductions of ourselves and our group, followed by some questions, and we'll make sure to save time for you to ask any questions you have about the position.
+>
+> Zoom link for interview: https://arizona.zoom.us/my/kristinariemer
+>
+> The questions we'll ask are: 1.
+> What led you to apply for this position, and how do your qualifications make you a good fit for the job?
+> 2.
+> For a particular collaborative project, preferably one that included coding, what was your role, what worked well, and what would you do differently if you were the lead?
+> 3.
+> A primary focus of our group's mission is training researchers.
+> Can you tell me about one or two outreach or education activities you have been involved in?
+> What similar activities would you be interested in implementing at University of Arizona to build computational and data science capacity?
+> 4.
+> What is your approach to staying up to date on new technologies and skills?
+> 5.
+> A key component of this job is to work on many projects simultaneously.
+> How do you manage and prioritize multiple projects that you are working on?\
+> 6.
+> Do you have any questions for us about the group or the position?
+>
+> We realized that our group's website is not linked on the job ad, so in case you haven't already found it, you can find more information about what we do here: https://datascience.cct.arizona.edu/
+>
+> Please don't hesitate to contact us with any questions or logistics issues before the interview!
+>
+> Sincerely,
+>
+> Eric Scott
+
+#### 3. Reminder screening interview
+
+> Dear \[full applicant name\],
+>
+> Below are the details for the call with \[interviewer names\] at \[time\] on \[date\].
+>
+> Note that you can use a phone to dial in.
+> You don't have to use the Zoom app, and if you do, you don't have to enable video.
+>
+> If you have any questions or concerns please don't hesitate to contact us.
+>
+> \[Zoom room info\]
+>
+> Kind regards,
+>
+> \[interviewer names\]
+
+#### 4. Initial in-person interview
+
+> Dear \[full applicant name\],
+>
+> Thank you for interviewing with us recently.
+> We would like to bring you on campus for an in-person interview.
+>
+> The interview would be approximately four hours in the Biosciences Research Laboratory building on the University of Arizona campus followed by either lunch or dinner with the group.
+> During the interview, you would be meeting with Dr. Kristina Riemer, who runs the group, the members of his group, and our collaborators in the Data Science Institute.
+>
+> We will cover the cost of meals and travel expenses.
+> Please let us know about any accommodations that would facilitate your interview; we want to provide an inclusive and comfortable experience.
+>
+> We would like to have the interview on \[date(s)\].
+> You can opt for morning (8am-noon) or afternoon (1-5pm).
+> Please let us know which days and parts of days you prefer.
+>
+> We can also do a later date if that would work better, please let us know.
+>
+> Thank you for your interest in this position, and we look forward to meeting you.
+>
+> Sincerely,
+>
+> \[interviewer names\]
+
+#### 5. Details in-person interview
+
+> Dear \[full interviewee name\],
+>
+> This is to confirm that you are scheduled to interview with Dr. Kristina Riemer's group on \[date\] from \[time\] at the Biosciences Research Laboratory building on the University of Arizona campus.
+>
+> Below is the planned schedule for the interview:
+>
+> \[interview schedule\]
+>
+> The interview will happen in the Bioscience Research Laboratories (BSRL) building located at 1230 N Cherry Ave (https://goo.gl/maps/yTbKipGD6p2ZvFzb6).
+> Meetings will be on the second floor, which requires a key card to access, so a member of the group will meet you on the south side of the lobby of the building at \[time\].
+>
+> If you are driving to campus, you can park in the Highland Parking Garage one block west of the BSRL building (https://goo.gl/maps/HE3eBnQbyUMs2x8Y8).
+> Parking is \$8 per day, which will be covered.
+>
+> Another way to get to campus is the streetcar, and the eastern terminus is right next to the BSRL building.
+> Alternatively we will reimburse rideshare service charges.
+>
+> Please let us know if you have any questions about the interview format or logistics.
+> We are looking forward to meeting you!
+>
+> Sincerely,
+>
+> \[interviewer names\]
+
+#### 5b. Full-day Zoom interview
+
+> Dear \_\_\_,
+>
+> I hope this email finds you well.
+> Following your recent short interview, we were impressed with your qualifications, experience, and the insights you shared.
+> We would like to invite you to a full-day interview in the week of May 15--19 to provide you an opportunity to meet the rest of our team, learn more about the position, and give us all some more details about your background and interests.
+>
+> We are still finalizing the format but the agenda will include:
+>
+> A short (30 min) research presentation from you for our group.
+> A short (15 min) teaching demonstration from you for our group.
+> This can be about any data science topic, but should be made with an audience of intermediate R users with a life-science background in mind (this describes most of our team and many of our collaborators).
+> One-on-one meetings with CCT data science team members One-on-one meetings with a couple of others who run groups we interact with often Plenty of breaks between meetings and for lunch (in your timezone).
+>
+> We are also happy to help facilitate meetings with any faculty, staff, or other researchers you'd be interested in meeting with---for example, potential collaborators or folks we've collaborated with before on incubator projects.
+> This is totally optional, but please do let us know if there's anyone you'd like to talk to and we'll do our best to arrange a meeting with them on the same day as the rest of your interview!
+>
+> To confirm your availability and secure your slot for the full-day interview, please let us know your top three days in the week of May 15--19.
+> Please also let us know what time zone you'll be joining from.
+> We understand that a full-day interview requires a significant time commitment and we appreciate your time.
+> If none of these dates work for you, or if it is necessary to split the meetings across two days, please let us know and we will do our best to accommodate.
+>
+> Once again, congratulations on making it to this stage in the hiring process.
+> We look forward to exploring further how your skills and interests can contribute to the success of our team.
+>
+> Sincerely,
+>
+> Eric Scott
+
+### Appendix: Screening Interview
+
+#### Questions
+
+Distilled from [UA HR: Library of Interview Questions](https://hr.arizona.edu/managers-supervisors/recruitment-hiring/guide-successful-searches/library-interview-questions) and David's suggestions by Julian.
+
+**Introductory questions**
+
+-   *When you read the job ad, what is one thing about it that interested you?*
+-   Tell us a little about yourself.
+-   What interests you about this job?
+-   Describe your ideal work environment.
+
+**1. Demonstrated ability to adapt and learn new skills.**
+
+Positive indicators to look out for:
+
+-   Examples of learning new skills
+-   Especially technical skills
+-   Creative problem solving
+
+Negative indicators to look out for:
+
+-   
+
+Questions:
+
+-   What is your approach to learning a new technology?
+-   What is your approach to learning a new code base?
+-   What new technology have you learned in the last year?
+-   Describe a decision you made or a situation that you would have handled differently if you could do it again.
+-   When you have been made aware of, or have discovered for yourself, a problem in your work performance, what was your course of action? Can you give us an example?
+-   Tell us about a time when your supervisor/colleagues gave you feedback about your work/actions. What did you learn about yourself?
+-   What have you done to further your own professional development in the last five years?
+-   Tell us about a job that you had which required you to learn new things.
+-   Tell us about a recent learning experience. What did you learn from the job or the experience?
+-   Tell us about a time when you were asked to complete a difficult assignment even though the odds were against you. What did you learn or do to tackle the challenge?
+-   Discuss the highlights of your most recent educational experience. Did you accomplish any special achievements? What were your most difficult challenges?
+
+**2. Demonstrated ability to work collaboratively in a team.**
+
+Positive indicators to look out for:
+
+-   Mentions working in teams, especially distributed teams
+-   Experience in situations requiring empathy, negotiating skills and 'consensus building'
+
+Negative indicators to look out for:
+
+-   Most/all work experience alone
+
+Questions:
+
+-   Give an example of a successful collaboration?
+-   An example of an unsuccessful collaboration?
+-   How do you handle tasks that depend on others in the group?
+-   Tell us about a time when you had to gain the cooperation of a difficult person. What challenges did you face? What was the outcome? What was the long-term impact on your ability to work with this person?
+-   Give us your best example of working cooperatively as a team member to accomplish an important goal. What was the goal or objective? What was your role in achieving this objective? To what extent did you interact with others on this project?
+-   Tell us about a time when your colleagues gave you feedback about your actions. How did you respond? What changes did you make?
+-   Describe a project you were responsible for that required a lot of interaction with people over a long period of time.
+-   Tell us about some of your most successful partnerships.
+-   How have you recognized and rewarded a team player in the past? What was the situation?
+-   Tell us about a course, work experience, or extracurricular activity where you had to work closely with others. How did it go? How did you overcome any difficulties?
+-   Describe a problem you've had at work when someone's help was very important to you.
+
+**3. Experience in software development.**
+
+Positive indicators to look out for:
+
+-   Created any software from scratch, including scripts, games, spreadsheets, websites, etc.
+-   Structured way of solving problems by thinking 'computationally' or 'algorithmically', maybe by using paper & pen, whiteboard, and spreadsheets first
+-   Able to solve non-trivial software problems (with some assistance if necessary)
+-   Worked on maintaining larger software projects, either alone or with others
+-   Attention to code quality, testing, and iterative improvement
+
+Negative indicators to look out for:
+
+-   Not interested in, or excited about software development at all
+
+Questions:
+
+-   What do you enjoy most about writing software?
+-   What do you find the most frustrating about writing software?
+-   What has been the most surprising thing to you in your journey in learning software?
+-   Tell us about a time where you were faced (or presented) with a problem where you ended up using software in the process of solving it.
+    -   How did you initially approach the problem?
+    -   Did you have to break the problem up into sub-problems?
+    -   Can you think of any other strategies that you have used successfully when writing software?
+-   Have you ever taught others how to write software?
+    -   Or have you had to explain a specific piece of code to a colleague or somebody less experienced?
+    -   What did you learn in this process of teaching or explaining software concepts?
+-   Have you ever had to work with other people on a software project? If so, tell us a bit about that.
+    -   How many people?
+    -   How large was the code base?
+    -   How long did you work together?
+    -   What things did you learn from the experience that you didn't learn on projects where you worked alone?
+-   What areas or topics in software are you currently most interested in learning about?
+-   What advice would you give to a friend, or a younger family member who wanted to learn how to write software and didn't know where to start?
+
+**4. Communication skills**
+
+Positive indicators to look out for:
+
+-   Was in role/situation where ability to communicate clearly in both oral & written formats were crucial
+-   Examples of written technical and non-technical materials
+
+Negative indicators to look out for:
+
+-   
+
+Questions:
+
+-   Describe a situation in which you were able to use persuasion to successfully convince someone to approach things your way. Who was the person you had to persuade?
+-   Tell us about a time in which you had to use your written communication skills in order to communicate an important point.
+-   Give us an example of a time when you were able to successfully communicate with another person even when that individual may not have agreed with your perspective.
+-   Describe a time you used your communication skills to negotiate with an angry person. How did it turn out?
+-   Tell us about a time when you and your current/previous manager disagreed but you still found a way to communicate your point.
+-   Tell us about your efforts to sell a new idea to your manager.
+-   How do you make your feelings known when you disagree with the views of your team?
+-   How have you improved your oral communication skills?
+-   How have you improved your listening skills?
+-   What do you do when you think someone is not listening to you?
+-   Tell us about a time when effective listening skills helped you in a difficult situation.
+-   Give an example of how you think about your audience before communicating with them. What factors influence your communication?
+-   What do you consider when deciding whether to communicate in writing, or by phone, or in person?
+-   Have you ever given a presentation to a group? How did you prepare for it? What would you do differently?
+-   Describe to us a presentation you made recently. How did you approach the presentation? How did you communicate the materials?
+-   Describe how you update your manager regarding your progress on a project.
+-   Describe a time when you were able to overcome a communication barrier. What steps did you take and why?
+-   Can you tell us about a time when you had to communicate complex information to someone who was not knowledgeable of the topic. How did you go about this?
+-   Tell us about a time when you had to get clarification on a request that was vague. What did you do?
+-   Tell us about a time that you felt that someone in your team was not contributing enough. How did you approach them? What was the outcome of the task?
+
+**5. Excellent organizational skills.**
+
+Positive indicators to look out for:
+
+-   Responsible for managing complex and evolving tasks, for a substantial period, involving multiple people/groups
+-   Clear, organized process
+-   Mentions specific tools
+-   Different tools for different, complementary purposes
+
+Negative indicators to look out for:
+
+-   
+
+Questions:
+
+-   How do you organize a project?
+-   How do you keep track of your tasks?
+-   Give us a specific example of a time when you did not meet a deadline. How did you handle it?
+-   Describe how you have updated a project team on your progress.
+-   Are you better at working on many things at a time, or are you better at working on and getting results on a few specific things? Please give us two examples that illustrate this.
+-   Name one of your best accomplishments, including where the assignment came from, your plans in carrying it out, how you eventually did carry it out, and any obstacles you overcame.
+-   Of your current assignments, which do you consider to have required the greatest amount of effort with regard to planning/organization? How have you accomplished this assignment? Tell us how you handled it. How would you assess your effectiveness?
+-   How do you organize and track your work when you are faced with a high volume of work?
+-   Tell us of a time when you have had to adapt to a new process. What did you do?
+-   Tell us about a time when you had to deal with an unstructured work environment.
+-   How do you organize your work during a typical day?
+-   How do you determine which responsibilities are priority? What methods do you use to ensure that all priorities are met?
+
+**6. Experience with product shipped or in production mode, or supported shipped product.**
+
+Positive indicators to look out for:
+
+-   A third party used a product created by the candidate
+-   A third party relied on the candidate for bugfixes, enhancements, availability, and backwards compatibility
+
+Negative indicators to look out for:
+
+-   
+
+Questions:
+
+-   Have you built something which other people depended on for their day-to-day work?
+    -   This could be something like a script, a database, a website, a software package, a spreadsheet, a process, etc.
+
+**7. Experience using databases.**
+
+Positive indicators to look out for:
+
+-   Mentions of any database experience (e.g. PostgreSQL, SQLite, MySQL, MS SQL Server, Oracle, etc.)
+-   Mentions loving SQL
+-   Interested in learning more about 'NoSQL' databases
+
+Negative indicators to look out for:
+
+-   No database experience
+-   Mentions hating databases
+-   Hates SQL
+
+Questions:
+
+-   Can you recall some situations where you were dealing with data?
+-   \[Have you ever run into a situation where you had to deal with what you considered to be a large amount of data?
+-   What were the hardest things about dealing with data?
+-   How did you handle changes to the data?
+-   What sort of tools did you use to make your life easier when dealing with this data?
+
+**8. Proficiency in two or more programming languages including one scripting language.**
+
+Positive indicators to look out for:
+
+-   Two or more programming languages mentioned/discussed
+-   Proficiency: Gauge based on projects
+
+Negative indicators to look out for:
+
+-   One or fewer programming languages
+
+**9. Other relevant skills (API development, etc)**
+
+Positive indicators to look out for:
+
+Negative indicators to look out for:
+
+Questions:
+
+-   Given what you know about our team and the projects we work on, can you think of skills or knowledge which you possess besides the advertised requirements which could be useful?
