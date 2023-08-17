@@ -75,7 +75,7 @@ Before the final meeting:
 -   Archive code with Zenodo or UA Library ReData
 -   Where data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.
 -   Preferred license and copyright is CC-0 for data and MIT License for code.
-    -   See ["Why does Dryad use CC0"](http://%20https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)
+    -   See ["Why does Dryad use CC0"](https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/)
     -   copyright can be listed as "The University of Arizona and Authors"
 
 Send an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration.
@@ -124,6 +124,7 @@ Members of the CCT-Data Science team who make substantial and substantive contri
 This should be discussed early in the project.
 
 The [CRedIT Taxonomy](https://casrai.org/credit/) provides a list of contribution types that may warrant co-authorship.
-All DIAG contributors should be involved in review and revision - as co-authors, we should feel comfortable with the content.
+All DIAG contributors should be involved in review and revision---as co-authors, we should feel comfortable with the content.
 
 More details in the [Publications and Contributions](https://osf.io/tzmhp/wiki/Publications%20and%20Contributors/) wiki page.
+<!--# todo: link to .qmd file instead of OSF -->
