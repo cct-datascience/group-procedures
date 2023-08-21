@@ -28,7 +28,7 @@ title: Onboarding
 
 The goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university. Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack). 
 
-- [ ] Work through CCT-DS Onboarding checklist (this document). Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
+- [ ] Work through CCT-DS Onboarding checklist (this document). It's available as a GitHub issue [here](https://github.com/cct-datascience/group-procedures/issues/new?assignees=&labels=&projects=&template=onboarding-checklist.md&title=%5BYour+name%5D+Onboarding+checklist) so you can track your progress. Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
 - [ ] Review our group's [Code of Conduct](https://osf.io/tzmhp/wiki/Code%20of%20Conduct/)
 
 ### HR logistics
@@ -100,6 +100,7 @@ Create accounts on the following collaboration tools (details provided below):
 - [ ] Send Kristina a headshot to use for your page on the website.
 - [ ] Write a short blog post (Renata's is [here](https://datascience.cct.arizona.edu/news/2023/08/renata-diaz-joins-cct-data-science-team) and Eric's is [here](https://datascience.cct.arizona.edu/news/2022/06/welcome-eric-scott)) announcing that you've joined the team.
 - [ ] Write and update your blurb on your page on the website.
+- [ ] Also send Headshot, Bio, Links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
 - [ ] Make a Mastodon post.
 - [ ] (Optional) Update your social bios, etc.
 
@@ -116,15 +117,12 @@ Create accounts on the following collaboration tools (details provided below):
 
 ## Second Week
 
--   Discuss OKRs and review [OKR overview slides](https://drive.google.com/open?id=1wZBYlYZK4s2HPJAjNqR9-9RXQUY3KGbK "OKR Introduction") with Kristina.
+- [ ]  Discuss OKRs and review [OKR overview slides](https://drive.google.com/open?id=1wZBYlYZK4s2HPJAjNqR9-9RXQUY3KGbK "OKR Introduction") with Kristina.
     -   Review Group Objectives and Key Results
     -   Identify 3-4 Objectives with 3-4 Key Results (\<=12 total) for your first Quarter using the template; [see Q3 2019](https://docs.google.com/spreadsheets/d/18ANZGFdBHBU8l9WbFTE0fErcCaTva3LyazuhAex4FFE/edit#gid=129820665)
--   Add your page to the group website
-    -   Headshot, Bio, links
-    -   Also send Headshot, Bio, Links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
--   Add your skills to the [group skills matrix](https://docs.google.com/spreadsheets/d/1N95GgtAgvpQ9PhpiYwqWYewWu-FOzeIoQxzX2oldUuk/edit?usp=sharing)
--   Read [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
--   Order business cards: https://brand.arizona.edu/stationery
+- [ ] Add your skills to the [group skills matrix](https://docs.google.com/spreadsheets/d/1N95GgtAgvpQ9PhpiYwqWYewWu-FOzeIoQxzX2oldUuk/edit?usp=sharing)
+- [ ] Read [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+- [ ] Order business cards: <https://brand.arizona.edu/stationery>
 
 ## First Month
 
