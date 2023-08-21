@@ -1,0 +1,31 @@
+---
+title: Group Expectations 
+---
+
+Everyone should follow the [Code of Conduct](code-of-conduct.qmd). 
+
+# Working hours and time off
+
+* Everyone is expected to be in during normal working hours. Since we are distributed across time zones, work with Kristina to establish your working hours.
+* Please let Kristina know at least 2 weeks in advance of any vacation time. 
+* You can ask HR (or look in UAccess) to track your available sick and vacation time. This is an important and valuable part of your compensation!
+
+# Communication
+
+-   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Software and Computing](https://osf.io/tzmhp/wiki/Software%20and%20Computing%20Resources/) for details.
+-   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
+
+# Feedback and Iteration
+
+Feedback is essential to our group.
+Expect me to ask for it, and expect to provide feedback at any time, through any channel.
+Please let me know if you have any questions.
+
+
+# Time reporting
+
+-   Inform Kristina by email of upcoming vacation or leave as soon as is practical; *at least two weeks in advance*.
+-   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See <https://hr.arizona.edu/supervisors/compensation>
+-   For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc). Holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: <https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure>
+
+
