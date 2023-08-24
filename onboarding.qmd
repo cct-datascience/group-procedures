@@ -108,7 +108,7 @@ Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] Read about group expectations and general information [here](https://osf.io/tzmhp/wiki/General%20Information/)
 -   [ ] Populate your calendar with the current group meeting schedule. Kristina will send you invites.
--   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management OSF page](https://osf.io/tzmhp/wiki/Project%20Management/) to prepare for these.
+-   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management OSF page](project-management.qmd) to prepare for these.
 -   [ ] Set up your standing meeting with Kristina.
 -   [ ] Begin learning about and using software and data related to projects.
     -   This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings.
