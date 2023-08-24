@@ -31,6 +31,7 @@ book:
     - part: "Resources"
       chapters: 
         - creating-r-packages.qmd
+        - publishing-to-web.qmd
     - references.qmd
 
 format:
