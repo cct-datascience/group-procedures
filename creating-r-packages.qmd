@@ -5,7 +5,7 @@ editor: visual
 
 # Creating R Packages
 
-One of the things our group does is create R packages and help with maintenance of R packages.  For example, [`volcalc`](https://github.com/Meredith-Lab/volcalc) and [`azmetr`](https://github.com/uace-azmet/azmetr) were both initially developed as [incubator projects](https://osf.io/tzmhp/wiki/Incubator%20Program/).
+One of the things our group does is create R packages and help with maintenance of R packages.  For example, [`volcalc`](https://github.com/Meredith-Lab/volcalc) and [`azmetr`](https://github.com/uace-azmet/azmetr) were both initially developed as [incubator projects](incubator.qmd).
 
 Things this page should eventually include:
 
