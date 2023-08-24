@@ -113,7 +113,8 @@ Create accounts on the following collaboration tools (details provided below):
 - [ ] Begin learning about and using software and data related to projects.
     - This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings. 
 - [ ] Fill out biweekly time sheets every other Friday morning by 10am AZ on [UAccess](https://uaccess.arizona.edu/), which also has pay stubs, insurance info, etc. 
-    * If you are salaried, you only need to put in 1 hour of "PAW - Present at Work" for the pay period (doesn't matter which week).
+    * If you are salaried, you only need to put in 1 hour of "PAW - Present at Work" for the pay period (doesn't matter which week), and then record any *exception* time (sick/vacation/jury duty). You don't need to enter all of your regular work hours.
+    * Holidays and university closures will be automatically added to your time sheet.
 
 ## Second Week
 
