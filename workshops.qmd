@@ -40,7 +40,7 @@ Change your settings so the active speaker and participants are recorded separat
 
 1.  Navigate to <https://arizona.zoom.us/profile/setting>
 2.  In the "Recording" tab, make sure "Record active speaker with shared screen" is checked and "Record gallery view with shared screen" is not checked
-3.  Alternatively (**I think this is the preferred option**, you can record to the cloud and select "Record active speaker, gallery view and shared screen separately" to get three separate video files that you can edit together. These could be edited together for YouTube; this can be done in a software like Camtasia or Adobe Premiere Rush.
+3.  Set to record in the cloud rather than locally---if you record locally, then the particpant videos will block the corner of the view.
 
 ### Creating a Zoom event for a workshop
 
