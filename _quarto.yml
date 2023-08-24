@@ -28,6 +28,7 @@ book:
         - drop-in-hours.qmd
         - incubator.qmd
         - workshops.qmd
+        - code-review.qmd
     - part: "Resources"
       chapters: 
         - creating-r-packages.qmd

@@ -1,0 +1,82 @@
+---
+title: "Code review"
+editor: source
+---
+
+## Code review goals
+
+Code review helps maintain software quality. It can also be a great way to share knowledge and create common standards and approaches across the group.
+
+### Incremental reviews (e.g. pull-request sized)
+
+-   "Make sure the health of the codebase is staying the same or increasing over time".
+-   Ensure that changes achieve the intended aim and check for introduced bugs.
+-   Focus on error-catching/quality control.
+
+### Codebase reviews (e.g. review of a whole incubator project)
+
+-   Reviewing for **functionality**, **reproducibility**, **readability.**
+-   (?) Less of an emphasis on line-by-line error checking. *Or, work on this last.*
+
+### What code review is NOT
+
+-   Code review happens in a spirit of collaboration - helping everyone in the group produce solid code. There are no gotchas or red pens.
+
+## How to do a code review
+
+### 1. Identify the goal posts
+
+[This rubric](https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view#Tools) can help structure your review. You may want to flesh out the categories according to the following:
+
+-   Product functionality: what is the software supposed to *do*? How do we know when it's working? Be as specific as possible - you want a list of expectations that can be verified.
+    -   For an R package, this might be a list of the core functions and their behavior, including any automated or repository-specific checks (e.g. CRAN, ROpenSci checklists) that must pass.
+
+    -   For a Shiny app, a description of the app components and their intended functionality.
+
+    -   The authors/developers can help the review process by providing this list alongside the codebase.
+-   User-facing documentation: what tools does a user need to use the product successfully, and are they sufficient?
+    -   For all projects, this includes
+
+        -   a README
+
+        -   a license/set of guidelines for re-use
+
+        -   a CITATION file
+
+        -   any required funding acknowledgements
+
+    -   For an R package, this includes function documentation, vignettes, etc.
+
+    -   For a Shiny app, this includes app instructions.
+-   Developer-facing documentation: what does a naive developer need to understand in order to potentially modify or debug the code?
+    -   A description of the file structure and explanation of each item
+    -   Sufficient code commenting
+    -   Logical naming and organization strategies
+-   Code accuracy and stability
+    -   Checking for bugs
+    -   (Somewhat subjective) could the code be made more modular/less repetitive?
+    -   (Possibly) checking for foreseeable software rot issues. (e.g. tidyverse functions can change quickly, and may not be desirable dependencies for R packages).
+-   Reproducibility/portability
+    -   Are the necessary components included to run the code/reproduce the analysis on a new machine/with new data?
+
+### 2. Check things off the list!
+
+-   Fork or otherwise create a working copy of the codebase that you can experiment with and modify.
+
+-   Work from the big-picture to granular. E.g. check that things install and produce expected output; then check for stylistic questions.
+
+-   Pace yourself as a reviewer - you can only absorb so much at once, and [code review efficacy drops off](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) after about an hour of focused work or, according to one study, about 200 LOC.
+
+### 3. Ask questions and suggest modifications
+
+-   If you have suggested modifications that you can make yourself (e.g. changing comments, catching easy typos), create well-documented commits in your forked repository.
+
+-   For larger modifications, or questions, document the issue thoroughly and reach out to the authors to work together to clarify or resolve things.
+
+## Resources
+
+-   <https://google.github.io/eng-practices/review/reviewer/standard.html>
+
+-   [Group HackMD on Peer Code Review](https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view)
+
+-   [Tidyteam code review](https://code-review.tidyverse.org/)
