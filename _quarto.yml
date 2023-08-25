@@ -16,11 +16,12 @@ book:
     - part: "Group Processes (Agile)"
       chapters:
         - project-management.qmd
-        - annual-reviews.qmd
-        - quarterly-meetings.qmd
-        - sprint-planning.qmd
         - standups.qmd
-    - part: "Gropu Procedures"
+        - sprint-planning.qmd 
+        - quarterly-meetings.qmd
+        - annual-reviews.qmd
+    - part: "Group Procedures"
+      chapters:
         - onboarding.qmd
         - hiring.qmd
         - professional-development.qmd
