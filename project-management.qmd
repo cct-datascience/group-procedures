@@ -1,5 +1,5 @@
 ---
-title: Project Management
+title: Agile overview
 ---
 
 The [Agile process](https://en.wikipedia.org/wiki/Agile_software_development) we use is dynamic.
