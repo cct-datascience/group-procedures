@@ -32,6 +32,7 @@ book:
         - workshops.qmd
     - part: "Resources"
       chapters: 
+        - networking.qmd
         - creating-r-packages.qmd
         - publishing-to-web.qmd
     - references.qmd
@@ -42,5 +43,10 @@ format:
     theme: 
       light: flatly
       dark: darkly
-
+      
+editor: 
+  markdown:
+    wrap: sentence
+    canonical: true
+    
 bibliography: references.bib

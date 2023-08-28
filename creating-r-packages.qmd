@@ -5,20 +5,23 @@ editor: visual
 
 # Creating R Packages
 
-One of the things our group does is create R packages and help with maintenance of R packages.  For example, [`volcalc`](https://github.com/Meredith-Lab/volcalc) and [`azmetr`](https://github.com/uace-azmet/azmetr) were both initially developed as [incubator projects](incubator.qmd).
+One of the things our group does is create R packages and help with maintenance of R packages.
+For example, [`volcalc`](https://github.com/Meredith-Lab/volcalc) and [`azmetr`](https://github.com/uace-azmet/azmetr) were both initially developed as [incubator projects](incubator.qmd).
+
 
 Things this page should eventually include:
 
-- links to best practices for R packages (rOpenSci guide, `usethis`, style guide)
-- link to Hadley's book on R packages
-- discussion about CRAN vs r-universe
-- guide on releases and versions and Zotero integration (CITATION.cff, `cffr` package)
-- discussion about package maintainance and handoff of maintainance
-- use of repostatus badge to signal lifecycle
-- 
+-   links to best practices for R packages (rOpenSci guide, `usethis`, style guide)
+-   link to Hadley's book on R packages
+-   discussion about CRAN vs r-universe
+-   guide on releases and versions and Zotero integration (CITATION.cff, `cffr` package)
+-   discussion about package maintainance and handoff of maintainance
+-   use of repostatus badge to signal lifecycle
+-   
 
 ### R-Universe
 
-[R-Universe](https://ropensci.org/r-universe/) is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor.  We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a "portfolio" of R packages our team has created or contributed significantly to.
+[R-Universe](https://ropensci.org/r-universe/) is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor.
+We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a "portfolio" of R packages our team has created or contributed significantly to.
 
 To add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.
