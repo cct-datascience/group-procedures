@@ -238,31 +238,52 @@
     "text": "13.4 After the workshop\nThe below tasks are ordered.\n\n13.4.1 Post recordings to YouTube\n\nTo record the speaker view and shared screen separately, record to the cloud\nRecord entire workshop session\nAfter Zoom meeting is ended, a window will pop up with “Converting meeting recording”. This will slow down your computer, but let it finish\nThe recording will be saved somewhere on your computer (it’s “zoom_videos” for me)\nEdit video locally if necessary\nAsk Chris to give you admin permissions to the CCT Data Science YouTube account\nOnce signed in, go to Content tab\nSelect “Create” button in upper right hand corner and then “Upload videos”\nDrag and drop video\nWhile it’s uploading, add name in format “Workshop Wednesdays [month] [year]: [workshop title]”\nIn description, add this content:\n\nDate: [date and time]\nInstructors: [instructor names]\nPresented to: [audience]\nDescription: [description of workshop as in email announcements]\n\nIf the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings\nIf possible, include thumbnail photo from a relevant slide\nAdd to the ‘Workshops’ playlist\nOnce it’s uploaded (may take a while), including the HD version, check that the video is clear enough to see text on screen\nAdvertise video upload via Twitter!\n\n\n\n13.4.2 Share materials\n\nSubmit a pull request to cct-datascience/CALS-workshops with notes and/or slides\nUpdate workshop info on our workshops website page\n\nUnder Category, add “ALVSCE Workshop Wednesdays” option\nUnder Additional Links, add slides, notes, etc., with corresponding URLs\nUnder Recording, add URL of YouTube recording of workshop and Title to “View Recording”\nCheck box under Archive\nMake sure workshop event now shows up in “Previous Workshops” section of workshops page\n\n\n\n\n13.4.3 Get Zoom reports\nTwo reports should be downloaded from the Analytics & Reports page on arizona.zoom.us:\n\nRegistration report (“Meeting”), which contains a csv of all registrants and their answers to the registration questions\nUsage report (filter by date range), click on participants, then export. Provides a csv of all attendees and when they attended. List is not unique and should be sorted by attendance time. Contains email list for follow-up survey.\n\n\nAdd registrants to this google sheet\nImport list of registrants who opt into the mailing list to Emma\n\n\n\n13.4.4 Post-workshop survey\n\nEdit the post-workshop survey Google form to add your workshop.\n\n\n\n13.4.5 Followup email to participants\n\nGet registrant emails from Zoom registration report\nMake sure to BCC\nInclude link to notes, (e.g. GitHub, RStudio Connect, cct-datascience.quartopub.com, etc.), resources, and post-workshop survey\nInclude link to our drop-in hours page\n\nEmail example:\n\nDear workshop participants,\nThank you for attending the Workshop Wednesday on [topic]. We appreciate your feedback (survey link) as we aim to better serve the UA/CALS research community.\nBelow are some links you may find helpful:\n\nGithub link\nYoutube video\nDrop-in hours link\n\nFeel free to come chat or ask questions about [topic], or any other topic, at our drop-in hours (link above) from 9 to 10 am on Tuesdays! And let me know if you have any questions or comments.\nSincerely,\n[Your Name]"
   },
   {
+    "objectID": "networking.html#introductioninfo",
+    "href": "networking.html#introductioninfo",
+    "title": "14  Networking at UA",
+    "section": "14.1 Introduction/info:",
+    "text": "14.1 Introduction/info:\n\nYour background (data science & domain science)\nWho we serve (ALVSCE)\nWhat we do (training/workshops, data science support, data management, collaborate on grant writing)\nExplain incubator project"
+  },
+  {
+    "objectID": "networking.html#questions",
+    "href": "networking.html#questions",
+    "title": "14  Networking at UA",
+    "section": "14.2 Questions:",
+    "text": "14.2 Questions:\n\nWhat kinds of data does your research group deal with?\nWhat data related challenges do you experience?\nWhat data science training needs does your group have?\nHow are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)\nCan we add you to our email list?"
+  },
+  {
+    "objectID": "networking.html#follow-up",
+    "href": "networking.html#follow-up",
+    "title": "14  Networking at UA",
+    "section": "14.3 Follow-up:",
+    "text": "14.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet"
+  },
+  {
     "objectID": "creating-r-packages.html",
     "href": "creating-r-packages.html",
-    "title": "14  Creating R Packages",
+    "title": "15  Creating R Packages",
     "section": "",
-    "text": "15 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n15.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README."
+    "text": "16 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n16.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README."
   },
   {
     "objectID": "publishing-to-web.html#posit-connect",
     "href": "publishing-to-web.html#posit-connect",
-    "title": "15  Publishing to the Web",
-    "section": "15.1 Posit Connect",
-    "text": "15.1 Posit Connect\n\n15.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect"
+    "title": "16  Publishing to the Web",
+    "section": "16.1 Posit Connect",
+    "text": "16.1 Posit Connect\n\n16.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect"
   },
   {
     "objectID": "publishing-to-web.html#quarto-pub",
     "href": "publishing-to-web.html#quarto-pub",
-    "title": "15  Publishing to the Web",
-    "section": "15.2 Quarto Pub",
-    "text": "15.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n15.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub"
+    "title": "16  Publishing to the Web",
+    "section": "16.2 Quarto Pub",
+    "text": "16.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n16.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub"
   },
   {
     "objectID": "publishing-to-web.html#github-pages",
     "href": "publishing-to-web.html#github-pages",
-    "title": "15  Publishing to the Web",
-    "section": "15.3 GitHub Pages",
-    "text": "15.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages"
+    "title": "16  Publishing to the Web",
+    "section": "16.3 GitHub Pages",
+    "text": "16.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages"
   }
 ]
