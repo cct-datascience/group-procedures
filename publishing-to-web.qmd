@@ -1,0 +1,56 @@
+---
+title: "Publishing to the Web"
+editor: visual
+---
+
+We have many options for publishing html documents, html-based slides, websites, shiny apps, APIs, etc. to the web.
+
+-   **Posit Connect (previously 'RStudio Connect')**: UA has access to a Posit Connect server at viz.datascience.arizona.edu. This is an appropriate venue for publishing Shiny apps, Quarto or RMarkdown documents, datasets using the `pins` package, and `plumber` APIs [**for research purposes**](https://datascience.arizona.edu/analytics-powerhouse/rstudio-connect). Shiny for Python or Flask APIs can also be published to Posit Connect.
+-   **Quarto Pub**: Our group has a Quarto Pub account that allows publishing of Quarto documents to [cct-datascience.quarto.pub](https://cct-datascience.quarto.pub/). This is appropriate for slides and notes used for teaching workshops. Course websites can be published here also, but because of size and traffic limitations, GitHub pages might be a better choice.
+-   **GitHub pages**: We also have the ability to use GitHub pages for publishing content to the web. This is an appropriate venue for package documentation (e.g. `pkgdown` sites), project websites, and websites for short courses. This venue is also not limited to websites created via Quarto, RMarkdown, etc. so it is possibly an appropriate venue if there is a need for more flexible deployment.
+
+## Posit Connect
+
+### Getting Set Up:
+
+You will have to be apply for access to be able to publish to viz.datascience.arizona.edu.
+Request access [here](https://datascience.arizona.edu/analytics-powerhouse/rstudio-connect).
+After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.
+
+To publish to Posit Connect using the RStudio GUI, follow instructions here: <https://docs.posit.co/connect/user/publishing/>
+
+To publish Quarto documents to Posit Connect, follow these instructions: <https://quarto.org/docs/publishing/rstudio-connect.html>
+
+Other useful links:
+
+-   [`pins` 📦 + Posit Connect](https://pins.rstudio.com/articles/posit-connect.html)
+-   [`plumber` 📦 + Posit Connect](https://www.rplumber.io/articles/hosting.html#rstudio-connect)
+-   [GitHub actions + Posit Connect](https://solutions.posit.co/operations/deploy-methods/ci-cd/github-actions/)
+
+## Quarto Pub
+
+[quartopub.com](https://quartopub.com/) is probably the easiest way to share Quarto documents.
+This is only for Quarto documents, and there is no option to make what you share private in any way.
+Because Posit Connect is *technically* for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto
+
+### Getting Set Up:
+
+We have an account with the username cct-datascience\@arizona.edu.
+The password is stored in [Stache](https://stache.arizona.edu/) (you may need to ask for it to be shared with you).
+Published documents appear at <https://cct-datascience.quarto.pub/>.
+
+Publish here with `quarto publish quarto-pub` and the first time you'll be prompted to authenticate.
+
+Useful links:
+
+-   [Publishing to Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html)
+-   [GitHub actions + Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html#github-action)
+
+## GitHub Pages
+
+Official guide: <https://pages.github.com/>
+
+Useful links:
+
+-   [`pkgdown` 📦 + GitHub actions](https://usethis.r-lib.org/reference/github_actions.html) to create a website for an R package
+-   [Publish Quarto docs and websites to GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)

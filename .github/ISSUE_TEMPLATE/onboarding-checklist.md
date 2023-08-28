@@ -38,7 +38,7 @@ title: Onboarding
 The goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university. Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack). 
 
 - [ ] Work through CCT-DS Onboarding checklist (this document). Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
-- [ ] Review our group's [Code of Conduct](https://osf.io/tzmhp/wiki/Code%20of%20Conduct/)
+- [ ] Review our group's [Code of Conduct](code-of-conduct.qmd)
 
 ### HR logistics
 
@@ -117,7 +117,7 @@ Create accounts on the following collaboration tools (details provided below):
 
 - [ ] Read about group expectations and general information [here](https://osf.io/tzmhp/wiki/General%20Information/)
 - [ ] Populate your calendar with the current group meeting schedule. Kristina will send you invites.
-- [ ]  Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management OSF page](https://osf.io/tzmhp/wiki/Project%20Management/) to prepare for these.
+- [ ]  Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](project-management.qmd) to prepare for these.
 - [ ] Set up your standing meeting with Kristina.
 - [ ] Begin learning about and using software and data related to projects.
     - This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings. 
