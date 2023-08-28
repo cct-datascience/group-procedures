@@ -243,5 +243,26 @@
     "title": "14  Creating R Packages",
     "section": "",
     "text": "15 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n15.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README."
+  },
+  {
+    "objectID": "publishing-to-web.html#posit-connect",
+    "href": "publishing-to-web.html#posit-connect",
+    "title": "15  Publishing to the Web",
+    "section": "15.1 Posit Connect",
+    "text": "15.1 Posit Connect\n\n15.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect"
+  },
+  {
+    "objectID": "publishing-to-web.html#quarto-pub",
+    "href": "publishing-to-web.html#quarto-pub",
+    "title": "15  Publishing to the Web",
+    "section": "15.2 Quarto Pub",
+    "text": "15.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n15.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub"
+  },
+  {
+    "objectID": "publishing-to-web.html#github-pages",
+    "href": "publishing-to-web.html#github-pages",
+    "title": "15  Publishing to the Web",
+    "section": "15.3 GitHub Pages",
+    "text": "15.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages"
   }
 ]
