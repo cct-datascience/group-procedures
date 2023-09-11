@@ -68,7 +68,7 @@ Ideally, one of these is in the cloud and one of these is on a physical hard dri
 
 When you get your computer...
 
--   [ ] Set up cloud backups. (If you are on a Windows machine, you can back up to the UA OneDrive).
+-   [ ] Set up cloud backups. (If you are on a Windows machine, you can back up to the UA OneDrive). UA also provides access to Google Drive and Box.
 -   [ ] Set up a regular backup schedule to a physical hard drive.
 -   [ ] Get in the habit of pushing new work to GitHub at least daily!
 
