@@ -77,7 +77,7 @@ When you get your computer...
 Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] UA UITS Accounts, starting here: <https://account.arizona.edu/welcome>
-    -   [ ] Email and calendar (Outlook or Gmail)
+    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](use-gmail.html)
     -   [ ] Calendar (Outlook or Gmail)
     -   [ ] Google Apps
     -   [ ] Box
