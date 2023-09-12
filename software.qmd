@@ -22,7 +22,7 @@ The "[University of Arizona Cyberinfrastructure and Research Support](https://pu
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
 -   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
 
-## Computing
+## Computing <!--# this is hardware, not software. Does this belong here? -->
 
 ### Computers
 
@@ -37,7 +37,6 @@ There is no excuse for failing to backup your work.
 
 -   All work should be pushed to GitHub daily.
 -   UA provides access to Google Drive, Box, and Microsoft OneDrive. These are useful for backups.
--   <!--# this is outdated now -->I have a network attached storage that can be used for computer backups at dlebauer-nas.cals.illinois.edu. You can ask me for an account and access it at http://10.130.172.41/detail.html.
 -   You can also ask Kristina to purchase an external hard drive for you
 
 If this is not sufficient, we can set up a service at <https://it.arizona.edu/documentation/data-backup-service-tiers>.
