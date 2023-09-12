@@ -44,7 +44,9 @@ Feel free to ask anyone in the group questions about these steps, especially in 
     -   [ ] Select and enroll in a retirement plan. You need to enroll in retirment within 30 days of your start date.
     -   [ ] Once you have selected your retirement plan, you can sign up for other benefits. Enroll in other benefits within 31 days of starting.
 
-### Internet
+### Equipment setup
+
+#### Internet
 
 You should be on the university's VPN any time you connect to internet outside the UA.
 
@@ -52,12 +54,30 @@ You should be on the university's VPN any time you connect to internet outside t
     -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
 -   [ ] Log in to the VPN by opening Cisco Secure Client, typing in "vpn.arizona.edu/cals-ext", and clicking Connect. Then log in using your UA credentials and 2FA.
 
+#### Software set up
+
+When you get your computer...
+
+-   [ ] Meet with an admin in CCT (Martin Picazzo as of 2023) to get logged into your computer the first time.
+-   [ ] Also install software you will need administrative privileges to install. It can be helpful to come to this meeting with a list of things you expect to use. In future, if you need an admin password to install something, contact Martin to get a temporary password.
+
+#### Computer backups
+
+We should all have our files backed up in at least two places.
+Ideally, one of these is in the cloud and one of these is on a physical hard drive.
+
+When you get your computer...
+
+-   [ ] Set up cloud backups. (If you are on a Windows machine, you can back up to the UA OneDrive). UA also provides access to Google Drive and Box.
+-   [ ] Set up a regular backup schedule to a physical hard drive.
+-   [ ] Get in the habit of pushing new work to GitHub at least daily!
+
 ### Accounts access
 
 Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] UA UITS Accounts, starting here: <https://account.arizona.edu/welcome>
-    -   [ ] Email and calendar (Outlook or Gmail)
+    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](use-gmail.html)
     -   [ ] Calendar (Outlook or Gmail)
     -   [ ] Google Apps
     -   [ ] Box

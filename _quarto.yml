@@ -36,6 +36,7 @@ book:
         - creating-r-packages.qmd
         - publishing-to-web.qmd
         - software.qmd
+        - use-gmail.qmd
     - references.qmd
 
 format:
