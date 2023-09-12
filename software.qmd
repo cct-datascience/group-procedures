@@ -64,36 +64,36 @@ We should leverage their expertise and make use of their services wherever possi
 <!--# Is this still true? -->
 
 -   Our servers and pipelines are hosted on the CyVerse openstack
+
 -   VICE (<https://www.cyverse.org/webinar-visual-and-interactive-comp>) provides cloud computing environments including Rstudio and Jupyter
--   <!--# Is this still relevant? -->Discovery Environment
-    -   <!--# link was broken becasue folder was deleted -->A "quick start" guide to making a DE app may be found [here](https://github.com/cct-datascience/organization/blob/c39713cd3319e8a07aaebda9a4be917874a58136/meeting-notes/2020-01-15_deploying-vice-apps.md)
+
+-   <!--# Is this still relevant? -->
+
+    Discovery Environment
+
+    -   <!--# link was broken becasue folder was deleted -->
+
+        A "quick start" guide to making a DE app may be found [here](https://github.com/cct-datascience/organization/blob/c39713cd3319e8a07aaebda9a4be917874a58136/meeting-notes/2020-01-15_deploying-vice-apps.md)
+
 -   Data Store: CyVerse's data storage and transfer protocol is built on iRods.
 
 ### OpenStack
 
 OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open! and we have allocations on CyVerse's OpenStack environments. The TERRA REF project also makes use of OpenStack at NCSA.
 
-#### OpenStack Interface for Tombstone
+#### OpenStack Interface for Tombstone <!--# what is tombstone? -->
 
 -   url: <https://tombstone-cloud.cyverse.org/>
 -   domain: cso
 -   Password: find your secrets at <https://stache.arizona.edu>
 
-#### Exosphere
+#### [Exosphere](https://gitlab.com/exosphere/exosphere)
 
 -   An experimental open stack interface being developed by Julian.
     He would appreciate feedback and feature requests.
+    See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README.md?ref_type=heads) for install instructions.
 
--   You can download Exosphere packages for Linux (APT) and OS X at: <https://send.firefox.com/download/b0a4e860f9/#Hm0qPijyfP0-xA9DWWeEpA>
-
--   Set up instructions on a Mac:
-
-    -   Hold the Ctrl key down and click on the Exosphere app
-    -   Select 'Open' from the popup menu
-    -   Override settings and run the app anyway
-    -   
-
--   By default it logs you into a demo account, but you can click on the 'Add Provider' and enter your own Tombstone Cloud credentials:
+-   By default it logs you into a demo account, but you can click on the 'Add Provider' and enter your own Tombstone Cloud credentials <!--# is this still relevant? -->:
 
     -   Auth URL: https://tombstone-cloud.cyverse.org:5000/v3
     -   Project Domain: 4fdb4218c06542498c42e767eaa5afb0
@@ -104,122 +104,10 @@ OpenStack is a cloud computing platform similar to AWS and other commercial clou
 
 (If nothing seems to happen after submitting the credentials form, it probably worked. Just click on the Tombstone provider on the left.)
 
-### Globus
+### Globus <!--# Is this still relevant? -->
 
 If you want to download lots of data for the terraref project, register for an account on globus.org.
 You will need to download and install Globus Connect Personal and ask Kristina to grant you access to the Terraref endpoint.
-
-# Group Communication
-
-I will try to reply as soon as I can to any communications via email, slack, or text.
-If you haven't heard from me within a day, please send me a reminder.
-I also expect that you will reply promptly.
-
-## In Person
-
--   Schedule [times to meet](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU83LWZEMmhrdWxUfGRlZmF1bHR8N2NkYWViOThjOGZlZjFhMTQyNzIyNDIxYjJkODc0Yjg)
--   Weekly one-on-one meetings
--   Daily standups
-
-## Video Conferencing
-
-Slack (quick) or Zoom (for larger group meetings, recording)
-
-Sign up for a zoom account at [arizona.zoom.us](https://arizona.zoom.us)
-
-## GitHub
-
--   Source code repository
--   Issue tracking
-
-[Github](https://github.com/) for backing up work
-
-[Project Board](https://github.com/orgs/cct-datascience/projects/8) for project organization
-
-See the [Using Git and GitHub wiki page](https://osf.io/tzmhp/wiki/Using%20Git%20and%20GitHub/)
-
-## Slack
-
-Slack Channels: [pecanproject](https://pecanproject.slack.com), [terraref](https://terra-ref.slack.com), sentinel, [data7](https://ua-data7.slack.com)
-
-## G Suite
-
-We use the G Suite Applications for business extensively, in particular for Google Drive and Calendar.
-
-You may already have been given access to G Suite apps.
-Try logging into drive.google.com with your @email.arizona.edu address.
-If that doesn't work, follow these steps to get access:
-
-To get access to Google Apps at UA ([see documentation](https://uarizona.service-now.com/sp?id=sc_cat_item&sys_id=6fecae771b0134107947edf1604bcb5d))
-
--   Log in at account.arizona.edu/welcome
--   Select Manage Your Accounts.
--   Choose UA Google Apps for Education.
-
-Then sign in to drive.google.com with your @email.arizona.edu address.
-
-If you ecnounter any errors, contact IT 24/7 support at it.arizona.edu
-
-### Google Drive
-
--   For collaboratively editing documents.
--   Google Sheets are a nice alternative to excel; we commonly use google sheets for end-users contributing data.
-
-### Email
-
-Please use your UA email address (@arizona.edu or @email.arizona.edu) address for communication.
-This helps to communicate our UA affiliation.
-More importantly, you are advised not to combine work and personal email because this will make your personal email open to FOIA requests, in which case your personal email communication could become part of the public domain.
-
-You can generate an official UA signature here: <https://brand.arizona.edu/generator/email-signature>.
-
-### How to use Gmail instead of Outlook
-
-Staff members have both an outlook and a gmail account (outlook is default).
-To set up the gmail, log into outlook.office.com with the netID\@email.arizona.edu and search for the forwarding setup.
-Your forwarding address is netID\@catmail.arizona.edu.
-Then, go to catmail.arizona.edu and sign in.
-University emails sent to netID\@arizona.edu (outlook) should now be forwarded to netID\@email.arizona.edu (gmail).
-
-#### 1. Enable Google Services
-
-In order to enable Google services on your account, we will need to enable G-Suite on your account.
-
-To enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.
-
-Then, click on "Manage your Accounts" on the left-hand side of the page.
-You should now be on a page with "Existing Accounts" and "Available Accounts".
-
-Under "Available Accounts" should be "UA Google Apps for Education".
-You will need to click that tile to enable G-Suite.
-
-After that, Google services should be available for you and we can set up forwarding.
-
-You may already have Google Services enabled.
-If so you should see a large green banner that says: "Your Google Apps account is enabled. You're all set!"
-
-#### 2. Set up forwarding from Outlook
-
-Go to https://outlook.office.com.
-Then, sign in with your university email.
-
-Once at your inbox, click the gear icon in the top righthand corner of the page, which should bring up "Settings".
-In the searchbar, search for "Forwarding", then click on "Forwarding".
-
-Select "Enable forwarding", and in the box under "Forward my email to", put in your NetID, and then "@uits.arizona.edu".
-
-Make sure to check the box next to "Keep a copy of forwarded messages", which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.
-
-Click "Save", and your forwarding will be set up!
-
-All future emails will then be sent to your UA Gmail inbox.
-
-You can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn't work.)
-
-## Calendar
-
-We will use the UA Google Calendar to share each other's availability and schedule meetings.
-Please keep your calendar up to date, and either share free/busy time with specific people in the group or everyone at UA.
 
 # Development / Collaboration Tools:
 

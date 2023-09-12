@@ -21,3 +21,52 @@ We work in the Bioscience Research Laboratory (BSRL)
     -   TUGO is great for getting around campus
 -   Parking Easiest parking is the garage two blocks east of BSRL: \$2 hourly or \$8 daily.
 -   Public Transportation
+
+## Group Communication
+
+### Slack
+
+Our group communication is mainly in the `#data-science` channel of the CALS CCT Slack.
+We communicate with the wider UA data science community in the [UA Data Science Slack](https://jcoliver.github.io/uadatascience-slack/index), in particular the `#trainers` channel.
+
+Other Slacks to consider joining:
+
+-   [resbaz_AZ](https://resbazaz.slack.com/) (invite needed)
+-   [USRSE](https://us-rse.org/join/)
+
+### Email
+
+Please use your UA email address (\@arizona.edu) address for communication.
+This helps to communicate our UA affiliation.
+More importantly, you are advised not to combine work and personal email because this will make your personal email open to FOIA requests, in which case your personal email communication could become part of the public domain.
+
+You can generate an official UA signature here: <https://brand.arizona.edu/generator/email-signature>.
+
+If you'd like to use gmail instead of Outlook, see instructions [here](use-gmail.qmd).
+
+### G Suite
+
+We use the G Suite Applications for business extensively, in particular for Google Drive and Calendar.
+
+Log into drive.google.com with your \@arizona.edu address.
+If that doesn't work, follow these steps to get access:
+
+To get access to Google Apps at UA ([see documentation](https://uarizona.service-now.com/sp?id=sc_cat_item&sys_id=6fecae771b0134107947edf1604bcb5d))
+
+-   Log in at account.arizona.edu/welcome
+-   Select Manage Your Accounts.
+-   Choose UA Google Apps for Education.
+
+Then sign in to drive.google.com with your \@email.arizona.edu address.
+
+If you encounter any errors, contact IT 24/7 support at [it.arizona.edu](https://it.arizona.edu)
+
+#### Google Drive
+
+We should ideally create any new documents in the shared CALS-CCT drive.
+However, you will find many of our documents in an older shared folder called `02-Group Documents` which we have not fully migrated over to the new shared drive.
+
+#### Calendar
+
+We will use the UA Google Calendar to share each other's availability and schedule meetings.
+Please keep your calendar up to date, and either share free/busy time with specific people in the group or everyone at UA.
