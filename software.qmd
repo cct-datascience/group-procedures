@@ -48,24 +48,25 @@ Every group gets a generous monthly allocation by default, plus infinite lower p
 To request access to the computer using our group allocations, please:
 
 1.  Go to <https://account.arizona.edu/account/index> to create a HPC account
-2.  Open <https://portal.hpc.arizona.edu/portal/sendlink.php> and enter '[dlebauer\@email.arizona.edu](mailto:dlebauer@email.arizona.edu)' in the sponsors email field.
-3.  If needed, refer to [documentation for details](https://docs.hpc.arizona.edu/display/UAHPC/HPC+Account+Creation+-+Detailed)
+2.  Open <https://portal.hpc.arizona.edu/portal/sendlink.php> and enter 'kristinariemer\@arizona.edu' in the sponsors email field.
+3.  If needed, refer to [documentation for details](https://public.confluence.arizona.edu/display/UAHPC/Account+Creation)
 
 Overview of Campus HPC Resources: <https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation>
 
 Puma has lots of GPUs: \* [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
 
--   Point of contact is Blake Joyce; he can be contacted on the CyVerse Slack or bjoyce3\@email.arizona.edu
+-   Point of contact is Blake Joyce; he can be contacted on the CyVerse Slack or bjoyce3\@arizona.edu
 
-### [Cyverse](https://www.cyverse.org/)
+### [CyVerse](https://www.cyverse.org/)
 
 This group is our neighbor.
 We should leverage their expertise and make use of their services wherever possible!
+<!--# Is this still true? -->
 
 -   Our servers and pipelines are hosted on the CyVerse openstack
 -   VICE (<https://www.cyverse.org/webinar-visual-and-interactive-comp>) provides cloud computing environments including Rstudio and Jupyter
--   Discovery Environment
-    -   A "quick start" guide to making a DE app may be found [here](https://github.com/az-digitalag/organization/blob/master/meeting-notes/2020-01-15_deploying-vice-apps.md)
+-   <!--# Is this still relevant? -->Discovery Environment
+    -   <!--# link was broken becasue folder was deleted -->A "quick start" guide to making a DE app may be found [here](https://github.com/cct-datascience/organization/blob/c39713cd3319e8a07aaebda9a4be917874a58136/meeting-notes/2020-01-15_deploying-vice-apps.md)
 -   Data Store: CyVerse's data storage and transfer protocol is built on iRods.
 
 ### OpenStack
