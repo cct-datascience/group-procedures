@@ -1,0 +1,321 @@
+---
+title: "Software Resources"
+editor: visual
+---
+
+<!--# TODO: needs a lot of updating (and maybe splitting of material) -->
+
+## Overview of IT services
+
+### [UA Information Technology](https://it.arizona.edu/)
+
+For information on available services and procedures, see the [UITS getting started page](https://it.arizona.edu/getting-started).
+
+Excellent [24-7 support](https://it.arizona.edu/service/247-it-support): (520) 626-TECH (8324)
+
+### [UA Research Computing](https://it.arizona.edu/research)
+
+The ["University of Arizona Cyberinfrastructure and Research Support"](https://docs.google.com/document/d/1EMMMm3WCTCcYEP1_iRLS4l0dys7z0uL5i39qIzcYxgY/edit#) Report provides a comprehensive inventory of UA computing resources.
+
+### Bio5 IT group
+
+-   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
+-   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
+
+## Computing
+
+### Computers
+
+You should have the resources you need to be productive.
+If your hardware is slowing you down, ask Kristina.
+But if you already have 16 GB RAM and a modern computer, it may be time to investigate using cloud resources (see HPC and OpenStack, below).
+
+### Backup
+
+If you loose your computer or it breaks, it should take \< ½ day to get it back up and running.
+There is no excuse for failing to backup your work.
+
+-   All work should be pushed to GitHub daily.\
+-   UA provides access to Google Drive, Box, and Microsoft OneDrive. These are useful for backups.
+-   I have a network attached storage that can be used for computer backups at dlebauer-nas.cals.illinois.edu. You can ask me for an account and access it at http://10.130.172.41/detail.html.
+
+If this is not sufficient, we can set up a service at https://it.arizona.edu/documentation/data-backup-service-tiersNAS.
+
+### Campus Cluster
+
+Every group gets a generous monthly allocation by default, plus infinite lower priority time as available.
+
+To request access to the computer using our group allocations, please:
+
+1.  Go to <https://account.arizona.edu/account/index> to create a HPC account
+2.  Open <https://portal.hpc.arizona.edu/portal/sendlink.php> and enter '[dlebauer\@email.arizona.edu](mailto:dlebauer@email.arizona.edu)' in the sponsors email field.
+3.  If needed, refer to [documentation for details](https://docs.hpc.arizona.edu/display/UAHPC/HPC+Account+Creation+-+Detailed)
+
+Overview of Campus HPC Resources: <https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation>
+
+Puma has lots of GPUs: \* [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
+
+-   Point of contact is Blake Joyce; he can be contacted on the CyVerse Slack or bjoyce3\@email.arizona.edu
+
+### [Cyverse](https://www.cyverse.org/)
+
+This group is our neighbor.
+We should leverage their expertise and make use of their services wherever possible!
+
+-   Our servers and pipelines are hosted on the CyVerse openstack
+-   VICE (<https://www.cyverse.org/webinar-visual-and-interactive-comp>) provides cloud computing environments including Rstudio and Jupyter
+-   Discovery Environment
+    -   A "quick start" guide to making a DE app may be found [here](https://github.com/az-digitalag/organization/blob/master/meeting-notes/2020-01-15_deploying-vice-apps.md)
+-   Data Store: CyVerse's data storage and transfer protocol is built on iRods.
+
+### OpenStack
+
+OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open! and we have allocations on CyVerse's OpenStack environments. The TERRA REF project also makes use of OpenStack at NCSA.
+
+We use OpenStack in many ways:
+
+-   To create sandbox VM's and development environments
+-   You can get lots of computing power at low cost.
+-   Can also Request Production VMs, e.g.
+    -   DARPA -- PEcAn stack on "Welsch" machine
+    -   Drones → TERRA REF stack on "CALS Drones" machine
+
+#### OpenStack Interface for Tombstone
+
+-   url: <https://tombstone-cloud.cyverse.org/>
+-   domain: cso
+-   Password: find your secrets at <https://stache.arizona.edu>
+
+#### Exosphere
+
+-   An experimental open stack interface being developed by Julian.
+    He would appreciate feedback and feature requests.
+
+-   You can download Exosphere packages for Linux (APT) and OS X at: <https://send.firefox.com/download/b0a4e860f9/#Hm0qPijyfP0-xA9DWWeEpA>
+
+-   Set up instructions on a Mac:
+
+    -   Hold the Ctrl key down and click on the Exosphere app
+    -   Select 'Open' from the popup menu
+    -   Override settings and run the app anyway
+    -   
+
+-   By default it logs you into a demo account, but you can click on the 'Add Provider' and enter your own Tombstone Cloud credentials:
+
+    -   Auth URL: https://tombstone-cloud.cyverse.org:5000/v3
+    -   Project Domain: 4fdb4218c06542498c42e767eaa5afb0
+    -   Project Name: cals
+    -   User Domain: 4fdb4218c06542498c42e767eaa5afb0
+    -   User name: <your UA NetID>
+    -   Password: <In Stache>
+
+(If nothing seems to happen after submitting the credentials form, it probably worked. Just click on the Tombstone provider on the left.)
+
+### Globus
+
+If you want to download lots of data for the terraref project, register for an account on globus.org.
+You will need to download and install Globus Connect Personal and ask Kristina to grant you access to the Terraref endpoint.
+
+# Group Communication
+
+I will try to reply as soon as I can to any communications via email, slack, or text.
+If you haven't heard from me within a day, please send me a reminder.
+I also expect that you will reply promptly.
+
+## In Person
+
+-   Schedule [times to meet](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU83LWZEMmhrdWxUfGRlZmF1bHR8N2NkYWViOThjOGZlZjFhMTQyNzIyNDIxYjJkODc0Yjg)
+-   Weekly one-on-one meetings
+-   Daily standups
+
+## Video Conferencing
+
+Slack (quick) or Zoom (for larger group meetings, recording)
+
+Sign up for a zoom account at [arizona.zoom.us](https://arizona.zoom.us)
+
+## GitHub
+
+-   Source code repository
+-   Issue tracking
+
+[Github](https://github.com/) for backing up work
+
+[Project Board](https://github.com/orgs/cct-datascience/projects/8) for project organization
+
+See the [Using Git and GitHub wiki page](https://osf.io/tzmhp/wiki/Using%20Git%20and%20GitHub/)
+
+## Slack
+
+Slack Channels: [pecanproject](https://pecanproject.slack.com), [terraref](https://terra-ref.slack.com), sentinel, [data7](https://ua-data7.slack.com)
+
+## G Suite
+
+We use the G Suite Applications for business extensively, in particular for Google Drive and Calendar.
+
+You may already have been given access to G Suite apps.
+Try logging into drive.google.com with your @email.arizona.edu address.
+If that doesn't work, follow these steps to get access:
+
+To get access to Google Apps at UA ([see documentation](https://uarizona.service-now.com/sp?id=sc_cat_item&sys_id=6fecae771b0134107947edf1604bcb5d))
+
+-   Log in at account.arizona.edu/welcome
+-   Select Manage Your Accounts.
+-   Choose UA Google Apps for Education.
+
+Then sign in to drive.google.com with your @email.arizona.edu address.
+
+If you ecnounter any errors, contact IT 24/7 support at it.arizona.edu
+
+### Google Drive
+
+-   For collaboratively editing documents.
+-   Google Sheets are a nice alternative to excel; we commonly use google sheets for end-users contributing data.
+
+### Email
+
+Please use your UA email address (@arizona.edu or @email.arizona.edu) address for communication.
+This helps to communicate our UA affiliation.
+More importantly, you are advised not to combine work and personal email because this will make your personal email open to FOIA requests, in which case your personal email communication could become part of the public domain.
+
+You can generate an official UA signature here: <https://brand.arizona.edu/generator/email-signature>.
+
+### How to use Gmail instead of Outlook
+
+Staff members have both an outlook and a gmail account (outlook is default).
+To set up the gmail, log into outlook.office.com with the netID\@email.arizona.edu and search for the forwarding setup.
+Your forwarding address is netID\@catmail.arizona.edu.
+Then, go to catmail.arizona.edu and sign in.
+University emails sent to netID\@arizona.edu (outlook) should now be forwarded to netID\@email.arizona.edu (gmail).
+
+#### 1. Enable Google Services
+
+In order to enable Google services on your account, we will need to enable G-Suite on your account.
+
+To enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.
+
+Then, click on "Manage your Accounts" on the left-hand side of the page.
+You should now be on a page with "Existing Accounts" and "Available Accounts".
+
+Under "Available Accounts" should be "UA Google Apps for Education".
+You will need to click that tile to enable G-Suite.
+
+After that, Google services should be available for you and we can set up forwarding.
+
+You may already have Google Services enabled.
+If so you should see a large green banner that says: "Your Google Apps account is enabled. You're all set!"
+
+#### 2. Set up forwarding from Outlook
+
+Go to https://outlook.office.com.
+Then, sign in with your university email.
+
+Once at your inbox, click the gear icon in the top righthand corner of the page, which should bring up "Settings".
+In the searchbar, search for "Forwarding", then click on "Forwarding".
+
+Select "Enable forwarding", and in the box under "Forward my email to", put in your NetID, and then "@uits.arizona.edu".
+
+Make sure to check the box next to "Keep a copy of forwarded messages", which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.
+
+Click "Save", and your forwarding will be set up!
+
+All future emails will then be sent to your UA Gmail inbox.
+
+You can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn't work.)
+
+## Calendar
+
+We will use the UA Google Calendar to share each other's availability and schedule meetings.
+Please keep your calendar up to date, and either share free/busy time with specific people in the group or everyone at UA.
+
+# Development / Collaboration Tools:
+
+General philosophy is that each person should use what works; for collaborative work it helps to use the same tools!
+Feel free to suggest alternatives... tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.
+
+-   When specifying a new task/app/tool identify why it's needed; what's to be gained
+
+## Slack
+
+-   Instant Messaging, quickly sharing documents and code snippets, etc
+-   Video Conferencing
+
+## Zoom
+
+-   Documentation: <https://it.arizona.edu/service/zoom>
+-   Video conferencing (more robust and feature rich than Slack)
+-   Unless otherwise specified, if you are joining a meeting remotely we will meet at arizona.zoom.us/my/dlebauer
+
+## UA OSF
+
+-   One motivation for using OSF vs. alternatives is to use and support software from groups with aligned missions: in this case both OSF and the UA library
+-   Provides wiki
+-   Can archive and mint doi's
+-   Single Interface to github, google docs, Box, and more
+
+## Other Document Sharing Services
+
+These aren't our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.
+
+-   Globus (mostly for accessing data from TERRA REF) https://www.globus.org/
+-   Box
+    -   Documentation <https://it.arizona.edu/service/boxua>
+    -   Access <https://arizona.account.box.com/login>
+-   Office 365
+    -   Documentation <https://it.arizona.edu/service/microsoft-office-365>
+
+# Software
+
+If you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license.
+When in doubt, ask.
+As with computers, he wants you to have the resources you need to be productive.
+
+## Rstudio
+
+For R users, Rstudio makes the development process easier, and we can assume that collaborators will use Rstudio unless they have a reason not to.
+Many other great IDEs exist - e.g.
+Emacs has ESS mode that is fantastic - but it is okay in teaching, documentation, and demos to assume that learners will have access to Rstudio.
+
+## PyCharm
+
+We are eligible for free PyCharm Edicatopm licenses
+
+I received the following instructions in an email from customer support:
+
+*if you are using this license for academic research, you are eligible to apply for a free Educational license below:*
+
+*http://www.jetbrains.com/student*
+
+*If your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the "OFFICIAL DOCUMENT" tab.*
+
+**To Renew each year:** (From their [FAQ](https://www.jetbrains.com/community/education/#students)), *"use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires"*
+
+## Navicat
+
+When using Databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).
+
+## Postman
+
+A free program that is useful for investigating and creating API endpoints.
+
+## Adobe tools:
+
+UA has a site license for these powerful tools.
+For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups.
+See <http://odltools.arizona.edu/tools/adobe-creative-cloud> for more information.
+Those whose primary appointment is in DIAG/CCT will need to request a License from Ryan Creswan: cresawn\@cals.arizona.edu.
+Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps [on this page](https://softwarelicense.arizona.edu/adobe-shared-device-licensing).
+
+## Training Videos
+
+Recording Zoom sessions is a great place to start.
+But often it is useful to edit these videos.
+
+-   [OBS Studio](https://obsproject.com/) is an open source software for video recording, editing, and live streaming welcome.
+-   [Camtasia](https://www.techsmith.com/video-editor.html) is a commercial video editing software; contact Kristina if you would like a license.
+
+## GIS
+
+-   [QGIS](https://qgis.org/en/site/) is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).
+-   ArcGIS Desktop and ArcGIS Pro run on Windows. [UA has a campus license](https://softwarelicense.arizona.edu/esri) to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.
+-   Tyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.
