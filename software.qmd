@@ -73,14 +73,6 @@ We should leverage their expertise and make use of their services wherever possi
 
 OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open! and we have allocations on CyVerse's OpenStack environments. The TERRA REF project also makes use of OpenStack at NCSA.
 
-We use OpenStack in many ways:
-
--   To create sandbox VM's and development environments
--   You can get lots of computing power at low cost.
--   Can also Request Production VMs, e.g.
-    -   DARPA -- PEcAn stack on "Welsch" machine
-    -   Drones → TERRA REF stack on "CALS Drones" machine
-
 #### OpenStack Interface for Tombstone
 
 -   url: <https://tombstone-cloud.cyverse.org/>
