@@ -22,9 +22,9 @@ The "[University of Arizona Cyberinfrastructure and Research Support](https://pu
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
 -   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
 
-## Computing <!--# this is hardware, not software. Does this belong here? -->
+## Computing 
 
-### Computers
+### Computers <!--# this is hardware, not software. Does this belong here? -->
 
 You should have the resources you need to be productive.
 If your hardware is slowing you down, ask Kristina.
@@ -109,57 +109,49 @@ OpenStack is a cloud computing platform similar to AWS and other commercial clou
 If you want to download lots of data for the terraref project, register for an account on globus.org.
 You will need to download and install Globus Connect Personal and ask Kristina to grant you access to the Terraref endpoint.
 
-# Development / Collaboration Tools:
+## Development / Collaboration Tools:
 
 General philosophy is that each person should use what works; for collaborative work it helps to use the same tools!
 Feel free to suggest alternatives... tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.
 
 -   When specifying a new task/app/tool identify why it's needed; what's to be gained
 
-## Slack
+### Slack
 
 -   Instant Messaging, quickly sharing documents and code snippets, etc
 -   Video Conferencing
 
-## Zoom
+### Zoom
 
 -   Documentation: <https://it.arizona.edu/service/zoom>
 -   Video conferencing (more robust and feature rich than Slack)
--   Unless otherwise specified, if you are joining a meeting remotely we will meet at arizona.zoom.us/my/dlebauer
+-   Unless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)
 
-## UA OSF
-
--   One motivation for using OSF vs. alternatives is to use and support software from groups with aligned missions: in this case both OSF and the UA library
--   Provides wiki
--   Can archive and mint doi's
--   Single Interface to github, google docs, Box, and more
-
-## Other Document Sharing Services
+### Other Document Sharing Services
 
 These aren't our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.
 
--   Globus (mostly for accessing data from TERRA REF) https://www.globus.org/
 -   Box
     -   Documentation <https://it.arizona.edu/service/boxua>
     -   Access <https://arizona.account.box.com/login>
 -   Office 365
     -   Documentation <https://it.arizona.edu/service/microsoft-office-365>
 
-# Software
+## Software
 
 If you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license.
 When in doubt, ask.
-As with computers, he wants you to have the resources you need to be productive.
+As with computers, she wants you to have the resources you need to be productive.
 
-## Rstudio
+### RStudio
 
-For R users, Rstudio makes the development process easier, and we can assume that collaborators will use Rstudio unless they have a reason not to.
-Many other great IDEs exist - e.g.
-Emacs has ESS mode that is fantastic - but it is okay in teaching, documentation, and demos to assume that learners will have access to Rstudio.
+For R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to.
+Many other great IDEs exist, e.g.
+[VSCode](https://code.visualstudio.com/), but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.
 
-## PyCharm
+### PyCharm
 
-We are eligible for free PyCharm Edicatopm licenses
+We are eligible for free PyCharm Educator licenses
 
 I received the following instructions in an email from customer support:
 
@@ -171,32 +163,33 @@ I received the following instructions in an email from customer support:
 
 **To Renew each year:** (From their [FAQ](https://www.jetbrains.com/community/education/#students)), *"use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires"*
 
-## Navicat
+### Navicat
 
 When using Databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).
 
-## Postman
+### Postman
 
 A free program that is useful for investigating and creating API endpoints.
 
-## Adobe tools:
+### Adobe tools:
 
 UA has a site license for these powerful tools.
 For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups.
-See <http://odltools.arizona.edu/tools/adobe-creative-cloud> for more information.
-Those whose primary appointment is in DIAG/CCT will need to request a License from Ryan Creswan: cresawn\@cals.arizona.edu.
+See https://adobe.arizona.edu/ for more information.
+Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn\@cals.arizona.edu <!--# Is this actually true? -->.
 Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps [on this page](https://softwarelicense.arizona.edu/adobe-shared-device-licensing).
 
-## Training Videos
+### Training Videos
 
 Recording Zoom sessions is a great place to start.
 But often it is useful to edit these videos.
 
 -   [OBS Studio](https://obsproject.com/) is an open source software for video recording, editing, and live streaming welcome.
 -   [Camtasia](https://www.techsmith.com/video-editor.html) is a commercial video editing software; contact Kristina if you would like a license.
+-   You can also edit videos directly in YouTube with YouTube Studio
 
-## GIS
+### GIS
 
 -   [QGIS](https://qgis.org/en/site/) is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).
--   ArcGIS Desktop and ArcGIS Pro run on Windows. [UA has a campus license](https://softwarelicense.arizona.edu/esri) to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.
+-   ArcGIS Desktop and ArcGIS Pro run on Windows. [UA has a campus license](https://softwarelicense.arizona.edu/esri) to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides <https://uagis.maps.arcgis.com/> for sharing map data.
 -   Tyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.
