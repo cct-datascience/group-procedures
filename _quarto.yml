@@ -24,6 +24,7 @@ book:
     - part: "Group Procedures"
       chapters:
         - onboarding.qmd
+        - group-communication.qmd
         - hiring.qmd
         - professional-development.qmd
     - part: "Group Programming"
