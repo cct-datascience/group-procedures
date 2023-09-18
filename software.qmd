@@ -22,24 +22,7 @@ The "[University of Arizona Cyberinfrastructure and Research Support](https://pu
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
 -   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
 
-## Computing 
-
-### Computers <!--# this is hardware, not software. Does this belong here? -->
-
-You should have the resources you need to be productive.
-If your hardware is slowing you down, ask Kristina.
-But if you already have 16 GB RAM and a modern computer, it may be time to investigate using cloud resources (see HPC and OpenStack, below).
-
-### Backup
-
-If you loose your computer or it breaks, it should take \< ½ day to get it back up and running.
-There is no excuse for failing to backup your work.
-
--   All work should be pushed to GitHub daily.
--   UA provides access to Google Drive, Box, and Microsoft OneDrive. These are useful for backups.
--   You can also ask Kristina to purchase an external hard drive for you
-
-If this is not sufficient, we can set up a service at <https://it.arizona.edu/documentation/data-backup-service-tiers>.
+## Cloud & High Performance Computing
 
 ### Campus Cluster
 
@@ -53,61 +36,19 @@ To request access to the computer using our group allocations, please:
 
 Overview of Campus HPC Resources: <https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation>
 
-Puma has lots of GPUs: \* [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
+Puma has lots of GPUs:
 
--   Point of contact is Blake Joyce; he can be contacted on the CyVerse Slack or bjoyce3\@arizona.edu
-
-### [CyVerse](https://www.cyverse.org/)
-
-This group is our neighbor.
-We should leverage their expertise and make use of their services wherever possible!
-<!--# Is this still true? -->
-
--   Our servers and pipelines are hosted on the CyVerse openstack
-
--   VICE (<https://www.cyverse.org/webinar-visual-and-interactive-comp>) provides cloud computing environments including Rstudio and Jupyter
-
--   <!--# Is this still relevant? -->
-
-    Discovery Environment
-
-    -   <!--# link was broken becasue folder was deleted -->
-
-        A "quick start" guide to making a DE app may be found [here](https://github.com/cct-datascience/organization/blob/c39713cd3319e8a07aaebda9a4be917874a58136/meeting-notes/2020-01-15_deploying-vice-apps.md)
-
--   Data Store: CyVerse's data storage and transfer protocol is built on iRods.
+-   [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
 
 ### OpenStack
 
-OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open! and we have allocations on CyVerse's OpenStack environments. The TERRA REF project also makes use of OpenStack at NCSA.
+OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse's OpenStack environments.
 
-#### OpenStack Interface for Tombstone <!--# what is tombstone? -->
+### [Exosphere](https://gitlab.com/exosphere/exosphere)
 
--   url: <https://tombstone-cloud.cyverse.org/>
--   domain: cso
--   Password: find your secrets at <https://stache.arizona.edu>
-
-#### [Exosphere](https://gitlab.com/exosphere/exosphere)
-
--   An experimental open stack interface being developed by Julian.
-    He would appreciate feedback and feature requests.
-    See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README.md?ref_type=heads) for install instructions.
-
--   By default it logs you into a demo account, but you can click on the 'Add Provider' and enter your own Tombstone Cloud credentials <!--# is this still relevant? -->:
-
-    -   Auth URL: https://tombstone-cloud.cyverse.org:5000/v3
-    -   Project Domain: 4fdb4218c06542498c42e767eaa5afb0
-    -   Project Name: cals
-    -   User Domain: 4fdb4218c06542498c42e767eaa5afb0
-    -   User name: <your UA NetID>
-    -   Password: <In Stache>
-
-(If nothing seems to happen after submitting the credentials form, it probably worked. Just click on the Tombstone provider on the left.)
-
-### Globus <!--# Is this still relevant? -->
-
-If you want to download lots of data for the terraref project, register for an account on globus.org.
-You will need to download and install Globus Connect Personal and ask Kristina to grant you access to the Terraref endpoint.
+An experimental open stack interface being developed by Julian.
+He would appreciate feedback and feature requests.
+See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README.md?ref_type=heads) for install instructions.
 
 ## Development / Collaboration Tools:
 
@@ -165,7 +106,7 @@ I received the following instructions in an email from customer support:
 
 ### Navicat
 
-When using Databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).
+When using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).
 
 ### Postman
 
@@ -175,8 +116,8 @@ A free program that is useful for investigating and creating API endpoints.
 
 UA has a site license for these powerful tools.
 For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups.
-See https://adobe.arizona.edu/ for more information.
-Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn\@cals.arizona.edu <!--# Is this actually true? -->.
+See <https://adobe.arizona.edu/> for more information.
+Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn\@arizona.edu.
 Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps [on this page](https://softwarelicense.arizona.edu/adobe-shared-device-licensing).
 
 ### Training Videos
