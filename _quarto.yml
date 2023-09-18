@@ -9,8 +9,9 @@ book:
   repo-actions: [edit]
   chapters:
     - index.qmd
-    - part: general-info.qmd
+    - part: "General Information"
       chapters:
+        - general-info.qmd
         - code-of-conduct.qmd
         - group-expectations.qmd
     - part: "Group Processes (Agile)"
