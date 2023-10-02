@@ -1,9 +1,9 @@
 # Purpose {.unnumbered}
 
-This book is to document the processes, resources, and internal workings of the Communications & Cyber Technologies Data Science Team at the University of Arizona. 
-A public facing version of what we do and how to work with us is available at [our website](https://datascience.cals.arizona.edu/). 
+This book is to document the processes, resources, and internal workings of the Communications & Cyber Technologies Data Science Team at the University of Arizona.
+A public facing version of what we do and how to work with us is available at [our website](https://datascience.cals.arizona.edu/).
 
-The CCT Data Science Team is a research suppport unit that helps life sciences researchers learn and apply data science tools and skills to their scientific projects. 
+The CCT Data Science Team is a research support unit that helps life sciences researchers learn and apply data science tools and skills to their scientific projects.
 We are a small group of data scientists and research software engineers that work with domain researchers in the ALVSCE division through a variety of programming.
-We host workshops to demonstrate use of modern computational tools, work on collaborative projects, and help researchers one-on-one. 
-The team teaches and applies a broad array of topics from best practices in R to version control using git to open and reproducible research workflows. 
+We host workshops to demonstrate use of modern computational tools, work on collaborative projects, and help researchers one-on-one.
+The team teaches and applies a broad array of topics from best practices in R to version control using git to open and reproducible research workflows.
