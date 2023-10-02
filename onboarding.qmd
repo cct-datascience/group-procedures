@@ -77,7 +77,7 @@ When you get your computer...
 Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] UA UITS Accounts, starting here: <https://account.arizona.edu/welcome>
-    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](use-gmail.html)
+    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](use-gmail.qmd)
     -   [ ] Calendar (Outlook or Gmail)
     -   [ ] Google Apps
     -   [ ] Box
@@ -87,7 +87,7 @@ Create accounts on the following collaboration tools (details provided below):
         -   Download the desktop app and log in via SSO to get your Zoom room link
 -   [ ] UA Office 365: <https://it.arizona.edu/service/microsoft-office-365>
 -   [ ] Join Slack (used for most communication)
-    -   [ ] CCT DS group (the #data-science channel within the CCT). You'll need an invite.
+    -   [ ] CCT DS group (the `#data-science` channel within the CCT). You'll need an invite.
     -   [ ] [UA Data Science](https://jcoliver.github.io/uadatascience-slack/index), for broader DS community at University of Arizona
     -   [ ] [ResBaz](https://researchbazaar.arizona.edu/), community in Tucson for researchers using technology. You'll need an invite.
 -   [ ] Request access to the group's shared Google Drive folders

@@ -1,0 +1,138 @@
+---
+title: "Software Resources"
+editor: visual
+---
+
+## Overview of IT services
+
+### [UA Information Technology](https://it.arizona.edu/)
+
+For information on available services and procedures, see the [UITS getting started page](https://it.arizona.edu/getting-started).
+
+Excellent [24-7 support](https://it.arizona.edu/service/247-it-support): (520) 626-TECH (8324)
+
+### [UA Research Computing](https://it.arizona.edu/research)
+
+The "[University of Arizona Cyberinfrastructure and Research Support](https://public.confluence.arizona.edu/download/attachments/86409304/University_Arizona_Cyberinfrastructure_Report%281%29.docx?version=1&modificationDate=1602083298000&api=v2)" Report provides a comprehensive inventory of UA computing resources.
+
+### Bio5 IT group <!--# do we need this section? -->
+
+::: callout-warning
+This section may be outdated
+:::
+
+-   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
+-   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
+
+## Cloud & High Performance Computing
+
+### Campus Cluster
+
+Every group gets a generous monthly allocation by default, plus infinite lower priority time as available.
+
+To request access to the computer using our group allocations, please:
+
+1.  Go to <https://account.arizona.edu/account/index> to create a HPC account
+2.  Open <https://portal.hpc.arizona.edu/portal/sendlink.php> and enter 'kristinariemer\@arizona.edu' in the sponsors email field.
+3.  If needed, refer to [documentation for details](https://public.confluence.arizona.edu/display/UAHPC/Account+Creation)
+
+Overview of Campus HPC Resources: <https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation>
+
+Puma has lots of GPUs:
+
+-   [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
+
+### OpenStack
+
+OpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse's OpenStack environments.
+
+### [Exosphere](https://gitlab.com/exosphere/exosphere)
+
+An experimental open stack interface being developed by Julian.
+He would appreciate feedback and feature requests.
+See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README.md?ref_type=heads) for install instructions.
+
+## Development / Collaboration Tools:
+
+General philosophy is that each person should use what works; for collaborative work it helps to use the same tools!
+Feel free to suggest alternatives... tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.
+
+-   When specifying a new task/app/tool identify why it's needed; what's to be gained
+
+### Slack
+
+-   Instant Messaging, quickly sharing documents and code snippets, etc
+-   Video Conferencing
+
+### Zoom
+
+-   Documentation: <https://it.arizona.edu/service/zoom>
+-   Video conferencing (more robust and feature rich than Slack)
+-   Unless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)
+
+### Other Document Sharing Services
+
+These aren't our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.
+
+-   Box
+    -   Documentation <https://it.arizona.edu/service/boxua>
+    -   Access <https://arizona.account.box.com/login>
+-   Office 365
+    -   Documentation <https://it.arizona.edu/service/microsoft-office-365>
+
+## Software
+
+If you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license.
+When in doubt, ask.
+As with computers, she wants you to have the resources you need to be productive.
+
+### RStudio
+
+For R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to.
+Many other great IDEs exist, e.g.
+[VSCode](https://code.visualstudio.com/), but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.
+
+### PyCharm
+
+We are eligible for free PyCharm Educator licenses
+
+I received the following instructions in an email from customer support:
+
+*if you are using this license for academic research, you are eligible to apply for a free Educational license below:*
+
+*http://www.jetbrains.com/student*
+
+*If your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the "OFFICIAL DOCUMENT" tab.*
+
+**To Renew each year:** (From their [FAQ](https://www.jetbrains.com/community/education/#students)), *"use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires"*
+
+### Navicat
+
+When using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).
+
+### Postman
+
+A free program that is useful for investigating and creating API endpoints.
+
+### Adobe tools:
+
+UA has a site license for these powerful tools.
+For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups.
+See <https://adobe.arizona.edu/> for more information.
+Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn\@arizona.edu.
+Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps [on this page](https://softwarelicense.arizona.edu/adobe-shared-device-licensing).
+
+### Training Videos
+
+Recording Zoom sessions is a great place to start.
+But often it is useful to edit these videos.
+
+-   [OBS Studio](https://obsproject.com/) is an open source software for video recording, editing, and live streaming welcome.
+-   [Camtasia](https://www.techsmith.com/video-editor.html) is a commercial video editing software; contact Kristina if you would like a license.
+-   You can also edit videos directly in YouTube with YouTube Studio
+
+### GIS
+
+-   [QGIS](https://qgis.org/en/site/) is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).
+-   ArcGIS Desktop and ArcGIS Pro run on Windows. [UA has a campus license](https://softwarelicense.arizona.edu/esri) to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides <https://uagis.maps.arcgis.com/> for sharing map data.
+-   Tyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.
