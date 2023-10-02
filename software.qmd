@@ -3,8 +3,6 @@ title: "Software Resources"
 editor: visual
 ---
 
-<!--# TODO: needs a lot of updating (and maybe splitting of material) -->
-
 ## Overview of IT services
 
 ### [UA Information Technology](https://it.arizona.edu/)
@@ -18,6 +16,10 @@ Excellent [24-7 support](https://it.arizona.edu/service/247-it-support): (520) 6
 The "[University of Arizona Cyberinfrastructure and Research Support](https://public.confluence.arizona.edu/download/attachments/86409304/University_Arizona_Cyberinfrastructure_Report%281%29.docx?version=1&modificationDate=1602083298000&api=v2)" Report provides a comprehensive inventory of UA computing resources.
 
 ### Bio5 IT group <!--# do we need this section? -->
+
+::: callout-warning
+This section may be outdated
+:::
 
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
 -   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
