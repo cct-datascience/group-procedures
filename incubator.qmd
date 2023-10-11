@@ -29,11 +29,13 @@ Announcement Text:
 ## Project Plan Development
 
 -   Generally starts with one or two conversations to be sure the project is appropriate for an incubator
+-   Naming convention for incubators are "Short title / main contact's name"
+-   A new folder for the project should be created in the [incubator Google Drive folder](https://drive.google.com/drive/u/0/folders/1INJpae4u4XK_OF468EwzNqQfNFuBmP1D); notes and project plan will go there
 -   Ideally, the project lead creates a first draft of a project plan. In practice, this often involves nudging, guidance, and a few rounds of revisions before a project plan is ready.
 -   Project plans should clearly identify expected product, tasks required to result in that product, and who (project member or data science team member) is responsible for each of the tasks.
 -   Include any hard deadlines.
 -   Determine with project lead where to put data/code/outputs and whether they are comfortable with having a public repository and / or planning to share data.
--   Proposal can be versioned and modified as the project evolves.
+-   project plan can be versioned and modified as the project evolves.
 
 ## Incubator Hour
 
@@ -47,8 +49,8 @@ Our running notes for incubator hour are [here](https://hackmd.io/c5RiXUfgTsybKh
 
 -   When ready to start, send an email to notify project lead and collaborators that we are ready, propose a rough timeline, and schedule a kickoff meeting.
 -   Kickoff meeting
-    -   After proposal is accepted
-    -   Review proposal, define scope, see if there are any other changes or updates
+    -   After project plan is accepted
+    -   Review project plan, define scope, see if there are any other changes or updates
     -   Make sure to define contributions from all parties and how the project will build capacity.
     -   Set expectations for conclusion, skill development, and eventual hand-off
     -   Review, update, agree on timeline for each deliverable and project conclusion / next steps post incubator if applicable
@@ -57,12 +59,12 @@ Our running notes for incubator hour are [here](https://hackmd.io/c5RiXUfgTsybKh
 
 ### Internally managing time and project progress
 
--   Create a repository if necessary or ensure you have access to one that exists.
--   Add GitHub epic for incubator project to [proposal board](https://github.com/orgs/cct-datascience/projects/7) when initially developing the project---that way we can have a backlog of ideas and potential projects.
--   Create an Epic with sub-tasks for each proposal to track progress internally.
+-   Create a repository if necessary or ensure you have access to one that exists. It is preferable if these are under a collaborator account or organization from the get go. 
+-   Add GitHub epic for incubator project to [incubator board](https://github.com/orgs/cct-datascience/projects/7) when initially developing the project---that way we can have a backlog of ideas and potential projects.
+-   Create an Epic with sub-tasks for each project plan to track progress internally.
 -   Move epic through relevant categories as project progresses.
 -   Track time in approximately hourly increments on [group's Toggl page](https://track.toggl.com/5379091/team/members).
--   The two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the proposal, and follow up post-proposal aren't included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent.
+-   The two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the project plan, and follow up post-project plan aren't included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent.
 
 ## Finishing incubator projects
 
@@ -84,7 +86,7 @@ Here's an example email you can build on:
 > Hi Jeremy,
 >
 > As we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we've accomplished together.
-> I looked over the goals we set out to accomplish in the original proposal, and I think we've done a good job meeting them.
+> I looked over the goals we set out to accomplish in the original project plan, and I think we've done a good job meeting them.
 >
 > 1)  Static QA/QC routines that check data prior to going into the database ✅
 > 2)  Static checks for whether data for a station was retrieved in the previous hour: I don't think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.
@@ -104,9 +106,9 @@ Have a final meeting.
 Here are some questions you can ask:
 
 1.  Do you feel like you have the resources you need to take ownership (with our continued support)?
-2.  Do you feel we met the objectives of the proposal?
+2.  Do you feel we met the objectives of the project plan?
 3.  Did the project take longer, shorter, or about as long as you expected?
-4.  For each phase of the incubator (proposal writing, work, and wrap-up): What went well? What didn't go well? What suggestions do you have for improvement?
+4.  For each phase of the incubator (project plan writing, work, and wrap-up): What went well? What didn't go well? What suggestions do you have for improvement?
 5.  Is it ok to share the product on our blog, social media, in UA newsletters, etc. (as appropriate)?
 6.  What/when is the next step for continued work or funding (as appropriate)?
 
@@ -114,9 +116,9 @@ Take notes on the answers and share them with the team at the next incubator mee
 
 ### After the meeting
 
--   Write a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the proposal, README contents, other content generated during the project.
+-   Write a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the project plan, README contents, other content generated during the project.
 -   Add the incubator to our website
--   Done isn't defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in proposal development.
+-   Done isn't defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in project plan development.
 
 ## Defining and acknowledging contributions
 
