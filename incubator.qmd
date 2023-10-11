@@ -1,5 +1,5 @@
 ---
-title: "Data Science Inbucator"
+title: "Data Science Incubator"
 editor: visual
 ---
 
