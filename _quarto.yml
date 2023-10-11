@@ -5,8 +5,10 @@ book:
   title: "CCT Data Science Group Procedures"
   # cover-image: cover.png
   search: true
+  site-url: https://cct-datascience.github.io/group-procedures/
   repo-url: https://github.com/cct-datascience/group-procedures
-  repo-actions: [edit]
+  repo-actions: [edit, issue, source]
+  issue-url: https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md
   chapters:
     - index.qmd
     - part: "General Information"
