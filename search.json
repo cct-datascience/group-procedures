@@ -191,42 +191,42 @@
   {
     "objectID": "incubator.html#finding-incubator-participants",
     "href": "incubator.html#finding-incubator-participants",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.1 Finding incubator participants",
     "text": "14.1 Finding incubator participants\n\nIncubator project lead should be housed within ALVSCE.\nWhere to find?\n\nOffice hour and workshop attendees.\nSearch arizona.edu for interesting and relevant projects.\nAttend seminars and brainstorm.\n\nAdvertising\n\nAnnouncement Text:\n\nThe CCT Data Science Team is excited to announce the ALVSCE Data Science Incubator. This is an ongoing opportunity for researchers in ALVSCE to work with our team to understand and take advantage of research opportunities enabled by new and emerging data resources and computing methods. This opportunity is open to all researchers and staff in ALVSCE.\nOur team of domain data scientists and software engineers has expertise in state-of-the-art technologies and methods alongside domain expertise. These include statistics, data synthesis, data management, GIS, simulation modeling, analytics, cloud and cluster computing, software design and engineering, visualization, and more. The ALVSCE Data Science Incubator will provide up to ten full-time days of support for ALVSCE projects spread over three months to work on focused, intensive, collaborative projects.\nWe invite short project plans (1-2 pages) for a data-intensive research collaboration focusing on a research problem with clearly defined outcomes. This support is funded by USDA Hatch funds, and can be leveraged to develop funding for longer term collaborations. See our project plan guidelines and contact the group at cct-datascience@arizona.edu for more information."
   },
   {
     "objectID": "incubator.html#project-plan-development",
     "href": "incubator.html#project-plan-development",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.2 Project Plan Development",
     "text": "14.2 Project Plan Development\n\nGenerally starts with one or two conversations to be sure the project is appropriate for an incubator\nIdeally, the project lead creates a first draft of a project plan. In practice, this often involves nudging, guidance, and a few rounds of revisions before a project plan is ready.\nProject plans should clearly identify expected product, tasks required to result in that product, and who (project member or data science team member) is responsible for each of the tasks.\nInclude any hard deadlines.\nDetermine with project lead where to put data/code/outputs and whether they are comfortable with having a public repository and / or planning to share data.\nProposal can be versioned and modified as the project evolves."
   },
   {
     "objectID": "incubator.html#incubator-hour",
     "href": "incubator.html#incubator-hour",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.3 Incubator Hour",
     "text": "14.3 Incubator Hour\nTo keep the group apprised of developments for each incubator, we will hold a 1-1.5 hour meeting biweekly during the off-week from Sprint Planning.\nOur running notes for incubator hour are here."
   },
   {
     "objectID": "incubator.html#starting-incubator-projects",
     "href": "incubator.html#starting-incubator-projects",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.4 Starting incubator projects",
     "text": "14.4 Starting incubator projects\n\n14.4.1 Collaboration\n\nWhen ready to start, send an email to notify project lead and collaborators that we are ready, propose a rough timeline, and schedule a kickoff meeting.\nKickoff meeting\n\nAfter proposal is accepted\nReview proposal, define scope, see if there are any other changes or updates\nMake sure to define contributions from all parties and how the project will build capacity.\nSet expectations for conclusion, skill development, and eventual hand-off\nReview, update, agree on timeline for each deliverable and project conclusion / next steps post incubator if applicable\nSchedule regular check-ins and co-working times.\n\nweekly or biweekly is a good starting point\n\n\n\n\n\n14.4.2 Internally managing time and project progress\n\nCreate a repository if necessary or ensure you have access to one that exists.\nAdd GitHub epic for incubator project to proposal board when initially developing the project—that way we can have a backlog of ideas and potential projects.\nCreate an Epic with sub-tasks for each proposal to track progress internally.\nMove epic through relevant categories as project progresses.\nTrack time in approximately hourly increments on group’s Toggl page.\nThe two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the proposal, and follow up post-proposal aren’t included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent."
   },
   {
     "objectID": "incubator.html#finishing-incubator-projects",
     "href": "incubator.html#finishing-incubator-projects",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.5 Finishing incubator projects",
     "text": "14.5 Finishing incubator projects\n\n14.5.1 Wrap-up steps\nBefore the final meeting:\n\nTransfer ownership of GitHub repo(s) to collaborator (if applicable)\nMake sure collaborators feel comfortable taking over as primary maintainers of project\nArchive code with Zenodo or UA Library ReData\nWhere data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.\nPreferred license and copyright is CC-0 for data and MIT License for code.\n\nSee “Why does Dryad use CC0”\ncopyright can be listed as “The University of Arizona and Authors”\n\n\nSend an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration. Here’s an example email you can build on:\n\nHi Jeremy,\nAs we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we’ve accomplished together. I looked over the goals we set out to accomplish in the original proposal, and I think we’ve done a good job meeting them.\n\nStatic QA/QC routines that check data prior to going into the database ✅\nStatic checks for whether data for a station was retrieved in the previous hour: I don’t think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.\nA simple R package to wrap the API ✅\nA “dynamic” QA/QC procedure that compares recent data to historical ✅\nA Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I’d be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the azmet R package.\nAvailability of code on GitHub with a permissive open source license ✅\n\nAt our meeting on Monday, we’ll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e. funding continued work on the QA/QC report). We’ll also have a conversation about the incubator process itself—what worked well, what didn’t work, and what could be improved.\nLooking forward to seeing you then!\n\n\n\n14.5.2 Wrap-up Meeting\nHave a final meeting. Here are some questions you can ask:\n\nDo you feel like you have the resources you need to take ownership (with our continued support)?\nDo you feel we met the objectives of the proposal?\nDid the project take longer, shorter, or about as long as you expected?\nFor each phase of the incubator (proposal writing, work, and wrap-up): What went well? What didn’t go well? What suggestions do you have for improvement?\nIs it ok to share the product on our blog, social media, in UA newsletters, etc. (as appropriate)?\nWhat/when is the next step for continued work or funding (as appropriate)?\n\nTake notes on the answers and share them with the team at the next incubator meeting.\n\n\n14.5.3 After the meeting\n\nWrite a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the proposal, README contents, other content generated during the project.\nAdd the incubator to our website\nDone isn’t defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in proposal development."
   },
   {
     "objectID": "incubator.html#defining-and-acknowledging-contributions",
     "href": "incubator.html#defining-and-acknowledging-contributions",
-    "title": "14  Data Science Inbucator",
+    "title": "14  Data Science Incubator",
     "section": "14.6 Defining and acknowledging contributions",
     "text": "14.6 Defining and acknowledging contributions\nMembers of the CCT-Data Science team who make substantial and substantive contributions to incubator projects should be acknowledged or included as co-authors as appropriate. This should be discussed early in the project.\nThe CRedIT Taxonomy provides a list of contribution types that may warrant co-authorship. All DIAG contributors should be involved in review and revision—as co-authors, we should feel comfortable with the content.\nMore details in the Publications and Contributions wiki page."
   },
