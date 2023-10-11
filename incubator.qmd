@@ -41,7 +41,7 @@ Announcement Text:
 
 To keep the group apprised of developments for each incubator, we will hold a 1-1.5 hour meeting biweekly during the off-week from Sprint Planning.
 
-Our running notes for incubator hour are [here](https://hackmd.io/c5RiXUfgTsybKhJBLNKq_g).
+Our running notes for incubator hour are on [HackMD](https://hackmd.io/Ix-cFLn2RwuBfryEtOINaw).
 
 ## Starting incubator projects
 
