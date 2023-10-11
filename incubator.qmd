@@ -59,7 +59,7 @@ Our running notes for incubator hour are [here](https://hackmd.io/c5RiXUfgTsybKh
 
 ### Internally managing time and project progress
 
--   Create a repository if necessary or ensure you have access to one that exists. It is preferable if these are under a collaborator account or organization from the get go. 
+-   Create a repository if necessary or ensure you have access to one that exists. It is preferable if these are under a collaborator account or organization from the get go.
 -   Add GitHub epic for incubator project to [incubator board](https://github.com/orgs/cct-datascience/projects/7) when initially developing the project---that way we can have a backlog of ideas and potential projects.
 -   Create an Epic with sub-tasks for each project plan to track progress internally.
 -   Move epic through relevant categories as project progresses.
