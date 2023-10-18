@@ -74,7 +74,7 @@ The goals of this meeting are:
             -   If there is not a sufficient description of the issue or its resolution, close the issue but add a note to HackMD for the issue owner
         -   Discuss estimated points vs actual effort. Team members can explain and *change* point values at this time, before closing\
         -   Move completed issues to Closed
--   Close - if issues are under Sprints, they are closed automatically on the last day of the Sprint.
+-   Close - if issues are under Sprints, they are **not** closed automatically on the last day of the Sprint and need to be manually closed. There is a "cleanup" [view](https://github.com/orgs/cct-datascience/projects/8/views/10) on our board to help facilitate this.
 
 #### Part II: Planning
 
