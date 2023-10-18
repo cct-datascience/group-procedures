@@ -10,7 +10,7 @@ The Timer is responsible for setting a timer to indicate when the time is up, th
 
 ### Roles
 
-Roles are pre-assigned randomly to different group members in [this Google Sheet](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0).
+Roles are pre-assigned to different group members (e.g. by [this script](https://github.com/cct-datascience/meeting-roles/blob/main/generate_roles.R)) in [this Google Sheet](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0).
 
 -   **All Team Members**: Share their own screen when it's their turn to review their tickets, progress, and point estimates
 -   **Timer**: Keeps track of time spent on each section of the meeting and tells group when it is time to move on.
