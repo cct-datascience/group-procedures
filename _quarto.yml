@@ -25,6 +25,7 @@ book:
       chapters:
         - onboarding.qmd
         - group-communication.qmd
+        - outreach-communication.qmd
         - hiring.qmd
         - professional-development.qmd
     - part: "Group Programming"
