@@ -97,9 +97,9 @@ Create accounts on the following collaboration tools (details provided below):
     -   [ ] Get added to our group's GitHub org: <https://github.com/cct-datascience>
     -   Note: We have two GitHub boards, one for [project management](https://github.com/orgs/cct-datascience/projects/8) and one for [incubators](https://github.com/orgs/cct-datascience/projects/7)
     -   See [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) for more about 2FA for GitHub and access protocols
--   [ ] Join the group OSF, which is where we currently store group and project documentation
-    -   [ ] Click here and follow instructions to sign up for an account on OSF <https://it.arizona.edu/service/open-science-framework-ua>
-    -   [ ] Someone will have to add you as a contributor to our group's OSF page: <https://osf.io/emq9s/>
+-   [ ] Clone the group procedures book, which is where we currently store group and project documentation
+    -   [ ] GitHub repo is here: <https://github.com/cct-datascience/group-procedures>
+    -   [ ] Book is built with Quarto. You can preview local edits with `quarto preview`. For more info on editing see Quarto docs: <https://quarto.org/docs/books/>
 -   [ ] Join the [group Hackmd](https://hackmd.io/team/cct-datascience?nav=overview), used for a lot of group notetaking.
     -   [ ] You will need to create a Hackmd account, and then someone from the group will need to add you.
 -   [ ] Get added to Toggl, for time tracking
@@ -128,7 +128,7 @@ Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] Read about group expectations and general information [here](general-info.qmd)
 -   [ ] Populate your calendar with the current group meeting schedule. Kristina will send you invites.
--   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management OSF page](project-management.qmd) to prepare for these.
+-   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](project-management.qmd) to prepare for these.
 -   [ ] Set up your standing meeting with Kristina.
 -   [ ] Begin learning about and using software and data related to projects.
     -   This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings.
