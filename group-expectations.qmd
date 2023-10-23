@@ -12,7 +12,7 @@ Everyone should follow the [Code of Conduct](code-of-conduct.qmd).
 
 # Communication
 
--   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Software and Computing](https://osf.io/tzmhp/wiki/Software%20and%20Computing%20Resources/) for details.
+-   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Group Communication](group-communication.qmd) for details.
 -   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
 
 # Feedback and Iteration

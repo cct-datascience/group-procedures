@@ -58,7 +58,7 @@ The goals of this meeting are:
         -   Roles
         -   TODO items: checklist with assigned individual
         -   Misc notes
-    -   Open up this OSF page
+    -   Open up this page in the group procedures book
     -   Open up [Sprint planning & retrospective notes (HackMD)](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA)
     -   Open up [GitHub board](https://github.com/orgs/cct-datascience/projects/8/)
     -   Review [HackMD notes](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA) for tasks and to-dos that were not addressed before meeting
