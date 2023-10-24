@@ -152,7 +152,7 @@ We no longer post to our Twitter/X account [\@cct_datascience](https://twitter.c
 
 ### Mastodon / fediverse
 
-We have a mastodon account [\@cct_datascience\@](https://fosstodon.org/@cct_datascience)[fosstodon.org](https://fosstodon.org/@cct_datascience).
+We have a mastodon account [\@cct_datascience\@fosstodon.org](https://fosstodon.org/@cct_datascience).
 To log in, you'll find the password on [stache](https://stache.arizona.edu/) (you may need to ask for it to be shared with you if you don't see it)
 
 #### Guidelines
@@ -204,8 +204,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 
 #### Follow Backs
 
--   When a new user or group follows us, we should follow back if they're a collaborator, well-known organization, associated with the University, or meet the guidelines above for Following in general.
-    When in doubt, check with another team member.
+-   When a new user or group follows us, we should follow back if they're a collaborator, well-known organization, associated with the University, or meet the guidelines above for Following in general. When in doubt, check with another team member.
 
 #### Comments on other posts
 
