@@ -94,22 +94,20 @@ The goals of this meeting are:
 
 -   Do this after the sprint is over, during Monday's standup
 -   Charts (10 minutes)
-    -   Review reports.
+    -   Review reports (called "insights" on GitHub project board).
         The leader should share their screen and go through the reports.
 
     -   Burndown report
 
-        -   select Review/QA, Done, Closed as "completed"
-        -   pipeline should go down at a steady rate
-        -   should end at 0
-        -   if not, discuss why not
+        -   Open issues should go down at a steady rate and be replaced by completed issues
+        -   Should end with 0 open issues
+        -   If not, discuss why not
 
     -   Cumulative flow
 
-        -   Uncheck Epic Holding Pen, Icebox, Backlog, Pull Request
-        -   Look at last 6 months
-        -   Make sure no one section is getting substantially larger
-        -   Make sure we aren't accumulating too much too quickly - we should get toward steady state or know why not
+        -   Shows number of open issues in last 3 months
+        -   Make sure no one status is getting substantially larger (*this chart is currently broken and doesn't break down issues by status*)
+        -   Make sure we aren't accumulating too much too quickly---we should get toward steady state or know why not
 
     -   Velocity tracking
 
