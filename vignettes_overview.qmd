@@ -1,0 +1,24 @@
+---
+title: "Vignettes Overview"
+editor: visual
+---
+
+## Purpose
+
+The vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts.
+Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things.
+
+## Process
+
+1.  Investigate the desired skill using existing documentation and by using the tool / approach
+2.  Summarize findings in a Quarto document and add it to this section of the Group Procedures book
+3.  Share, when appropriate:
+    -   With the group as a demo during sprint planning
+    -   With collaborators via email or meeting
+    -   With the broader public via Mastodon or a blog post
+
+## Possible vignette topics
+
+-   Sending automated emails using University of Arizona's instance of Posit Connect
+-   Using Jetstream 2 to set up virtual machines
+-   Connecting spreadsheets with databases

@@ -39,6 +39,9 @@ book:
         - publishing-to-web.qmd
         - software.qmd
         - use-gmail.qmd
+    - part: "Technical Vignettes"
+      chapters: 
+        - vignettes_overview.qmd
     - references.qmd
 
 format:
