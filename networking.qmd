@@ -1,0 +1,27 @@
+---
+title: "Networking at UA"
+editor: visual
+---
+
+A list of questions to ask and info to give when talking to new researchers at UA.
+
+## Introduction/info:
+
+-   Your background (data science & domain science)
+-   Who we serve (ALVSCE)
+-   What we do (training/workshops, data science support, data management, collaborate on grant writing)
+-   Explain incubator project
+
+## Questions:
+
+-   What kinds of data does your research group deal with?
+-   What data related challenges do you experience?
+-   What data science training needs does your group have?
+-   How are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)
+-   Can we add you to our email list?
+
+## Follow-up:
+
+-   Email links to incubator project page, relevant upcoming workshop(s), drop-in hours
+-   Add to email list (if ok with them)
+-   Fill out [networking contacts spreadsheet](https://docs.google.com/spreadsheets/d/1jHzCgfyQLcKOuMIJpCqlS--nDgs5hIEQ-8dOafaIUlw/edit#gid=0)

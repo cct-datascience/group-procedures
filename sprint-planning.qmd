@@ -10,7 +10,7 @@ The Timer is responsible for setting a timer to indicate when the time is up, th
 
 ### Roles
 
-Roles are pre-assigned randomly to different group members in [this Google Sheet](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0).
+Roles are pre-assigned to different group members (e.g. by [this script](https://github.com/cct-datascience/meeting-roles/blob/main/generate_roles.R)) in [this Google Sheet](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit#gid=0).
 
 -   **All Team Members**: Share their own screen when it's their turn to review their tickets, progress, and point estimates
 -   **Timer**: Keeps track of time spent on each section of the meeting and tells group when it is time to move on.
@@ -58,7 +58,7 @@ The goals of this meeting are:
         -   Roles
         -   TODO items: checklist with assigned individual
         -   Misc notes
-    -   Open up this OSF page
+    -   Open up this page in the group procedures book
     -   Open up [Sprint planning & retrospective notes (HackMD)](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA)
     -   Open up [GitHub board](https://github.com/orgs/cct-datascience/projects/8/)
     -   Review [HackMD notes](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA) for tasks and to-dos that were not addressed before meeting
@@ -74,7 +74,7 @@ The goals of this meeting are:
             -   If there is not a sufficient description of the issue or its resolution, close the issue but add a note to HackMD for the issue owner
         -   Discuss estimated points vs actual effort. Team members can explain and *change* point values at this time, before closing\
         -   Move completed issues to Closed
--   Close - if issues are under Sprints, they are closed automatically on the last day of the Sprint.
+-   Close - if issues are under Sprints, they are **not** closed automatically on the last day of the Sprint and need to be manually closed. There is a "cleanup" [view](https://github.com/orgs/cct-datascience/projects/8/views/10) on our board to help facilitate this.
 
 #### Part II: Planning
 
@@ -94,22 +94,20 @@ The goals of this meeting are:
 
 -   Do this after the sprint is over, during Monday's standup
 -   Charts (10 minutes)
-    -   Review reports.
+    -   Review reports (called "insights" on GitHub project board).
         The leader should share their screen and go through the reports.
 
     -   Burndown report
 
-        -   select Review/QA, Done, Closed as "completed"
-        -   pipeline should go down at a steady rate
-        -   should end at 0
-        -   if not, discuss why not
+        -   Open issues should go down at a steady rate and be replaced by completed issues
+        -   Should end with 0 open issues
+        -   If not, discuss why not
 
     -   Cumulative flow
 
-        -   Uncheck Epic Holding Pen, Icebox, Backlog, Pull Request
-        -   Look at last 6 months
-        -   Make sure no one section is getting substantially larger
-        -   Make sure we aren't accumulating too much too quickly - we should get toward steady state or know why not
+        -   Shows number of open issues in last 3 months
+        -   Make sure no one status is getting substantially larger (*this chart is currently broken and doesn't break down issues by status*)
+        -   Make sure we aren't accumulating too much too quickly---we should get toward steady state or know why not
 
     -   Velocity tracking
 

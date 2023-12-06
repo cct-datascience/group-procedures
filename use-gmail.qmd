@@ -1,0 +1,45 @@
+---
+title: "Using Gmail instead of Outlook"
+editor: visual
+---
+
+Staff members have both an outlook and a gmail account (outlook is default).
+To set up the gmail, log into [outlook.office.com](https://outlook.office.com) with the netID\@email.arizona.edu and search for the forwarding setup.
+Your forwarding address is netID\@catmail.arizona.edu.
+Then, go to catmail.arizona.edu and sign in.
+University emails sent to netID\@arizona.edu (outlook) should now be forwarded to netID\@email.arizona.edu (gmail).
+
+1.  Enable Google Services
+
+In order to enable Google services on your account, we will need to enable G-Suite on your account.
+
+To enable G-Suite, you will need to sign in at <https://account.arizona.edu> with your NetID and password.
+
+Then, click on "Manage your Accounts" on the left-hand side of the page.
+You should now be on a page with "Existing Accounts" and "Available Accounts".
+
+Under "Available Accounts" should be "UA Google Apps for Education".
+You will need to click that tile to enable G-Suite.
+
+After that, Google services should be available for you and we can set up forwarding.
+
+You may already have Google Services enabled.
+If so you should see a large green banner that says: "Your Google Apps account is enabled. You're all set!"
+
+2.  Set up forwarding from Outlook
+
+Go to https://outlook.office.com.
+Then, sign in with your university email.
+
+Once at your inbox, click the gear icon in the top righthand corner of the page, which should bring up "Settings".
+In the searchbar, search for "Forwarding", then click on "Forwarding".
+
+Select "Enable forwarding", and in the box under "Forward my email to", put in your NetID, and then "\@uits.arizona.edu".
+
+Make sure to check the box next to "Keep a copy of forwarded messages", which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.
+
+Click "Save", and your forwarding will be set up!
+
+All future emails will then be sent to your UA Gmail inbox.
+
+You can then sign into your Gmail account at <https://mail.google.com> (Or <https://catmail.arizona.edu> - but this sometimes doesn't work.)
