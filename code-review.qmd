@@ -3,9 +3,10 @@ title: "Code review"
 editor: source
 ---
 
-## Code review goals
+## Code review objectives
 
-Code review helps maintain software quality. It can also be a great way to share knowledge and create common standards and approaches across the group.
+Code review helps maintain software quality.
+It can also be a great way to share knowledge and create common standards and approaches across the group.
 
 ### Incremental reviews (e.g. pull-request sized)
 
@@ -26,7 +27,8 @@ Code review helps maintain software quality. It can also be a great way to share
 
 ### 1. Identify the goal posts
 
-[This rubric](https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view#Tools) can help structure your review. You may want to flesh out the categories according to the following:
+[This rubric](https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view#Tools) can help structure your review.
+You may want to flesh out the categories according to the following:
 
 -   Product functionality: what is the software supposed to *do*? How do we know when it's working? Be as specific as possible - you want a list of expectations that can be verified.
     -   For an R package, this might be a list of the core functions and their behavior, including any automated or repository-specific checks (e.g. CRAN, ROpenSci checklists) that must pass.
@@ -63,7 +65,8 @@ Code review helps maintain software quality. It can also be a great way to share
 
 -   Fork or otherwise create a working copy of the codebase that you can experiment with and modify.
 
--   Work from the big-picture to granular. E.g. check that things install and produce expected output; then check for stylistic questions.
+-   Work from the big-picture to granular.
+    E.g. check that things install and produce expected output; then check for stylistic questions.
 
 -   Pace yourself as a reviewer - you can only absorb so much at once, and [code review efficacy drops off](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) after about an hour of focused work or, according to one study, about 200 LOC.
 
