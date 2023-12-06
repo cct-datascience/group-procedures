@@ -39,13 +39,13 @@ All members of the hiring committee should be involved in all steps of the hirin
 -   Mastodon
     -   Hashtags: #rstats #python #jobs #getfedihired #DataScience #rseng
 -   Slack
-    -   ROpenSci
+    -   rOpenSci
     -   Carpentries
     -   R4DS Online Learning Community
     -   Ecological Forecasting Initiative
     -   US-RSE
     -   ESIP (Earth Science Information Partners)
-    -   Rez-Baz
+    -   ResBazAZ
     -   UA-Data Science
     -   EDSIN
 
