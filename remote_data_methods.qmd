@@ -27,7 +27,7 @@ These can be .csv or parquet files.
 ### The assembly
 
 -   A big data file can be stored online in a repository, e.g. Zenodo or the FIA datamart.
-    -   If it's a file we author, we may be able to *break up* the large data file and store it as a partitioned hive. Or to store it as parquet.
+    -   If it's a file we author, we can break the large data file and store it as a partitioned hive. Or to store it as parquet.
 -   Local users can connect to this data file using `duckdbfs` and execute dplyr operations on it without loading it into memory, as with arrow. I believe they can also use DBI to execute SQL commands more directly.
 -   We can additionally set up infrastructure to assemble a *database* of connections to multiple big data files. Or, within an R package, we can interact with those tables in structured ways without formally setting them up as a database.
 -   Remote connections like this will probably generally be slower per-call than downloading the data and interfacing with it locally (but avoiding the upfront investment of download time and local storage space).
