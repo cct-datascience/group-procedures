@@ -306,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions"><span class="header-section-number">16.2</span> Questions:</a></li>
   <li><a href="#follow-up" id="toc-follow-up" class="nav-link" data-scroll-target="#follow-up"><span class="header-section-number">16.3</span> Follow-up:</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/networking.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/networking.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cct-datascience/group-procedures/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/cct-datascience/group-procedures/blob/main/networking.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -707,7 +707,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/cct-datascience\.github\.io\/group-procedures\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
