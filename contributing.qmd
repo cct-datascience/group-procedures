@@ -28,7 +28,7 @@ To make more extensive edits or to add new sections, it's probably best if you f
 If you are an R user, there are some helpful functions in the [`usethis` package](https://usethis.r-lib.org/index.html) that can help with this workflow.
 
 1. Use `usethis::create_from_github("{{< meta book.repo-url >}}")` to fork and clone the repository.[^1]
-2. Use `usethis::pr_init("name-of-my-branch)` to create a new branch for your changes.
+2. Use `usethis::pr_init("name-of-my-branch")` to create a new branch for your changes.
 3. Edit existing .qmd, .md, or .Rmd files or create new ones.
 4. If you've created a new file, be sure to add the path to it as a chapter in `_quarto.yml`.
 5. Preview your changes by running `quarto preview` in the terminal.
