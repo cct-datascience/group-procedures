@@ -81,24 +81,27 @@ Before the final meeting:
     -   copyright can be listed as "The University of Arizona and Authors"
 
 Send an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration.
-Here's an example email you can build on:
 
-> Hi Jeremy,
->
-> As we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we've accomplished together.
-> I looked over the goals we set out to accomplish in the original project plan, and I think we've done a good job meeting them.
->
-> 1)  Static QA/QC routines that check data prior to going into the database ✅
-> 2)  Static checks for whether data for a station was retrieved in the previous hour: I don't think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.
-> 3)  A simple R package to wrap the API ✅
-> 4)  A "dynamic" QA/QC procedure that compares recent data to historical ✅
-> 5)  A Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I'd be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the `azmet` R package.
-> 6)  Availability of code on GitHub with a permissive open source license ✅
->
-> At our meeting on Monday, we'll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e. funding continued work on the QA/QC report).
-> We'll also have a conversation about the incubator process itself---what worked well, what didn't work, and what could be improved.
->
-> Looking forward to seeing you then!
+::: {.callout-tip collapse="true"}
+## Example email
+
+Hi Jeremy,
+
+As we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we've accomplished together.
+I looked over the goals we set out to accomplish in the original project plan, and I think we've done a good job meeting them.
+
+1)  Static QA/QC routines that check data prior to going into the database ✅
+2)  Static checks for whether data for a station was retrieved in the previous hour: I don't think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.
+3)  A simple R package to wrap the API ✅
+4)  A "dynamic" QA/QC procedure that compares recent data to historical ✅
+5)  A Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I'd be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the `azmet` R package.
+6)  Availability of code on GitHub with a permissive open source license ✅
+
+At our meeting on Monday, we'll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e. funding continued work on the QA/QC report).
+We'll also have a conversation about the incubator process itself---what worked well, what didn't work, and what could be improved.
+
+Looking forward to seeing you then!
+:::
 
 ### Wrap-up Meeting
 
