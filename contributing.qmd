@@ -33,7 +33,7 @@ If you are an R user, there are some helpful functions in the [`usethis` package
 4. If you've created a new file, be sure to add the path to it as a chapter in `_quarto.yml`.
 5. Preview your changes by running `quarto preview` in the terminal.
 6. Commit your changes with git.
-7. Push your changes to GitHub and open a pull request with `usethis::pr_push()`.
+7. Use `usethis::pr_push()` to push your changes and open a pull request.
 8. Once the pull request is merged on GitHub, run `usethis::pr_finish()` to clean things up.
 
 ::: callout-warning
