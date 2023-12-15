@@ -1,0 +1,39 @@
+---
+title: "Remote data (no server)"
+editor: visual
+---
+
+## Statement of the problem
+
+For some of our projects, we would like to provide access to databases and data tables without requiring users to download the *entire* database/table.
+These data objects are larger than is fast or convenient to download to disk, but too small and simple to warrant a full database server.
+Additionally, we would like them to be publicly available (not restricted to folks at the U of A) and be able to be hosted for free indefinitely (not tied to payments that end when a grant expires).
+
+## Solution using `duckdb`, `arrow`, `duckdbfs`
+
+### The parts
+
+[`arrow`](https://arrow.apache.org/) is a platform for handling larger-than-memory data efficiently.
+Some key attributes for the use case here are (1) `arrow` automatically handles partitioning and storing large data files in a "hive" and (2) the `arrow` R package includes bindings to execute many (not all) dplyr verbs on big datasets without loading them into memory until the very end.
+`arrow`, on its own, is set up to handle data stored locally or remote *in an S3 system*.
+
+[`duckdb`](https://duckdb.org/) is a serverless database system with excellent integrations with R and other programming languages.
+The [duckdb R package](https://duckdb.org/docs/api/r.html) lets you set up connections to duckdb databases in R and interfaces with [`arrow`](https://arrow.apache.org/docs/r/) package.
+On their own, `duckdb` and the R package work with data stored locally.
+
+[`duckdbfs`](https://cboettig.github.io/duckdbfs/) is a recent R package that extends `duckdb` and `arrow`-like functionality to, among other things, connect remotely to data files stored on the internet via `https`.
+These can be .csv or parquet files.
+
+### The assembly
+
+-   A big data file can be stored online in a repository, e.g. Zenodo or the FIA datamart.
+    -   If it's a file we author, we may be able to *break up* the large data file and store it as a partitioned hive. Or to store it as parquet.
+-   Local users can connect to this data file using `duckdbfs` and execute dplyr operations on it without loading it into memory, as with arrow. I believe they can also use DBI to execute SQL commands more directly.
+-   We can additionally set up infrastructure to assemble a *database* of connections to multiple big data files. Or, within an R package, we can interact with those tables in structured ways without formally setting them up as a database.
+-   Remote connections like this will probably generally be slower per-call than downloading the data and interfacing with it locally (but avoiding the upfront investment of download time and local storage space).
+
+## Related tools
+
+-   `arrow` has built-in support for data storage via AWS S3. AWS's free tier is free for 12 months and cheap thereafter.
+-   `https` is what's working under-the-hood in `duckdbfs`
+-   [`gbifdb`](https://docs.ropensci.org/gbifdb/articles/intro.html) is an example R package accomplishing a very similar task (but with much larger files and an Amazon S3 bucket).
