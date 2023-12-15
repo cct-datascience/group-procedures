@@ -9,6 +9,7 @@ book:
   repo-actions: [edit]
   chapters:
     - index.qmd
+    - contributing.qmd
     - part: "General Information"
       chapters:
         - general-info.qmd
