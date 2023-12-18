@@ -11,7 +11,7 @@ Creating these vignettes provide a way to share knowledge amongst and outside th
 ## Process
 
 1.  Investigate the desired skill using existing documentation and by using the tool / approach
-2.  Summarize findings in a Quarto document and add it to this section of the Group Procedures book
+2.  Summarize findings and add them as a new vignette to this section. See instructions in ["Editing this book"](contributing.qmd).
 3.  Share, when appropriate:
     -   With the group as a demo during sprint planning
     -   With collaborators via email or meeting
