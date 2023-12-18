@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/index.html</loc>
-    <lastmod>2023-12-15T21:43:31.981Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.384Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/general-info.html</loc>
-    <lastmod>2023-12-15T21:43:31.989Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.392Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/code-of-conduct.html</loc>
-    <lastmod>2023-12-15T21:43:31.993Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.396Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/group-expectations.html</loc>
-    <lastmod>2023-12-15T21:43:32.001Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.404Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/project-management.html</loc>
-    <lastmod>2023-12-15T21:43:32.005Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.408Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/standups.html</loc>
-    <lastmod>2023-12-15T21:43:32.009Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.416Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/sprint-planning.html</loc>
-    <lastmod>2023-12-15T21:43:32.021Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.424Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/quarterly-meetings.html</loc>
-    <lastmod>2023-12-15T21:43:32.029Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.432Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/annual-reviews.html</loc>
-    <lastmod>2023-12-15T21:43:32.033Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.436Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/onboarding.html</loc>
-    <lastmod>2023-12-15T21:43:32.049Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.452Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/group-communication.html</loc>
-    <lastmod>2023-12-15T21:43:32.053Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.456Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/hiring.html</loc>
-    <lastmod>2023-12-15T21:43:32.065Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.468Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/professional-development.html</loc>
-    <lastmod>2023-12-15T21:43:32.069Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.476Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/drop-in-hours.html</loc>
-    <lastmod>2023-12-15T21:43:32.081Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.484Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/incubator.html</loc>
-    <lastmod>2023-12-15T21:43:32.089Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.492Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/workshops.html</loc>
-    <lastmod>2023-12-15T21:43:32.097Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.500Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/networking.html</loc>
-    <lastmod>2023-12-15T21:43:32.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cct-datascience.github.io/group-procedures/creating-r-packages.html</loc>
-    <lastmod>2023-12-15T21:43:32.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cct-datascience.github.io/group-procedures/publishing-to-web.html</loc>
-    <lastmod>2023-12-15T21:43:32.117Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.508Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/software.html</loc>
-    <lastmod>2023-12-15T21:43:32.125Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.520Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/use-gmail.html</loc>
-    <lastmod>2023-12-15T21:43:32.129Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.524Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cct-datascience.github.io/group-procedures/vignettes_overview.html</loc>
+    <lastmod>2023-12-18T17:59:39.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cct-datascience.github.io/group-procedures/publishing-to-web.html</loc>
+    <lastmod>2023-12-18T17:59:39.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cct-datascience.github.io/group-procedures/creating-r-packages.html</loc>
+    <lastmod>2023-12-18T17:59:39.540Z</lastmod>
   </url>
   <url>
     <loc>https://cct-datascience.github.io/group-procedures/references.html</loc>
-    <lastmod>2023-12-15T21:43:32.133Z</lastmod>
+    <lastmod>2023-12-18T17:59:39.548Z</lastmod>
   </url>
 </urlset>

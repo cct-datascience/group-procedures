@@ -280,66 +280,87 @@
     "text": "16.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet"
   },
   {
-    "objectID": "creating-r-packages.html",
-    "href": "creating-r-packages.html",
-    "title": "17  Creating R Packages",
-    "section": "",
-    "text": "18 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n18.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README."
-  },
-  {
-    "objectID": "publishing-to-web.html#posit-connect",
-    "href": "publishing-to-web.html#posit-connect",
-    "title": "18  Publishing to the Web",
-    "section": "18.1 Posit Connect",
-    "text": "18.1 Posit Connect\n\n18.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect"
-  },
-  {
-    "objectID": "publishing-to-web.html#quarto-pub",
-    "href": "publishing-to-web.html#quarto-pub",
-    "title": "18  Publishing to the Web",
-    "section": "18.2 Quarto Pub",
-    "text": "18.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n18.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub"
-  },
-  {
-    "objectID": "publishing-to-web.html#github-pages",
-    "href": "publishing-to-web.html#github-pages",
-    "title": "18  Publishing to the Web",
-    "section": "18.3 GitHub Pages",
-    "text": "18.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages"
-  },
-  {
     "objectID": "software.html#overview-of-it-services",
     "href": "software.html#overview-of-it-services",
-    "title": "19  Software Resources",
-    "section": "19.1 Overview of IT services",
-    "text": "19.1 Overview of IT services\n\n19.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n19.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n19.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns."
+    "title": "17  Software Resources",
+    "section": "17.1 Overview of IT services",
+    "text": "17.1 Overview of IT services\n\n17.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n17.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n17.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns."
   },
   {
     "objectID": "software.html#cloud-high-performance-computing",
     "href": "software.html#cloud-high-performance-computing",
-    "title": "19  Software Resources",
-    "section": "19.2 Cloud & High Performance Computing",
-    "text": "19.2 Cloud & High Performance Computing\n\n19.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n19.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n19.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions."
+    "title": "17  Software Resources",
+    "section": "17.2 Cloud & High Performance Computing",
+    "text": "17.2 Cloud & High Performance Computing\n\n17.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n17.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n17.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions."
   },
   {
     "objectID": "software.html#development-collaboration-tools",
     "href": "software.html#development-collaboration-tools",
-    "title": "19  Software Resources",
-    "section": "19.3 Development / Collaboration Tools:",
-    "text": "19.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n19.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n19.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n19.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365"
+    "title": "17  Software Resources",
+    "section": "17.3 Development / Collaboration Tools:",
+    "text": "17.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n17.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n17.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n17.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365"
   },
   {
     "objectID": "software.html#software",
     "href": "software.html#software",
-    "title": "19  Software Resources",
-    "section": "19.4 Software",
-    "text": "19.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n19.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n19.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n19.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n19.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n19.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n19.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n19.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS."
+    "title": "17  Software Resources",
+    "section": "17.4 Software",
+    "text": "17.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n17.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n17.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n17.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n17.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n17.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n17.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n17.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS."
   },
   {
     "objectID": "use-gmail.html",
     "href": "use-gmail.html",
-    "title": "20  Using Gmail instead of Outlook",
+    "title": "18  Using Gmail instead of Outlook",
     "section": "",
     "text": "Staff members have both an outlook and a gmail account (outlook is default). To set up the gmail, log into outlook.office.com with the netID@email.arizona.edu and search for the forwarding setup. Your forwarding address is netID@catmail.arizona.edu. Then, go to catmail.arizona.edu and sign in. University emails sent to netID@arizona.edu (outlook) should now be forwarded to netID@email.arizona.edu (gmail).\n\nEnable Google Services\n\nIn order to enable Google services on your account, we will need to enable G-Suite on your account.\nTo enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.\nThen, click on “Manage your Accounts” on the left-hand side of the page. You should now be on a page with “Existing Accounts” and “Available Accounts”.\nUnder “Available Accounts” should be “UA Google Apps for Education”. You will need to click that tile to enable G-Suite.\nAfter that, Google services should be available for you and we can set up forwarding.\nYou may already have Google Services enabled. If so you should see a large green banner that says: “Your Google Apps account is enabled. You’re all set!”\n\nSet up forwarding from Outlook\n\nGo to https://outlook.office.com. Then, sign in with your university email.\nOnce at your inbox, click the gear icon in the top righthand corner of the page, which should bring up “Settings”. In the searchbar, search for “Forwarding”, then click on “Forwarding”.\nSelect “Enable forwarding”, and in the box under “Forward my email to”, put in your NetID, and then “@uits.arizona.edu”.\nMake sure to check the box next to “Keep a copy of forwarded messages”, which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.\nClick “Save”, and your forwarding will be set up!\nAll future emails will then be sent to your UA Gmail inbox.\nYou can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn’t work.)"
+  },
+  {
+    "objectID": "vignettes_overview.html#purpose",
+    "href": "vignettes_overview.html#purpose",
+    "title": "19  Vignettes Overview",
+    "section": "19.1 Purpose",
+    "text": "19.1 Purpose\nThe vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts. Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things."
+  },
+  {
+    "objectID": "vignettes_overview.html#process",
+    "href": "vignettes_overview.html#process",
+    "title": "19  Vignettes Overview",
+    "section": "19.2 Process",
+    "text": "19.2 Process\n\nInvestigate the desired skill using existing documentation and by using the tool / approach\nSummarize findings and add them as a new vignette to this section. See instructions in “Editing this book”.\nShare, when appropriate:\n\nWith the group as a demo during sprint planning\nWith collaborators via email or meeting\nWith the broader public via Mastodon or a blog post"
+  },
+  {
+    "objectID": "vignettes_overview.html#possible-vignette-topics",
+    "href": "vignettes_overview.html#possible-vignette-topics",
+    "title": "19  Vignettes Overview",
+    "section": "19.3 Possible vignette topics",
+    "text": "19.3 Possible vignette topics\n\nSending automated emails using University of Arizona’s instance of Posit Connect\nUsing Jetstream 2 to set up virtual machines\nConnecting spreadsheets with databases"
+  },
+  {
+    "objectID": "publishing-to-web.html#posit-connect",
+    "href": "publishing-to-web.html#posit-connect",
+    "title": "20  Publishing to the Web",
+    "section": "20.1 Posit Connect",
+    "text": "20.1 Posit Connect\n\n20.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect"
+  },
+  {
+    "objectID": "publishing-to-web.html#quarto-pub",
+    "href": "publishing-to-web.html#quarto-pub",
+    "title": "20  Publishing to the Web",
+    "section": "20.2 Quarto Pub",
+    "text": "20.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n20.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub"
+  },
+  {
+    "objectID": "publishing-to-web.html#github-pages",
+    "href": "publishing-to-web.html#github-pages",
+    "title": "20  Publishing to the Web",
+    "section": "20.3 GitHub Pages",
+    "text": "20.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages"
+  },
+  {
+    "objectID": "creating-r-packages.html",
+    "href": "creating-r-packages.html",
+    "title": "21  Creating R Packages",
+    "section": "",
+    "text": "22 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n22.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README."
   }
 ]
