@@ -35,13 +35,13 @@ book:
     - part: "Resources"
       chapters: 
         - networking.qmd
-        - creating-r-packages.qmd
-        - publishing-to-web.qmd
         - software.qmd
         - use-gmail.qmd
     - part: "Technical Vignettes"
       chapters: 
         - vignettes_overview.qmd
+        - publishing-to-web.qmd
+        - creating-r-packages.qmd
     - references.qmd
 
 format:
