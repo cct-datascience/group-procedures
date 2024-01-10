@@ -37,15 +37,15 @@ All members of the hiring committee should be involved in all steps of the hirin
 -   NAU ecoinformatics: email katharyn.duffy\@nau.edu
 -   [Other resources (places to advertise) from UA HR](https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches/advertising-position)
 -   Mastodon
-    -   hastags: #rstats #python #jobs #GetHired
+    -   Hashtags: #rstats #python #jobs #getfedihired #DataScience #rseng
 -   Slack
-    -   ROpenSci
+    -   rOpenSci
     -   Carpentries
     -   R4DS Online Learning Community
     -   Ecological Forecasting Initiative
     -   US-RSE
     -   ESIP (Earth Science Information Partners)
-    -   Rez-Baz
+    -   ResBazAZ
     -   UA-Data Science
     -   EDSIN
 
@@ -168,7 +168,7 @@ Salaries in DIAG range from \$30k for a recent graduate to \$85k for developers 
 *Note: 6 and 7 are specific to a pipeline job; other positions may have additional required/desired skills*
 
 | Category of interest               |                                                         Description                                                         |
-|------------------------------------|:---------------------------------------------------------------------------------------------------------------------------:|
+|------------------|:----------------------------------------------------:|
 | **1. Learning new skills**         | Demonstrates ability to acquire new skills, especially technical skills, through self-teaching or by reaching out to others |
 | **2. Collaborative**               |                              Works well with a group and are able to problem solve with others                              |
 | **3. Software development skills** |                                 Able to demonstrate using software tools to solve problems                                  |
