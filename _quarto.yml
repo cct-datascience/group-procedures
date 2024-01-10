@@ -41,6 +41,9 @@ book:
         - publishing-to-web.qmd
         - software.qmd
         - use-gmail.qmd
+    - part: "Vignettes"
+      chapters:
+        - spreadsheet-database-vignette.md
     - references.qmd
 
 format:
