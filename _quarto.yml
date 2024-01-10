@@ -43,7 +43,7 @@ book:
         - use-gmail.qmd
     - part: "Vignettes"
       chapters:
-        - spreadsheet-database-vignette.md
+        - spreadsheet-database-vignette.qmd
     - references.qmd
 
 format:
