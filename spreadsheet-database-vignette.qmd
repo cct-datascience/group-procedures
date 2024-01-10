@@ -23,28 +23,16 @@ In general, it's much easier to get data put directly into a spreadsheet from a 
 
 The use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets
 
-<style>
-    .compare_table th {
-        background-color: lightgrey;
-    }
-    .small_text {
-      font-size: x-small;
-    }
-</style>
+| Spreadsheet                                                    |          Reading DB          |          Writing DB          | Notes                                               |
+|----------------|:--------------:|:--------------:|------------------------|
+| [Google Sheets](#google-sheets) [✔]{style="color:green"}       |  [✔✔✔]{style="color:black"}  |  [✔✔]{style="color:black"}   | Write scripts to move data; programming skills help |
+| [Numbers](#numbers) [✖]{style="color:red"}                     | [➖]{style="color:darkgrey"} | [➖]{style="color:darkgrey"} |                                                     |
+| [Excel (Windows)](#excel-windows) [✔]{style="color:green"}     |  [✔✔✔]{style="color:black"}  |   [✔]{style="color:black"}   | Update DB with CSV is easiest; need ODBC driver     |
+| [Excel (Mac)](#excel-mac) [✔]{style="color:green"}             |   [✔]{style="color:black"}   |   [✔]{style="color:black"}   | SQLServer is supported; buy other ODBC drivers      |
+| [LibreOffice Calc](#libre-office-calc) [≈]{style="color:grey"} |  [✔✔]{style="color:black"}   | [➖]{style="color:darkgrey"} |                                                     |
 
-<div class="compare_table">
-| Spreadsheet | Reading DB | Writing DB | Notes |
-| --- | :---: | :---: | --- | --- |
-| [Google Sheets](#google-sheets) <span style="color:darkgreen">✔</span> | <span style="color:black">✔✔✔</span> | <span style="color:black">✔✔</span> | Write scripts to move data; programming skills help |
-| [Numbers](#numbers) <span style="color:red">✖</span> | <span style="color:darkgrey">➖</span> | <span style="color:darkgrey">➖</span> |   |
-| [Excel (Windows)](#excel-windows) <span style="color:darkgreen">✔</span> | <span style="color:black">✔✔✔</span> | <span style="color:black">✔</span> | Update DB with CSV is easiest; need ODBC driver |
-| [Excel (Mac)](#excel-mac) <span style="color:darkgreen">✔</span> |<span style="color:black"> ✔</span> | <span style="color:black">✔</span> | SQLServer is supported; buy other ODBC drivers |
-| [LibreOffice Calc](#libre-office-calc) <span style="color:grey">≈</span> | <span style="color:black">✔✔</span> | <span style="color:darkgrey">➖</span> |   |   |
-</div>
-<div class="small_text">
-: _Spreadsheet Rating:_ _✖_ _Not supported_ _✔_ _Supported_ _≈_ _Mixed support_ \
-: _Reading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖Not supported_
-</div>
+^*Spreadsheet\ Rating:\ [✖\ ]{style="color:red"}\ Not\ supported\ [✔]{style="color:green"}\ Supported\ [≈]{style="color:darkgrey"}\ Mixed\ support*^\
+^*Reading/Writing\ Difficulty:\ ✔\ Hard\ ✔✔\ Medium\ ✔✔✔\ Easy\ ➖\ Not\ supported*^
 
 ### How Tested
 
@@ -54,7 +42,7 @@ LibreOffice Calc was tested on an Ubuntu 22.04 system
 
 Different database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication
 
-### Google Sheets
+### Google Sheets {#google-sheets}
 
 Scripts are written to read and write data from a database using Google provided connectors
 
@@ -64,17 +52,17 @@ Postgres and its derivatives (PostGIS, et. al.) are not supported
 
 **Reading**
 
-A generic [google](https://developers.google.com/apps-script/overview#:~:text=Google%20Apps%20Script%20is%20a,Calendar%2C%20Drive%2C%20and%20more.)[script](https://developers.google.com/apps-script/overview#:~:text=Google%20Apps%20Script%20is%20a,Calendar%2C%20Drive%2C%20and%20more.) can be used to pull data into a spreadsheet and examples are easy to find. For example, [https://www.lido.app/tutorials/google-sheets-connect-to-database](https://www.lido.app/tutorials/google-sheets-connect-to-database). Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)
+A generic [Google Apps Script](https://developers.google.com/apps-script/overview#:~:text=Google%20Apps%20Script%20is%20a,Calendar%2C%20Drive%2C%20and%20more.) can be used to pull data into a spreadsheet and examples are easy to find. For example, <https://www.lido.app/tutorials/google-sheets-connect-to-database>. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)
 
 **Writing**
 
-Writing to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: [https://developers.google.com/apps-script/guides/jdbc](https://developers.google.com/apps-script/guides/jdbc). If data filtering is needed, or if data is from multiple sheets, then it's necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)
+Writing to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: <https://developers.google.com/apps-script/guides/jdbc>. If data filtering is needed, or if data is from multiple sheets, then it's necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)
 
 **Conclusion**
 
 Most flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird
 
-### Numbers
+### Numbers {#numbers}
 
 This Apple spreadsheet application doesn't connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database
 
@@ -82,7 +70,7 @@ This Apple spreadsheet application doesn't connect to databases. Use other means
 
 No database connections supported
 
-### Excel (Windows)
+### Excel (Windows) {#excel-windows}
 
 Setting up database connectivity can be painful and complicated, and may require a system administrator.
 
@@ -92,20 +80,20 @@ Connect to the database using the ODBC connector that matches the database you a
 
 The following download links may help:
 
-- Visual Studio redistributables: [https://my.visualstudio.com/Downloads](https://my.visualstudio.com/Downloads)
-- ODBC drivers: https://dev.mysql.com/downloads/connector/odbc/
+-   Visual Studio redistributables: <https://my.visualstudio.com/Downloads>
+-   ODBC drivers: https://dev.mysql.com/downloads/connector/odbc/
 
 **Writing**
 
 It's much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)
 
-For example, MySQL methods for writing to the database can be found at [https://nanonets.com/blog/import-excel-into-mysql/](https://nanonets.com/blog/import-excel-into-mysql/)
+For example, MySQL methods for writing to the database can be found at <https://nanonets.com/blog/import-excel-into-mysql/>
 
 **Conclusion**
 
 While it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases
 
-### Excel (Mac)
+### Excel (Mac) {#excel-mac}
 
 **Restrictions**
 
@@ -123,9 +111,9 @@ Use the SQLServer connectors to write to the database, if that's an option. Othe
 
 If you aren't connecting to SQLServer, you need to use CSV files
 
-### Libre Office Calc
+### Libre Office Calc {#libre-office-calc}
 
-Install the libreoffice-base package to add the _Database_ option to Calc; this may require an administrator to perform and a reboot after it's installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)
+Install the libreoffice-base package to add the *Database* option to Calc; this may require an administrator to perform and a reboot after it's installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)
 
 The following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html
 
