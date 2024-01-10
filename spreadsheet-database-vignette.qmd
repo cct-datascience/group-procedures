@@ -27,6 +27,9 @@ The use of CSV files instead of directly reading/writing to the database is supp
     .compare_table th {
         background-color: lightgrey;
     }
+    .small_text {
+      font-size: x-small;
+    }
 </style>
 
 <div class="compare_table">
@@ -38,8 +41,10 @@ The use of CSV files instead of directly reading/writing to the database is supp
 | [Excel (Mac)](#excel-mac) <span style="color:darkgreen">✔</span> |<span style="color:black"> ✔</span> | <span style="color:black">✔</span> | SQLServer is supported; buy other ODBC drivers |
 | [LibreOffice Calc](#libre-office-calc) <span style="color:grey">≈</span> | <span style="color:black">✔✔</span> | <span style="color:darkgrey">➖</span> |   |   |
 </div>
-_Spreadsheet Rating:_ _✖_ _Not supported_ _✔_ _Supported_ _≈_ _Mixed support_ \
-_Reading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖Not supported_
+<div class="small_text">
+: _Spreadsheet Rating:_ _✖_ _Not supported_ _✔_ _Supported_ _≈_ _Mixed support_ \
+: _Reading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖Not supported_
+</div>
 
 ### How Tested
 
