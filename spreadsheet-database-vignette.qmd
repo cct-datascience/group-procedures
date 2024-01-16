@@ -115,7 +115,7 @@ If you aren't connecting to SQLServer, you need to use CSV files
 
 Install the libreoffice-base package to add the *Database* option to Calc; this may require an administrator to perform and a reboot after it's installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)
 
-The following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html
+The following instructions are written for the MySQL database, but can be easily adjusted for other databases: <https://techsparx.com/blog/2016/08/libreoffice-mysql.html>
 
 **Reading**
 
