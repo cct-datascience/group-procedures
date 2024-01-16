@@ -81,7 +81,7 @@ Connect to the database using the ODBC connector that matches the database you a
 The following download links may help:
 
 -   Visual Studio redistributables: <https://my.visualstudio.com/Downloads>
--   ODBC drivers: https://dev.mysql.com/downloads/connector/odbc/
+-   ODBC drivers: <https://dev.mysql.com/downloads/connector/odbc/>
 
 **Writing**
 
