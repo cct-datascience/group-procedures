@@ -46,7 +46,7 @@ title: "Communications and Outreach"
 
     -   [thodges\@arizona.edu](mailto:thodges@arizona.edu) Tanya Hodges for AETI (Yuma)
 
--   Data Science Institute ["Data Drip"](https://bcf.arl.arizona.edu/news) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu) <!--# this URL is broken.  What is "Data Drip" and does it exist still? -->
+-   Data Science Institute ["Data Drip"](https://bcf.arl.arizona.edu/news) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu)
 
 -   R-Users AZ listserv, send announcement to Jeff Oliver [jcoliver\@email.arizona.edu](mailto:jcoliver@email.arizona.edu)
 
@@ -138,7 +138,7 @@ Links to documentation:
 
 -   **Clear cache** so it appears to public immediately
 
-    -   [Configuration \--\> Development \--\> Performance](https://datascience.cct.arizona.edu/admin/config/development/performance) \--\> Clear all caches
+    -   [Configuration --\> Development --\> Performance](https://datascience.cct.arizona.edu/admin/config/development/performance) --\> Clear all caches
 
 -   Projects
 
