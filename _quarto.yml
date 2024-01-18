@@ -46,6 +46,7 @@ book:
         - vignettes_overview.qmd
         - publishing-to-web.qmd
         - creating-r-packages.qmd
+        - spreadsheet-database-vignette.qmd
     - references.qmd
 
 format:
