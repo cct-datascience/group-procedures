@@ -27,12 +27,12 @@ book:
         - group-communication.qmd
         - hiring.qmd
         - professional-development.qmd
+        - code-review.qmd
     - part: "Group Programming"
       chapters:
         - drop-in-hours.qmd
         - incubator.qmd
         - workshops.qmd
-        - code-review.qmd
     - part: "Resources"
       chapters: 
         - networking.qmd
