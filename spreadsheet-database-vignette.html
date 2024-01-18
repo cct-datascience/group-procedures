@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-12-11">
+<meta name="description" content="Compares different spreadsheet apps and how well they support direct database reading and writing, and any restrictions">
 
-<title>CCT Data Science Group Procedures - 4&nbsp; Agile overview</title>
+<title>CCT Data Science Group Procedures - 22&nbsp; Spreadsheet with Database Connection Comparison</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./standups.html" rel="next">
-<link href="./group-expectations.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./creating-r-packages.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-management.html">Group Processes (Agile)</a></li><li class="breadcrumb-item"><a href="./project-management.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Agile overview</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./vignettes_overview.html">Technical Vignettes</a></li><li class="breadcrumb-item"><a href="./spreadsheet-database-vignette.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Spreadsheet with Database Connection Comparison</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -157,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-management.html" class="sidebar-item-text sidebar-link active">
+  <a href="./project-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Agile overview</span></span></a>
   </div>
 </li>
@@ -309,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./spreadsheet-database-vignette.html" class="sidebar-item-text sidebar-link">
+  <a href="./spreadsheet-database-vignette.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Spreadsheet with Database Connection Comparison</span></span></a>
   </div>
 </li>
@@ -331,18 +333,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#rhythm-and-hierarchy-of-meetings" id="toc-rhythm-and-hierarchy-of-meetings" class="nav-link active" data-scroll-target="#rhythm-and-hierarchy-of-meetings"><span class="header-section-number">4.1</span> Rhythm and Hierarchy of Meetings:</a></li>
-  <li><a href="#time-tracking" id="toc-time-tracking" class="nav-link" data-scroll-target="#time-tracking"><span class="header-section-number">4.2</span> Time Tracking</a></li>
-  <li><a href="#a-note-on-metrics" id="toc-a-note-on-metrics" class="nav-link" data-scroll-target="#a-note-on-metrics"><span class="header-section-number">4.3</span> A note on metrics</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">22.0.1</span> Overview</a></li>
+  <li><a href="#how-tested" id="toc-how-tested" class="nav-link" data-scroll-target="#how-tested"><span class="header-section-number">22.0.2</span> How Tested</a></li>
+  <li><a href="#google-sheets" id="toc-google-sheets" class="nav-link" data-scroll-target="#google-sheets"><span class="header-section-number">22.0.3</span> Google Sheets</a></li>
+  <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers"><span class="header-section-number">22.0.4</span> Numbers</a></li>
+  <li><a href="#excel-windows" id="toc-excel-windows" class="nav-link" data-scroll-target="#excel-windows"><span class="header-section-number">22.0.5</span> Excel (Windows)</a></li>
+  <li><a href="#excel-mac" id="toc-excel-mac" class="nav-link" data-scroll-target="#excel-mac"><span class="header-section-number">22.0.6</span> Excel (Mac)</a></li>
+  <li><a href="#libre-office-calc" id="toc-libre-office-calc" class="nav-link" data-scroll-target="#libre-office-calc"><span class="header-section-number">22.0.7</span> Libre Office Calc</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/project-management.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cct-datascience/group-procedures/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/cct-datascience/group-procedures/blob/main/project-management.qmd" class="toc-action">View source</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/spreadsheet-database-vignette.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cct-datascience/group-procedures/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/cct-datascience/group-procedures/blob/main/spreadsheet-database-vignette.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Agile overview</span></h1>
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Spreadsheet with Database Connection Comparison</span></h1>
 </div>
 
 
@@ -350,6 +356,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 11, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -357,48 +369,118 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile process</a> we use is dynamic. All of the procedures here can and should be changed to improve the group’s productivity, cohesion, and fulfillment.</p>
-<p>Scrum is an <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile process</a> for software development and project management that we have adapted to our process. You can learn more about <a href="https://en.wikipedia.org/wiki/Scrum_%28software_development%29">Scrum on Wikipedia</a>, but the key features that we have implemented are described below.</p>
-<p>As part of the Agile process, we continually evaluate and improve these procedures as needed.</p>
-<section id="rhythm-and-hierarchy-of-meetings" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="rhythm-and-hierarchy-of-meetings"><span class="header-section-number">4.1</span> Rhythm and Hierarchy of Meetings:</h2>
-<p>Our group uses the following hierarchy of meetings, from brief daily status reports to quarterly reviews and planning.</p>
+<p>December 11, 2023</p>
+<section id="overview" class="level3" data-number="22.0.1">
+<h3 data-number="22.0.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">22.0.1</span> Overview</h3>
+<p>This document contains information on what is needed to connect to databases from various Spreadsheets, to read and write data, and lists any restrictions where they exist</p>
+<p>In general, it’s much easier to get data put directly into a spreadsheet from a database than to update a database from a spreadsheet. In all cases, using CSV files for reading and/o writing is a valid option</p>
+<p>The use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Spreadsheet</th>
+<th style="text-align: center;">Reading DB</th>
+<th style="text-align: center;">Writing DB</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#google-sheets">Google Sheets</a> <span style="color:green">✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔✔✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔✔</span></td>
+<td>Write scripts to move data; programming skills help</td>
+</tr>
+<tr class="even">
+<td><a href="#numbers">Numbers</a> <span style="color:red">✖</span></td>
+<td style="text-align: center;"><span style="color:darkgrey">➖</span></td>
+<td style="text-align: center;"><span style="color:darkgrey">➖</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="#excel-windows">Excel (Windows)</a> <span style="color:green">✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔✔✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔</span></td>
+<td>Update DB with CSV is easiest; need ODBC driver</td>
+</tr>
+<tr class="even">
+<td><a href="#excel-mac">Excel (Mac)</a> <span style="color:green">✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔</span></td>
+<td style="text-align: center;"><span style="color:black">✔</span></td>
+<td>SQLServer is supported; buy other ODBC drivers</td>
+</tr>
+<tr class="odd">
+<td><a href="#libre-office-calc">LibreOffice Calc</a> <span style="color:grey">≈</span></td>
+<td style="text-align: center;"><span style="color:black">✔✔</span></td>
+<td style="text-align: center;"><span style="color:darkgrey">➖</span></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><sup><em>Spreadsheet&nbsp;Rating:&nbsp;<span style="color:red">✖&nbsp;</span>&nbsp;Not&nbsp;supported&nbsp;<span style="color:green">✔</span>&nbsp;Supported&nbsp;<span style="color:darkgrey">≈</span>&nbsp;Mixed&nbsp;support</em></sup><br>
+<sup><em>Reading/Writing&nbsp;Difficulty:&nbsp;✔&nbsp;Hard&nbsp;✔✔&nbsp;Medium&nbsp;✔✔✔&nbsp;Easy&nbsp;➖&nbsp;Not&nbsp;supported</em></sup></p>
+</section>
+<section id="how-tested" class="level3" data-number="22.0.2">
+<h3 data-number="22.0.2" class="anchored" data-anchor-id="how-tested"><span class="header-section-number">22.0.2</span> How Tested</h3>
+<p>A sample MySQL database was started on the OpenStack instance at the University of Arizona, and made publicly accessible (password protected)</p>
+<p>LibreOffice Calc was tested on an Ubuntu 22.04 system</p>
+<p>Different database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication</p>
+</section>
+<section id="google-sheets" class="level3" data-number="22.0.3">
+<h3 data-number="22.0.3" class="anchored" data-anchor-id="google-sheets"><span class="header-section-number">22.0.3</span> Google Sheets</h3>
+<p>Scripts are written to read and write data from a database using Google provided connectors</p>
+<p><strong>Restrictions</strong></p>
+<p>Postgres and its derivatives (PostGIS, et. al.) are not supported</p>
+<p><strong>Reading</strong></p>
+<p>A generic <a href="https://developers.google.com/apps-script/overview#:~:text=Google%20Apps%20Script%20is%20a,Calendar%2C%20Drive%2C%20and%20more.">Google Apps Script</a> can be used to pull data into a spreadsheet and examples are easy to find. For example, <a href="https://www.lido.app/tutorials/google-sheets-connect-to-database" class="uri">https://www.lido.app/tutorials/google-sheets-connect-to-database</a>. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)</p>
+<p><strong>Writing</strong></p>
+<p>Writing to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: <a href="https://developers.google.com/apps-script/guides/jdbc" class="uri">https://developers.google.com/apps-script/guides/jdbc</a>. If data filtering is needed, or if data is from multiple sheets, then it’s necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)</p>
+<p><strong>Conclusion</strong></p>
+<p>Most flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird</p>
+</section>
+<section id="numbers" class="level3" data-number="22.0.4">
+<h3 data-number="22.0.4" class="anchored" data-anchor-id="numbers"><span class="header-section-number">22.0.4</span> Numbers</h3>
+<p>This Apple spreadsheet application doesn’t connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database</p>
+<p><strong>Conclusion</strong></p>
+<p>No database connections supported</p>
+</section>
+<section id="excel-windows" class="level3" data-number="22.0.5">
+<h3 data-number="22.0.5" class="anchored" data-anchor-id="excel-windows"><span class="header-section-number">22.0.5</span> Excel (Windows)</h3>
+<p>Setting up database connectivity can be painful and complicated, and may require a system administrator.</p>
+<p><strong>Reading</strong></p>
+<p>Connect to the database using the ODBC connector that matches the database you are pulling data from. You can select tables and columns, or write SQL commands to fetch the data into your spreadsheet. Microsoft has a <a href="https://support.microsoft.com/en-us/office/import-data-from-data-sources-power-query-be4330b3-5356-486c-a168-b68e9e616f5a?redirectSourcePath=%252farticle%252f8760c647-88b9-409d-b312-6ea8f84a269b">web page</a> containing instructions for multiple data sources; scroll down to see the different sources and their instructions.</p>
+<p>The following download links may help:</p>
 <ul>
-<li>Annual:
-<ul>
-<li><a href="./annual-reviews.html">Career Conversations and SMART Goal Setting</a></li>
-</ul></li>
-<li>Quarterly:
-<ul>
-<li><a href="./quarterly-meetings.html#quarterly-review-meetings">Objectives and Key Results (OKRs)</a>: Every three months is a quarter, where each quarter has a set of <a href="./quarterly-meetings.html#okrs-objectives-and-key-results">OKRs</a>.</li>
-<li><a href="./quarterly-meetings.html#okrs-objectives-and-key-results">Quarterly review meetings</a>: at the beginning of each quarter, last quarter’s OKRs are discussed and the current quarter’s OKRs are decided upon.</li>
-</ul></li>
-<li>Monthly
-<ul>
-<li>Review and update OKRs in first 1:1 of the month</li>
-</ul></li>
-<li>Bi-Weekly:
-<ul>
-<li><a href="./sprint-planning.html">Bi-weekly Sprints</a>: start with a planning meeting and end with a sprint retrospective meeting.</li>
-</ul></li>
-<li>Weekly: Each group member has a one-on-one meeting (30-60 minutes) week with Kristina.</li>
-<li><a href="./standups.html">Daily standups</a>: Daily progress, plans, and blockers are discussed during daily <a href="./standups.html">standup</a> meetings (10 minutes).</li>
+<li>Visual Studio redistributables: <a href="https://my.visualstudio.com/Downloads" class="uri">https://my.visualstudio.com/Downloads</a></li>
+<li>ODBC drivers: <a href="https://dev.mysql.com/downloads/connector/odbc/" class="uri">https://dev.mysql.com/downloads/connector/odbc/</a></li>
 </ul>
+<p><strong>Writing</strong></p>
+<p>It’s much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)</p>
+<p>For example, MySQL methods for writing to the database can be found at <a href="https://nanonets.com/blog/import-excel-into-mysql/" class="uri">https://nanonets.com/blog/import-excel-into-mysql/</a></p>
+<p><strong>Conclusion</strong></p>
+<p>While it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases</p>
 </section>
-<section id="time-tracking" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="time-tracking"><span class="header-section-number">4.2</span> Time Tracking</h2>
-<p>Every individual in the group contributes to multiple projects.</p>
-<p>With the launch of the Data Science Incubator, we found it prudent to track time allocated to each project. The goal is to be fair to our collaborators and funders by quantifying our time spent and making sure that we are fairly allocating our efforts across projects. This will also be used to budget for the time and costs of future projects.</p>
-<p>The goal is not to account for 100% of each person’s time. The goal is to be able to confidently and correctly report that we have spent a particular number of days or fraction of time on a project. Retrospective tracking with a precision of ~ 1 hour or half days is typically sufficient.</p>
-<p>Most members use toggl.com to track time, with a separate project for each funded activity.</p>
+<section id="excel-mac" class="level3" data-number="22.0.6">
+<h3 data-number="22.0.6" class="anchored" data-anchor-id="excel-mac"><span class="header-section-number">22.0.6</span> Excel (Mac)</h3>
+<p><strong>Restrictions</strong></p>
+<p>Only SQLServer is supported “out of the box”. For other databases it’s necessary to pay for an ODBC driver to connect</p>
+<p><strong>Reading</strong></p>
+<p>Use the SQLServer connectors to read from the database, if that’s an option. Otherwise, generate a CSV file with the data wanted and load that into the spreadsheet</p>
+<p><strong>Writing</strong></p>
+<p>Use the SQLServer connectors to write to the database, if that’s an option. Otherwise, generate a CSV file with the generated data and upload that into the database</p>
+<p><strong>Conclusion</strong></p>
+<p>If you aren’t connecting to SQLServer, you need to use CSV files</p>
 </section>
-<section id="a-note-on-metrics" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="a-note-on-metrics"><span class="header-section-number">4.3</span> A note on metrics</h2>
-<p>Keep in mind:</p>
-<blockquote class="blockquote">
-<p>“When a measure becomes a target, it ceases to be a good measure.” - Marylin Strathern (<a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart’s Law</a>)</p>
-</blockquote>
-<p>There are many ways of measuring work - we use OKRs, sprint points, time tracking, among others. These are used to plan, assess, and report. Importantly, these metrics <em>are not</em> used to assess individual performance. Optimizing for such metrics at the individual level is counterproductive, and diminishes the value of such metrics.</p>
+<section id="libre-office-calc" class="level3" data-number="22.0.7">
+<h3 data-number="22.0.7" class="anchored" data-anchor-id="libre-office-calc"><span class="header-section-number">22.0.7</span> Libre Office Calc</h3>
+<p>Install the libreoffice-base package to add the <em>Database</em> option to Calc; this may require an administrator to perform and a reboot after it’s installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)</p>
+<p>The following instructions are written for the MySQL database, but can be easily adjusted for other databases: <a href="https://techsparx.com/blog/2016/08/libreoffice-mysql.html" class="uri">https://techsparx.com/blog/2016/08/libreoffice-mysql.html</a></p>
+<p><strong>Reading</strong></p>
+<p>Perform a SQL Query to import the data into a spreadsheet</p>
+<p><strong>Writing</strong></p>
+<p>Unable to find a documented way to put data back into a modern relational database. Generate a CSV file and update the database with that</p>
+<p><strong>Conclusion</strong></p>
+<p>Easier to set up on Linux-based systems than Excel on Windows is (see above for Excel on Mac). Pulling data directly is on par with other spreadsheet applications, but direct writing appears to be missing.</p>
 
 
 </section>
@@ -770,13 +852,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./group-expectations.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Group Expectations</span></span>
+      <a href="./creating-r-packages.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Creating R Packages</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./standups.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Standups</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
