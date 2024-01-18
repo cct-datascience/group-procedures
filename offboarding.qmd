@@ -1,0 +1,69 @@
+# Offboarding
+
+## Overview
+
+It is to everyone's advantage for career aspirations and changes in personnel to be an ongoing and open discussion.
+
+The person who is leaving should inform Kristina as soon as they begin the process of looking for another position or are considering leaving.
+Then discuss a plan for sharing with other members of the group.
+The convention of giving two weeks notice is *not enough time to wrap up*.
+With more time, the group can help with next steps including finding new positions and creating an exit plan.
+Further, it typically takes a month or more to effectively document and transfer knowledge of what you are working on.
+
+### Resources
+
+-   University of Arizona's [official "leaving" page](https://hr.arizona.edu/employees-affiliates/leaving-ua)
+
+### Logistics
+
+-   Make sure Kristina knows what your last day will be
+-   Return university-owned equipment (computers, books, etc.) to Kristina
+-   Create a list of any accounts or permissions that will need to be transferred, and start transferring them.
+-   Turn off access to second floor BSRL on Cat Card
+-   Leave contact information (e.g., personal email address) in case we need to reach you.
+
+Websites and passwords (Kristina)
+
+-   change permissions as appropriate in group organizations (optional, depending on planned future work)
+
+    -   github organizations
+
+        -   az-digitalag
+        -   agpipeline
+        -   terraref
+        -   pecanproject
+        -   sentinel-detection
+        -   genophenoenvo
+
+    -   Google Drive "Group" and other project-specific folders
+
+    -   Openstack CALS group
+
+-   Make sure any accounts and websites are transitioned
+
+    -   E.g. dockerhub, google drive
+
+-   Remove user accounts and home directories from machines
+
+    -    `sudo userdel $name && sudo rm -r /home/$name`
+
+-   Remove from UA HPC group
+
+    -   go to <https://portal.hpc.arizona.edu/portal/> \> Manage Groups \> kristinariemer
+
+### Exit Interview
+
+We hope to have a culture of feedback that would prevent unresolved issues or an unexpected departure.
+The exit interview provides a different context in which to to provide new feedback or reiterate previous feedback in a less constrained.
+
+**Questions**:
+
+Questions should be tailored to each individual situation.
+Here are a few key questions:
+
+-   How have you developed during your time on this team?
+-   What did you like most about working on this team? What did you like the least?
+-   How could the team have helped you more on the job?
+-   What parts of the culture were a good fit for you? What changes would you suggest?
+-   What was the most challenging part of this job?
+-   Is there anything else that you would like to share?
