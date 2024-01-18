@@ -1,9 +1,6 @@
----
-title: "Standups"
-editor: visual
----
+# Regular Meetings
 
-### Daily Standups
+## Daily Standups {#standups}
 
 We meet daily at 9:50 AM (unless we have a sprint planning or retrospective meeting that day) for approximately ten minutes.
 The team member who leads the meeting is a rotating role that can be found [here](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit?usp=sharing).
@@ -19,14 +16,25 @@ Everyone answers the following questions:
 This often leads to more in depth discussions which should be identified as tangential.
 The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.
 
-### Weekly Individual Meetings
+## Weekly Individual Meetings
 
 Everyone meets once per week with Kristina for a 30 minute one-on-one.
 Once a month, this meeting is extended to an hour to discuss OKR's.
 
-### Weekly Writing Hour
+## Weekly Outreach Hour
 
-We meet once per week (currently on Fridays from 11 am to noon on Zoom) to dedicate time to writing tasks.
+We meet once per week (currently on Mondays from 10-11am on Zoom) to dedicate time to outreach tasks.
 Notes are recorded [here](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ).
-We use the Pomadoro method of writing for 25 minutes followed by a 5 minute break to review progress.
-Writing tasks can be found [here](https://github.com/cct-datascience/organization/labels/writing).
+
+## Monthly Project Hour
+
+Once a month, we meet to discuss the status of incubator and non-incubator projects.
+Notes [here](https://hackmd.io/Ix-cFLn2RwuBfryEtOINaw).
+
+## Monthly Group Processes Hour
+
+Once a month, we meet to discuss group processes and do things like work on this book!
+
+## Sprint Planning
+
+See [Sprint Planning](sprint-planing.qmd).

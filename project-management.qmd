@@ -24,7 +24,7 @@ Our group uses the following hierarchy of meetings, from brief daily status repo
 -   Bi-Weekly:
     -   [Bi-weekly Sprints](sprint-planning.qmd): start with a planning meeting and end with a sprint retrospective meeting.
 -   Weekly: Each group member has a one-on-one meeting (30-60 minutes) week with Kristina.
--   [Daily standups](standups.qmd): Daily progress, plans, and blockers are discussed during daily [standup](standups.qmd) meetings (10 minutes).
+-   [Daily standups](regular-meetings.qmd#standups): Daily progress, plans, and blockers are discussed during daily [standup](regular-meetings.qmd#standups) meetings (10 minutes).
 
 ## Time Tracking
 

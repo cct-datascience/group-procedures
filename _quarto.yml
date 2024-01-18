@@ -21,7 +21,7 @@ book:
     - part: "Group Processes (Agile)"
       chapters:
         - project-management.qmd
-        - standups.qmd
+        - regular-meetings.qmd
         - sprint-planning.qmd 
         - quarterly-meetings.qmd
         - annual-reviews.qmd
