@@ -50,7 +50,7 @@ title: "Communications and Outreach"
 
 -   R-Users AZ listserv, send announcement to Jeff Oliver [jcoliver\@email.arizona.edu](mailto:jcoliver@email.arizona.edu)
 
--   CALS Data Science Ambassadors
+-   CALS [Data Science Ambassadors](https://datascience.arizona.edu/dsa)
 
 -   EEB grad student coordinator: send announcement to Pennie Rabago-Liebig [pliebig\@arizona.edu](mailto:pliebig@arizona.edu)
 
