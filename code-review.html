@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCT Data Science Group Procedures</title>
+<title>CCT Data Science Group Procedures - 13&nbsp; Code review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./contributing.html" rel="next">
+<link href="./drop-in-hours.html" rel="next">
+<link href="./professional-development.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Purpose</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./onboarding.html">Group Procedures</a></li><li class="breadcrumb-item"><a href="./code-review.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Code review</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -106,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Purpose</span></a>
   </div>
 </li>
@@ -221,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code-review.html" class="sidebar-item-text sidebar-link">
+  <a href="./code-review.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Code review</span></span></a>
   </div>
 </li>
@@ -336,16 +337,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#code-review-objectives" id="toc-code-review-objectives" class="nav-link active" data-scroll-target="#code-review-objectives"><span class="header-section-number">13.1</span> Code review objectives</a>
+  <ul class="collapse">
+  <li><a href="#incremental-reviews-e.g.-pull-request-sized" id="toc-incremental-reviews-e.g.-pull-request-sized" class="nav-link" data-scroll-target="#incremental-reviews-e.g.-pull-request-sized"><span class="header-section-number">13.1.1</span> Incremental reviews (e.g.&nbsp;pull-request sized)</a></li>
+  <li><a href="#codebase-reviews-e.g.-review-of-a-whole-incubator-project" id="toc-codebase-reviews-e.g.-review-of-a-whole-incubator-project" class="nav-link" data-scroll-target="#codebase-reviews-e.g.-review-of-a-whole-incubator-project"><span class="header-section-number">13.1.2</span> Codebase reviews (e.g.&nbsp;review of a whole incubator project)</a></li>
+  <li><a href="#what-code-review-is-not" id="toc-what-code-review-is-not" class="nav-link" data-scroll-target="#what-code-review-is-not"><span class="header-section-number">13.1.3</span> What code review is NOT</a></li>
+  </ul></li>
+  <li><a href="#how-to-do-a-code-review" id="toc-how-to-do-a-code-review" class="nav-link" data-scroll-target="#how-to-do-a-code-review"><span class="header-section-number">13.2</span> How to do a code review</a>
+  <ul class="collapse">
+  <li><a href="#identify-the-goal-posts" id="toc-identify-the-goal-posts" class="nav-link" data-scroll-target="#identify-the-goal-posts"><span class="header-section-number">13.2.1</span> 1. Identify the goal posts</a></li>
+  <li><a href="#check-things-off-the-list" id="toc-check-things-off-the-list" class="nav-link" data-scroll-target="#check-things-off-the-list"><span class="header-section-number">13.2.2</span> 2. Check things off the list!</a></li>
+  <li><a href="#ask-questions-and-suggest-modifications" id="toc-ask-questions-and-suggest-modifications" class="nav-link" data-scroll-target="#ask-questions-and-suggest-modifications"><span class="header-section-number">13.2.3</span> 3. Ask questions and suggest modifications</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">13.3</span> Resources</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cct-datascience/group-procedures/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/cct-datascience/group-procedures/blob/main/index.qmd" class="toc-action">View source</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cct-datascience/group-procedures/edit/main/code-review.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/cct-datascience/group-procedures/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/cct-datascience/group-procedures/blob/main/code-review.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CCT Data Science Group Procedures</h1>
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Code review</span></h1>
 </div>
 
 
@@ -360,10 +373,96 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="purpose" class="level1 unnumbered">
-<h1 class="unnumbered">Purpose</h1>
-<p>This book is to document the processes, resources, and internal workings of the Communications &amp; Cyber Technologies Data Science Team at the University of Arizona. A public facing version of what we do and how to work with us is available at <a href="https://datascience.cals.arizona.edu/">our website</a>.</p>
-<p>The CCT Data Science Team is a research support unit that helps life sciences researchers learn and apply data science tools and skills to their scientific projects. We are a small group of data scientists and research software engineers that work with domain researchers in the ALVSCE division through a variety of programming. We host workshops to demonstrate use of modern computational tools, work on collaborative projects, and help researchers one-on-one. The team teaches and applies a broad array of topics from best practices in R to version control using git to open and reproducible research workflows.</p>
+<section id="code-review-objectives" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="code-review-objectives"><span class="header-section-number">13.1</span> Code review objectives</h2>
+<p>Code review helps maintain software quality. It can also be a great way to share knowledge and create common standards and approaches across the group.</p>
+<section id="incremental-reviews-e.g.-pull-request-sized" class="level3" data-number="13.1.1">
+<h3 data-number="13.1.1" class="anchored" data-anchor-id="incremental-reviews-e.g.-pull-request-sized"><span class="header-section-number">13.1.1</span> Incremental reviews (e.g.&nbsp;pull-request sized)</h3>
+<ul>
+<li>“Make sure the health of the codebase is staying the same or increasing over time”.</li>
+<li>Ensure that changes achieve the intended aim and check for introduced bugs.</li>
+<li>Focus on error-catching/quality control.</li>
+</ul>
+</section>
+<section id="codebase-reviews-e.g.-review-of-a-whole-incubator-project" class="level3" data-number="13.1.2">
+<h3 data-number="13.1.2" class="anchored" data-anchor-id="codebase-reviews-e.g.-review-of-a-whole-incubator-project"><span class="header-section-number">13.1.2</span> Codebase reviews (e.g.&nbsp;review of a whole incubator project)</h3>
+<ul>
+<li>Reviewing for <strong>functionality</strong>, <strong>reproducibility</strong>, <strong>readability.</strong></li>
+<li>(?) Less of an emphasis on line-by-line error checking. <em>Or, work on this last.</em></li>
+</ul>
+</section>
+<section id="what-code-review-is-not" class="level3" data-number="13.1.3">
+<h3 data-number="13.1.3" class="anchored" data-anchor-id="what-code-review-is-not"><span class="header-section-number">13.1.3</span> What code review is NOT</h3>
+<ul>
+<li>Code review happens in a spirit of collaboration - helping everyone in the group produce solid code. There are no gotchas or red pens.</li>
+</ul>
+</section>
+</section>
+<section id="how-to-do-a-code-review" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="how-to-do-a-code-review"><span class="header-section-number">13.2</span> How to do a code review</h2>
+<section id="identify-the-goal-posts" class="level3" data-number="13.2.1">
+<h3 data-number="13.2.1" class="anchored" data-anchor-id="identify-the-goal-posts"><span class="header-section-number">13.2.1</span> 1. Identify the goal posts</h3>
+<p><a href="https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view#Tools">This rubric</a> can help structure your review. You may want to flesh out the categories according to the following:</p>
+<ul>
+<li>Product functionality: what is the software supposed to <em>do</em>? How do we know when it’s working? Be as specific as possible - you want a list of expectations that can be verified.
+<ul>
+<li><p>For an R package, this might be a list of the core functions and their behavior, including any automated or repository-specific checks (e.g.&nbsp;CRAN, ROpenSci checklists) that must pass.</p></li>
+<li><p>For a Shiny app, a description of the app components and their intended functionality.</p></li>
+<li><p>The authors/developers can help the review process by providing this list alongside the codebase.</p></li>
+</ul></li>
+<li>User-facing documentation: what tools does a user need to use the product successfully, and are they sufficient?
+<ul>
+<li><p>For all projects, this includes</p>
+<ul>
+<li><p>a README</p></li>
+<li><p>a license/set of guidelines for re-use</p></li>
+<li><p>a CITATION file</p></li>
+<li><p>any required funding acknowledgements</p></li>
+</ul></li>
+<li><p>For an R package, this includes function documentation, vignettes, etc.</p></li>
+<li><p>For a Shiny app, this includes app instructions.</p></li>
+</ul></li>
+<li>Developer-facing documentation: what does a naive developer need to understand in order to potentially modify or debug the code?
+<ul>
+<li>A description of the file structure and explanation of each item</li>
+<li>Sufficient code commenting</li>
+<li>Logical naming and organization strategies</li>
+</ul></li>
+<li>Code accuracy and stability
+<ul>
+<li>Checking for bugs</li>
+<li>(Somewhat subjective) could the code be made more modular/less repetitive?</li>
+<li>(Possibly) checking for foreseeable software rot issues. (e.g.&nbsp;tidyverse functions can change quickly, and may not be desirable dependencies for R packages).</li>
+</ul></li>
+<li>Reproducibility/portability
+<ul>
+<li>Are the necessary components included to run the code/reproduce the analysis on a new machine/with new data?</li>
+</ul></li>
+</ul>
+</section>
+<section id="check-things-off-the-list" class="level3" data-number="13.2.2">
+<h3 data-number="13.2.2" class="anchored" data-anchor-id="check-things-off-the-list"><span class="header-section-number">13.2.2</span> 2. Check things off the list!</h3>
+<ul>
+<li><p>Fork or otherwise create a working copy of the codebase that you can experiment with and modify.</p></li>
+<li><p>Work from the big-picture to granular. E.g. check that things install and produce expected output; then check for stylistic questions.</p></li>
+<li><p>Pace yourself as a reviewer - you can only absorb so much at once, and <a href="https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/">code review efficacy drops off</a> after about an hour of focused work or, according to one study, about 200 LOC.</p></li>
+</ul>
+</section>
+<section id="ask-questions-and-suggest-modifications" class="level3" data-number="13.2.3">
+<h3 data-number="13.2.3" class="anchored" data-anchor-id="ask-questions-and-suggest-modifications"><span class="header-section-number">13.2.3</span> 3. Ask questions and suggest modifications</h3>
+<ul>
+<li><p>If you have suggested modifications that you can make yourself (e.g.&nbsp;changing comments, catching easy typos), create well-documented commits in your forked repository.</p></li>
+<li><p>For larger modifications, or questions, document the issue thoroughly and reach out to the authors to work together to clarify or resolve things.</p></li>
+</ul>
+</section>
+</section>
+<section id="resources" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="resources"><span class="header-section-number">13.3</span> Resources</h2>
+<ul>
+<li><p><a href="https://google.github.io/eng-practices/review/reviewer/standard.html" class="uri">https://google.github.io/eng-practices/review/reviewer/standard.html</a></p></li>
+<li><p><a href="https://hackmd.io/SeELqmZnSzW9-Y_BhUkQhg?view">Group HackMD on Peer Code Review</a></p></li>
+<li><p><a href="https://code-review.tidyverse.org/">Tidyteam code review</a></p></li>
+</ul>
 
 
 </section>
@@ -735,10 +834,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./professional-development.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Professional Development</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./contributing.html" class="pagination-link">
-        <span class="nav-page-text">Editing This Book</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./drop-in-hours.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Drop-in Hours</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
