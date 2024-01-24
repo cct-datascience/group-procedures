@@ -77,11 +77,46 @@
     "text": "4.3 A note on metrics\nKeep in mind:\n\n“When a measure becomes a target, it ceases to be a good measure.” - Marylin Strathern (Goodhart’s Law)\n\nThere are many ways of measuring work - we use OKRs, sprint points, time tracking, among others. These are used to plan, assess, and report. Importantly, these metrics are not used to assess individual performance. Optimizing for such metrics at the individual level is counterproductive, and diminishes the value of such metrics."
   },
   {
-    "objectID": "standups.html",
-    "href": "standups.html",
-    "title": "5  Standups",
-    "section": "",
-    "text": "5.0.1 Daily Standups\nWe meet daily at 9:50 AM (unless we have a sprint planning or retrospective meeting that day) for approximately ten minutes. The team member who leads the meeting is a rotating role that can be found here. The leader is responsible for keeping the Standup on track and on time. Everyone answers the following questions:\n\nWhat did you do yesterday?\nWhat are you planning to do today?\nIs anything blocking your work?\n\nThis often leads to more in depth discussions which should be identified as tangential. The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.\n\n\n5.0.2 Weekly Individual Meetings\nEveryone meets once per week with Kristina for a 30 minute one-on-one. Once a month, this meeting is extended to an hour to discuss OKR’s.\n\n\n5.0.3 Weekly Writing Hour\nWe meet once per week (currently on Fridays from 11 am to noon on Zoom) to dedicate time to writing tasks. Notes are recorded here. We use the Pomadoro method of writing for 25 minutes followed by a 5 minute break to review progress. Writing tasks can be found here."
+    "objectID": "regular-meetings.html#standups",
+    "href": "regular-meetings.html#standups",
+    "title": "5  Regular Meetings",
+    "section": "5.1 Daily Standups",
+    "text": "5.1 Daily Standups\nWe meet daily at 9:50 AM (unless we have a sprint planning or retrospective meeting that day) for approximately ten minutes. The team member who leads the meeting is a rotating role that can be found here. The leader is responsible for keeping the Standup on track and on time. Everyone answers the following questions:\n\nWhat did you do yesterday?\nWhat are you planning to do today?\nIs anything blocking your work?\n\nThis often leads to more in depth discussions which should be identified as tangential. The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time."
+  },
+  {
+    "objectID": "regular-meetings.html#weekly-individual-meetings",
+    "href": "regular-meetings.html#weekly-individual-meetings",
+    "title": "5  Regular Meetings",
+    "section": "5.2 Weekly Individual Meetings",
+    "text": "5.2 Weekly Individual Meetings\nEveryone meets once per week with Kristina for a 30 minute one-on-one. Once a month, this meeting is extended to an hour to discuss OKR’s."
+  },
+  {
+    "objectID": "regular-meetings.html#weekly-outreach-hour",
+    "href": "regular-meetings.html#weekly-outreach-hour",
+    "title": "5  Regular Meetings",
+    "section": "5.3 Weekly Outreach Hour",
+    "text": "5.3 Weekly Outreach Hour\nWe meet once per week (currently on Mondays from 10-11am on Zoom) to dedicate time to outreach tasks. Notes are recorded here."
+  },
+  {
+    "objectID": "regular-meetings.html#monthly-project-hour",
+    "href": "regular-meetings.html#monthly-project-hour",
+    "title": "5  Regular Meetings",
+    "section": "5.4 Monthly Project Hour",
+    "text": "5.4 Monthly Project Hour\nOnce a month, we meet to discuss the status of incubator and non-incubator projects. Notes here."
+  },
+  {
+    "objectID": "regular-meetings.html#monthly-group-processes-hour",
+    "href": "regular-meetings.html#monthly-group-processes-hour",
+    "title": "5  Regular Meetings",
+    "section": "5.5 Monthly Group Processes Hour",
+    "text": "5.5 Monthly Group Processes Hour\nOnce a month, we meet to discuss group processes and do things like work on this book!"
+  },
+  {
+    "objectID": "regular-meetings.html#sprint-planning",
+    "href": "regular-meetings.html#sprint-planning",
+    "title": "5  Regular Meetings",
+    "section": "5.6 Sprint Planning",
+    "text": "5.6 Sprint Planning\nSee Sprint Planning."
   },
   {
     "objectID": "sprint-planning.html#sprint-reviewplanning",
