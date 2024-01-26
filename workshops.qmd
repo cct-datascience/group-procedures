@@ -134,11 +134,32 @@ Still a work-in-progress, but should ask questions about:
 
 Two reports should be downloaded from the Analytics & Reports page on arizona.zoom.us:
 
-1)  Registration report ("Meeting"), which contains a csv of all registrants and their answers to the registration questions
-2)  Usage report (filter by date range), click on participants, then export. Provides a csv of all attendees and when they attended. List is not unique and should be sorted by attendance time. Contains email list for follow-up survey.
+-   Registration report, which contains a csv of all registrants and their answers to the registration questions
+    1)  Log into arizona.zoom.us.
+        In the sidebar, click "Analytics & Reports", then click the "Usage Reports" tab and click "Meeting".
 
--   Add registrants to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0)
--   Import list of registrants who opt into the mailing list to [Emma](https://home.e2ma.net/)
+        ![](img/zoom_meeting_report.png)
+
+    2)  Choose the meeting "Meeting Report" tab and filter the dates to include your workshop.
+        Click the "generate" button next to your workshop
+
+        ![](img/zoom_meeting_report2.png)
+
+    3)  In the "Report Queue", click the "Download" button next to your workshop to get a .csv file with registrant information
+-   Usage report <!--# Do we even do anything with this report?  Should I say this is optional? -->
+    1.  Go back to Analytics & Reports \> Usage Reports and choose "Usage"
+
+    2.  Filter by the date of your workshop.
+
+    3.  Click the **number** in the "Participants" column to open the Meeting Participants view
+
+        ![](img/zoom_usage_report.png)
+
+    4.  Check the "Show unique users" box and click "Export" to download a csv file showing who actually attended the workshop and how long they stayed.
+
+        ![](img/zoom_usage_report2.png)
+-   Add registrants from the registration report to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0).
+-   "Import" (manually enter) list of registrants who opt into the mailing list to [Emma](emma.qmd).
 
 ### Post-workshop survey
 
@@ -151,7 +172,8 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
 -   Include link to notes, (e.g. GitHub, RStudio Connect, cct-datascience.quartopub.com, etc.), resources, and post-workshop survey
 -   Include link to our drop-in hours page
 
-Email example:
+::: {.callout-note collapse="true"}
+## Example Email
 
 > Dear workshop participants,
 >
@@ -170,3 +192,4 @@ Email example:
 > Sincerely,
 >
 > \[Your Name\]
+:::
