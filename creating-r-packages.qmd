@@ -24,4 +24,4 @@ Things this page should eventually include:
 [R-Universe](https://ropensci.org/r-universe/) is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor.
 We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a "portfolio" of R packages our team has created or contributed significantly to.
 
-To add a GitHub repo with an R package to https://cct-datascience.r-universe.dev/, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.
+To add a GitHub repo with an R package to [cct-datascience.r-universe.dev](https://cct-datascience.r-universe.dev/), simply edit the JSON file here: <https://github.com/cct-datascience/cct-datascience.r-universe.dev> using the instructions linked to in the README.
