@@ -6,7 +6,7 @@ title: CCT Data Science Group Procedures
 message: >-
   If you use this book, please cite it using the
   metadata from the CITATION.cff file.
-type: manual
+type: software
 date-released: '2024-03-01' #Update this with each release.
 authors: # order is [group lead, order of joining, lebauer] 
          # see https://github.com/cct-datascience/group-procedures/pull/50
