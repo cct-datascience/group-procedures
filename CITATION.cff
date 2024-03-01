@@ -1,0 +1,55 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CCT Data Science Group Procedures
+message: >-
+  If you use this book, please cite it using the
+  metadata from this file.
+type: software
+date-released: '2024-03-01' #Update this with each release.
+authors:
+  - given-names: Kristina
+    family-names: Riemer
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    email: kristinariemer@arizona.edu
+    orcid: 'https://orcid.org/0000-0003-3802-3331'
+  - given-names: David S.
+    family-names: LeBauer
+  - given-names: J. E.
+    family-names: Barrios
+  - given-names: E. J.
+    family-names: Cain
+  - given-names: K. M.
+    family-names: Huynh
+  - given-names: Julian
+    family-names: Pistorius
+  - given-names: Christophe
+    family-names: Schnaufer
+    affiliation: >-
+      Universtiy of Arizona, Communications & Cyber
+      Technologies Data Science
+  - given-names: Jessica
+    family-names: Guo
+  - given-names: Eric R.
+    family-names: Scott
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    orcid: 'https://orcid.org/0000-0002-7430-7879'
+  - given-names: Renata
+    family-names: Diaz
+    affiliation: >-
+      Universtiy of Arizona, Communications & Cyber
+      Technologies Data Science
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/TZMHP
+    description: Original version
+    # TODO: add DOI for this version once it is archived
+    
+repository-code: 'https://github.com/cct-datascience/group-procedures'
+url: 'https://cct-datascience.github.io/group-procedures/'
+
