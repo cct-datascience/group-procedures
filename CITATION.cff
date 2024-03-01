@@ -5,10 +5,11 @@ cff-version: 1.2.0
 title: CCT Data Science Group Procedures
 message: >-
   If you use this book, please cite it using the
-  metadata from this file.
-type: software
+  metadata from the CITATION.cff file.
+type: manual
 date-released: '2024-03-01' #Update this with each release.
-authors:
+authors: # order is [group lead, order of joining, lebauer] 
+         # see https://github.com/cct-datascience/group-procedures/pull/50
   - given-names: Kristina
     family-names: Riemer
     affiliation: >-
@@ -16,25 +17,19 @@ authors:
       Technologies Data Science
     email: kristinariemer@arizona.edu
     orcid: 'https://orcid.org/0000-0003-3802-3331'
-  - given-names: David S.
-    family-names: LeBauer
-    affiliation: >-
-      University of Arizona, Communications & Cyber
-      Technologies Data Science
-    orcid: 'https://orcid.org/0000-0001-7228-053X'
-  - given-names: J. E.
-    family-names: Barrios
-  - given-names: E. J.
-    family-names: Cain
-  - given-names: K. M.
+  - given-names: Kimberly. M.
     family-names: Huynh
-  - given-names: Julian
-    family-names: Pistorius
   - given-names: Christophe
     family-names: Schnaufer
     affiliation: >-
       Universtiy of Arizona, Communications & Cyber
       Technologies Data Science
+  - given-names: Julian
+    family-names: Pistorius
+  - given-names: Jorge. E.
+    family-names: Barrios
+  - given-names: Emily. J.
+    family-names: Cain
   - given-names: Jessica
     family-names: Guo
   - given-names: Eric R.
@@ -48,6 +43,13 @@ authors:
     affiliation: >-
       Universtiy of Arizona, Communications & Cyber
       Technologies Data Science
+  # add new contributors second to last 
+  - given-names: David S.
+    family-names: LeBauer
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    orcid: 'https://orcid.org/0000-0001-7228-053X'
 identifiers:
   - type: doi
     value: 10.17605/OSF.IO/TZMHP
