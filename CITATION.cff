@@ -49,7 +49,7 @@ identifiers:
     value: 10.17605/OSF.IO/TZMHP
     description: Original version
     # TODO: add DOI for this version once it is archived
-    
+license: CC-BY-4.0
 repository-code: 'https://github.com/cct-datascience/group-procedures'
 url: 'https://cct-datascience.github.io/group-procedures/'
 
