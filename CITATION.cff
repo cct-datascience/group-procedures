@@ -32,6 +32,7 @@ authors: # order is [group lead, order of joining, lebauer]
     family-names: Cain
   - given-names: Jessica
     family-names: Guo
+    orcid: 'https://orcid.org/0000-0002-9566-9182'
   - given-names: Eric R.
     family-names: Scott
     affiliation: >-
