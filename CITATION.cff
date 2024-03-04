@@ -41,6 +41,7 @@ authors: # order is [group lead, order of joining, lebauer]
     orcid: 'https://orcid.org/0000-0002-7430-7879'
   - given-names: Renata
     family-names: Diaz
+    orcid: 'https://orcid.org/0000-0003-0803-4734'
     affiliation: >-
       Universtiy of Arizona, Communications & Cyber
       Technologies Data Science
