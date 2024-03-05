@@ -1,12 +1,18 @@
+# source: https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/
+
+# https://commoncrawl.org/ccbot
 User-agent: CCBot
 Disallow: /
 
+# No ChatGPT user allowed anywhere on the site
 User-agent: ChatGPT-User
 Disallow: /
 
+# Don't add any content to the GPT model
 User-agent: GPTBot
 Disallow: /
 
+# Blocks Bard and Vertex
 User-agent: Google-Extended
 Disallow: /
 
@@ -17,4 +23,13 @@ User-agent: Omgili
 Disallow: /
 
 User-agent: FacebookBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot 
 Disallow: /
