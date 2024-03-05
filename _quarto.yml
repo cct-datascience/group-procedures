@@ -58,6 +58,7 @@ format:
     theme: 
       light: flatly
       dark: darkly
+    resources: robots.txt
       
 editor: 
   markdown:
