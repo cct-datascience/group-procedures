@@ -52,11 +52,11 @@ authors: # order is [group lead, order of joining, lebauer]
       University of Arizona, Communications & Cyber
       Technologies Data Science
     orcid: 'https://orcid.org/0000-0001-7228-053X'
+doi: 10.5281/zenodo.10783692
 identifiers:
   - type: doi
     value: 10.17605/OSF.IO/TZMHP
     description: Original version
-    # TODO: add DOI for this version once it is archived
 license: CC-BY-4.0
 repository-code: 'https://github.com/cct-datascience/group-procedures'
 url: 'https://cct-datascience.github.io/group-procedures/'
