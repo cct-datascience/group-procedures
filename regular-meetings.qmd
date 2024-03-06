@@ -37,4 +37,4 @@ Once a month, we meet to discuss group processes and do things like work on this
 
 ## Sprint Planning
 
-See [Sprint Planning](sprint-planing.qmd).
+See [Sprint Planning](sprint-planning.qmd).
