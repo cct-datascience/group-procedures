@@ -156,7 +156,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Including relevant pictures in posts are encouraged.
     **Please get explicit verbal/written consent from everyone in the picture before posting.**
 
--   Cite sources and mention them (\@journal or \@author) if possible
+-   Cite sources and mention users (\@journal or \@author) in posts when applicable
 
 -   If anyone comments on a post, make sure to respond to them, especially if it's a question.
 
