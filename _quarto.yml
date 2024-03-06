@@ -1,5 +1,6 @@
 project: 
   type: book
+  resources: robots.txt
 execute: 
   freeze: auto
 book:
@@ -58,7 +59,6 @@ format:
     theme: 
       light: flatly
       dark: darkly
-    resources: robots.txt
       
 editor: 
   markdown:
