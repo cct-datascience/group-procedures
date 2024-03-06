@@ -18,11 +18,11 @@ title: "Communications and Outreach"
 
 -   Experiment Station Tues morning notes: send announcement to [tmn\@cals.arizona.edu](mailto:tmn@cals.arizona.edu)
 
--   [CALS Bulletin](https://compass.arizona.edu/bulletin)
+-   [CALES Bulletin](https://compass.arizona.edu/bulletin)
 
--   CALS Grad Student List Serv: send announcement to Dr. Jia Hu [jiahu\@arizona.edu](mailto:jiahu@arizona.edu)
+-   CALES Grad Student List Serv: send announcement to Dr. Jia Hu [jiahu\@arizona.edu](mailto:jiahu@arizona.edu)
 
--   Individual CALS departments listservs as appropriate:
+-   Individual CALES departments listservs as appropriate:
 
     <!--# TODO: these likely need updating -->
 
@@ -116,29 +116,23 @@ Links to documentation:
 
 -   **Sign In**
 
-    1.  Go to <https://datascience.cct.arizona.edu/user/>
+    1.  Go to <https://datascience.cct.arizona.edu/user/login>
 
-    2.  Click on the "Log in using UA WebAuth" button, click on "LOG IN", and then sign in with UA credentials
+    2.  Click on the "Log in using University of Arizona WebAuth" link, and then sign in with UA credentials
 
-    3.  You can [add new content](https://uasites.arizona.edu/node/11_) or [edit existing content](https://uasites.arizona.edu/node/3)
+    3.  You can [add new content](https://quickstart.arizona.edu/get-started/adding-content) or [edit existing content](https://quickstart.arizona.edu/create-content/editor-toolbar)
 
 -   **People**
 
-    -   **Move people around** <https://datascience.cct.arizona.edu/admin/uaqs-person/reorder-people>
-
     -   **Add / edit people** <https://quickstart.arizona.edu/people-directories>
 
--   **Add blogpost** (this is added as a 'news' type) <https://quickstart.arizona.edu/news-content-type>
+-   **Add blogpost** (this is added as a 'news' type) <https://quickstart.arizona.edu/create-content/adding-news-pages>
 
--   **Update Menu** <https://quickstart.arizona.edu/setting-main-menu>
+-   **Update Menu**
 
 -   **Preview page without publishing**
 
     -   Save the page unpublished so that you can see how it will display without the public seeing it.
-
--   **Clear cache** so it appears to public immediately
-
-    -   [Configuration --\> Development --\> Performance](https://datascience.cct.arizona.edu/admin/config/development/performance) --\> Clear all caches
 
 -   Projects
 
