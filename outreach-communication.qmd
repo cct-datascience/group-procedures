@@ -155,6 +155,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 
 -   Including relevant pictures in posts are encouraged.
     **Please get explicit verbal/written consent from everyone in the picture before posting.**
+    Tag people in the pictures who are on Mastodon **with their permission**
 
 -   Cite sources and mention users (\@journal or \@author) in posts when applicable
 
