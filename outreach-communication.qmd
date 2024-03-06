@@ -154,8 +154,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Please review the group [code of conduct](code-of-conduct.qmd) before posting to ensure you adhere to these guidelines
 
 -   Including relevant pictures in posts are encouraged.
-    **Please get explicit verbal/written consent from everyone in the picture before posting.**
-    Tag people in the pictures who are on Mastodon **with their permission**
+    **Please get explicit verbal/written consent from everyone in the picture before posting.** Tag people in the pictures who are on Mastodon **with their permission**
 
 -   Cite sources and mention users (\@journal or \@author) in posts when applicable
 
@@ -171,9 +170,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Feel free to get creative!
     This is just a limited list of possible selections.
 
--   Content should be directly in line with our mission statement
-
-    -   **The mission of the UA ag data group is to provide scientists and engineers with open software, data, and computing that will allow more efficient discovery and invention so that we can engineer crops and manage sustainable agricultural landscapes that produce food, energy, and ecosystem services.**
+-   Content should be directly in line with our [mission statement](https://datascience.cct.arizona.edu/about)
 
 -   Announcements of recent group activities, e.g., quarterly review meeting
 
@@ -187,7 +184,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 
 -   Link to good resources for the type of work we do, e.g., blog post for how to use an R package
 
--   Live coverage of an event like a conference talk - this can be a difficult thing to do
+-   Live coverage of an event like a conference talk—this can be a difficult thing to do
 
 #### Boosts/Favorites
 
