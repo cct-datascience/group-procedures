@@ -1,3 +1,7 @@
+---
+link-external-icon: false
+---
+
 # Purpose {.unnumbered}
 
 This book is to document the processes, resources, and internal workings of the Communications & Cyber Technologies Data Science Team at the University of Arizona.

@@ -26,6 +26,7 @@ authors: # order is [group lead, order of joining, lebauer]
       Technologies Data Science
   - given-names: Julian
     family-names: Pistorius
+    orcid: https://orcid.org/0000-0002-3485-0084
   - given-names: Jorge. E.
     family-names: Barrios
   - given-names: Emily. J.
