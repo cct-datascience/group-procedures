@@ -131,5 +131,4 @@ This should be discussed early in the project.
 The [CRedIT Taxonomy](https://casrai.org/credit/) provides a list of contribution types that may warrant co-authorship.
 All DIAG contributors should be involved in review and revision---as co-authors, we should feel comfortable with the content.
 
-More details in the [Publications and Contributions](https://osf.io/tzmhp/wiki/Publications%20and%20Contributors/) wiki page.
-<!--# todo: link to .qmd file instead of OSF -->
+More details in the [Authorship and Licensing Guidelines](getting-credit.qmd) page.

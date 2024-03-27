@@ -1,0 +1,48 @@
+# Authorship and Licensing Guidelines
+
+Our goal is to consistently, accurately and transparently attribute the contribution of each contributor to papers, software, data products and other scientific outputs that our group leads or contributes to.
+We seek to encourage participation in manuscripts by interested parties, not limited to scientists, developers, and students who are directly involved in our projects.
+We hope to recognize each contributor who has made a significant and defined contribution.
+
+Below we define group protocols and expectations for being acknowledged and acknowledging contributions to different types of content.
+
+We generally follow the [Contributor Roles Taxonomy (CRediT)](https://credit.niso.org/) to define contributions, but are open when collaborators use other approaches.
+
+## Publications
+
+For publications like peer-reviewed journal articles, white papers, conference papers, etc.
+CCT Data Science members who are substantially involved should be listed as authors.
+Authorship and author order should be discussed with collaborators early and often (e.g. during the project plan phase of incubator projects).
+Involvement need not include writing (see [CRediT](https://credit.niso.org/) and [MeRIT](https://www.merit.help/) frameworks) to be considered for authorship.
+
+## Software / Code
+
+Our group uses [Zenodo](https://zenodo.org) for archiving code we produce in collaboration with researchers.
+Code authorship and author order need not be the same as the authorship and author order for publications or data that the code contributes to.
+Have discussions early and often about authorship of code.
+
+### Zenodo + GitHub integration
+
+The easiest way to archive code on Zenodo is to take advantage of the [Zenodo–GitHub integration](https://zenodo.org/account/settings/github/).
+If there is a CITATION.cff file in a GitHub repository, it will be used to populate the metadata on Zenodo.
+We recommend creating a CITATION.cff file with a tool such as [cffinit](https://citation-file-format.github.io/) or the `cffr` R package.
+Use [semantic versioning](https://semver.org/) in GitHub releases and in the corresponding `version:` field of CITATION.cff.
+
+## Data
+
+Zenodo can also be used to archive data and it is an especially good option when code and data are in the same GitHub repository.
+Other options for archiving data include [Dryad](https://datadryad.org/) and [UA ReDATA](https://data.library.arizona.edu/supported-platforms/redata). On Zenodo (possibly other repositories), there is a metadata field for contributor which is distinct from author.
+This field may be appropriate for crediting CCT Data Science members who contributed to data management but were not involved in creation of the data.
+Discuss this with collaborators early and often.
+
+## Licenses
+
+Our group uses the following licenses:
+
+-   Code/software: [MIT](https://opensource.org/license/mit)
+
+-   Data: [CC0](https://creativecommons.org/public-domain/cc0/)[^getting-credit-1]
+
+-   Websites/course materials/other writing: [CC-BY](https://creativecommons.org/licenses/by/4.0/)
+
+[^getting-credit-1]: Why Dryad uses CC-0: <https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/>

@@ -22,16 +22,7 @@ The University of Arizona provides a number of professional development opportun
 -   All University of Arizona employees age 21-45 should consider joining "Tucson Young Professionals".
     The U of A covers membership fees (normally \$200/y) - see [this website for more information](https://olod.arizona.edu/typ)).
 
-
-# Publishing \[Under construction\]
+# Publishing
 
 Documentation, GitHub threads, Slack Discussions are all great places to find inspiration for publishable units; peer reviewed publications help provide an academic foundation for our group's contributions, with outreach as well as future funding.
-
-### Papers and Conference Proceedings
-
-### Data
-
-### Software
-
--   Zenodo: Major releases should get a doi here; can set up a github hook to archive each release.
--   Journal of Open Source Software: JOSS <https://joss.theoj.org/>
+See more about authorship [here](getting-credit.qmd).
