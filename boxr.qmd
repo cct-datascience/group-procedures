@@ -14,12 +14,6 @@ For Posit Connect or similar capabilities, read on.
 
 ## Authentication
 
-### Interactive use
-
-If you plan to only use `boxr` interactively (i.e. on your own laptop by running R code and not part of any script running automatically somewhere), you can authenticate with an [interactive app](https://r-box.github.io/boxr/articles/boxr-app-interactive.html) using a client ID and secret.
-
-### Service apps
-
 If you intend to use `boxr` as part of an automated script, use a service app to authenticate.
 
 ::: callout-note
