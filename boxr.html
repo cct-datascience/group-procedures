@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Eric R. Scott">
 
-<title>CCT Data Science Group Procedures - 15&nbsp; Mailing list (Emma)</title>
+<title>CCT Data Science Group Procedures - 27&nbsp; Programmatic access to Box</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +65,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./offboarding.html" rel="next">
-<link href="./code-review.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./spreadsheet-database-vignette.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./onboarding.html">Group Procedures</a></li><li class="breadcrumb-item"><a href="./emma.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Mailing list (Emma)</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./vignettes_overview.html">Technical Vignettes</a></li><li class="breadcrumb-item"><a href="./boxr.html"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Programmatic access to Box</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -241,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./emma.html" class="sidebar-item-text sidebar-link active">
+  <a href="./emma.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Mailing list (Emma)</span></span></a>
   </div>
 </li>
@@ -346,7 +381,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./boxr.html" class="sidebar-item-text sidebar-link">
+  <a href="./boxr.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Programmatic access to Box</span></span></a>
   </div>
 </li>
@@ -368,23 +403,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#managing-emma" id="toc-managing-emma" class="nav-link active" data-scroll-target="#managing-emma"><span class="header-section-number">15.1</span> Managing Emma</a></li>
-  <li><a href="#sending-an-email-to-the-list" id="toc-sending-an-email-to-the-list" class="nav-link" data-scroll-target="#sending-an-email-to-the-list"><span class="header-section-number">15.2</span> Sending an email to the list</a></li>
+  <li><a href="#authentication" id="toc-authentication" class="nav-link active" data-scroll-target="#authentication"><span class="header-section-number">27.1</span> Authentication</a></li>
+  <li><a href="#working-with-a-service-app-on-box" id="toc-working-with-a-service-app-on-box" class="nav-link" data-scroll-target="#working-with-a-service-app-on-box"><span class="header-section-number">27.2</span> Working with a service app on Box</a></li>
+  <li><a href="#with-posit-connect" id="toc-with-posit-connect" class="nav-link" data-scroll-target="#with-posit-connect"><span class="header-section-number">27.3</span> With Posit Connect</a></li>
+  <li><a href="#with-github-actions" id="toc-with-github-actions" class="nav-link" data-scroll-target="#with-github-actions"><span class="header-section-number">27.4</span> With GitHub Actions</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/cct-datascience/group-procedures/edit/main/emma.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/cct-datascience/group-procedures/blob/main/emma.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/cct-datascience/group-procedures/edit/main/boxr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/cct-datascience/group-procedures/blob/main/boxr.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./onboarding.html">Group Procedures</a></li><li class="breadcrumb-item"><a href="./emma.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Mailing list (Emma)</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./vignettes_overview.html">Technical Vignettes</a></li><li class="breadcrumb-item"><a href="./boxr.html"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Programmatic access to Box</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Mailing list (Emma)</span></h1>
+<h1 class="title"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Programmatic access to Box</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eric R. Scott </p>
+          </div>
+  </div>
     
   
     
@@ -395,17 +438,127 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We send out ~quarterly emails to a mailing list that people can sign up for using this link: <a href="https://app.e2ma.net/app2/audience/signup/1965047/1923145/" class="uri">https://app.e2ma.net/app2/audience/signup/1965047/1923145/</a><br>
-<br>
-We also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions.</p>
-<section id="managing-emma" class="level2" data-number="15.1">
-<h2 data-number="15.1" class="anchored" data-anchor-id="managing-emma"><span class="header-section-number">15.1</span> Managing Emma</h2>
-<p>To log into <a href="https://home.e2ma.net/" class="uri">https://home.e2ma.net/</a>, you will first need to be added as an administrator by Matt Rahr.</p>
-<p>To add people to the mailing list, go to the “Audience” tab and click the “Add contact” button. When adding contacts, include at least name, email, and UA College, if applicable. If they are in CALES, you may also select a department from the UA Department drop-down menu.</p>
+<p>UA accounts have 50GB of free storage on Box and it is a <a href="https://data.library.arizona.edu/data-management/best-practices/storage-back-ups-security">UA-recommended</a> storage location. We can also access Box programmatically through the <code>boxr</code> package in R to read and write files. This is useful for automating data wrangling pipelines, for example, especially since data on Box is versioned by default.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you <em>only</em> need to access Box from R from a local computer (and don’t need to be able to run things in Posit Connect or another unsupervised service), you can follow the instructions for an <a href="https://r-box.github.io/boxr/articles/boxr-app-interactive.html">interactive Box app</a>. For Posit Connect or similar capabilities, read on.</p>
+</div>
+</div>
+<section id="authentication" class="level2" data-number="27.1">
+<h2 data-number="27.1" class="anchored" data-anchor-id="authentication"><span class="header-section-number">27.1</span> Authentication</h2>
+<p>If you intend to use <code>boxr</code> as part of an automated script, use a service app to authenticate.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>These instructions are adapted from the <code>boxr</code> <a href="https://r-box.github.io/boxr/articles/boxr-app-service.html">documentation</a> with some additional UA and Posit Connect specific tips.</p>
+</div>
+</div>
+<p>To authenticate to Box, you need to create an “App” at <a href="https://app.box.com/developers/console" class="uri">https://app.box.com/developers/console</a>.</p>
+<p>Click “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use <code>boxr</code> as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.</p>
+<p>You may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email <a href="mailto:gflora@arizona.edu">Garrett Flora</a> to ask about this.</p>
+<p>Once the app is approved, find the app in the <a href="https://arizona.app.box.com/developers/console">Box developer console</a>, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is where this tutorial diverges from the <code>boxr</code> documentation which has you put this file in a locked directory <code>~/.boxr-auth/</code>. While that is probably more secure, it is not useful for apps deployed to GitHub actions or Posit Connect, as far as I know.</p>
+</div>
+</div>
+<p>Copy the entire contents of that file into a project-level .Renviron file like so:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">BOX_TOKEN_TEXT</span><span class="op">=</span><span class="st">'&lt;entire contents of token.json&gt;'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The single quotes around the file contents are important!</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Treat this token like a password and make sure this .Renviron file is NOT pushed to GitHub! Put .Renviron in your .gitignore!</p>
+</div>
+</div>
+<p>Now restart R to load the .Renviron file and try authenticating with</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">box_auth_service</span>(<span class="at">token_text =</span> <span class="fu">Sys.getenv</span>(<span class="st">"BOX_TOKEN_TEXT"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="sending-an-email-to-the-list" class="level2" data-number="15.2">
-<h2 data-number="15.2" class="anchored" data-anchor-id="sending-an-email-to-the-list"><span class="header-section-number">15.2</span> Sending an email to the list</h2>
-<!--# to be filled out later -->
+<section id="working-with-a-service-app-on-box" class="level2" data-number="27.2">
+<h2 data-number="27.2" class="anchored" data-anchor-id="working-with-a-service-app-on-box"><span class="header-section-number">27.2</span> Working with a service app on Box</h2>
+<p>You may need to create a folder that can be accessed by the service account associated with this token by using <code>box_dir_create()</code>. To allow your user account to see and access that directory, you need to use <code>box_collab_create()</code>, which requires a <code>user_id</code>. You can find your <code>user_id</code> in the “General Settings” tab of the service app on the Box dev console at the very top. I recommend inviting yourself to collaborate on a folder your service app created using <code>role = "co-owner"</code> so that you can manage access for others by just going to the folder on arizona.box.com.</p>
+<p>More about collaborative workflows <a href="https://r-box.github.io/boxr/articles/boxr-app-service.html#collaboration-workflows">here</a>.</p>
+</section>
+<section id="with-posit-connect" class="level2" data-number="27.3">
+<h2 data-number="27.3" class="anchored" data-anchor-id="with-posit-connect"><span class="header-section-number">27.3</span> With Posit Connect</h2>
+<p>If you deploy a Shiny app or scheduled .Rmd document on viz.datascience.arizona.edu that needs to use <code>boxr</code> to access Box, you’ll need to set a <code>BOX_TOKEN_TEXT</code> secret environment variable. Find your app or document on Posit Connect and click on the “Vars” tab of the control sidebar. Paste the contents of the token.json file in as the value and give it the name BOX_TOKEN_TEXT. Be sure the code you’re running includes <code>box_auth_service(token_text = Sys.getenv("BOX_TOKEN_TEXT"))</code> to authorize as the service app.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Unlike the .Renviron file, do NOT wrap the token text in single quotes on Posit Connect.</p>
+</div>
+</div>
+</section>
+<section id="with-github-actions" class="level2" data-number="27.4">
+<h2 data-number="27.4" class="anchored" data-anchor-id="with-github-actions"><span class="header-section-number">27.4</span> With GitHub Actions</h2>
+<p>Similarly to Posit Connect, you need to add BOX_TOKEN_TEXT as a github secret. In the YAML file for your github action, you’ll want to include something like the following to make that secret accessible to your R script as an environment variable:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">jobs</span><span class="kw">:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">write-to-box</span><span class="kw">:</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">env</span><span class="kw">:</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">BOX_TOKEN_TEXT</span><span class="kw">:</span><span class="at"> ${{ secrets.BOX_TOKEN_TEXT }}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I haven’t tested <code>boxr</code> with GitHub Actions, so this is just theoretical!</p>
+</div>
+</div>
 
 
 </section>
@@ -973,13 +1126,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./code-review.html" class="pagination-link" aria-label="Code review">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Code review</span></span>
+      <a href="./spreadsheet-database-vignette.html" class="pagination-link" aria-label="Spreadsheet with Database Connection Comparison">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Spreadsheet with Database Connection Comparison</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./offboarding.html" class="pagination-link" aria-label="Offboarding">
-        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Offboarding</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -988,4 +1141,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/cct-datascience/group-procedures/edit/main/emma.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/cct-datascience/group-procedures/blob/main/emma.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/cct-datascience/group-procedures/edit/main/boxr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/cct-datascience/group-procedures/blob/main/boxr.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

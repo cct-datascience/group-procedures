@@ -952,5 +952,60 @@
       "Technical Vignettes",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Spreadsheet with Database Connection Comparison</span>"
     ]
+  },
+  {
+    "objectID": "boxr.html",
+    "href": "boxr.html",
+    "title": "27  Programmatic access to Box",
+    "section": "",
+    "text": "27.1 Authentication\nIf you intend to use boxr as part of an automated script, use a service app to authenticate.\nTo authenticate to Box, you need to create an “App” at https://app.box.com/developers/console.\nClick “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use boxr as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.\nYou may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email Garrett Flora to ask about this.\nOnce the app is approved, find the app in the Box developer console, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.\nCopy the entire contents of that file into a project-level .Renviron file like so:\nNow restart R to load the .Renviron file and try authenticating with",
+    "crumbs": [
+      "Technical Vignettes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+    ]
+  },
+  {
+    "objectID": "boxr.html#authentication",
+    "href": "boxr.html#authentication",
+    "title": "27  Programmatic access to Box",
+    "section": "",
+    "text": "Note\n\n\n\nThese instructions are adapted from the boxr documentation with some additional UA and Posit Connect specific tips.\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is where this tutorial diverges from the boxr documentation which has you put this file in a locked directory ~/.boxr-auth/. While that is probably more secure, it is not useful for apps deployed to GitHub actions or Posit Connect, as far as I know.\n\n\n\nBOX_TOKEN_TEXT='&lt;entire contents of token.json&gt;'\n\n\n\n\n\n\nImportant\n\n\n\nThe single quotes around the file contents are important!\n\n\n\n\n\n\n\n\nCaution\n\n\n\nTreat this token like a password and make sure this .Renviron file is NOT pushed to GitHub! Put .Renviron in your .gitignore!\n\n\n\nbox_auth_service(token_text = Sys.getenv(\"BOX_TOKEN_TEXT\"))",
+    "crumbs": [
+      "Technical Vignettes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+    ]
+  },
+  {
+    "objectID": "boxr.html#working-with-a-service-app-on-box",
+    "href": "boxr.html#working-with-a-service-app-on-box",
+    "title": "27  Programmatic access to Box",
+    "section": "27.2 Working with a service app on Box",
+    "text": "27.2 Working with a service app on Box\nYou may need to create a folder that can be accessed by the service account associated with this token by using box_dir_create(). To allow your user account to see and access that directory, you need to use box_collab_create(), which requires a user_id. You can find your user_id in the “General Settings” tab of the service app on the Box dev console at the very top. I recommend inviting yourself to collaborate on a folder your service app created using role = \"co-owner\" so that you can manage access for others by just going to the folder on arizona.box.com.\nMore about collaborative workflows here.",
+    "crumbs": [
+      "Technical Vignettes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+    ]
+  },
+  {
+    "objectID": "boxr.html#with-posit-connect",
+    "href": "boxr.html#with-posit-connect",
+    "title": "27  Programmatic access to Box",
+    "section": "27.3 With Posit Connect",
+    "text": "27.3 With Posit Connect\nIf you deploy a Shiny app or scheduled .Rmd document on viz.datascience.arizona.edu that needs to use boxr to access Box, you’ll need to set a BOX_TOKEN_TEXT secret environment variable. Find your app or document on Posit Connect and click on the “Vars” tab of the control sidebar. Paste the contents of the token.json file in as the value and give it the name BOX_TOKEN_TEXT. Be sure the code you’re running includes box_auth_service(token_text = Sys.getenv(\"BOX_TOKEN_TEXT\")) to authorize as the service app.\n\n\n\n\n\n\nImportant\n\n\n\nUnlike the .Renviron file, do NOT wrap the token text in single quotes on Posit Connect.",
+    "crumbs": [
+      "Technical Vignettes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+    ]
+  },
+  {
+    "objectID": "boxr.html#with-github-actions",
+    "href": "boxr.html#with-github-actions",
+    "title": "27  Programmatic access to Box",
+    "section": "27.4 With GitHub Actions",
+    "text": "27.4 With GitHub Actions\nSimilarly to Posit Connect, you need to add BOX_TOKEN_TEXT as a github secret. In the YAML file for your github action, you’ll want to include something like the following to make that secret accessible to your R script as an environment variable:\njobs:\n  write-to-box:\n    runs-on: ubuntu-latest\n    env:\n      BOX_TOKEN_TEXT: ${{ secrets.BOX_TOKEN_TEXT }}\n\n\n\n\n\n\nNote\n\n\n\nI haven’t tested boxr with GitHub Actions, so this is just theoretical!",
+    "crumbs": [
+      "Technical Vignettes",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+    ]
   }
 ]
