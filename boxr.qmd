@@ -7,6 +7,11 @@ UA accounts have 50GB of free storage on Box and it is a [UA-recommended](https:
 We can also access Box programmatically through the `boxr` package in R to read and write files.
 This is useful for automating data wrangling pipelines, for example, especially since data on Box is versioned by default.
 
+::: callout-note
+If you *only* need to access Box from R from a local computer (and don't need to be able to run things in Posit Connect or another unsupervised service), you can follow the instructions for an [interactive Box app](https://r-box.github.io/boxr/articles/boxr-app-interactive.html).
+For Posit Connect or similar capabilities, read on.
+:::
+
 ## Authentication
 
 ### Interactive use
