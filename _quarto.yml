@@ -72,6 +72,7 @@ book:
         - hiring.qmd
         - professional-development.qmd
         - code-review.qmd
+        - offboarding.qmd
     - part: "Group Programming"
       chapters:
         - drop-in-hours.qmd
