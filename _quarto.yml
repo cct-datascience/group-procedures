@@ -1,9 +1,48 @@
 project: 
   type: book
+  resources: robots.txt
 execute: 
   freeze: auto
 book:
   title: "CCT Data Science Group Procedures"
+  doi: 10.17605/OSF.IO/TZMHP
+  author:
+  - name:
+      given: Kristina
+      family: Riemer
+    orcid: 0000-0003-3802-3331
+  - name:
+      given: Kimberly. M.
+      family: Huynh
+  - name:
+      given: Christophe
+      family: Schnaufer
+  - name:
+      given: Julian
+      family: Pistorius
+    orcid: 0000-0002-3485-0084
+  - name:
+      given: Jorge. E.
+      family: Barrios
+  - name:
+      given: Emily. J.
+      family: Cain
+  - name:
+      given: Jessica
+      family: Guo
+    orcid: 0000-0002-9566-9182
+  - name:
+      given: Eric R.
+      family: Scott
+    orcid: 0000-0002-7430-7879
+  - name:
+      given: Renata
+      family: Diaz
+    orcid: 0000-0003-0803-4734
+  - name:
+      given: David S.
+      family: LeBauer
+    orcid: 0000-0001-7228-053X
   # cover-image: cover.png
   search: true
   site-url: https://cct-datascience.github.io/group-procedures/
@@ -29,10 +68,12 @@ book:
       chapters:
         - onboarding.qmd
         - group-communication.qmd
+        - outreach-communication.qmd
         - hiring.qmd
         - professional-development.qmd
         - code-review.qmd
         - emma.qmd
+        - offboarding.qmd
     - part: "Group Programming"
       chapters:
         - drop-in-hours.qmd

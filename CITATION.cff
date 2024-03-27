@@ -1,0 +1,64 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CCT Data Science Group Procedures
+message: >-
+  If you use this book, please cite it using the
+  metadata from the CITATION.cff file.
+type: software
+date-released: '2024-03-01' #Update this with each release.
+authors: # order is [group lead, order of joining, lebauer] 
+         # see https://github.com/cct-datascience/group-procedures/pull/50
+  - given-names: Kristina
+    family-names: Riemer
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    email: kristinariemer@arizona.edu
+    orcid: 'https://orcid.org/0000-0003-3802-3331'
+  - given-names: Kimberly. M.
+    family-names: Huynh
+  - given-names: Christophe
+    family-names: Schnaufer
+    affiliation: >-
+      Universtiy of Arizona, Communications & Cyber
+      Technologies Data Science
+  - given-names: Julian
+    family-names: Pistorius
+    orcid: https://orcid.org/0000-0002-3485-0084
+  - given-names: Jorge. E.
+    family-names: Barrios
+  - given-names: Emily. J.
+    family-names: Cain
+  - given-names: Jessica
+    family-names: Guo
+    orcid: 'https://orcid.org/0000-0002-9566-9182'
+  - given-names: Eric R.
+    family-names: Scott
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    orcid: 'https://orcid.org/0000-0002-7430-7879'
+  - given-names: Renata
+    family-names: Diaz
+    orcid: 'https://orcid.org/0000-0003-0803-4734'
+    affiliation: >-
+      Universtiy of Arizona, Communications & Cyber
+      Technologies Data Science
+  # add new contributors second to last 
+  - given-names: David S.
+    family-names: LeBauer
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science
+    orcid: 'https://orcid.org/0000-0001-7228-053X'
+doi: 10.5281/zenodo.10783692
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/TZMHP
+    description: Original version
+license: CC-BY-4.0
+repository-code: 'https://github.com/cct-datascience/group-procedures'
+url: 'https://cct-datascience.github.io/group-procedures/'
+
