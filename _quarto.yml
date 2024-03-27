@@ -5,7 +5,7 @@ execute:
   freeze: auto
 book:
   title: "CCT Data Science Group Procedures"
-  doi: 10.17605/OSF.IO/TZMHP
+  doi: 10.5281/zenodo.10783692
   author:
   - name:
       given: Kristina
