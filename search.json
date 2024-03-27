@@ -547,366 +547,388 @@
     ]
   },
   {
+    "objectID": "offboarding.html",
+    "href": "offboarding.html",
+    "title": "15  Offboarding",
+    "section": "",
+    "text": "15.1 Overview\nIt is to everyone’s advantage for career aspirations and changes in personnel to be an ongoing and open discussion.\nThe person who is leaving should inform Kristina as soon as they begin the process of looking for another position or are considering leaving. Then discuss a plan for sharing with other members of the group. The convention of giving two weeks notice is not enough time to wrap up. With more time, the group can help with next steps including finding new positions and creating an exit plan. Further, it typically takes a month or more to effectively document and transfer knowledge of what you are working on.",
+    "crumbs": [
+      "Group Procedures",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html#overview",
+    "href": "offboarding.html#overview",
+    "title": "15  Offboarding",
+    "section": "",
+    "text": "15.1.1 Resources\n\nUniversity of Arizona’s official “leaving” page\n\n\n\n15.1.2 Logistics\n\nMake sure Kristina knows what your last day will be\nReturn university-owned equipment (computers, books, etc.) to Kristina\nCreate a list of any accounts or permissions that will need to be transferred, and start transferring them.\nTurn off access to second floor BSRL on Cat Card\nLeave contact information (e.g., personal email address) in case we need to reach you.\n\nWebsites and passwords (Kristina)\n\nchange permissions as appropriate in group organizations (optional, depending on planned future work)\n\ngithub organizations\n\naz-digitalag\nagpipeline\nterraref\npecanproject\nsentinel-detection\ngenophenoenvo\n\nGoogle Drive “Group” and other project-specific folders\nOpenstack CALS group\n\nMake sure any accounts and websites are transitioned\n\nE.g. dockerhub, google drive\n\nRemove user accounts and home directories from machines\n\nsudo userdel $name && sudo rm -r /home/$name\n\nRemove from UA HPC group\n\ngo to https://portal.hpc.arizona.edu/portal/ &gt; Manage Groups &gt; kristinariemer\n\n\n\n\n15.1.3 Exit Interview\nWe hope to have a culture of feedback that would prevent unresolved issues or an unexpected departure. The exit interview provides a different context in which to to provide new feedback or reiterate previous feedback in a less constrained.\nQuestions:\nQuestions should be tailored to each individual situation. Here are a few key questions:\n\nHow have you developed during your time on this team?\nWhat did you like most about working on this team? What did you like the least?\nHow could the team have helped you more on the job?\nWhat parts of the culture were a good fit for you? What changes would you suggest?\nWhat was the most challenging part of this job?\nIs there anything else that you would like to share?",
+    "crumbs": [
+      "Group Procedures",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
     "objectID": "drop-in-hours.html",
     "href": "drop-in-hours.html",
-    "title": "15  Drop-in Hours",
+    "title": "16  Drop-in Hours",
     "section": "",
-    "text": "15.1 Individual office hours",
+    "text": "16.1 Individual office hours",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Drop-in Hours</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Drop-in Hours</span>"
     ]
   },
   {
     "objectID": "drop-in-hours.html#individual-office-hours",
     "href": "drop-in-hours.html#individual-office-hours",
-    "title": "15  Drop-in Hours",
+    "title": "16  Drop-in Hours",
     "section": "",
     "text": "Set up appointments for 1-2 hours each week\n\nGoogle Calendar: create a new event in calendar view, selecting “Appointment slots” option instead of “Event”. These can be recurring.\nYouCanBook.me\n\nAdd link to your People page",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Drop-in Hours</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Drop-in Hours</span>"
     ]
   },
   {
     "objectID": "drop-in-hours.html#announcement",
     "href": "drop-in-hours.html#announcement",
-    "title": "15  Drop-in Hours",
-    "section": "15.2 Announcement",
-    "text": "15.2 Announcement\nDo you have hurdles in your research related to data and analysis? Would one-on-one conversations with a data scientist help you solve these specific problems?\nWhat: CCT Data Science Drop-In Hours is a way for University of Arizona’s College of Agriculture and Life Sciences (CALS) researchers, such as you, to get focused and specific help with data science problems in your research.\nWhy: To facilitate and accelerate data-intensive research in CALS\nWhen: Every Tuesday, 8-10am (MST)\nWhere: Our gather.town space\nWe collaborate closely with other groups on campus to get you the help you need, when you need it.\nFor more information email Dr. Kristina Riemer, Director of Data Science at CALS: kristinariemer@arizona.edu\nVisit the CCT Data Science website to read about our mission, vision, and services\n\n15.2.1 Communications Channels\nWeekly reminders\nWe post weekly reminders of our Drop-In Hours the day before they’re held. These reminders contain the following information:\n\nWhere we meet (see above)\nThe time(s) of Office Hours\nThe overall purpose of Office Hours\nThe main focus of the upcoming Office Hours (such as R, Docker, …) but we’re not restricted to only that topic\nAn invitation to come and participate, or just hang out with us\n\nList of channels weekly reminders are posted on:\n\nMastodon\nUA Data Science Slack",
+    "title": "16  Drop-in Hours",
+    "section": "16.2 Announcement",
+    "text": "16.2 Announcement\nDo you have hurdles in your research related to data and analysis? Would one-on-one conversations with a data scientist help you solve these specific problems?\nWhat: CCT Data Science Drop-In Hours is a way for University of Arizona’s College of Agriculture and Life Sciences (CALS) researchers, such as you, to get focused and specific help with data science problems in your research.\nWhy: To facilitate and accelerate data-intensive research in CALS\nWhen: Every Tuesday, 8-10am (MST)\nWhere: Our gather.town space\nWe collaborate closely with other groups on campus to get you the help you need, when you need it.\nFor more information email Dr. Kristina Riemer, Director of Data Science at CALS: kristinariemer@arizona.edu\nVisit the CCT Data Science website to read about our mission, vision, and services\n\n16.2.1 Communications Channels\nWeekly reminders\nWe post weekly reminders of our Drop-In Hours the day before they’re held. These reminders contain the following information:\n\nWhere we meet (see above)\nThe time(s) of Office Hours\nThe overall purpose of Office Hours\nThe main focus of the upcoming Office Hours (such as R, Docker, …) but we’re not restricted to only that topic\nAn invitation to come and participate, or just hang out with us\n\nList of channels weekly reminders are posted on:\n\nMastodon\nUA Data Science Slack",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Drop-in Hours</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Drop-in Hours</span>"
     ]
   },
   {
     "objectID": "incubator.html",
     "href": "incubator.html",
-    "title": "16  Data Science Incubator",
+    "title": "17  Data Science Incubator",
     "section": "",
-    "text": "16.1 Finding incubator participants\nAnnouncement Text:",
+    "text": "17.1 Finding incubator participants\nAnnouncement Text:",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#finding-incubator-participants",
     "href": "incubator.html#finding-incubator-participants",
-    "title": "16  Data Science Incubator",
+    "title": "17  Data Science Incubator",
     "section": "",
     "text": "Incubator project lead should be housed within ALVSCE.\nWhere to find?\n\nOffice hour and workshop attendees.\nSearch arizona.edu for interesting and relevant projects.\nAttend seminars and brainstorm.\n\nAdvertising\n\n\n\nThe CCT Data Science Team is excited to announce the ALVSCE Data Science Incubator. This is an ongoing opportunity for researchers in ALVSCE to work with our team to understand and take advantage of research opportunities enabled by new and emerging data resources and computing methods. This opportunity is open to all researchers and staff in ALVSCE.\nOur team of domain data scientists and software engineers has expertise in state-of-the-art technologies and methods alongside domain expertise. These include statistics, data synthesis, data management, GIS, simulation modeling, analytics, cloud and cluster computing, software design and engineering, visualization, and more. The ALVSCE Data Science Incubator will provide up to ten full-time days of support for ALVSCE projects spread over three months to work on focused, intensive, collaborative projects.\nWe invite short project plans (1-2 pages) for a data-intensive research collaboration focusing on a research problem with clearly defined outcomes. This support is funded by USDA Hatch funds, and can be leveraged to develop funding for longer term collaborations. See our project plan guidelines and contact the group at cct-datascience@arizona.edu for more information.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#project-plan-development",
     "href": "incubator.html#project-plan-development",
-    "title": "16  Data Science Incubator",
-    "section": "16.2 Project Plan Development",
-    "text": "16.2 Project Plan Development\n\nGenerally starts with one or two conversations to be sure the project is appropriate for an incubator\nNaming convention for incubators are “Short title / main contact’s name”\nA new folder for the project should be created in the incubator Google Drive folder; notes and project plan will go there\nIdeally, the project lead creates a first draft of a project plan. In practice, this often involves nudging, guidance, and a few rounds of revisions before a project plan is ready.\nProject plans should clearly identify expected product, tasks required to result in that product, and who (project member or data science team member) is responsible for each of the tasks.\nInclude any hard deadlines.\nDetermine with project lead where to put data/code/outputs and whether they are comfortable with having a public repository and / or planning to share data.\nproject plan can be versioned and modified as the project evolves.",
+    "title": "17  Data Science Incubator",
+    "section": "17.2 Project Plan Development",
+    "text": "17.2 Project Plan Development\n\nGenerally starts with one or two conversations to be sure the project is appropriate for an incubator\nNaming convention for incubators are “Short title / main contact’s name”\nA new folder for the project should be created in the incubator Google Drive folder; notes and project plan will go there\nIdeally, the project lead creates a first draft of a project plan. In practice, this often involves nudging, guidance, and a few rounds of revisions before a project plan is ready.\nProject plans should clearly identify expected product, tasks required to result in that product, and who (project member or data science team member) is responsible for each of the tasks.\nInclude any hard deadlines.\nDetermine with project lead where to put data/code/outputs and whether they are comfortable with having a public repository and / or planning to share data.\nproject plan can be versioned and modified as the project evolves.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#incubator-hour",
     "href": "incubator.html#incubator-hour",
-    "title": "16  Data Science Incubator",
-    "section": "16.3 Incubator Hour",
-    "text": "16.3 Incubator Hour\nTo keep the group apprised of developments for each incubator, we will hold a 1-1.5 hour meeting biweekly during the off-week from Sprint Planning.\nOur running notes for incubator hour are on HackMD.",
+    "title": "17  Data Science Incubator",
+    "section": "17.3 Incubator Hour",
+    "text": "17.3 Incubator Hour\nTo keep the group apprised of developments for each incubator, we will hold a 1-1.5 hour meeting biweekly during the off-week from Sprint Planning.\nOur running notes for incubator hour are on HackMD.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#starting-incubator-projects",
     "href": "incubator.html#starting-incubator-projects",
-    "title": "16  Data Science Incubator",
-    "section": "16.4 Starting incubator projects",
-    "text": "16.4 Starting incubator projects\n\n16.4.1 Collaboration\n\nWhen ready to start, send an email to notify project lead and collaborators that we are ready, propose a rough timeline, and schedule a kickoff meeting.\nKickoff meeting\n\nAfter project plan is accepted\nReview project plan, define scope, see if there are any other changes or updates\nMake sure to define contributions from all parties and how the project will build capacity.\nSet expectations for conclusion, skill development, and eventual hand-off\nReview, update, agree on timeline for each deliverable and project conclusion / next steps post incubator if applicable\nSchedule regular check-ins and co-working times.\n\nweekly or biweekly is a good starting point\n\n\n\n\n\n16.4.2 Internally managing time and project progress\n\nCreate a repository if necessary or ensure you have access to one that exists. It is preferable if these are under a collaborator account or organization from the get go.\nAdd GitHub epic for incubator project to incubator board when initially developing the project—that way we can have a backlog of ideas and potential projects.\nCreate an Epic with sub-tasks for each project plan to track progress internally.\nMove epic through relevant categories as project progresses.\nTrack time in approximately hourly increments on group’s Toggl page.\nThe two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the project plan, and follow up post-project plan aren’t included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent.",
+    "title": "17  Data Science Incubator",
+    "section": "17.4 Starting incubator projects",
+    "text": "17.4 Starting incubator projects\n\n17.4.1 Collaboration\n\nWhen ready to start, send an email to notify project lead and collaborators that we are ready, propose a rough timeline, and schedule a kickoff meeting.\nKickoff meeting\n\nAfter project plan is accepted\nReview project plan, define scope, see if there are any other changes or updates\nMake sure to define contributions from all parties and how the project will build capacity.\nSet expectations for conclusion, skill development, and eventual hand-off\nReview, update, agree on timeline for each deliverable and project conclusion / next steps post incubator if applicable\nSchedule regular check-ins and co-working times.\n\nweekly or biweekly is a good starting point\n\n\n\n\n\n17.4.2 Internally managing time and project progress\n\nCreate a repository if necessary or ensure you have access to one that exists. It is preferable if these are under a collaborator account or organization from the get go.\nAdd GitHub epic for incubator project to incubator board when initially developing the project—that way we can have a backlog of ideas and potential projects.\nCreate an Epic with sub-tasks for each project plan to track progress internally.\nMove epic through relevant categories as project progresses.\nTrack time in approximately hourly increments on group’s Toggl page.\nThe two weeks of FTE work is the time required to complete the proposed scope of work. Additional time for planning, writing the project plan, and follow up post-project plan aren’t included in this. However, for purposes of reporting it is useful to know or be able to reasonably estimate the total time spent.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#finishing-incubator-projects",
     "href": "incubator.html#finishing-incubator-projects",
-    "title": "16  Data Science Incubator",
-    "section": "16.5 Finishing incubator projects",
-    "text": "16.5 Finishing incubator projects\n\n16.5.1 Wrap-up steps\nBefore the final meeting:\n\nTransfer ownership of GitHub repo(s) to collaborator (if applicable)\nMake sure collaborators feel comfortable taking over as primary maintainers of project\nArchive code with Zenodo or UA Library ReData\nWhere data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.\nPreferred license and copyright is CC-0 for data and MIT License for code.\n\nSee “Why does Dryad use CC0”\ncopyright can be listed as “The University of Arizona and Authors”\n\n\nSend an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration.\n\n\n\n\n\n\nExample email\n\n\n\n\n\nHi Jeremy,\nAs we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we’ve accomplished together. I looked over the goals we set out to accomplish in the original project plan, and I think we’ve done a good job meeting them.\n\nStatic QA/QC routines that check data prior to going into the database ✅\nStatic checks for whether data for a station was retrieved in the previous hour: I don’t think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.\nA simple R package to wrap the API ✅\nA “dynamic” QA/QC procedure that compares recent data to historical ✅\nA Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I’d be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the azmet R package.\nAvailability of code on GitHub with a permissive open source license ✅\n\nAt our meeting on Monday, we’ll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e. funding continued work on the QA/QC report). We’ll also have a conversation about the incubator process itself—what worked well, what didn’t work, and what could be improved.\nLooking forward to seeing you then!\n\n\n\n\n\n16.5.2 Wrap-up Meeting\nHave a final meeting. Here are some questions you can ask:\n\nDo you feel like you have the resources you need to take ownership (with our continued support)?\nDo you feel we met the objectives of the project plan?\nDid the project take longer, shorter, or about as long as you expected?\nFor each phase of the incubator (project plan writing, work, and wrap-up): What went well? What didn’t go well? What suggestions do you have for improvement?\nIs it ok to share the product on our blog, social media, in UA newsletters, etc. (as appropriate)?\nWhat/when is the next step for continued work or funding (as appropriate)?\n\nTake notes on the answers and share them with the team at the next incubator meeting.\n\n\n16.5.3 After the meeting\n\nWrite a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the project plan, README contents, other content generated during the project.\nAdd the incubator to our website\nDone isn’t defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in project plan development.",
+    "title": "17  Data Science Incubator",
+    "section": "17.5 Finishing incubator projects",
+    "text": "17.5 Finishing incubator projects\n\n17.5.1 Wrap-up steps\nBefore the final meeting:\n\nTransfer ownership of GitHub repo(s) to collaborator (if applicable)\nMake sure collaborators feel comfortable taking over as primary maintainers of project\nArchive code with Zenodo or UA Library ReData\nWhere data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.\nPreferred license and copyright is CC-0 for data and MIT License for code.\n\nSee “Why does Dryad use CC0”\ncopyright can be listed as “The University of Arizona and Authors”\n\n\nSend an email to schedule a final wrap-up meeting and to mark the conclusion of the incubator phase of the collaboration.\n\n\n\n\n\n\nExample email\n\n\n\n\n\nHi Jeremy,\nAs we come to the end of the incubator phase of our collaboration with AZMET, I just want to take some time and reflect on all the great stuff we’ve accomplished together. I looked over the goals we set out to accomplish in the original project plan, and I think we’ve done a good job meeting them.\n\nStatic QA/QC routines that check data prior to going into the database ✅\nStatic checks for whether data for a station was retrieved in the previous hour: I don’t think we put this one into place yet, but this could be a pretty simple addition to the report that just checks for NAs. I opened an issue to remind me to look into this.\nA simple R package to wrap the API ✅\nA “dynamic” QA/QC procedure that compares recent data to historical ✅\nA Cooperative Extension bulletin describing the new AZMet QA/QC procedures: I’d be happy to help spread the word and provide edits to a draft bulletin. I also need to write a blog-post for our website and promote the azmet R package.\nAvailability of code on GitHub with a permissive open source license ✅\n\nAt our meeting on Monday, we’ll discuss any final steps to the incubator phase and next steps for continued collaboration (i.e. funding continued work on the QA/QC report). We’ll also have a conversation about the incubator process itself—what worked well, what didn’t work, and what could be improved.\nLooking forward to seeing you then!\n\n\n\n\n\n17.5.2 Wrap-up Meeting\nHave a final meeting. Here are some questions you can ask:\n\nDo you feel like you have the resources you need to take ownership (with our continued support)?\nDo you feel we met the objectives of the project plan?\nDid the project take longer, shorter, or about as long as you expected?\nFor each phase of the incubator (project plan writing, work, and wrap-up): What went well? What didn’t go well? What suggestions do you have for improvement?\nIs it ok to share the product on our blog, social media, in UA newsletters, etc. (as appropriate)?\nWhat/when is the next step for continued work or funding (as appropriate)?\n\nTake notes on the answers and share them with the team at the next incubator meeting.\n\n\n17.5.3 After the meeting\n\nWrite a blog post on finished product, including links to repository and any other outputs. This can rely heavily on the project plan, README contents, other content generated during the project.\nAdd the incubator to our website\nDone isn’t defined as the end of the collaboration. We can still provide ongoing support during the publication process and through office hours, help define follow on projects, allocate time paid by external funding, assist in project plan development.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "incubator.html#defining-and-acknowledging-contributions",
     "href": "incubator.html#defining-and-acknowledging-contributions",
-    "title": "16  Data Science Incubator",
-    "section": "16.6 Defining and acknowledging contributions",
-    "text": "16.6 Defining and acknowledging contributions\nMembers of the CCT-Data Science team who make substantial and substantive contributions to incubator projects should be acknowledged or included as co-authors as appropriate. This should be discussed early in the project.\nThe CRedIT Taxonomy provides a list of contribution types that may warrant co-authorship. All DIAG contributors should be involved in review and revision—as co-authors, we should feel comfortable with the content.\nMore details in the Publications and Contributions wiki page.",
+    "title": "17  Data Science Incubator",
+    "section": "17.6 Defining and acknowledging contributions",
+    "text": "17.6 Defining and acknowledging contributions\nMembers of the CCT-Data Science team who make substantial and substantive contributions to incubator projects should be acknowledged or included as co-authors as appropriate. This should be discussed early in the project.\nThe CRedIT Taxonomy provides a list of contribution types that may warrant co-authorship. All DIAG contributors should be involved in review and revision—as co-authors, we should feel comfortable with the content.\nMore details in the Publications and Contributions wiki page.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Data Science Incubator</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Science Incubator</span>"
     ]
   },
   {
     "objectID": "workshops.html",
     "href": "workshops.html",
-    "title": "17  Workshops",
+    "title": "18  Workshops",
     "section": "",
-    "text": "17.1 Task list\nTo get started creating a workshop, create a new issue on GitHub in the cct-datascience/organization repo using the Workshop Tasks issue template. This will give you specific tasks to complete. Refer to this document for more detailed instructions on specific tasks.",
+    "text": "18.1 Task list\nTo get started creating a workshop, create a new issue on GitHub in the cct-datascience/organization repo using the Workshop Tasks issue template. This will give you specific tasks to complete. Refer to this document for more detailed instructions on specific tasks.",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Workshops</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Workshops</span>"
     ]
   },
   {
     "objectID": "workshops.html#before-the-workshop",
     "href": "workshops.html#before-the-workshop",
-    "title": "17  Workshops",
-    "section": "17.2 Before the Workshop",
-    "text": "17.2 Before the Workshop\n\n17.2.1 Creating a template for workshop Zoom meetings\nThe instructor running the workshop should set this up, as “Alternate Hosts” don’t have any control over registrants. Follow these instructions to create a template you can use for all future workshops.\n\nLog into Zoom in the browser here\nClick “Schedule a Meeting” button\nFill in “Topic” with “Workshop Wednesdays - [topic]”\nSelect registration required\nUnder Security section, select “Waiting Room” and (optional) “Passcode”\nUnder Meeting Options section, select “Allow participants to join anytime”, “Mute participants upon entry”, and “Automatically record meeting”\nClick “Save” button\nOnce created, go to the new meeting\nScroll to bottom to Registration tab and hit edit on right hand side. Make changes as below: \nGo to ‘Custom Questions’ and add the following:\n\nWhat College at U of A do you belong to?\nWhat department(s) are you affiliated with?\nWhat is your career stage? (undergraduate, graduate, post doc, researcher/staff, faculty)\nHow did you hear about this workshop?\nCan we add you to the CCT Data Science mailing list (no more than monthly announcements)?\n\nSave and back at the meeting page click the “Save as Template” button to create a template for workshops.\nThis will save the meeting options and questions.\n\n\n\n17.2.2 Recording Settings\nChange your settings so the active speaker and participants are recorded separately.\n\nNavigate to https://arizona.zoom.us/profile/setting\nIn the “Recording” tab, make sure “Record active speaker with shared screen” is checked and “Record gallery view with shared screen” is not checked\nSet to record in the cloud rather than locally—if you record locally, then the particpant videos will block the corner of the view.\n\n\n\n17.2.3 Creating a Zoom event for a workshop\nTo create a Zoom registration for a specific workshop\n\nLog into https://arizona.zoom.us/signin\nClick “Schedule a Meeting” and in the “Template” field choose your template\nEdit the title, description, time, and alternate hosts fields, then click save\nOn the meeting page, scroll to bottom to the Registration tab and click “edit” to the right of Registration Options\nGo to ‘Custom Questions’ and add any workshop-specific questions in the “Custom Questions” section\n\nTo view registration information, go to ‘Analytics & Reports’, ‘Usage Reports’, ‘Meeting’ and click ‘Generate’ to download a spreadsheet\nFrom the meeting page, copy the registration link to be included in your workshop announcements\n\n\n17.2.4 Advertise\n\nAdd the workshop to our website at https://datascience.cals.arizona.edu/services-overview/workshops\nAdd the workshop to the Data Science Institute events page\nAdvertise to other groups and email listservs listed here\n\n\n\n17.2.5 Workshop reminder email (optional)\nZoom does not have a way to email all participants directly with a custom message, so you will need to download the registrants list to get all emails easily.\n\nLog into Zoom in the browser as per above\nGo to “Analytics & Reports” in the left hand size table of contents\nSelect “Usage Reports” tab and “Meeting” option\nEnter time range including workshop date and hit “Search” button\nFor workshop, click “Generate” link\nOpen downloaded csv in order to copy all registrant emails\n\n\n\n17.2.6 Pre-workshop survey\nStill a work-in-progress, but should ask questions about:\n\nSkill level with tool(s)\nSkill level with content",
+    "title": "18  Workshops",
+    "section": "18.2 Before the Workshop",
+    "text": "18.2 Before the Workshop\n\n18.2.1 Creating a template for workshop Zoom meetings\nThe instructor running the workshop should set this up, as “Alternate Hosts” don’t have any control over registrants. Follow these instructions to create a template you can use for all future workshops.\n\nLog into Zoom in the browser here\nClick “Schedule a Meeting” button\nFill in “Topic” with “Workshop Wednesdays - [topic]”\nSelect registration required\nUnder Security section, select “Waiting Room” and (optional) “Passcode”\nUnder Meeting Options section, select “Allow participants to join anytime”, “Mute participants upon entry”, and “Automatically record meeting”\nClick “Save” button\nOnce created, go to the new meeting\nScroll to bottom to Registration tab and hit edit on right hand side. Make changes as below: \nGo to ‘Custom Questions’ and add the following:\n\nWhat College at U of A do you belong to?\nWhat department(s) are you affiliated with?\nWhat is your career stage? (undergraduate, graduate, post doc, researcher/staff, faculty)\nHow did you hear about this workshop?\nCan we add you to the CCT Data Science mailing list (no more than monthly announcements)?\n\nSave and back at the meeting page click the “Save as Template” button to create a template for workshops.\nThis will save the meeting options and questions.\n\n\n\n18.2.2 Recording Settings\nChange your settings so the active speaker and participants are recorded separately.\n\nNavigate to https://arizona.zoom.us/profile/setting\nIn the “Recording” tab, make sure “Record active speaker with shared screen” is checked and “Record gallery view with shared screen” is not checked\nSet to record in the cloud rather than locally—if you record locally, then the particpant videos will block the corner of the view.\n\n\n\n18.2.3 Creating a Zoom event for a workshop\nTo create a Zoom registration for a specific workshop\n\nLog into https://arizona.zoom.us/signin\nClick “Schedule a Meeting” and in the “Template” field choose your template\nEdit the title, description, time, and alternate hosts fields, then click save\nOn the meeting page, scroll to bottom to the Registration tab and click “edit” to the right of Registration Options\nGo to ‘Custom Questions’ and add any workshop-specific questions in the “Custom Questions” section\n\nTo view registration information, go to ‘Analytics & Reports’, ‘Usage Reports’, ‘Meeting’ and click ‘Generate’ to download a spreadsheet\nFrom the meeting page, copy the registration link to be included in your workshop announcements\n\n\n18.2.4 Advertise\n\nAdd the workshop to our website at https://datascience.cals.arizona.edu/services-overview/workshops\nAdd the workshop to the Data Science Institute events page\nAdvertise to other groups and email listservs listed here\n\n\n\n18.2.5 Workshop reminder email (optional)\nZoom does not have a way to email all participants directly with a custom message, so you will need to download the registrants list to get all emails easily.\n\nLog into Zoom in the browser as per above\nGo to “Analytics & Reports” in the left hand size table of contents\nSelect “Usage Reports” tab and “Meeting” option\nEnter time range including workshop date and hit “Search” button\nFor workshop, click “Generate” link\nOpen downloaded csv in order to copy all registrant emails\n\n\n\n18.2.6 Pre-workshop survey\nStill a work-in-progress, but should ask questions about:\n\nSkill level with tool(s)\nSkill level with content",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Workshops</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Workshops</span>"
     ]
   },
   {
     "objectID": "workshops.html#during-the-workshop",
     "href": "workshops.html#during-the-workshop",
-    "title": "17  Workshops",
-    "section": "17.3 During the workshop",
-    "text": "17.3 During the workshop\n\nTurn on automatic live transcript on Zoom\nStart recording\n\n\n17.3.1 Beginning of workshop comments\n\nRemind participants that it will be recorded\nRequest to turn on cameras if comfortable\nEncourage to ask questions of attendees and other workshop leader\nLet them know that materials will be made available on workshops website",
+    "title": "18  Workshops",
+    "section": "18.3 During the workshop",
+    "text": "18.3 During the workshop\n\nTurn on automatic live transcript on Zoom\nStart recording\n\n\n18.3.1 Beginning of workshop comments\n\nRemind participants that it will be recorded\nRequest to turn on cameras if comfortable\nEncourage to ask questions of attendees and other workshop leader\nLet them know that materials will be made available on workshops website",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Workshops</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Workshops</span>"
     ]
   },
   {
     "objectID": "workshops.html#after-the-workshop",
     "href": "workshops.html#after-the-workshop",
-    "title": "17  Workshops",
-    "section": "17.4 After the workshop",
-    "text": "17.4 After the workshop\nThe below tasks are ordered.\n\n17.4.1 Post recordings to YouTube\n\nTo record the speaker view and shared screen separately, record to the cloud\nRecord entire workshop session\nAfter Zoom meeting is ended, a window will pop up with “Converting meeting recording”. This will slow down your computer, but let it finish\nThe recording will be saved somewhere on your computer (it’s “zoom_videos” for me)\nEdit video locally if necessary\nAsk Chris to give you admin permissions to the CCT Data Science YouTube account\nOnce signed in, go to Content tab\nSelect “Create” button in upper right hand corner and then “Upload videos”\nDrag and drop video\nWhile it’s uploading, add name in format “Workshop Wednesdays [month] [year]: [workshop title]”\nIn description, add this content:\n\nDate: [date and time]\nInstructors: [instructor names]\nPresented to: [audience]\nDescription: [description of workshop as in email announcements]\n\nIf the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings\nIf possible, include thumbnail photo from a relevant slide\nAdd to the ‘Workshops’ playlist\nOnce it’s uploaded (may take a while), including the HD version, check that the video is clear enough to see text on screen\nAdvertise video upload via Twitter!\n\n\n\n17.4.2 Share materials\n\nSubmit a pull request to cct-datascience/CALS-workshops with notes and/or slides\nUpdate workshop info on our workshops website page\n\nUnder Category, add “ALVSCE Workshop Wednesdays” option\nUnder Additional Links, add slides, notes, etc., with corresponding URLs\nUnder Recording, add URL of YouTube recording of workshop and Title to “View Recording”\nCheck box under Archive\nMake sure workshop event now shows up in “Previous Workshops” section of workshops page\n\n\n\n\n17.4.3 Get Zoom reports\nTwo reports should be downloaded from the Analytics & Reports page on arizona.zoom.us:\n\nRegistration report (“Meeting”), which contains a csv of all registrants and their answers to the registration questions\nUsage report (filter by date range), click on participants, then export. Provides a csv of all attendees and when they attended. List is not unique and should be sorted by attendance time. Contains email list for follow-up survey.\n\n\nAdd registrants to this google sheet\nImport list of registrants who opt into the mailing list to Emma\n\n\n\n17.4.4 Post-workshop survey\n\nEdit the post-workshop survey Google form to add your workshop.\n\n\n\n17.4.5 Followup email to participants\n\nGet registrant emails from Zoom registration report\nMake sure to BCC\nInclude link to notes, (e.g. GitHub, RStudio Connect, cct-datascience.quartopub.com, etc.), resources, and post-workshop survey\nInclude link to our drop-in hours page\n\nEmail example:\n\nDear workshop participants,\nThank you for attending the Workshop Wednesday on [topic]. We appreciate your feedback (survey link) as we aim to better serve the UA/CALS research community.\nBelow are some links you may find helpful:\n\nGithub link\nYoutube video\nDrop-in hours link\n\nFeel free to come chat or ask questions about [topic], or any other topic, at our drop-in hours (link above) from 9 to 10 am on Tuesdays! And let me know if you have any questions or comments.\nSincerely,\n[Your Name]",
+    "title": "18  Workshops",
+    "section": "18.4 After the workshop",
+    "text": "18.4 After the workshop\nThe below tasks are ordered.\n\n18.4.1 Post recordings to YouTube\n\nTo record the speaker view and shared screen separately, record to the cloud\nRecord entire workshop session\nAfter Zoom meeting is ended, a window will pop up with “Converting meeting recording”. This will slow down your computer, but let it finish\nThe recording will be saved somewhere on your computer (it’s “zoom_videos” for me)\nEdit video locally if necessary\nAsk Chris to give you admin permissions to the CCT Data Science YouTube account\nOnce signed in, go to Content tab\nSelect “Create” button in upper right hand corner and then “Upload videos”\nDrag and drop video\nWhile it’s uploading, add name in format “Workshop Wednesdays [month] [year]: [workshop title]”\nIn description, add this content:\n\nDate: [date and time]\nInstructors: [instructor names]\nPresented to: [audience]\nDescription: [description of workshop as in email announcements]\n\nIf the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings\nIf possible, include thumbnail photo from a relevant slide\nAdd to the ‘Workshops’ playlist\nOnce it’s uploaded (may take a while), including the HD version, check that the video is clear enough to see text on screen\nAdvertise video upload via Twitter!\n\n\n\n18.4.2 Share materials\n\nSubmit a pull request to cct-datascience/CALS-workshops with notes and/or slides\nUpdate workshop info on our workshops website page\n\nUnder Category, add “ALVSCE Workshop Wednesdays” option\nUnder Additional Links, add slides, notes, etc., with corresponding URLs\nUnder Recording, add URL of YouTube recording of workshop and Title to “View Recording”\nCheck box under Archive\nMake sure workshop event now shows up in “Previous Workshops” section of workshops page\n\n\n\n\n18.4.3 Get Zoom reports\nTwo reports should be downloaded from the Analytics & Reports page on arizona.zoom.us:\n\nRegistration report (“Meeting”), which contains a csv of all registrants and their answers to the registration questions\nUsage report (filter by date range), click on participants, then export. Provides a csv of all attendees and when they attended. List is not unique and should be sorted by attendance time. Contains email list for follow-up survey.\n\n\nAdd registrants to this google sheet\nImport list of registrants who opt into the mailing list to Emma\n\n\n\n18.4.4 Post-workshop survey\n\nEdit the post-workshop survey Google form to add your workshop.\n\n\n\n18.4.5 Followup email to participants\n\nGet registrant emails from Zoom registration report\nMake sure to BCC\nInclude link to notes, (e.g. GitHub, RStudio Connect, cct-datascience.quartopub.com, etc.), resources, and post-workshop survey\nInclude link to our drop-in hours page\n\nEmail example:\n\nDear workshop participants,\nThank you for attending the Workshop Wednesday on [topic]. We appreciate your feedback (survey link) as we aim to better serve the UA/CALS research community.\nBelow are some links you may find helpful:\n\nGithub link\nYoutube video\nDrop-in hours link\n\nFeel free to come chat or ask questions about [topic], or any other topic, at our drop-in hours (link above) from 9 to 10 am on Tuesdays! And let me know if you have any questions or comments.\nSincerely,\n[Your Name]",
     "crumbs": [
       "Group Programming",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Workshops</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Workshops</span>"
     ]
   },
   {
     "objectID": "networking.html",
     "href": "networking.html",
-    "title": "18  Networking at UA",
+    "title": "19  Networking at UA",
     "section": "",
-    "text": "18.1 Introduction/info:",
+    "text": "19.1 Introduction/info:",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#introductioninfo",
     "href": "networking.html#introductioninfo",
-    "title": "18  Networking at UA",
+    "title": "19  Networking at UA",
     "section": "",
     "text": "Your background (data science & domain science)\nWho we serve (ALVSCE)\nWhat we do (training/workshops, data science support, data management, collaborate on grant writing)\nExplain incubator project",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#questions",
     "href": "networking.html#questions",
-    "title": "18  Networking at UA",
-    "section": "18.2 Questions:",
-    "text": "18.2 Questions:\n\nWhat kinds of data does your research group deal with?\nWhat data related challenges do you experience?\nWhat data science training needs does your group have?\nHow are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)\nCan we add you to our email list?",
+    "title": "19  Networking at UA",
+    "section": "19.2 Questions:",
+    "text": "19.2 Questions:\n\nWhat kinds of data does your research group deal with?\nWhat data related challenges do you experience?\nWhat data science training needs does your group have?\nHow are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)\nCan we add you to our email list?",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#follow-up",
     "href": "networking.html#follow-up",
-    "title": "18  Networking at UA",
-    "section": "18.3 Follow-up:",
-    "text": "18.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet",
+    "title": "19  Networking at UA",
+    "section": "19.3 Follow-up:",
+    "text": "19.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "19  Software Resources",
+    "title": "20  Software Resources",
     "section": "",
-    "text": "19.1 Overview of IT services",
+    "text": "20.1 Overview of IT services",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#overview-of-it-services",
     "href": "software.html#overview-of-it-services",
-    "title": "19  Software Resources",
+    "title": "20  Software Resources",
     "section": "",
-    "text": "19.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n19.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n19.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns.",
+    "text": "20.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n20.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n20.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#cloud-high-performance-computing",
     "href": "software.html#cloud-high-performance-computing",
-    "title": "19  Software Resources",
-    "section": "19.2 Cloud & High Performance Computing",
-    "text": "19.2 Cloud & High Performance Computing\n\n19.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n19.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n19.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions.",
+    "title": "20  Software Resources",
+    "section": "20.2 Cloud & High Performance Computing",
+    "text": "20.2 Cloud & High Performance Computing\n\n20.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n20.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n20.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#development-collaboration-tools",
     "href": "software.html#development-collaboration-tools",
-    "title": "19  Software Resources",
-    "section": "19.3 Development / Collaboration Tools:",
-    "text": "19.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n19.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n19.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n19.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365",
+    "title": "20  Software Resources",
+    "section": "20.3 Development / Collaboration Tools:",
+    "text": "20.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n20.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n20.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n20.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#software",
     "href": "software.html#software",
-    "title": "19  Software Resources",
-    "section": "19.4 Software",
-    "text": "19.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n19.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n19.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n19.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n19.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n19.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n19.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n19.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.",
+    "title": "20  Software Resources",
+    "section": "20.4 Software",
+    "text": "20.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n20.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n20.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n20.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n20.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n20.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n20.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n20.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "use-gmail.html",
     "href": "use-gmail.html",
-    "title": "20  Using Gmail instead of Outlook",
+    "title": "21  Using Gmail instead of Outlook",
     "section": "",
     "text": "Staff members have both an outlook and a gmail account (outlook is default). To set up the gmail, log into outlook.office.com with the netID@email.arizona.edu and search for the forwarding setup. Your forwarding address is netID@catmail.arizona.edu. Then, go to catmail.arizona.edu and sign in. University emails sent to netID@arizona.edu (outlook) should now be forwarded to netID@email.arizona.edu (gmail).\n\nEnable Google Services\n\nIn order to enable Google services on your account, we will need to enable G-Suite on your account.\nTo enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.\nThen, click on “Manage your Accounts” on the left-hand side of the page. You should now be on a page with “Existing Accounts” and “Available Accounts”.\nUnder “Available Accounts” should be “UA Google Apps for Education”. You will need to click that tile to enable G-Suite.\nAfter that, Google services should be available for you and we can set up forwarding.\nYou may already have Google Services enabled. If so you should see a large green banner that says: “Your Google Apps account is enabled. You’re all set!”\n\nSet up forwarding from Outlook\n\nGo to https://outlook.office.com. Then, sign in with your university email.\nOnce at your inbox, click the gear icon in the top righthand corner of the page, which should bring up “Settings”. In the searchbar, search for “Forwarding”, then click on “Forwarding”.\nSelect “Enable forwarding”, and in the box under “Forward my email to”, put in your NetID, and then “@uits.arizona.edu”.\nMake sure to check the box next to “Keep a copy of forwarded messages”, which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.\nClick “Save”, and your forwarding will be set up!\nAll future emails will then be sent to your UA Gmail inbox.\nYou can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn’t work.)",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Using Gmail instead of Outlook</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Using Gmail instead of Outlook</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html",
     "href": "vignettes_overview.html",
-    "title": "21  Vignettes Overview",
+    "title": "22  Vignettes Overview",
     "section": "",
-    "text": "21.1 Purpose\nThe vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts. Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things.",
+    "text": "22.1 Purpose\nThe vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts. Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html#process",
     "href": "vignettes_overview.html#process",
-    "title": "21  Vignettes Overview",
-    "section": "21.2 Process",
-    "text": "21.2 Process\n\nInvestigate the desired skill using existing documentation and by using the tool / approach\nSummarize findings and add them as a new vignette to this section. See instructions in “Editing this book”.\nShare, when appropriate:\n\nWith the group as a demo during sprint planning\nWith collaborators via email or meeting\nWith the broader public via Mastodon or a blog post",
+    "title": "22  Vignettes Overview",
+    "section": "22.2 Process",
+    "text": "22.2 Process\n\nInvestigate the desired skill using existing documentation and by using the tool / approach\nSummarize findings and add them as a new vignette to this section. See instructions in “Editing this book”.\nShare, when appropriate:\n\nWith the group as a demo during sprint planning\nWith collaborators via email or meeting\nWith the broader public via Mastodon or a blog post",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html#possible-vignette-topics",
     "href": "vignettes_overview.html#possible-vignette-topics",
-    "title": "21  Vignettes Overview",
-    "section": "21.3 Possible vignette topics",
-    "text": "21.3 Possible vignette topics\n\nSending automated emails using University of Arizona’s instance of Posit Connect\nUsing Jetstream 2 to set up virtual machines\nConnecting spreadsheets with databases",
+    "title": "22  Vignettes Overview",
+    "section": "22.3 Possible vignette topics",
+    "text": "22.3 Possible vignette topics\n\nSending automated emails using University of Arizona’s instance of Posit Connect\nUsing Jetstream 2 to set up virtual machines\nConnecting spreadsheets with databases",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html",
     "href": "publishing-to-web.html",
-    "title": "22  Publishing to the Web",
+    "title": "23  Publishing to the Web",
     "section": "",
-    "text": "22.1 Posit Connect",
+    "text": "23.1 Posit Connect",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#posit-connect",
     "href": "publishing-to-web.html#posit-connect",
-    "title": "22  Publishing to the Web",
+    "title": "23  Publishing to the Web",
     "section": "",
-    "text": "22.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect",
+    "text": "23.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#quarto-pub",
     "href": "publishing-to-web.html#quarto-pub",
-    "title": "22  Publishing to the Web",
-    "section": "22.2 Quarto Pub",
-    "text": "22.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n22.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub",
+    "title": "23  Publishing to the Web",
+    "section": "23.2 Quarto Pub",
+    "text": "23.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n23.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#github-pages",
     "href": "publishing-to-web.html#github-pages",
-    "title": "22  Publishing to the Web",
-    "section": "22.3 GitHub Pages",
-    "text": "22.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages",
+    "title": "23  Publishing to the Web",
+    "section": "23.3 GitHub Pages",
+    "text": "23.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "creating-r-packages.html",
     "href": "creating-r-packages.html",
-    "title": "23  Creating R Packages",
+    "title": "24  Creating R Packages",
     "section": "",
-    "text": "24 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n24.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to cct-datascience.r-universe.dev, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.",
+    "text": "25 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n25.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to cct-datascience.r-universe.dev, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Creating R Packages</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Creating R Packages</span>"
     ]
   },
   {
     "objectID": "spreadsheet-database-vignette.html",
     "href": "spreadsheet-database-vignette.html",
-    "title": "24  Spreadsheet with Database Connection Comparison",
+    "title": "25  Spreadsheet with Database Connection Comparison",
     "section": "",
-    "text": "December 11, 2023\n\n24.0.1 Overview\nThis document contains information on what is needed to connect to databases from various Spreadsheets, to read and write data, and lists any restrictions where they exist\nIn general, it’s much easier to get data put directly into a spreadsheet from a database than to update a database from a spreadsheet. In all cases, using CSV files for reading and/o writing is a valid option\nThe use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets\n\n\n\nSpreadsheet\nReading DB\nWriting DB\nNotes\n\n\n\n\nGoogle Sheets ✔\n✔✔✔\n✔✔\nWrite scripts to move data; programming skills help\n\n\nNumbers ✖\n➖\n➖\n\n\n\nExcel (Windows) ✔\n✔✔✔\n✔\nUpdate DB with CSV is easiest; need ODBC driver\n\n\nExcel (Mac) ✔\n✔\n✔\nSQLServer is supported; buy other ODBC drivers\n\n\nLibreOffice Calc ≈\n✔✔\n➖\n\n\n\n\nSpreadsheet Rating: ✖  Not supported ✔ Supported ≈ Mixed support\nReading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖ Not supported\n\n\n24.0.2 How Tested\nA sample MySQL database was started on the OpenStack instance at the University of Arizona, and made publicly accessible (password protected)\nLibreOffice Calc was tested on an Ubuntu 22.04 system\nDifferent database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication\n\n\n24.0.3 Google Sheets\nScripts are written to read and write data from a database using Google provided connectors\nRestrictions\nPostgres and its derivatives (PostGIS, et. al.) are not supported\nReading\nA generic Google Apps Script can be used to pull data into a spreadsheet and examples are easy to find. For example, https://www.lido.app/tutorials/google-sheets-connect-to-database. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)\nWriting\nWriting to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: https://developers.google.com/apps-script/guides/jdbc. If data filtering is needed, or if data is from multiple sheets, then it’s necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)\nConclusion\nMost flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird\n\n\n24.0.4 Numbers\nThis Apple spreadsheet application doesn’t connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database\nConclusion\nNo database connections supported\n\n\n24.0.5 Excel (Windows)\nSetting up database connectivity can be painful and complicated, and may require a system administrator.\nReading\nConnect to the database using the ODBC connector that matches the database you are pulling data from. You can select tables and columns, or write SQL commands to fetch the data into your spreadsheet. Microsoft has a web page containing instructions for multiple data sources; scroll down to see the different sources and their instructions.\nThe following download links may help:\n\nVisual Studio redistributables: https://my.visualstudio.com/Downloads\nODBC drivers: https://dev.mysql.com/downloads/connector/odbc/\n\nWriting\nIt’s much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)\nFor example, MySQL methods for writing to the database can be found at https://nanonets.com/blog/import-excel-into-mysql/\nConclusion\nWhile it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases\n\n\n24.0.6 Excel (Mac)\nRestrictions\nOnly SQLServer is supported “out of the box”. For other databases it’s necessary to pay for an ODBC driver to connect\nReading\nUse the SQLServer connectors to read from the database, if that’s an option. Otherwise, generate a CSV file with the data wanted and load that into the spreadsheet\nWriting\nUse the SQLServer connectors to write to the database, if that’s an option. Otherwise, generate a CSV file with the generated data and upload that into the database\nConclusion\nIf you aren’t connecting to SQLServer, you need to use CSV files\n\n\n24.0.7 Libre Office Calc\nInstall the libreoffice-base package to add the Database option to Calc; this may require an administrator to perform and a reboot after it’s installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)\nThe following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html\nReading\nPerform a SQL Query to import the data into a spreadsheet\nWriting\nUnable to find a documented way to put data back into a modern relational database. Generate a CSV file and update the database with that\nConclusion\nEasier to set up on Linux-based systems than Excel on Windows is (see above for Excel on Mac). Pulling data directly is on par with other spreadsheet applications, but direct writing appears to be missing.",
+    "text": "December 11, 2023\n\n25.0.1 Overview\nThis document contains information on what is needed to connect to databases from various Spreadsheets, to read and write data, and lists any restrictions where they exist\nIn general, it’s much easier to get data put directly into a spreadsheet from a database than to update a database from a spreadsheet. In all cases, using CSV files for reading and/o writing is a valid option\nThe use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets\n\n\n\nSpreadsheet\nReading DB\nWriting DB\nNotes\n\n\n\n\nGoogle Sheets ✔\n✔✔✔\n✔✔\nWrite scripts to move data; programming skills help\n\n\nNumbers ✖\n➖\n➖\n\n\n\nExcel (Windows) ✔\n✔✔✔\n✔\nUpdate DB with CSV is easiest; need ODBC driver\n\n\nExcel (Mac) ✔\n✔\n✔\nSQLServer is supported; buy other ODBC drivers\n\n\nLibreOffice Calc ≈\n✔✔\n➖\n\n\n\n\nSpreadsheet Rating: ✖  Not supported ✔ Supported ≈ Mixed support\nReading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖ Not supported\n\n\n25.0.2 How Tested\nA sample MySQL database was started on the OpenStack instance at the University of Arizona, and made publicly accessible (password protected)\nLibreOffice Calc was tested on an Ubuntu 22.04 system\nDifferent database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication\n\n\n25.0.3 Google Sheets\nScripts are written to read and write data from a database using Google provided connectors\nRestrictions\nPostgres and its derivatives (PostGIS, et. al.) are not supported\nReading\nA generic Google Apps Script can be used to pull data into a spreadsheet and examples are easy to find. For example, https://www.lido.app/tutorials/google-sheets-connect-to-database. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)\nWriting\nWriting to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: https://developers.google.com/apps-script/guides/jdbc. If data filtering is needed, or if data is from multiple sheets, then it’s necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)\nConclusion\nMost flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird\n\n\n25.0.4 Numbers\nThis Apple spreadsheet application doesn’t connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database\nConclusion\nNo database connections supported\n\n\n25.0.5 Excel (Windows)\nSetting up database connectivity can be painful and complicated, and may require a system administrator.\nReading\nConnect to the database using the ODBC connector that matches the database you are pulling data from. You can select tables and columns, or write SQL commands to fetch the data into your spreadsheet. Microsoft has a web page containing instructions for multiple data sources; scroll down to see the different sources and their instructions.\nThe following download links may help:\n\nVisual Studio redistributables: https://my.visualstudio.com/Downloads\nODBC drivers: https://dev.mysql.com/downloads/connector/odbc/\n\nWriting\nIt’s much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)\nFor example, MySQL methods for writing to the database can be found at https://nanonets.com/blog/import-excel-into-mysql/\nConclusion\nWhile it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases\n\n\n25.0.6 Excel (Mac)\nRestrictions\nOnly SQLServer is supported “out of the box”. For other databases it’s necessary to pay for an ODBC driver to connect\nReading\nUse the SQLServer connectors to read from the database, if that’s an option. Otherwise, generate a CSV file with the data wanted and load that into the spreadsheet\nWriting\nUse the SQLServer connectors to write to the database, if that’s an option. Otherwise, generate a CSV file with the generated data and upload that into the database\nConclusion\nIf you aren’t connecting to SQLServer, you need to use CSV files\n\n\n25.0.7 Libre Office Calc\nInstall the libreoffice-base package to add the Database option to Calc; this may require an administrator to perform and a reboot after it’s installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)\nThe following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html\nReading\nPerform a SQL Query to import the data into a spreadsheet\nWriting\nUnable to find a documented way to put data back into a modern relational database. Generate a CSV file and update the database with that\nConclusion\nEasier to set up on Linux-based systems than Excel on Windows is (see above for Excel on Mac). Pulling data directly is on par with other spreadsheet applications, but direct writing appears to be missing.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Spreadsheet with Database Connection Comparison</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Spreadsheet with Database Connection Comparison</span>"
     ]
   }
 ]
