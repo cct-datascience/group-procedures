@@ -68,6 +68,7 @@ book:
       chapters:
         - onboarding.qmd
         - group-communication.qmd
+        - outreach-communication.qmd
         - hiring.qmd
         - professional-development.qmd
         - code-review.qmd

@@ -1,0 +1,243 @@
+---
+title: "Communications and Outreach"
+---
+
+## Documents and Websites to Update regularly
+
+-   [CCT Data Science website](https://datascience.cct.arizona.edu/)
+
+-   [CCT Service Catalog](https://docs.google.com/document/d/1LIxkktiP219_Xd24vXpgA1Qz7j7WcuRORtN26p2Qujw/edit)
+
+## Where to announce events:
+
+-   Our [email list](#emma) (try to consolidate events to quarterly emails)
+
+-   [UA Master Calendar](https://news.arizona.edu/calendar)
+
+-   [Data Science Institute events page](https://datascience.arizona.edu/events)
+
+-   Experiment Station Tues morning notes: send announcement to [tmn\@cals.arizona.edu](mailto:tmn@cals.arizona.edu)
+
+-   [CALES Bulletin](https://compass.arizona.edu/bulletin)
+
+-   CALES Grad Student List Serv: send announcement to Dr. Jia Hu [jiahu\@arizona.edu](mailto:jiahu@arizona.edu)
+
+-   Individual CALES departments listservs as appropriate:
+
+    <!--# TODO: these likely need updating -->
+
+    -   [ruthholladay\@arizona.edu](mailto:ruthholladay@arizona.edu) Ruth Holladay for SNRE weekly digest
+
+    -   [jbee\@arizona.edu](mailto:jbee@arizona.edu) Jessica Bee for FCSC/Human Ecology grad student listserv
+
+    -   \_\_\_ for Plant sciences grad student listserv
+
+    -   [jabrilithomas\@arizona.edu](mailto:jabrilithomas@arizona.edu) Jabril Thomas for ACBS
+
+    -   [davaj\@arizona.edu](mailto:davaj@arizona.edu) Dava Jondall for Biosystems Engineering
+
+    -   [danielleb\@arizona.edu](mailto:danielleb@arizona.edu) Danielle Pilar Buhrow for AREC
+
+    -   [nmcisaac\@arizona.edu](mailto:nmcisaac@arizona.edu) Naomi McIsaac for Environmental Science
+
+    -   [prupert\@arizona.edu](mailto:prupert@arizona.edu) Peggy Rupert for Nutritional Sciences and Wellness
+
+    -   [pnielsen322\@arizona.edu](mailto:pnielsen322@arizona.edu) Paula Nielsen for Entomology
+
+    -   [thodges\@arizona.edu](mailto:thodges@arizona.edu) Tanya Hodges for AETI (Yuma)
+
+-   Data Science Institute ["Data Drip"](https://bcf.arl.arizona.edu/news) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu)
+
+-   R-Users AZ listserv, send announcement to Jeff Oliver [jcoliver\@email.arizona.edu](mailto:jcoliver@email.arizona.edu)
+
+-   CALES [Data Science Ambassadors](https://datascience.arizona.edu/dsa)
+
+-   EEB grad student coordinator: send announcement to Pennie Rabago-Liebig [pliebig\@arizona.edu](mailto:pliebig@arizona.edu)
+
+-   [Form for Bio5 mailing list](https://docs.google.com/forms/d/e/1FAIpQLSfi1LZ53wHt74rcVt68TwNOatsntBtFM-u5Ag9N0ZPzCQ7IzA/viewform)
+
+-   Slack
+
+    -   UA Data Science, RezBaz
+
+-   UA Listservs (as appropriate)
+
+    -   Drones, GIS
+
+-   See also ["ALVSCE Brand Guidelines and Tools to Promote Your Programs"](https://compass.arizona.edu/marketing/brand)
+
+## Group Email Listserv {#emma}
+
+We maintain our email list on the Emma platform.
+
+How to send out emails:
+
+-   Ask Matt Rahr to enable your account on Emma
+
+-   Sign in using your UA email address
+
+-   Select "Campaigns" tab and click "Create New Campaign" button
+
+-   Add relevant campaign name, including year and quarter, and keep default "Regular email" option
+
+-   Select most recent template
+
+-   Update email text
+
+-   Click "Preview" button to see what it will look like to recipients
+
+-   Click "Review & send" button to finalize
+
+-   Under "Choose recipients", add group called "Group announcements: workshop & other"
+
+-   Add subject line and (optional) preheader text
+
+-   Leave Sender name and Sender email as is
+
+-   Hit "Send now" button to send email
+
+## Group Emails
+
+We have two shared emails, `cct-datascience@arizona.edu` and `cct-datascience-admins@arizona.edu`.
+These should go to all people in the group.
+When you respond, it will be from your address but please keep the original group email address in cc as long as is useful.
+
+-   `cct-datascience@arizona.edu` is the general 'how to contact us', for use in websites, business cards, posters, etc, in many cases alongside a personal email address.
+
+-   `cct-datascience-admins@arizona.edu` is for shared accounts, licenses, billing etc.
+
+## Group Website UA quickstart (Drupal)
+
+Website [here](https://datascience.cals.arizona.edu/)
+
+Links to documentation:
+
+-   **Complete Quickstart Docs** instructions for how to change content or appearance of a UA website: <https://uasites.arizona.edu/home>
+
+-   **Sign In**
+
+    1.  Go to <https://datascience.cct.arizona.edu/user/login>
+
+    2.  Click on the "Log in using University of Arizona WebAuth" link, and then sign in with UA credentials
+
+    3.  You can [add new content](https://quickstart.arizona.edu/get-started/adding-content) or [edit existing content](https://quickstart.arizona.edu/create-content/editor-toolbar)
+
+-   **People**
+
+    -   **Add / edit people** <https://quickstart.arizona.edu/people-directories>
+
+-   **Add blogpost** (this is added as a 'news' type) <https://quickstart.arizona.edu/create-content/adding-news-pages>
+
+-   **Update Menu**
+
+-   **Preview page without publishing**
+
+    -   Save the page unpublished so that you can see how it will display without the public seeing it.
+
+-   Projects
+
+    -   Card summary - 1-2 sentences, only appears on the card
+
+## Social Media
+
+### Twitter
+
+We no longer post to our Twitter/X account [\@cct_datascience](https://twitter.com/cct_datascience)
+
+### Mastodon / fediverse
+
+We have a mastodon account [\@cct_datascience\@fosstodon.org](https://fosstodon.org/@cct_datascience).
+To log in, you'll find the password on [stache](https://stache.arizona.edu/) (you may need to ask for it to be shared with you if you don't see it)
+
+#### Guidelines
+
+-   Please review the group [code of conduct](code-of-conduct.qmd) before posting to ensure you adhere to these guidelines
+
+-   Including relevant pictures in posts are encouraged.
+    **Please get explicit verbal/written consent from everyone in the picture before posting.** Tag people in the pictures who are on Mastodon **with their permission**
+
+-   Cite sources and mention users (\@journal or \@author) in posts when applicable
+
+-   If anyone comments on a post, make sure to respond to them, especially if it's a question.
+
+-   All posts and replies should include at least one mention of a user or organization, or a relevant hashtag.
+    These elements can bring others into a conversation, make our content more visible to a wider audience, and generate more engagement and followers.
+
+-   Example hashtags: #UArizona, #UniversityOfArizona, #Rstats, #DataScience, #DigitalAg, #DataViz, #AcademicChatter, #RSEng
+
+#### Ideas for posts
+
+-   Feel free to get creative!
+    This is just a limited list of possible selections.
+
+-   Content should be directly in line with our [mission statement](https://datascience.cct.arizona.edu/about)
+
+-   Announcements of recent group activities, e.g., quarterly review meeting
+
+-   Short summary & link to a recent publication from the group or collaborators
+
+-   Notification of recent release of group's software or documentation
+
+-   Relevant upcoming events, e.g., conferences or hackathons that group members are attending
+
+-   Link to recently posted news article on [group website](https://datascience.cct.arizona.edu/all-news) (new and improved website coming soon!)
+
+-   Link to good resources for the type of work we do, e.g., blog post for how to use an R package
+
+-   Live coverage of an event like a conference talk—this can be a difficult thing to do
+
+#### Boosts/Favorites
+
+-   Content related to UA data science and/or ALVSCE related
+
+#### Following
+
+-   University of Arizona, agriculture, ecology, open science, computational, scientific software, data science
+
+#### Follow Backs
+
+-   When a new user or group follows us, we should follow back if they're a collaborator, well-known organization, associated with the University, or meet the guidelines above for Following in general. When in doubt, check with another team member.
+
+#### Comments on other posts
+
+-   Follow guidelines for other types of posts, including seeking approval before posting.
+
+#### Link Roundups
+
+-   TBD
+
+### Resources
+
+-   [Benefits and how to for scientists using Twitter](https://www.labsexplorer.com/c/twitter-and-scientists-a-love-story_185)
+
+-   [UA Brand Resources](https://brand.arizona.edu/)
+
+-   [Requesting an official UA Tweet](https://uarizona.co1.qualtrics.com/jfe/form/SV_1Nh6GSKXPDQlsKF)
+
+## Group Blog
+
+### Suggestions
+
+-   Feel free to collaborate with others inside or outside of the team for relevant blog posts
+
+-   Write your name next to an idea if you'd like to claim it
+
+### Ideas
+
+-   Real-world examples of how open data / open science / cross-disciplinary collaboration has advanced data-driven discovery
+
+-   Tools to enable researchers to provision their own computing infrastructure
+
+-   Culture of collaboration and user-focused development for scientific / research software - Agile / Lean / Pair Programming / Mob Programming
+
+-   Power of DAG (directed acyclic graphs) workflows with applications for large-scale agricultural data pipelines
+
+-   Mini hackathons for collaborative idea generation and team-building
+
+-   Using modern IDE's like PyCharm effectively for scientific software development (NumPy, Jupyter, Docker, profiling, debugging, and automatic style / code smell detection)
+
+-   Github for project management
+
+-   Personal experiences of how ResBaz, R-Ladies, Python / GIS / UAV MeetUps, etc. have advanced your own professional development through knowledge-sharing, networking, and cross-disciplinary collaboration
+
+-   Going beyond the metadata buzzword with explanations using agricultural data science / data pipeline examples
