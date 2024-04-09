@@ -240,4 +240,6 @@ Appropriate for use on posters or in acknowledgments section of slides, for exam
 ## Text with tinyurl
 
 Appropriate for print or slides as an alternative to a QR code
+
+> The University of Arizona, CCT Data Science (tinyurl.com/ua-cct-ds)
 :::
