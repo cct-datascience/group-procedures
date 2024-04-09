@@ -201,7 +201,7 @@ Projects that we work on such as websites/web apps, or presentations given by us
 
 An example of a footer that could go on a GitHub readme, or the bottom of a web app
 
-``` {.markdown filename="markdown"}
+``` {.markdown .code-overflow-wrap filename="markdown"}
 ------------------------------------------------------------------------
 Developed in collaboration with the University of Arizona [CCT Data Science](https://datascience.cct.arizona.edu/) team
 ```
@@ -217,7 +217,7 @@ Developed in collaboration with the University of Arizona [CCT Data Science](htt
 Example markdown for a logo that links to our homepage (official logo TBD).
 Appropriate for acknowledgments section of webpage/web app.
 
-``` {.markdown filename="markdown"}
+``` {.markdown .code-overflow-wrap filename="markdown"}
 [![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="126"}](https://datascience.cct.arizona.edu/)
 ```
 
@@ -229,7 +229,7 @@ Appropriate for acknowledgments section of webpage/web app.
 
 Appropriate for use on posters or in acknowledgments section of slides, for example
 
-``` {.markdown filename="markdown"}
+``` {.markdown .code-overflow-wrap filename="markdown"}
 ![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="286" height="70"} ![](qr-code%20home%20page.png){width="70"}
 ```
 
