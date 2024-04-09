@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -384,6 +418,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#suggestions" id="toc-suggestions" class="nav-link" data-scroll-target="#suggestions"><span class="header-section-number">11.7.1</span> Suggestions</a></li>
   <li><a href="#ideas" id="toc-ideas" class="nav-link" data-scroll-target="#ideas"><span class="header-section-number">11.7.2</span> Ideas</a></li>
   </ul></li>
+  <li><a href="#branding" id="toc-branding" class="nav-link" data-scroll-target="#branding"><span class="header-section-number">11.8</span> Group Branding</a>
+  <ul class="collapse">
+  <li><a href="#guidelines-1" id="toc-guidelines-1" class="nav-link" data-scroll-target="#guidelines-1"><span class="header-section-number">11.8.1</span> Guidelines</a></li>
+  <li><a href="#where-to-include" id="toc-where-to-include" class="nav-link" data-scroll-target="#where-to-include"><span class="header-section-number">11.8.2</span> Where to include</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><span class="header-section-number">11.8.3</span> Examples</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/cct-datascience/group-procedures/edit/main/outreach-communication.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cct-datascience/group-procedures/issues/new?template=suggest-edit.md" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/cct-datascience/group-procedures/blob/main/outreach-communication.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -412,47 +452,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="documents-and-websites-to-update-regularly" class="level2" data-number="11.1">
 <h2 data-number="11.1" class="anchored" data-anchor-id="documents-and-websites-to-update-regularly"><span class="header-section-number">11.1</span> Documents and Websites to Update regularly</h2>
 <ul>
-<li><p><a href="https://datascience.cct.arizona.edu/">CCT Data Science website</a></p></li>
-<li><p><a href="https://docs.google.com/document/d/1LIxkktiP219_Xd24vXpgA1Qz7j7WcuRORtN26p2Qujw/edit">CCT Service Catalog</a></p></li>
+<li><a href="https://datascience.cct.arizona.edu/">CCT Data Science website</a></li>
+<li><a href="https://docs.google.com/document/d/1LIxkktiP219_Xd24vXpgA1Qz7j7WcuRORtN26p2Qujw/edit">CCT Service Catalog</a></li>
 </ul>
 </section>
 <section id="where-to-announce-events" class="level2" data-number="11.2">
 <h2 data-number="11.2" class="anchored" data-anchor-id="where-to-announce-events"><span class="header-section-number">11.2</span> Where to announce events:</h2>
 <ul>
-<li><p>Our <a href="#emma">email list</a> (try to consolidate events to quarterly emails)</p></li>
-<li><p><a href="https://news.arizona.edu/calendar">UA Master Calendar</a></p></li>
-<li><p><a href="https://datascience.arizona.edu/events">Data Science Institute events page</a></p></li>
-<li><p>Experiment Station Tues morning notes: send announcement to <a href="mailto:tmn@cals.arizona.edu">tmn@cals.arizona.edu</a></p></li>
-<li><p><a href="https://compass.arizona.edu/bulletin">CALES Bulletin</a></p></li>
-<li><p>CALES Grad Student List Serv: send announcement to Dr.&nbsp;Jia Hu <a href="mailto:jiahu@arizona.edu">jiahu@arizona.edu</a></p></li>
-<li><p>Individual CALES departments listservs as appropriate:</p>
-<!--# TODO: these likely need updating -->
+<li>Our <a href="#emma">email list</a> (try to consolidate events to quarterly emails)</li>
+<li><a href="https://news.arizona.edu/calendar">UA Master Calendar</a></li>
+<li><a href="https://datascience.arizona.edu/events">Data Science Institute events page</a></li>
+<li>Experiment Station Tues morning notes: send announcement to <a href="mailto:tmn@cals.arizona.edu">tmn@cals.arizona.edu</a></li>
+<li><a href="https://compass.arizona.edu/bulletin">CALES Bulletin</a></li>
+<li>CALES Grad Student List Serv: send announcement to Dr.&nbsp;Jia Hu <a href="mailto:jiahu@arizona.edu">jiahu@arizona.edu</a></li>
+<li>Individual CALES departments listservs as appropriate: <!--# TODO: these likely need updating -->
 <ul>
-<li><p><a href="mailto:ruthholladay@arizona.edu">ruthholladay@arizona.edu</a> Ruth Holladay for SNRE weekly digest</p></li>
-<li><p><a href="mailto:jbee@arizona.edu">jbee@arizona.edu</a> Jessica Bee for FCSC/Human Ecology grad student listserv</p></li>
-<li><p>___ for Plant sciences grad student listserv</p></li>
-<li><p><a href="mailto:jabrilithomas@arizona.edu">jabrilithomas@arizona.edu</a> Jabril Thomas for ACBS</p></li>
-<li><p><a href="mailto:davaj@arizona.edu">davaj@arizona.edu</a> Dava Jondall for Biosystems Engineering</p></li>
-<li><p><a href="mailto:danielleb@arizona.edu">danielleb@arizona.edu</a> Danielle Pilar Buhrow for AREC</p></li>
-<li><p><a href="mailto:nmcisaac@arizona.edu">nmcisaac@arizona.edu</a> Naomi McIsaac for Environmental Science</p></li>
-<li><p><a href="mailto:prupert@arizona.edu">prupert@arizona.edu</a> Peggy Rupert for Nutritional Sciences and Wellness</p></li>
-<li><p><a href="mailto:pnielsen322@arizona.edu">pnielsen322@arizona.edu</a> Paula Nielsen for Entomology</p></li>
-<li><p><a href="mailto:thodges@arizona.edu">thodges@arizona.edu</a> Tanya Hodges for AETI (Yuma)</p></li>
+<li><a href="mailto:ruthholladay@arizona.edu">ruthholladay@arizona.edu</a> Ruth Holladay for SNRE weekly digest</li>
+<li><a href="mailto:jbee@arizona.edu">jbee@arizona.edu</a> Jessica Bee for FCSC/Human Ecology grad student listserv</li>
+<li>___ for Plant sciences grad student listserv</li>
+<li><a href="mailto:jabrilithomas@arizona.edu">jabrilithomas@arizona.edu</a> Jabril Thomas for ACBS</li>
+<li><a href="mailto:davaj@arizona.edu">davaj@arizona.edu</a> Dava Jondall for Biosystems Engineering</li>
+<li><a href="mailto:danielleb@arizona.edu">danielleb@arizona.edu</a> Danielle Pilar Buhrow for AREC</li>
+<li><a href="mailto:nmcisaac@arizona.edu">nmcisaac@arizona.edu</a> Naomi McIsaac for Environmental Science</li>
+<li><a href="mailto:prupert@arizona.edu">prupert@arizona.edu</a> Peggy Rupert for Nutritional Sciences and Wellness</li>
+<li><a href="mailto:pnielsen322@arizona.edu">pnielsen322@arizona.edu</a> Paula Nielsen for Entomology</li>
+<li><a href="mailto:thodges@arizona.edu">thodges@arizona.edu</a> Tanya Hodges for AETI (Yuma)</li>
 </ul></li>
-<li><p>Data Science Institute <a href="https://bcf.arl.arizona.edu/news">“Data Drip”</a> at <a href="mailto:Rii-datascienceinstitute@arizona.edu">Rii-datascienceinstitute@arizona.edu</a></p></li>
-<li><p>R-Users AZ listserv, send announcement to Jeff Oliver <a href="mailto:jcoliver@email.arizona.edu">jcoliver@email.arizona.edu</a></p></li>
-<li><p>CALES <a href="https://datascience.arizona.edu/dsa">Data Science Ambassadors</a></p></li>
-<li><p>EEB grad student coordinator: send announcement to Pennie Rabago-Liebig <a href="mailto:pliebig@arizona.edu">pliebig@arizona.edu</a></p></li>
-<li><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi1LZ53wHt74rcVt68TwNOatsntBtFM-u5Ag9N0ZPzCQ7IzA/viewform">Form for Bio5 mailing list</a></p></li>
-<li><p>Slack</p>
+<li>Data Science Institute <a href="https://bcf.arl.arizona.edu/news">“Data Drip”</a> at <a href="mailto:Rii-datascienceinstitute@arizona.edu">Rii-datascienceinstitute@arizona.edu</a></li>
+<li>R-Users AZ listserv, send announcement to Jeff Oliver <a href="mailto:jcoliver@email.arizona.edu">jcoliver@email.arizona.edu</a></li>
+<li>CALES <a href="https://datascience.arizona.edu/dsa">Data Science Ambassadors</a></li>
+<li>EEB grad student coordinator: send announcement to Pennie Rabago-Liebig <a href="mailto:pliebig@arizona.edu">pliebig@arizona.edu</a></li>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi1LZ53wHt74rcVt68TwNOatsntBtFM-u5Ag9N0ZPzCQ7IzA/viewform">Form for Bio5 mailing list</a></li>
+<li>Slack
 <ul>
 <li>UA Data Science, RezBaz</li>
 </ul></li>
-<li><p>UA Listservs (as appropriate)</p>
+<li>UA Listservs (as appropriate)
 <ul>
 <li>Drones, GIS</li>
 </ul></li>
-<li><p>See also <a href="https://compass.arizona.edu/marketing/brand">“ALVSCE Brand Guidelines and Tools to Promote Your Programs”</a></p></li>
+<li>See also <a href="https://compass.arizona.edu/marketing/brand">“ALVSCE Brand Guidelines and Tools to Promote Your Programs”</a></li>
 </ul>
 </section>
 <section id="emma" class="level2" data-number="11.3">
@@ -460,18 +499,18 @@ ul.task-list li input[type="checkbox"] {
 <p>We maintain our email list on the Emma platform.</p>
 <p>How to send out emails:</p>
 <ul>
-<li><p>Ask Matt Rahr to enable your account on Emma</p></li>
-<li><p>Sign in using your UA email address</p></li>
-<li><p>Select “Campaigns” tab and click “Create New Campaign” button</p></li>
-<li><p>Add relevant campaign name, including year and quarter, and keep default “Regular email” option</p></li>
-<li><p>Select most recent template</p></li>
-<li><p>Update email text</p></li>
-<li><p>Click “Preview” button to see what it will look like to recipients</p></li>
-<li><p>Click “Review &amp; send” button to finalize</p></li>
-<li><p>Under “Choose recipients”, add group called “Group announcements: workshop &amp; other”</p></li>
-<li><p>Add subject line and (optional) preheader text</p></li>
-<li><p>Leave Sender name and Sender email as is</p></li>
-<li><p>Hit “Send now” button to send email</p></li>
+<li>Ask Matt Rahr to enable your account on Emma</li>
+<li>Sign in using your UA email address</li>
+<li>Select “Campaigns” tab and click “Create New Campaign” button</li>
+<li>Add relevant campaign name, including year and quarter, and keep default “Regular email” option</li>
+<li>Select most recent template</li>
+<li>Update email text</li>
+<li>Click “Preview” button to see what it will look like to recipients</li>
+<li>Click “Review &amp; send” button to finalize</li>
+<li>Under “Choose recipients”, add group called “Group announcements: workshop &amp; other”</li>
+<li>Add subject line and (optional) preheader text</li>
+<li>Leave Sender name and Sender email as is</li>
+<li>Hit “Send now” button to send email</li>
 </ul>
 </section>
 <section id="group-emails" class="level2" data-number="11.4">
@@ -490,9 +529,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Complete Quickstart Docs</strong> instructions for how to change content or appearance of a UA website: <a href="https://uasites.arizona.edu/home" class="uri">https://uasites.arizona.edu/home</a></p></li>
 <li><p><strong>Sign In</strong></p>
 <ol type="1">
-<li><p>Go to <a href="https://datascience.cct.arizona.edu/user/login" class="uri">https://datascience.cct.arizona.edu/user/login</a></p></li>
-<li><p>Click on the “Log in using University of Arizona WebAuth” link, and then sign in with UA credentials</p></li>
-<li><p>You can <a href="https://quickstart.arizona.edu/get-started/adding-content">add new content</a> or <a href="https://quickstart.arizona.edu/create-content/editor-toolbar">edit existing content</a></p></li>
+<li>Go to <a href="https://datascience.cct.arizona.edu/user/login" class="uri">https://datascience.cct.arizona.edu/user/login</a></li>
+<li>Click on the “Log in using University of Arizona WebAuth” link, and then sign in with UA credentials</li>
+<li>You can <a href="https://quickstart.arizona.edu/get-started/adding-content">add new content</a> or <a href="https://quickstart.arizona.edu/create-content/editor-toolbar">edit existing content</a></li>
 </ol></li>
 <li><p><strong>People</strong></p>
 <ul>
@@ -522,26 +561,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="guidelines" class="level4" data-number="11.6.2.1">
 <h4 data-number="11.6.2.1" class="anchored" data-anchor-id="guidelines"><span class="header-section-number">11.6.2.1</span> Guidelines</h4>
 <ul>
-<li><p>Please review the group <a href="./code-of-conduct.html">code of conduct</a> before posting to ensure you adhere to these guidelines</p></li>
-<li><p>Including relevant pictures in posts are encouraged. <strong>Please get explicit verbal/written consent from everyone in the picture before posting.</strong> Tag people in the pictures who are on Mastodon <strong>with their permission</strong></p></li>
-<li><p>Cite sources and mention users (@journal or @author) in posts when applicable</p></li>
-<li><p>If anyone comments on a post, make sure to respond to them, especially if it’s a question.</p></li>
-<li><p>All posts and replies should include at least one mention of a user or organization, or a relevant hashtag. These elements can bring others into a conversation, make our content more visible to a wider audience, and generate more engagement and followers.</p></li>
-<li><p>Example hashtags: #UArizona, #UniversityOfArizona, #Rstats, #DataScience, #DigitalAg, #DataViz, #AcademicChatter, #RSEng</p></li>
+<li>Please review the group <a href="./code-of-conduct.html">code of conduct</a> before posting to ensure you adhere to these guidelines</li>
+<li>Including relevant pictures in posts are encouraged. <strong>Please get explicit verbal/written consent from everyone in the picture before posting.</strong> Tag people in the pictures who are on Mastodon <strong>with their permission</strong></li>
+<li>Cite sources and mention users (@journal or @author) in posts when applicable</li>
+<li>If anyone comments on a post, make sure to respond to them, especially if it’s a question.</li>
+<li>All posts and replies should include at least one mention of a user or organization, or a relevant hashtag. These elements can bring others into a conversation, make our content more visible to a wider audience, and generate more engagement and followers.</li>
+<li>Example hashtags: #UArizona, #UniversityOfArizona, #Rstats, #DataScience, #DigitalAg, #DataViz, #AcademicChatter, #RSEng</li>
 </ul>
 </section>
 <section id="ideas-for-posts" class="level4" data-number="11.6.2.2">
 <h4 data-number="11.6.2.2" class="anchored" data-anchor-id="ideas-for-posts"><span class="header-section-number">11.6.2.2</span> Ideas for posts</h4>
 <ul>
-<li><p>Feel free to get creative! This is just a limited list of possible selections.</p></li>
-<li><p>Content should be directly in line with our <a href="https://datascience.cct.arizona.edu/about">mission statement</a></p></li>
-<li><p>Announcements of recent group activities, e.g., quarterly review meeting</p></li>
-<li><p>Short summary &amp; link to a recent publication from the group or collaborators</p></li>
-<li><p>Notification of recent release of group’s software or documentation</p></li>
-<li><p>Relevant upcoming events, e.g., conferences or hackathons that group members are attending</p></li>
-<li><p>Link to recently posted news article on <a href="https://datascience.cct.arizona.edu/all-news">group website</a> (new and improved website coming soon!)</p></li>
-<li><p>Link to good resources for the type of work we do, e.g., blog post for how to use an R package</p></li>
-<li><p>Live coverage of an event like a conference talk—this can be a difficult thing to do</p></li>
+<li>Feel free to get creative! This is just a limited list of possible selections.</li>
+<li>Content should be directly in line with our <a href="https://datascience.cct.arizona.edu/about">mission statement</a></li>
+<li>Announcements of recent group activities, e.g., quarterly review meeting</li>
+<li>Short summary &amp; link to a recent publication from the group or collaborators</li>
+<li>Notification of recent release of group’s software or documentation</li>
+<li>Relevant upcoming events, e.g., conferences or hackathons that group members are attending</li>
+<li>Link to recently posted news article on <a href="https://datascience.cct.arizona.edu/all-news">group website</a> (new and improved website coming soon!)</li>
+<li>Link to good resources for the type of work we do, e.g., blog post for how to use an R package</li>
+<li>Live coverage of an event like a conference talk—this can be a difficult thing to do</li>
 </ul>
 </section>
 <section id="boostsfavorites" class="level4" data-number="11.6.2.3">
@@ -578,9 +617,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="resources" class="level3" data-number="11.6.3">
 <h3 data-number="11.6.3" class="anchored" data-anchor-id="resources"><span class="header-section-number">11.6.3</span> Resources</h3>
 <ul>
-<li><p><a href="https://www.labsexplorer.com/c/twitter-and-scientists-a-love-story_185">Benefits and how to for scientists using Twitter</a></p></li>
-<li><p><a href="https://brand.arizona.edu/">UA Brand Resources</a></p></li>
-<li><p><a href="https://uarizona.co1.qualtrics.com/jfe/form/SV_1Nh6GSKXPDQlsKF">Requesting an official UA Tweet</a></p></li>
+<li><a href="https://www.labsexplorer.com/c/twitter-and-scientists-a-love-story_185">Benefits and how to for scientists using Twitter</a></li>
+<li><a href="https://brand.arizona.edu/">UA Brand Resources</a></li>
+<li><a href="https://uarizona.co1.qualtrics.com/jfe/form/SV_1Nh6GSKXPDQlsKF">Requesting an official UA Tweet</a></li>
 </ul>
 </section>
 </section>
@@ -589,23 +628,129 @@ ul.task-list li input[type="checkbox"] {
 <section id="suggestions" class="level3" data-number="11.7.1">
 <h3 data-number="11.7.1" class="anchored" data-anchor-id="suggestions"><span class="header-section-number">11.7.1</span> Suggestions</h3>
 <ul>
-<li><p>Feel free to collaborate with others inside or outside of the team for relevant blog posts</p></li>
-<li><p>Write your name next to an idea if you’d like to claim it</p></li>
+<li>Feel free to collaborate with others inside or outside of the team for relevant blog posts</li>
+<li>Write your name next to an idea if you’d like to claim it</li>
 </ul>
 </section>
 <section id="ideas" class="level3" data-number="11.7.2">
 <h3 data-number="11.7.2" class="anchored" data-anchor-id="ideas"><span class="header-section-number">11.7.2</span> Ideas</h3>
 <ul>
-<li><p>Real-world examples of how open data / open science / cross-disciplinary collaboration has advanced data-driven discovery</p></li>
-<li><p>Tools to enable researchers to provision their own computing infrastructure</p></li>
-<li><p>Culture of collaboration and user-focused development for scientific / research software - Agile / Lean / Pair Programming / Mob Programming</p></li>
-<li><p>Power of DAG (directed acyclic graphs) workflows with applications for large-scale agricultural data pipelines</p></li>
-<li><p>Mini hackathons for collaborative idea generation and team-building</p></li>
-<li><p>Using modern IDE’s like PyCharm effectively for scientific software development (NumPy, Jupyter, Docker, profiling, debugging, and automatic style / code smell detection)</p></li>
-<li><p>Github for project management</p></li>
-<li><p>Personal experiences of how ResBaz, R-Ladies, Python / GIS / UAV MeetUps, etc. have advanced your own professional development through knowledge-sharing, networking, and cross-disciplinary collaboration</p></li>
-<li><p>Going beyond the metadata buzzword with explanations using agricultural data science / data pipeline examples</p></li>
+<li>Real-world examples of how open data / open science / cross-disciplinary collaboration has advanced data-driven discovery</li>
+<li>Tools to enable researchers to provision their own computing infrastructure</li>
+<li>Culture of collaboration and user-focused development for scientific / research software - Agile / Lean / Pair Programming / Mob Programming</li>
+<li>Power of DAG (directed acyclic graphs) workflows with applications for large-scale agricultural data pipelines</li>
+<li>Mini hackathons for collaborative idea generation and team-building</li>
+<li>Using modern IDE’s like PyCharm effectively for scientific software development (NumPy, Jupyter, Docker, profiling, debugging, and automatic style / code smell detection)</li>
+<li>Github for project management</li>
+<li>Personal experiences of how ResBaz, R-Ladies, Python / GIS / UAV MeetUps, etc. have advanced your own professional development through knowledge-sharing, networking, and cross-disciplinary collaboration</li>
+<li>Going beyond the metadata buzzword with explanations using agricultural data science / data pipeline examples</li>
 </ul>
+</section>
+</section>
+<section id="branding" class="level2" data-number="11.8">
+<h2 data-number="11.8" class="anchored" data-anchor-id="branding"><span class="header-section-number">11.8</span> Group Branding</h2>
+<p>Projects that we work on such as websites/web apps, or presentations given by us or our collaborators should include some recognition of our group’s contribution.</p>
+<section id="guidelines-1" class="level3" data-number="11.8.1">
+<h3 data-number="11.8.1" class="anchored" data-anchor-id="guidelines-1"><span class="header-section-number">11.8.1</span> Guidelines</h3>
+<ul>
+<li>Include “The University of Arizona” as part of our group name, especially if project is externally facing</li>
+<li>Always use official group logo (TBD)</li>
+<li>Always include a link, QR code, or tinyurl that leads to our group website</li>
+<li>Abbreviating CCT is fine for most cases</li>
+</ul>
+</section>
+<section id="where-to-include" class="level3" data-number="11.8.2">
+<h3 data-number="11.8.2" class="anchored" data-anchor-id="where-to-include"><span class="header-section-number">11.8.2</span> Where to include</h3>
+<ul>
+<li>Footer of GitHub README.md for all projects</li>
+<li>Web apps (e.g.&nbsp;Shiny apps) built for incubators (on landing page or footer)</li>
+<li>Contributors or acknowledgement page if a project has one</li>
+<li><code>pkgdown</code> websites for R packages (can put in “getting started” vignette to be on home page)</li>
+<li>Project websites</li>
+<li>Posters and slides presented by collaborators at conferences</li>
+<li>Other printed materials presented by collaborators (banners, handouts, signs, etc.) when appropriate</li>
+</ul>
+</section>
+<section id="examples" class="level3" data-number="11.8.3">
+<h3 data-number="11.8.3" class="anchored" data-anchor-id="examples"><span class="header-section-number">11.8.3</span> Examples</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Footer text
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An example of a footer that could go on a GitHub readme, or the bottom of a web app</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>markdown</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="markdown"><pre class="sourceCode markdown code-overflow-wrap code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Developed in collaboration with the University of Arizona <span class="co">[</span><span class="ot">CCT Data Science</span><span class="co">](https://datascience.cct.arizona.edu/)</span> team</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+<p>Developed in collaboration with the University of Arizona <a href="https://datascience.cct.arizona.edu/">CCT Data Science</a> team</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Logo with link
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Example markdown for a logo that links to our homepage (official logo TBD). Appropriate for acknowledgments section of webpage/web app.</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>markdown</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="markdown"><pre class="sourceCode markdown code-overflow-wrap code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="al">![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png)</span><span class="ot">{width="126"}</span><span class="co">](https://datascience.cct.arizona.edu/)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="https://datascience.cct.arizona.edu/"><img src="https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png" width="168" height="31"></a></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Logo with QR code
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Appropriate for use on posters or in acknowledgments section of slides, for example</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>markdown</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="markdown"><pre class="sourceCode markdown code-overflow-wrap code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="al">![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png)</span>{width="286" height="70"} <span class="al">![](qr-code%20home%20page.png)</span>{width="70"}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png" width="379" height="70"> <img src="qr-code home page.png" class="img-fluid" width="70"></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Text with tinyurl
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Appropriate for print or slides as an alternative to a QR code</p>
+<blockquote class="blockquote">
+<p>The University of Arizona, CCT Data Science (tinyurl.com/ua-cct-ds)</p>
+</blockquote>
+</div>
+</div>
 
 
 </section>
