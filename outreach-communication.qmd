@@ -241,3 +241,72 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Personal experiences of how ResBaz, R-Ladies, Python / GIS / UAV MeetUps, etc. have advanced your own professional development through knowledge-sharing, networking, and cross-disciplinary collaboration
 
 -   Going beyond the metadata buzzword with explanations using agricultural data science / data pipeline examples
+
+## Group Branding {#branding}
+
+Projects that we work on such as websites/web apps, or presentations given by us or our collaborators should include some recognition of our group's contribution.
+
+### Guidelines
+
+-   Include "The University of Arizona" as part of our group name, especially if project is externally facing
+-   Always use official group logo (TBD)
+-   Always include a link, QR code, or tinyurl that leads to our group website
+-   Abbreviating CCT is fine for most cases
+
+### Where to include
+
+-   Footer of GitHub README.md for all projects
+-   Web apps (e.g. Shiny apps) built for incubators (on landing page or footer)
+-   Contributors or acknowledgement page if a project has one
+-   `pkgdown` websites for R packages (can put in "getting started" vignette to be on home page)
+-   Project websites
+-   Posters and slides presented by collaborators at conferences
+-   Other printed materials presented by collaborators (banners, handouts, signs, etc.) when appropriate
+
+### Examples
+
+::: callout-note
+## Footer text
+
+An example of a footer that could go on a GitHub readme, or the bottom of a web app
+
+``` {.markdown filename="markdown"}
+------------------------------------------------------------------------
+Developed in collaboration with the University of Arizona [CCT Data Science](https://datascience.cct.arizona.edu/) team
+```
+
+------------------------------------------------------------------------
+
+Developed in collaboration with the University of Arizona [CCT Data Science](https://datascience.cct.arizona.edu/) team
+:::
+
+::: callout-note
+## Logo with link
+
+Example markdown for a logo that links to our homepage (official logo TBD).
+Appropriate for acknowledgments section of webpage/web app.
+
+``` {.markdown filename="markdown"}
+[![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="126"}](https://datascience.cct.arizona.edu/)
+```
+
+[![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="168" height="31"}](https://datascience.cct.arizona.edu/)
+:::
+
+::: callout-note
+## Logo with QR code
+
+Appropriate for use on posters or in acknowledgments section of slides, for example
+
+``` {.markdown filename="markdown"}
+![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="286" height="70"} ![](qr-code%20home%20page.png){width="70"}
+```
+
+![](https://datascience.cct.arizona.edu/sites/datascience.cct.arizona.edu/files/CCT%20logo-primary%402x.png){width="379" height="70"} ![](qr-code%20home%20page.png){width="70"}
+:::
+
+::: callout-note
+## Text with tinyurl
+
+Appropriate for print or slides as an alternative to a QR code
+:::
