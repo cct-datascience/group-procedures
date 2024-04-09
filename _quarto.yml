@@ -72,7 +72,6 @@ book:
         - hiring.qmd
         - professional-development.qmd
         - code-review.qmd
-        - emma.qmd
         - offboarding.qmd
     - part: "Group Programming"
       chapters:

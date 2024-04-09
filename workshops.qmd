@@ -159,7 +159,7 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
 
         ![](img/zoom_usage_report2.png)
 -   Add registrants from the registration report to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0).
--   "Import" (manually enter) list of registrants who opt into the mailing list to [Emma](emma.qmd).
+-   "Import" (manually enter) list of registrants who opt into the mailing list to [Emma](outreach-communication.qmd).
 
 ### Post-workshop survey
 
