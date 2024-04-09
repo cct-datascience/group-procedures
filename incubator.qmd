@@ -73,6 +73,7 @@ Our running notes for incubator hour are on [HackMD](https://hackmd.io/Ix-cFLn2R
 Before the final meeting:
 
 -   Transfer ownership of GitHub repo(s) to collaborator (if applicable)
+-   Make sure that the project gives recognition to our group ([guidelines](outreach-communication.qmd#branding))
 -   Make sure collaborators feel comfortable taking over as primary maintainers of project
 -   Archive code with Zenodo or UA Library ReData
 -   Where data is likely to be useful independent of the analysis code, it should be split into a separate archive and put in an appropriate repository.

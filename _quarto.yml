@@ -91,6 +91,7 @@ book:
         - publishing-to-web.qmd
         - creating-r-packages.qmd
         - spreadsheet-database-vignette.qmd
+        - boxr.qmd
     - references.qmd
 
 format:
