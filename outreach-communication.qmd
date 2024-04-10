@@ -13,7 +13,7 @@ editor:
 
 ## Where to announce events:
 
--   Our [email list](#emma) (try to consolidate events to quarterly emails)
+-   Our [email list](#listserv) (try to consolidate events to quarterly emails)
 
 -   [UA Master Calendar](https://news.arizona.edu/calendar)
 
@@ -69,7 +69,7 @@ editor:
 
 -   See also ["ALVSCE Brand Guidelines and Tools to Promote Your Programs"](https://compass.arizona.edu/marketing/brand)
 
-## Group Email Listserv {#emma}
+## Group Email Listserv {#listserv}
 
 We currently maintain our email list on the Emma platform.
 We send out \~quarterly emails, and people can sign up for using this link: <https://app.e2ma.net/app2/audience/signup/1965047/1923145/>\
