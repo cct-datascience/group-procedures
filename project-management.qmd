@@ -41,7 +41,8 @@ We also use it to populate the [Group Effort Spreadsheet](impact.qmd#where-to-tr
 3.  **Archiving**: When a project is completed, you can archive it. The time entries will remain logged, but you will no longer be able to add time to it.
 4.  **Public/private**: Unless there is a strong reason to create a private project, create projects as shared across the whole group. This enables us to quickly see how much time we as a group have spent on a project, in addition to each team members' hours.
 5.  **Precision**: Generally, hourly to half-day precision is sufficient. We estimate our time as percentages of FTE, not billed down to the minute.
-6.  **Overthinking**: Time tracking is meant to be a tool to improve our efficiency and self-awareness around work! It should not become so detailed or complex that it turns into a task of its own.
+6.  **Comprehensiveness**: In keeping with the percentages philosophy, the goal is not to account for 100% of everyone's time. You certainly can use it to track everything, but it's not a tool for checking up on members' work hours.
+7.  **Overthinking**: Time tracking is meant to be a tool to improve our efficiency and self-awareness around work! It should not become so detailed or complex that it turns into a task of its own.
 
 ## A note on metrics
 
