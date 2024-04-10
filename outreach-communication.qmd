@@ -176,6 +176,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 ## Group Branding {#branding}
 
 Projects that we work on such as websites/web apps, or presentations given by us or our collaborators should include some recognition of our group's contribution.
+For guidelines on receiving recognition for our work on publications, software, and datasets see [authorship and licensing guidelines](getting-credit.qmd).
 
 ### Guidelines
 
