@@ -64,6 +64,7 @@ book:
         - sprint-planning.qmd 
         - quarterly-meetings.qmd
         - annual-reviews.qmd
+        - impact.qmd
     - part: "Group Procedures"
       chapters:
         - onboarding.qmd
