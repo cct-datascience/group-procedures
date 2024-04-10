@@ -1,39 +1,89 @@
 # Regular Meetings
 
-## Daily Standups {#standups}
+We have roles that rotate among team members every sprint, which be found [here](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit?usp=sharing).
 
-We meet daily at 9:50 AM (unless we have a sprint planning or retrospective meeting that day) for approximately ten minutes.
-The team member who leads the meeting is a rotating role that can be found [here](https://docs.google.com/spreadsheets/d/1k4B59FdpGxAd2sNrgbXRLrYIVgcxjvnYF5yJoaIcOAA/edit?usp=sharing).
-The leader is responsible for keeping the Standup on track and on time.
-Everyone answers the following questions:
+## Standups {#standups}
 
--   What did you do yesterday?
+**Scope:** To give everyone a chance to check in about what they're working on, and to identify possible solutions for barriers to work.
+
+**Documentation:** None
+
+**Timing:** Daily at 9:50 am for approximately ten minutes, except for sprint planning and retrospective days
+
+**Structure:** Everyone answers the following questions:
+
+-   What have you worked on since the last standup?
 
 -   What are you planning to do today?
 
 -   **Is anything blocking your work?**
 
-This often leads to more in depth discussions which should be identified as tangential.
-The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.
+If this leads to more in-depth discussions, the leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.
 
-## Weekly Individual Meetings
+## Individual Meetings {#individual-meetings}
 
-Everyone meets once per week with Kristina for a 30 minute one-on-one.
-Once a month, this meeting is extended to an hour to discuss OKR's.
+**Scope:** For each team member to discuss challenges, blockers, plans, successes, and other higher level issues with Kristina that would not be appropriate for other group or project meetings.
 
-## Weekly Outreach Hour
+**Documentation:** Shared private notes doc between team member and Kristina.
 
-We meet once per week (currently on Mondays from 10-11am on Zoom) to dedicate time to outreach tasks.
-Notes are recorded [here](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ).
+**Timing:** Once per week for 30 minutes.
+One meeting per month will be dedicated to OKR review, and the meeting immediately prior to each quarterly review meeting will be for reviewing last quarter's OKRs and drafting next quarter's.
 
-## Monthly Project Hour
+**Structure:**
 
-Once a month, we meet to discuss the status of incubator and non-incubator projects.
-Notes [here](https://hackmd.io/Ix-cFLn2RwuBfryEtOINaw).
+1.  \[10 minutes\] Project status updates, noting down anything that needs further discussion
+2.  \[20 minutes\] Asking and answering that week's questions from the list of one-on-one questions OR discussing and finding solutions for anything that's high priority or problematic
 
-## Monthly Group Processes Hour
+## Outreach Hour {#outreach-hour}
 
-Once a month, we meet to discuss group processes and do things like work on this book!
+**Scope:** To make progress on tasks that involve *advertising* or *sharing* our group's work.
+Can include updating our public-facing website, writing announcements for trainings, putting together materials for presenting on our group, and drafting social media posts.
+
+**Documentation**: [Outreach Hour HackMD notes](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ).
+
+**Timing:** Once per week for an hour (currently on Mondays from 10-11am).
+
+**Structure:**
+
+1.  \[10 minutes\] Each person select task(s) to work on by reviewing TODOs and rolling TODOs and adding new items
+2.  \[40 minutes\] Work on tasks
+3.  \[10 minutes\] Updates from everyone on how it went, what is remaining, and any barriers
+
+## Project Hour {#project-hour}
+
+**Scope**: To review the status of all projects (incubator and non-incubator) so all team members are aware of overall goals and progress.
+
+**Documentation:** [Project Hour HackMD notes](https://hackmd.io/Ix-cFLn2RwuBfryEtOINaw).
+
+**Timing:** Once per month, alternating with group processes hour and sprint planning (currently on Wednesdays from 11am-noon)
+
+**Structure:**
+
+1.  \[15 minutes\] Review [Incubator Projects](https://github.com/orgs/cct-datascience/projects/7) GitHub board, from right to left columns, with brief status updates from relevant team member, focusing on changes and blockers
+2.  \[15 minutes\] Review [Funded/Non-Incubator/Post-Incubator Projects](https://github.com/orgs/cct-datascience/projects/9) GitHub board, "Potential" and "In Progress" projects, with brief status updates from relevant team member, focusing on changes and blockers
+3.  \[30 minutes\] Cowork on projects
+
+## Group Processes Hour {#group-processes-hour}
+
+**Scope:** To reflect on and refine the various processes that help our group further our mission.
+This can include making changes to our sprint or project processes, contributing to [impact tracking](impact.qmd) docs, or updating group internal documentation such as this book!
+
+**Documentation:** [Group Processes HackMD notes](https://hackmd.io/eAAQ3bz0SfSURtxO9GO3EQ)
+
+**Timing:** Once per month, alternating with project hour and sprint planning (currently on Wednesdays from 11am-noon)
+
+**Structure:**
+
+*Discussion-based*
+
+Pick a topic that requires input from entire team, discuss, and take thorough notes.
+
+*Coworking*
+
+1.  \[5 minutes\] Review tasks
+2.  \[10-15 minutes\] Discuss if needed
+3.  \[40 minutes\] Work on tasks
+4.  \[5 minutes\] Check back in progress
 
 ## Sprint Planning
 
