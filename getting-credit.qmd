@@ -31,7 +31,7 @@ Use [semantic versioning](https://semver.org/) in GitHub releases and in the cor
 ## Data
 
 Zenodo can also be used to archive data and it is an especially good option when code and data are in the same GitHub repository.
-Other options for archiving data include [Dryad](https://datadryad.org/) and [UA ReDATA](https://data.library.arizona.edu/supported-platforms/redata). On Zenodo (possibly other repositories), there is a metadata field for contributor which is distinct from author.
+Other options for archiving data include [Dryad](https://datadryad.org/), [UA ReDATA](https://data.library.arizona.edu/supported-platforms/redata), and domain-specific data repositories. On Zenodo (possibly other repositories), there is a metadata field for contributor which is distinct from author.
 This field may be appropriate for crediting CCT Data Science members who contributed to data management but were not involved in creation of the data.
 Discuss this with collaborators early and often.
 
