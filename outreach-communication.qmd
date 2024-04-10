@@ -1,5 +1,8 @@
 ---
 title: "Communications and Outreach"
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ## Documents and Websites to Update regularly
@@ -9,7 +12,7 @@ title: "Communications and Outreach"
 
 ## Where to announce events:
 
--   Our [email list](#emma) (try to consolidate events to quarterly emails)
+-   Our [email list](#listserv) (try to consolidate events to quarterly emails)
 -   [UA Master Calendar](https://news.arizona.edu/calendar)
 -   [Data Science Institute events page](https://datascience.arizona.edu/events)
 -   Experiment Station Tues morning notes: send announcement to [tmn\@cals.arizona.edu](mailto:tmn@cals.arizona.edu)
@@ -37,9 +40,12 @@ title: "Communications and Outreach"
     -   Drones, GIS
 -   See also ["ALVSCE Brand Guidelines and Tools to Promote Your Programs"](https://compass.arizona.edu/marketing/brand)
 
-## Group Email Listserv {#emma}
+## Group Email Listserv {#listserv}
 
-We maintain our email list on the Emma platform.
+We currently maintain our email list on the Emma platform.
+We send out \~quarterly emails, and people can sign up for using this link: <https://app.e2ma.net/app2/audience/signup/1965047/1923145/>\
+\
+We also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions.
 
 How to send out emails:
 
