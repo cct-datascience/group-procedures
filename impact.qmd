@@ -1,0 +1,24 @@
+---
+title: Impact Tracking
+---
+
+It is very important for us to collect information and feedback on how we are helping researchers do their work.
+We want to have collections of metrics, testimonials, and other forms of data on our engagements and their effectiveness.
+The methods by which we do this will always be evolving and we'll list them here.
+
+## Metrics of success
+
+-   Number of and effort on longer term collaborative projects
+-   Number of consultations, i.e., one-off or limited number of interactions
+-   Number of incubator projects successfully completed
+-   Number of (ALVSCE + non-ALVSCE) workshop participants
+-   Coauthorship or acknowledgements in publications
+-   Authoring data publications
+-   PI or co-PI status on funded grants
+-   Contributions to grants
+
+## Where to track enagements
+
+1.  For quantitative measures of ALVSCE-specific work, we update effort spreadsheets quarterly. [CY23](https://docs.google.com/spreadsheets/d/1TNv0PG2iqRSLJJxX7mBFBsO0j1_EpabGH8Auqk3obEw/edit#gid=0) [FY23](https://docs.google.com/spreadsheets/d/1Ji9A_Aozb8Hp15b2JrLHx4lqoiJXae883Fga71rqkuM/edit#gid=127724424) [CY24](https://docs.google.com/spreadsheets/d/19Nxa4HiCYmQ4oXa41XR7kBIpRoatxD-Efp0VBUpRLDk/edit#gid=0)
+2.  To track positive feedback (verbal or written), add ad-hoc to [Testimonials doc](https://docs.google.com/document/d/1m8X8kVeEIDU9Xo3xzLXr0kb2HL_aQYYoh5Qp8a33wHI/edit#heading=h.bfh5rd50u0d7).
+3.  To have a record of who we've talked to and about what, add people to the [UA Networking Contacts spreadsheet](https://docs.google.com/spreadsheets/d/1jHzCgfyQLcKOuMIJpCqlS--nDgs5hIEQ-8dOafaIUlw/edit#gid=0).

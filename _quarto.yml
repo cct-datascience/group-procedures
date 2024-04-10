@@ -64,11 +64,13 @@ book:
         - sprint-planning.qmd 
         - quarterly-meetings.qmd
         - annual-reviews.qmd
+        - impact.qmd
     - part: "Group Procedures"
       chapters:
         - onboarding.qmd
         - group-communication.qmd
         - outreach-communication.qmd
+        - getting-credit.qmd
         - hiring.qmd
         - professional-development.qmd
         - code-review.qmd
