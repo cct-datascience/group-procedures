@@ -32,7 +32,7 @@ We use [Toggl](https://track.toggl.com) to track the time each group member spen
 
 This began with the Data Science Incubator, when it became prudent to track the time spent working on each project.
 We now use it in order to be fair to our collaborators and funders by quantifying the time spent on projects, and making sure that we are allocating effort appropriately across projects.
-We also use it to populate the Group Effort Spreadsheet, which we use to communicate our activities to stakeholders within the university.
+We also use it to populate the [Group Effort Spreadsheet](impact.qmd#where-to-track-enagements), which we use to communicate our activities to stakeholders within the university.
 
 ### Toggl conventions
 
