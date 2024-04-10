@@ -28,7 +28,7 @@ Our group uses the following hierarchy of meetings, from brief daily status repo
 
 ## Time Tracking
 
-We use [Toggl](https://toggl.com) to track the time each group member spends working on each of the (many) projects that we all contribute to.
+We use [Toggl](https://track.toggl.com) to track the time each group member spends working on each of the (many) projects that we all contribute to.
 
 This began with the Data Science Incubator, when it became prudent to track the time spent working on each project.
 We now use it in order to be fair to our collaborators and funders by quantifying the time spent on projects, and making sure that we are allocating effort appropriately across projects.
