@@ -43,7 +43,7 @@ For guidelines on recognizing our group on web apps/websites, presentations, han
 
 Our group uses the following licenses:
 
--   Code/software: [MIT](https://opensource.org/license/mit)
+-   Code/software: [MIT](https://opensource.org/license/mit) or [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 -   Data: [CC0](https://creativecommons.org/public-domain/cc0/)[^getting-credit-1]
 
