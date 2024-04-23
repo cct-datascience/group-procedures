@@ -14,6 +14,7 @@ Everyone should follow the [Code of Conduct](code-of-conduct.qmd).
 
 -   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Group Communication](group-communication.qmd) for details.
 -   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
+- Everyone should do their best to keep their calendars up to date, to make scheduling meetings with collaborators, etc. easier. 
 
 # Feedback and Iteration
 
