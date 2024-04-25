@@ -155,7 +155,7 @@
     "href": "regular-meetings.html",
     "title": "5  Regular Meetings",
     "section": "",
-    "text": "5.1 Daily Standups\nWe meet daily at 9:50 AM (unless we have a sprint planning or retrospective meeting that day) for approximately ten minutes. The team member who leads the meeting is a rotating role that can be found here. The leader is responsible for keeping the Standup on track and on time. Everyone answers the following questions:\nThis often leads to more in depth discussions which should be identified as tangential. The leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.",
+    "text": "5.1 Standups\nScope: To give everyone a chance to check in about what they’re working on, and to identify possible solutions for barriers to work.\nDocumentation: None\nTiming: Daily at 9:50 am for approximately ten minutes, except for sprint planning and retrospective days\nStructure: Everyone answers the following questions:\nIf this leads to more in-depth discussions, the leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
@@ -166,51 +166,51 @@
     "href": "regular-meetings.html#standups",
     "title": "5  Regular Meetings",
     "section": "",
-    "text": "What did you do yesterday?\nWhat are you planning to do today?\nIs anything blocking your work?",
+    "text": "What have you worked on since the last standup?\nWhat are you planning to do today?\nIs anything blocking your work?",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
     ]
   },
   {
-    "objectID": "regular-meetings.html#weekly-individual-meetings",
-    "href": "regular-meetings.html#weekly-individual-meetings",
+    "objectID": "regular-meetings.html#individual-meetings",
+    "href": "regular-meetings.html#individual-meetings",
     "title": "5  Regular Meetings",
-    "section": "5.2 Weekly Individual Meetings",
-    "text": "5.2 Weekly Individual Meetings\nEveryone meets once per week with Kristina for a 30 minute one-on-one. Once a month, this meeting is extended to an hour to discuss OKR’s.",
+    "section": "5.2 Individual Meetings",
+    "text": "5.2 Individual Meetings\nScope: For each team member to discuss challenges, blockers, plans, successes, and other higher level issues with Kristina that would not be appropriate for other group or project meetings.\nDocumentation: Shared private notes doc between team member and Kristina.\nTiming: Once per week for 30 minutes. One meeting per month will be dedicated to OKR review, and the meeting immediately prior to each quarterly review meeting will be for reviewing last quarter’s OKRs and drafting next quarter’s.\nStructure:\n\n[10 minutes] Project status updates, noting down anything that needs further discussion\n[20 minutes] Asking and answering that week’s questions from the list of one-on-one questions OR discussing and finding solutions for anything that’s high priority or problematic",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
     ]
   },
   {
-    "objectID": "regular-meetings.html#weekly-outreach-hour",
-    "href": "regular-meetings.html#weekly-outreach-hour",
+    "objectID": "regular-meetings.html#outreach-hour",
+    "href": "regular-meetings.html#outreach-hour",
     "title": "5  Regular Meetings",
-    "section": "5.3 Weekly Outreach Hour",
-    "text": "5.3 Weekly Outreach Hour\nWe meet once per week (currently on Mondays from 10-11am on Zoom) to dedicate time to outreach tasks. Notes are recorded here.",
+    "section": "5.3 Outreach Hour",
+    "text": "5.3 Outreach Hour\nScope: To make progress on tasks that involve advertising or sharing our group’s work. Can include updating our public-facing website, writing announcements for trainings, putting together materials for presenting on our group, and drafting social media posts.\nDocumentation: Outreach Hour HackMD notes.\nTiming: Once per week for an hour (currently on Mondays from 10-11am).\nStructure:\n\n[10 minutes] Each person select task(s) to work on by reviewing TODOs and rolling TODOs and adding new items\n[40 minutes] Work on tasks\n[10 minutes] Updates from everyone on how it went, what is remaining, and any barriers",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
     ]
   },
   {
-    "objectID": "regular-meetings.html#monthly-project-hour",
-    "href": "regular-meetings.html#monthly-project-hour",
+    "objectID": "regular-meetings.html#project-hour",
+    "href": "regular-meetings.html#project-hour",
     "title": "5  Regular Meetings",
-    "section": "5.4 Monthly Project Hour",
-    "text": "5.4 Monthly Project Hour\nOnce a month, we meet to discuss the status of incubator and non-incubator projects. Notes here.",
+    "section": "5.4 Project Hour",
+    "text": "5.4 Project Hour\nScope: To review the status of all projects (incubator and non-incubator) so all team members are aware of overall goals and progress.\nDocumentation: Project Hour HackMD notes.\nTiming: Once per month, alternating with group processes hour and sprint planning (currently on Wednesdays from 11am-noon)\nStructure:\n\n[15 minutes] Review Incubator Projects GitHub board, from right to left columns, with brief status updates from relevant team member, focusing on changes and blockers\n[15 minutes] Review Funded/Non-Incubator/Post-Incubator Projects GitHub board, “Potential” and “In Progress” projects, with brief status updates from relevant team member, focusing on changes and blockers\n[30 minutes] Cowork on projects",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
     ]
   },
   {
-    "objectID": "regular-meetings.html#monthly-group-processes-hour",
-    "href": "regular-meetings.html#monthly-group-processes-hour",
+    "objectID": "regular-meetings.html#group-processes-hour",
+    "href": "regular-meetings.html#group-processes-hour",
     "title": "5  Regular Meetings",
-    "section": "5.5 Monthly Group Processes Hour",
-    "text": "5.5 Monthly Group Processes Hour\nOnce a month, we meet to discuss group processes and do things like work on this book!",
+    "section": "5.5 Group Processes Hour",
+    "text": "5.5 Group Processes Hour\nScope: To reflect on and refine the various processes that help our group further our mission. This can include making changes to our sprint or project processes, contributing to impact tracking docs, or updating group internal documentation such as this book!\nDocumentation: Group Processes HackMD notes\nTiming: Once per month, alternating with project hour and sprint planning (currently on Wednesdays from 11am-noon)\nStructure:\nDiscussion-based\nPick a topic that requires input from entire team, discuss, and take thorough notes.\nCoworking\n\n[5 minutes] Review tasks\n[10-15 minutes] Discuss if needed\n[40 minutes] Work on tasks\n[5 minutes] Check back in progress",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
