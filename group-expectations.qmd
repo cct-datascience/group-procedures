@@ -4,15 +4,28 @@ title: Group Expectations
 
 Everyone should follow the [Code of Conduct](code-of-conduct.qmd).
 
+# Group's Google Calendar
+
+There are two university available calendar providers that are used by our group; Google and Microsoft (MS) Office calendars, with Google Calendar being primary.
+The MS Office calendars are used by other groups, and our group mostly uses them to keep informed of activities.
+
+It's possible to connect an Office calendar to your Google calendar: [forum instructions](https://answers.microsoft.com/en-us/outlook_com/forum/all/to-see-outlook-calendar-office-365-for-business-in/db588a73-4bc2-469e-8b43-55e49859afd8).
+
+Our group has a [group-wide calendar](https://calendar.google.com/calendar/embed?src=c_2c2cc9b6aa62ca6f9fc2fcc2d8558836290595f7a5db54fa5610d5da4f5d3346%40group.calendar.google.com&ctz=America%2FPhoenix) for communicating within the group.
+If you can't add this calendar to your account, [ask someone](mailto:cct-datascience@arizona.edu) in the group to add you.
+
+See the rest of this page for when to use the group's calendar.
+
 # Working hours and time off
 
 -   Everyone is expected to be in during normal working hours. Since we are distributed across time zones, work with Kristina to establish your working hours.
 -   Please let Kristina know at least 2 weeks in advance of any vacation time.
 -   You can ask HR (or look in UAccess) to track your available sick and vacation time. This is an important and valuable part of your compensation!
+-   Please be sure to update the CCT Group Calendar with your time off. The calendar entry only needs to include your name and when you will be out; details about the what or why are not necessary. 
 
 # Communication
 
--   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive; see [Group Communication](group-communication.qmd) for details.
+-   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive, Google Calendars; see [Group Communication](group-communication.qmd) for details.
 -   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
 - Everyone should do their best to keep their calendars up to date, to make scheduling meetings with collaborators, etc. easier. 
 
