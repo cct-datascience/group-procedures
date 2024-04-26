@@ -146,7 +146,8 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
         ![](img/zoom_meeting_report2.png)
 
     3)  In the "Report Queue", click the "Download" button next to your workshop to get a .csv file with registrant information
--   Usage report <!--# Do we even do anything with this report?  Should I say this is optional? -->
+    4)  Copy the registrants information to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0).
+-   Usage report
     1.  Go back to Analytics & Reports \> Usage Reports and choose "Usage"
 
     2.  Filter by the date of your workshop.
@@ -158,7 +159,7 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
     4.  Check the "Show unique users" box and click "Export" to download a csv file showing who actually attended the workshop and how long they stayed.
 
         ![](img/zoom_usage_report2.png)
--   Add registrants from the registration report to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0).
+    5.  Add the usage information to [this google sheet](https://docs.google.com/spreadsheets/d/15E5JDNiVr9aCWYE4iFSirvwzdllLtWEEZAwYi3_TScE/edit). 
 -   "Import" (manually enter) list of registrants who opt into the mailing list to [Emma](outreach-communication.qmd#listserv).
 
 ### Post-workshop survey
