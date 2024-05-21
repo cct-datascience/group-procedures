@@ -58,9 +58,10 @@ From the meeting page, copy the registration link to be included in your worksho
 
 ### Advertise
 
+-   Use [this spreadsheet](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit#gid=0) to keep track of where you have advertised. 
 -   Add the workshop to our website at https://datascience.cals.arizona.edu/services-overview/workshops
 -   Add the workshop to the Data Science Institute [events page](https://datascience.arizona.edu/get-involved)
--   Advertise to other groups and email listservs listed [here](outreach-communication.qmd)
+-   Advertise to other groups and email listservs listed [here](outreach-communication.qmd).
 
 ### Workshop reminder email (optional)
 
