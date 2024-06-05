@@ -80,6 +80,7 @@ book:
         - drop-in-hours.qmd
         - incubator.qmd
         - workshops.qmd
+        - consultations.qmd
     - part: "Resources"
       chapters: 
         - networking.qmd
