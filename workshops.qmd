@@ -58,7 +58,7 @@ From the meeting page, copy the registration link to be included in your worksho
 
 ### Advertise
 
--   Use [this spreadsheet](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit#gid=0) to keep track of where you have advertised. 
+-   Use [this spreadsheet](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit#gid=0) to keep track of where you have advertised.
 -   Add the workshop to our website at https://datascience.cals.arizona.edu/services-overview/workshops
 -   Add the workshop to the Data Science Institute [events page](https://datascience.arizona.edu/get-involved)
 -   Advertise to other groups and email listservs listed [here](outreach-communication.qmd).
@@ -100,13 +100,15 @@ Still a work-in-progress, but should ask questions about:
 
 ### Post recordings to YouTube
 
+::: callout-note
+You may need to ask Kristina to give you manager permissions in order to upload videos to our YouTube channel.
+:::
+
 -   To record the speaker view and shared screen separately, record to the cloud
 -   Record entire workshop session
--   After Zoom meeting is ended, a window will pop up with "Converting meeting recording". This will slow down your computer, but let it finish
--   The recording will be saved somewhere on your computer (it's "zoom_videos" for me)
--   Edit video locally if necessary
--   Ask Chris to give you admin permissions to the [CCT Data Science YouTube account](https://www.youtube.com/channel/UCiBfho07gp4LMbWY3_EG8Iw)
--   Once signed in, go to Content tab
+-   The recording will available to download at arizona.zoom.us (you should get an email when it is done processing)
+-   Edit video locally if necessary, or you can do basic trimming after uploading to YouTube in the creator studio (see tip below).
+-   Sign into YouTube
 -   Select "Create" button in upper right hand corner and then "Upload videos"
 -   Drag and drop video
 -   While it's uploading, add name in format "Workshop Wednesdays \[month\] \[year\]: \[workshop title\]"
@@ -116,20 +118,24 @@ Still a work-in-progress, but should ask questions about:
     -   Presented to: \[audience\]
     -   Description: \[description of workshop as in email announcements\]
 -   If the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings
--   If possible, include thumbnail photo from a relevant slide
+-   If possible, include thumbnail from a relevant slide
 -   Add to the 'Workshops' playlist
 -   Once it's uploaded (may take a while), including the HD version, check that the video is clear enough to see text on screen
--   Advertise video upload via Twitter!
+-   Advertise video upload via Mastodon!
+
+::: callout-tip
+One benefit of editing the video on YouTube studio is that you can upload the .vtt file with a timed transcript along with the original video and then when you trim the video, the subtitles will be trimmed along with it.
+The .vtt file from Zoom has participant names in it and is probably more accessible than the auto-generated YouTube subtitles for that reason.
+:::
 
 ### Share materials
 
 -   Submit a pull request to [cct-datascience/CALS-workshops](https://github.com/cct-datascience/CALS-workshops) with notes and/or slides
 -   Update workshop info on our [workshops website page](https://datascience.cct.arizona.edu/workshops)
-    -   Under **Category**, add "ALVSCE Workshop Wednesdays" option
+    -   Under **Category**, add "ALVSCE Workshop Wednesdays" option (or other relevant category)
     -   Under **Additional Links**, add slides, notes, etc., with corresponding URLs
-    -   Under **Recording**, add URL of YouTube recording of workshop and **Title** to "View Recording"
-    -   Check box under **Archive**
-    -   Make sure workshop event now shows up in "Previous Workshops" section of workshops page
+    -   Under **Recording**, click "add media" and paste in the link to the YouTube video
+    -   Publish changes and make sure workshop event now shows up in "Previous Workshops" section of workshops page (it might not move there until the following day).
 
 ### Get Zoom reports
 
