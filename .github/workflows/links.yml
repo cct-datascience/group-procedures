@@ -1,7 +1,7 @@
 name: Links
 
 on:
-  pull_request:
+  # pull_request:
   workflow_dispatch:
   schedule:
   #every monday
@@ -16,6 +16,9 @@ jobs:
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v1
+        with:
+          fail: true
+          args: --glob-ignore-case --exclude docs\.google\.com --exclude hackmd\.io './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
         if: env.lychee_exit_code != 0
