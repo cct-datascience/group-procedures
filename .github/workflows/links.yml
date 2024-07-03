@@ -1,7 +1,7 @@
 name: Links
 
 on:
-  # pull_request:
+  pull_request:
   workflow_dispatch:
   schedule:
   #every monday
@@ -21,7 +21,7 @@ jobs:
           args: --glob-ignore-case --exclude docs\.google\.com --exclude hackmd\.io './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
-        if: env.lychee_exit_code != 0
+        if: env.lychee_exit_code != 0 & ${{ github.event_name != 'pull_request' }}
         uses: peter-evans/create-issue-from-file@v4
         with:
           title: Link Checker Report
