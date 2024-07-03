@@ -1,3 +1,6 @@
+# action: https://github.com/lycheeverse/lychee-action
+# lychee: https://github.com/lycheeverse/lychee
+
 name: Links
 
 on:
