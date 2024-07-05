@@ -37,7 +37,7 @@ The goal in the first week is to set up your accounts and your physical and virt
 Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack).
 
 -   [ ] Work through CCT-DS Onboarding checklist (this document). Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
--   [ ] Review our group's [Code of Conduct](code-of-conduct.qmd)
+-   [ ] Review our group's [Code of Conduct](https://cct-datascience.github.io/group-procedures/code-of-conduct.html)
 
 ### HR logistics
 
@@ -92,7 +92,7 @@ Create accounts on the following collaboration tools (details provided below):
     -   [ ] You will need to create a Hackmd account, and then someone from the group will need to add you.
 -   [ ] Get added to Toggl, for time tracking
 -   [ ] Log in to get edit access to the website. Navigate to <https://datascience.cct.arizona.edu/user>. Don't log in using the obvious log in form; click on "Log in with NetAuth" (or similar) and log in using your NetID credentials.
--   [ ] Log in to [Stache](stache.arizona.edu), used for sharing passwords and other sensitive information within the university.
+-   [ ] Log in to [Stache](https://stache.arizona.edu/), used for sharing passwords and other sensitive information within the university.
 -   [ ] Get added to the group [Posit Connect](https://viz.datascience.arizona.edu/connect/)
     -   You'll have to request access and list a sponsor. This is Kristina.
 -   [ ] Log in to the group [Quarto Pub](https://quartopub.com)
@@ -116,7 +116,7 @@ Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] Read about group expectations and general information [here](https://cct-datascience.github.io/group-procedures/general-info.html)
 -   [ ] Populate your calendar with the current group meeting schedule. Kristina will send you invites.
--   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](project-management.qmd) to prepare for these.
+-   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](https://cct-datascience.github.io/group-procedures/project-management.html) to prepare for these.
 -   [ ] Set up your standing meeting with Kristina.
 -   [ ] Begin learning about and using software and data related to projects.
     -   This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings.
