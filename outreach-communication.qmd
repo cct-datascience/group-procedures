@@ -130,7 +130,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Short summary & link to a recent publication from the group or collaborators
 -   Notification of recent release of group's software or documentation
 -   Relevant upcoming events, e.g., conferences or hackathons that group members are attending
--   Link to recently posted news article on [group website](https://datascience.cct.arizona.edu/all-news) (new and improved website coming soon!)
+-   Link to recently posted news article on [group website](https://datascience.cct.arizona.edu/news) (new and improved website coming soon!)
 -   Link to good resources for the type of work we do, e.g., blog post for how to use an R package
 -   Live coverage of an event like a conference talk—this can be a difficult thing to do
 
