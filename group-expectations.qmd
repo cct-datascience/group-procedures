@@ -21,13 +21,13 @@ See the rest of this page for when to use the group's calendar.
 -   Everyone is expected to be in during normal working hours. Since we are distributed across time zones, work with Kristina to establish your working hours.
 -   Please let Kristina know at least 2 weeks in advance of any vacation time.
 -   You can ask HR (or look in UAccess) to track your available sick and vacation time. This is an important and valuable part of your compensation!
--   Please be sure to update the CCT Group Calendar with your time off. The calendar entry only needs to include your name and when you will be out; details about the what or why are not necessary. 
+-   Please be sure to update the CCT Group Calendar with your time off. The calendar entry only needs to include your name and when you will be out; details about the what or why are not necessary.
 
 # Communication
 
 -   We use multiple methods of communication: In Person, Email, Slack, GitHub, Zoom, Google Drive, Google Calendars; see [Group Communication](group-communication.qmd) for details.
 -   We should all aim to reply to inquiries within a day. If someone doesn't reply in a timely fashion, please remind them **early**, **often**, and through **multiple channels**.
-- Everyone should do their best to keep their calendars up to date, to make scheduling meetings with collaborators, etc. easier. 
+-   Everyone should do their best to keep their calendars up to date, to make scheduling meetings with collaborators, etc. easier.
 
 # Feedback and Iteration
 
@@ -39,7 +39,7 @@ Please let me know if you have any questions.
 
 -   Inform Kristina by email of upcoming vacation or leave as soon as is practical; *at least two weeks in advance*.
 -   Employees must report their time by 10:00 a.m. on the Friday of a non-pay week. Supervisors (time approvers) must approve time by 5:00 p.m. on that day. See <https://hr.arizona.edu/supervisors/compensation>
--   For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc). Holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: <https://hr.arizona.edu/employees-affiliates/leaves/university-winter-closure>
+-   For Appointed personnel, you only need to report leave time (sick, vacation, jury duty, etc). Holidays and campus closures are automatically added to your time sheet. For more information on winter holiday closure: <https://hr.arizona.edu/events/winter-closure>
 
 # Computer backups
 
