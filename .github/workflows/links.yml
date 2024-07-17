@@ -32,8 +32,8 @@ jobs:
             './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
-        if: env.lychee_exit_code != 0 & ${{ github.event_name != 'pull_request' }}
-        uses: peter-evans/create-issue-from-file@v4
+        if: env.lychee_exit_code != 0 && ${{ github.event_name != 'pull_request' }}
+        uses: peter-evans/create-issue-from-file@v5
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
