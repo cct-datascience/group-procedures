@@ -833,267 +833,300 @@
     ]
   },
   {
+    "objectID": "consultations.html",
+    "href": "consultations.html",
+    "title": "21  Consultations",
+    "section": "",
+    "text": "21.1 Overview\nMembers of our group are available to meet with researchers one-on-one to help them solve individual data problems. These can be one-off appointments, or recurring meetings.\nHere are some helpful things to keep in mind when working with people in this capacity:",
+    "crumbs": [
+      "Group Programming",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Consultations</span>"
+    ]
+  },
+  {
+    "objectID": "consultations.html#during-a-meeting",
+    "href": "consultations.html#during-a-meeting",
+    "title": "21  Consultations",
+    "section": "21.2 During a meeting",
+    "text": "21.2 During a meeting\n\nHere is a link to some helpful IT resources at UA.\nRemind them about the Incubator program.\nPlug the fall reproducibility series.\nAsk them how they found out about us.",
+    "crumbs": [
+      "Group Programming",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Consultations</span>"
+    ]
+  },
+  {
+    "objectID": "consultations.html#after-meeting-with-someone",
+    "href": "consultations.html#after-meeting-with-someone",
+    "title": "21  Consultations",
+    "section": "21.3 After meeting with someone",
+    "text": "21.3 After meeting with someone\n\nDocument the meeting and what you worked on here.\nAdd the meeting to the CCT Effort Spreadsheet (link changes each year; 2024).\nIf it has been a recurrent collaboration, consider following up a few weeks after your last meeting to check on their progress.\nConsider collecting testimonial feedback to save here.",
+    "crumbs": [
+      "Group Programming",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Consultations</span>"
+    ]
+  },
+  {
     "objectID": "networking.html",
     "href": "networking.html",
-    "title": "21  Networking at UA",
+    "title": "22  Networking at UA",
     "section": "",
-    "text": "21.1 Introduction/info:",
+    "text": "22.1 Introduction/info:",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#introductioninfo",
     "href": "networking.html#introductioninfo",
-    "title": "21  Networking at UA",
+    "title": "22  Networking at UA",
     "section": "",
     "text": "Your background (data science & domain science)\nWho we serve (ALVSCE)\nWhat we do (training/workshops, data science support, data management, collaborate on grant writing)\nExplain incubator project",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#questions",
     "href": "networking.html#questions",
-    "title": "21  Networking at UA",
-    "section": "21.2 Questions:",
-    "text": "21.2 Questions:\n\nWhat kinds of data does your research group deal with?\nWhat data related challenges do you experience?\nWhat data science training needs does your group have?\nHow are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)\nCan we add you to our email list?",
+    "title": "22  Networking at UA",
+    "section": "22.2 Questions:",
+    "text": "22.2 Questions:\n\nWhat kinds of data does your research group deal with?\nWhat data related challenges do you experience?\nWhat data science training needs does your group have?\nHow are group members on-boarded in terms of learning data science skills necessary for your lab? (courses, workshops, internal documents, learning from other researchers, etc.)\nCan we add you to our email list?",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "networking.html#follow-up",
     "href": "networking.html#follow-up",
-    "title": "21  Networking at UA",
-    "section": "21.3 Follow-up:",
-    "text": "21.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet",
+    "title": "22  Networking at UA",
+    "section": "22.3 Follow-up:",
+    "text": "22.3 Follow-up:\n\nEmail links to incubator project page, relevant upcoming workshop(s), drop-in hours\nAdd to email list (if ok with them)\nFill out networking contacts spreadsheet",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Networking at UA</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Networking at UA</span>"
     ]
   },
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "22  Software Resources",
+    "title": "23  Software Resources",
     "section": "",
-    "text": "22.1 Overview of IT services",
+    "text": "23.1 Overview of IT services",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#overview-of-it-services",
     "href": "software.html#overview-of-it-services",
-    "title": "22  Software Resources",
+    "title": "23  Software Resources",
     "section": "",
-    "text": "22.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n22.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n22.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns.",
+    "text": "23.1.1 UA Information Technology\nFor information on available services and procedures, see the UITS getting started page.\nExcellent 24-7 support: (520) 626-TECH (8324)\n\n\n23.1.2 UA Research Computing\nThe “University of Arizona Cyberinfrastructure and Research Support” Report provides a comprehensive inventory of UA computing resources.\n\n\n23.1.3 Bio5 IT group \n\n\n\n\n\n\nWarning\n\n\n\nThis section may be outdated\n\n\n\nTo request IT support, you can submit a ticket at https://keating.bio5.org/ticket_support/.\nYou can also contact the IT group lead Lomax Boyd (lomax@bio5.org) for any other questions or concerns.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#cloud-high-performance-computing",
     "href": "software.html#cloud-high-performance-computing",
-    "title": "22  Software Resources",
-    "section": "22.2 Cloud & High Performance Computing",
-    "text": "22.2 Cloud & High Performance Computing\n\n22.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n22.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n22.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions.",
+    "title": "23  Software Resources",
+    "section": "23.2 Cloud & High Performance Computing",
+    "text": "23.2 Cloud & High Performance Computing\n\n23.2.1 Campus Cluster\nEvery group gets a generous monthly allocation by default, plus infinite lower priority time as available.\nTo request access to the computer using our group allocations, please:\n\nGo to https://account.arizona.edu/account/index to create a HPC account\nOpen https://portal.hpc.arizona.edu/portal/sendlink.php and enter ‘kristinariemer@arizona.edu’ in the sponsors email field.\nIf needed, refer to documentation for details\n\nOverview of Campus HPC Resources: https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation\nPuma has lots of GPUs:\n\nPuma Quick Start\n\n\n\n23.2.2 OpenStack\nOpenStack is a cloud computing platform similar to AWS and other commercial clouds (except that it is open!) and we have allocations on CyVerse’s OpenStack environments.\n\n\n23.2.3 Exosphere\nAn experimental open stack interface being developed by Julian. He would appreciate feedback and feature requests. See project README for install instructions.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#development-collaboration-tools",
     "href": "software.html#development-collaboration-tools",
-    "title": "22  Software Resources",
-    "section": "22.3 Development / Collaboration Tools:",
-    "text": "22.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n22.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n22.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n22.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365",
+    "title": "23  Software Resources",
+    "section": "23.3 Development / Collaboration Tools:",
+    "text": "23.3 Development / Collaboration Tools:\nGeneral philosophy is that each person should use what works; for collaborative work it helps to use the same tools! Feel free to suggest alternatives… tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.\n\nWhen specifying a new task/app/tool identify why it’s needed; what’s to be gained\n\n\n23.3.1 Slack\n\nInstant Messaging, quickly sharing documents and code snippets, etc\nVideo Conferencing\n\n\n\n23.3.2 Zoom\n\nDocumentation: https://it.arizona.edu/service/zoom\nVideo conferencing (more robust and feature rich than Slack)\nUnless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)\n\n\n\n23.3.3 Other Document Sharing Services\nThese aren’t our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.\n\nBox\n\nDocumentation https://it.arizona.edu/service/boxua\nAccess https://arizona.account.box.com/login\n\nOffice 365\n\nDocumentation https://it.arizona.edu/service/microsoft-office-365",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "software.html#software",
     "href": "software.html#software",
-    "title": "22  Software Resources",
-    "section": "22.4 Software",
-    "text": "22.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n22.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n22.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n22.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n22.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n22.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n22.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n22.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.",
+    "title": "23  Software Resources",
+    "section": "23.4 Software",
+    "text": "23.4 Software\nIf you need a software license, first see if there are discounts for open source or academic users, and then ask Kristina if you need a license. When in doubt, ask. As with computers, she wants you to have the resources you need to be productive.\n\n23.4.1 RStudio\nFor R users, RStudio makes the development process easier, and we can assume that collaborators will use RStudio unless they have a reason not to. Many other great IDEs exist, e.g. VSCode, but it is okay in teaching, documentation, and demos to assume that learners will have access to RStudio.\n\n\n23.4.2 PyCharm\nWe are eligible for free PyCharm Educator licenses\nI received the following instructions in an email from customer support:\nif you are using this license for academic research, you are eligible to apply for a free Educational license below:\nhttp://www.jetbrains.com/student\nIf your institution domain is not available in the application, please attach your student/faculty ID and/or report card to the “OFFICIAL DOCUMENT” tab.\nTo Renew each year: (From their FAQ), “use the dedicated link in your JetBrains Account, or use a link from the automatic email reminder we send out one week before your subscription expires”\n\n\n23.4.3 Navicat\nWhen using databases, we can get licenses for open source projects as long as we put the Navicat logo on our website (as is done for TERRA REF).\n\n\n23.4.4 Postman\nA free program that is useful for investigating and creating API endpoints.\n\n\n23.4.5 Adobe tools:\nUA has a site license for these powerful tools. For example, Acrobat Pro for PDF annotation and signing; Adobe Xd for UI mockups. See https://adobe.arizona.edu/ for more information. Those whose primary appointment is in CCT will need to request a License from Ryan Creswan: cresawn@arizona.edu. Otherwse, there is a link to a spreadsheet with all of the Adobe campus reps on this page.\n\n\n23.4.6 Training Videos\nRecording Zoom sessions is a great place to start. But often it is useful to edit these videos.\n\nOBS Studio is an open source software for video recording, editing, and live streaming welcome.\nCamtasia is a commercial video editing software; contact Kristina if you would like a license.\nYou can also edit videos directly in YouTube with YouTube Studio\n\n\n\n23.4.7 GIS\n\nQGIS is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).\nArcGIS Desktop and ArcGIS Pro run on Windows. UA has a campus license to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides https://uagis.maps.arcgis.com/ for sharing map data.\nTyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Software Resources</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Software Resources</span>"
     ]
   },
   {
     "objectID": "use-gmail.html",
     "href": "use-gmail.html",
-    "title": "23  Using Gmail instead of Outlook",
+    "title": "24  Using Gmail instead of Outlook",
     "section": "",
     "text": "Staff members have both an outlook and a gmail account (outlook is default). To set up the gmail, log into outlook.office.com with the netID@email.arizona.edu and search for the forwarding setup. Your forwarding address is netID@catmail.arizona.edu. Then, go to catmail.arizona.edu and sign in. University emails sent to netID@arizona.edu (outlook) should now be forwarded to netID@email.arizona.edu (gmail).\n\nEnable Google Services\n\nIn order to enable Google services on your account, we will need to enable G-Suite on your account.\nTo enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.\nThen, click on “Manage your Accounts” on the left-hand side of the page. You should now be on a page with “Existing Accounts” and “Available Accounts”.\nUnder “Available Accounts” should be “UA Google Apps for Education”. You will need to click that tile to enable G-Suite.\nAfter that, Google services should be available for you and we can set up forwarding.\nYou may already have Google Services enabled. If so you should see a large green banner that says: “Your Google Apps account is enabled. You’re all set!”\n\nSet up forwarding from Outlook\n\nGo to https://outlook.office.com. Then, sign in with your university email.\nOnce at your inbox, click the gear icon in the top righthand corner of the page, which should bring up “Settings”. In the searchbar, search for “Forwarding”, then click on “Forwarding”.\nSelect “Enable forwarding”, and in the box under “Forward my email to”, put in your NetID, and then “@uits.arizona.edu”.\nMake sure to check the box next to “Keep a copy of forwarded messages”, which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.\nClick “Save”, and your forwarding will be set up!\nAll future emails will then be sent to your UA Gmail inbox.\nYou can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn’t work.)",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Using Gmail instead of Outlook</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Using Gmail instead of Outlook</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html",
     "href": "vignettes_overview.html",
-    "title": "24  Vignettes Overview",
+    "title": "25  Vignettes Overview",
     "section": "",
-    "text": "24.1 Purpose\nThe vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts. Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things.",
+    "text": "25.1 Purpose\nThe vignettes are to document technical skills and approaches that our group members learn, that are not well-documented in other places, e.g., online tutorials, blog posts. Creating these vignettes provide a way to share knowledge amongst and outside the group as we learn new things.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html#process",
     "href": "vignettes_overview.html#process",
-    "title": "24  Vignettes Overview",
-    "section": "24.2 Process",
-    "text": "24.2 Process\n\nInvestigate the desired skill using existing documentation and by using the tool / approach\nSummarize findings and add them as a new vignette to this section. See instructions in “Editing this book”.\nShare, when appropriate:\n\nWith the group as a demo during sprint planning\nWith collaborators via email or meeting\nWith the broader public via Mastodon or a blog post",
+    "title": "25  Vignettes Overview",
+    "section": "25.2 Process",
+    "text": "25.2 Process\n\nInvestigate the desired skill using existing documentation and by using the tool / approach\nSummarize findings and add them as a new vignette to this section. See instructions in “Editing this book”.\nShare, when appropriate:\n\nWith the group as a demo during sprint planning\nWith collaborators via email or meeting\nWith the broader public via Mastodon or a blog post",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "vignettes_overview.html#possible-vignette-topics",
     "href": "vignettes_overview.html#possible-vignette-topics",
-    "title": "24  Vignettes Overview",
-    "section": "24.3 Possible vignette topics",
-    "text": "24.3 Possible vignette topics\n\nSending automated emails using University of Arizona’s instance of Posit Connect\nUsing Jetstream 2 to set up virtual machines\nConnecting spreadsheets with databases",
+    "title": "25  Vignettes Overview",
+    "section": "25.3 Possible vignette topics",
+    "text": "25.3 Possible vignette topics\n\nSending automated emails using University of Arizona’s instance of Posit Connect\nUsing Jetstream 2 to set up virtual machines\nConnecting spreadsheets with databases",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Vignettes Overview</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Vignettes Overview</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html",
     "href": "publishing-to-web.html",
-    "title": "25  Publishing to the Web",
+    "title": "26  Publishing to the Web",
     "section": "",
-    "text": "25.1 Posit Connect",
+    "text": "26.1 Posit Connect",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#posit-connect",
     "href": "publishing-to-web.html#posit-connect",
-    "title": "25  Publishing to the Web",
+    "title": "26  Publishing to the Web",
     "section": "",
-    "text": "25.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect",
+    "text": "26.1.1 Getting Set Up:\nYou will have to be apply for access to be able to publish to viz.datascience.arizona.edu. Request access here. After you are approved, you can log in to viz.datascience.arizona.edu with your NetID and password.\nTo publish to Posit Connect using the RStudio GUI, follow instructions here: https://docs.posit.co/connect/user/publishing/\nTo publish Quarto documents to Posit Connect, follow these instructions: https://quarto.org/docs/publishing/rstudio-connect.html\nOther useful links:\n\npins 📦 + Posit Connect\nplumber 📦 + Posit Connect\nGitHub actions + Posit Connect",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#quarto-pub",
     "href": "publishing-to-web.html#quarto-pub",
-    "title": "25  Publishing to the Web",
-    "section": "25.2 Quarto Pub",
-    "text": "25.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n25.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub",
+    "title": "26  Publishing to the Web",
+    "section": "26.2 Quarto Pub",
+    "text": "26.2 Quarto Pub\nquartopub.com is probably the easiest way to share Quarto documents. This is only for Quarto documents, and there is no option to make what you share private in any way. Because Posit Connect is technically for research only, this is an appropriate venue for slides or other teaching related documents made with Quarto\n\n26.2.1 Getting Set Up:\nWe have an account with the username cct-datascience@arizona.edu. The password is stored in Stache (you may need to ask for it to be shared with you). Published documents appear at https://cct-datascience.quarto.pub/.\nPublish here with quarto publish quarto-pub and the first time you’ll be prompted to authenticate.\nUseful links:\n\nPublishing to Quarto Pub\nGitHub actions + Quarto Pub",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "publishing-to-web.html#github-pages",
     "href": "publishing-to-web.html#github-pages",
-    "title": "25  Publishing to the Web",
-    "section": "25.3 GitHub Pages",
-    "text": "25.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages",
+    "title": "26  Publishing to the Web",
+    "section": "26.3 GitHub Pages",
+    "text": "26.3 GitHub Pages\nOfficial guide: https://pages.github.com/\nUseful links:\n\npkgdown 📦 + GitHub actions to create a website for an R package\nPublish Quarto docs and websites to GitHub Pages",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Publishing to the Web</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Publishing to the Web</span>"
     ]
   },
   {
     "objectID": "creating-r-packages.html",
     "href": "creating-r-packages.html",
-    "title": "26  Creating R Packages",
+    "title": "27  Creating R Packages",
     "section": "",
-    "text": "27 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n27.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to cct-datascience.r-universe.dev, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.",
+    "text": "28 Creating R Packages\nOne of the things our group does is create R packages and help with maintenance of R packages. For example, volcalc and azmetr were both initially developed as incubator projects.\nThings this page should eventually include:\n\nlinks to best practices for R packages (rOpenSci guide, usethis, style guide)\nlink to Hadley’s book on R packages\ndiscussion about CRAN vs r-universe\nguide on releases and versions and Zotero integration (CITATION.cff, cffr package)\ndiscussion about package maintainance and handoff of maintainance\nuse of repostatus badge to signal lifecycle\n\n\n\n28.0.1 R-Universe\nR-Universe is an rOpenSci project that makes it easier to install R packages that are not on CRAN or Bioconductor. We use our r-universe page primarily to make it easier for our collaborators to install R packages, and as a “portfolio” of R packages our team has created or contributed significantly to.\nTo add a GitHub repo with an R package to cct-datascience.r-universe.dev, simply edit the JSON file here: https://github.com/cct-datascience/cct-datascience.r-universe.dev using the instructions linked to in the README.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Creating R Packages</span>"
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Creating R Packages</span>"
     ]
   },
   {
     "objectID": "spreadsheet-database-vignette.html",
     "href": "spreadsheet-database-vignette.html",
-    "title": "27  Spreadsheet with Database Connection Comparison",
+    "title": "28  Spreadsheet with Database Connection Comparison",
     "section": "",
-    "text": "December 11, 2023\n\n27.0.1 Overview\nThis document contains information on what is needed to connect to databases from various Spreadsheets, to read and write data, and lists any restrictions where they exist\nIn general, it’s much easier to get data put directly into a spreadsheet from a database than to update a database from a spreadsheet. In all cases, using CSV files for reading and/o writing is a valid option\nThe use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets\n\n\n\nSpreadsheet\nReading DB\nWriting DB\nNotes\n\n\n\n\nGoogle Sheets ✔\n✔✔✔\n✔✔\nWrite scripts to move data; programming skills help\n\n\nNumbers ✖\n➖\n➖\n\n\n\nExcel (Windows) ✔\n✔✔✔\n✔\nUpdate DB with CSV is easiest; need ODBC driver\n\n\nExcel (Mac) ✔\n✔\n✔\nSQLServer is supported; buy other ODBC drivers\n\n\nLibreOffice Calc ≈\n✔✔\n➖\n\n\n\n\nSpreadsheet Rating: ✖  Not supported ✔ Supported ≈ Mixed support\nReading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖ Not supported\n\n\n27.0.2 How Tested\nA sample MySQL database was started on the OpenStack instance at the University of Arizona, and made publicly accessible (password protected)\nLibreOffice Calc was tested on an Ubuntu 22.04 system\nDifferent database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication\n\n\n27.0.3 Google Sheets\nScripts are written to read and write data from a database using Google provided connectors\nRestrictions\nPostgres and its derivatives (PostGIS, et. al.) are not supported\nReading\nA generic Google Apps Script can be used to pull data into a spreadsheet and examples are easy to find. For example, https://www.lido.app/tutorials/google-sheets-connect-to-database. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)\nWriting\nWriting to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: https://developers.google.com/apps-script/guides/jdbc. If data filtering is needed, or if data is from multiple sheets, then it’s necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)\nConclusion\nMost flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird\n\n\n27.0.4 Numbers\nThis Apple spreadsheet application doesn’t connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database\nConclusion\nNo database connections supported\n\n\n27.0.5 Excel (Windows)\nSetting up database connectivity can be painful and complicated, and may require a system administrator.\nReading\nConnect to the database using the ODBC connector that matches the database you are pulling data from. You can select tables and columns, or write SQL commands to fetch the data into your spreadsheet. Microsoft has a web page containing instructions for multiple data sources; scroll down to see the different sources and their instructions.\nThe following download links may help:\n\nVisual Studio redistributables: https://my.visualstudio.com/Downloads\nODBC drivers: https://dev.mysql.com/downloads/connector/odbc/\n\nWriting\nIt’s much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)\nFor example, MySQL methods for writing to the database can be found at https://nanonets.com/blog/import-excel-into-mysql/\nConclusion\nWhile it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases\n\n\n27.0.6 Excel (Mac)\nRestrictions\nOnly SQLServer is supported “out of the box”. For other databases it’s necessary to pay for an ODBC driver to connect\nReading\nUse the SQLServer connectors to read from the database, if that’s an option. Otherwise, generate a CSV file with the data wanted and load that into the spreadsheet\nWriting\nUse the SQLServer connectors to write to the database, if that’s an option. Otherwise, generate a CSV file with the generated data and upload that into the database\nConclusion\nIf you aren’t connecting to SQLServer, you need to use CSV files\n\n\n27.0.7 Libre Office Calc\nInstall the libreoffice-base package to add the Database option to Calc; this may require an administrator to perform and a reboot after it’s installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)\nThe following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html\nReading\nPerform a SQL Query to import the data into a spreadsheet\nWriting\nUnable to find a documented way to put data back into a modern relational database. Generate a CSV file and update the database with that\nConclusion\nEasier to set up on Linux-based systems than Excel on Windows is (see above for Excel on Mac). Pulling data directly is on par with other spreadsheet applications, but direct writing appears to be missing.",
+    "text": "December 11, 2023\n\n28.0.1 Overview\nThis document contains information on what is needed to connect to databases from various Spreadsheets, to read and write data, and lists any restrictions where they exist\nIn general, it’s much easier to get data put directly into a spreadsheet from a database than to update a database from a spreadsheet. In all cases, using CSV files for reading and/o writing is a valid option\nThe use of CSV files instead of directly reading/writing to the database is supported by all spreadsheets\n\n\n\nSpreadsheet\nReading DB\nWriting DB\nNotes\n\n\n\n\nGoogle Sheets ✔\n✔✔✔\n✔✔\nWrite scripts to move data; programming skills help\n\n\nNumbers ✖\n➖\n➖\n\n\n\nExcel (Windows) ✔\n✔✔✔\n✔\nUpdate DB with CSV is easiest; need ODBC driver\n\n\nExcel (Mac) ✔\n✔\n✔\nSQLServer is supported; buy other ODBC drivers\n\n\nLibreOffice Calc ≈\n✔✔\n➖\n\n\n\n\nSpreadsheet Rating: ✖  Not supported ✔ Supported ≈ Mixed support\nReading/Writing Difficulty: ✔ Hard ✔✔ Medium ✔✔✔ Easy ➖ Not supported\n\n\n28.0.2 How Tested\nA sample MySQL database was started on the OpenStack instance at the University of Arizona, and made publicly accessible (password protected)\nLibreOffice Calc was tested on an Ubuntu 22.04 system\nDifferent database instances may have different requirements. For example, needing to be on a particular VPN, or using two-factor authentication\n\n\n28.0.3 Google Sheets\nScripts are written to read and write data from a database using Google provided connectors\nRestrictions\nPostgres and its derivatives (PostGIS, et. al.) are not supported\nReading\nA generic Google Apps Script can be used to pull data into a spreadsheet and examples are easy to find. For example, https://www.lido.app/tutorials/google-sheets-connect-to-database. Adjust the SQL statement to meet your needs and be sure to specify what the sheet name is in the script(s)\nWriting\nWriting to the database can be easy if all the data in a spreadsheet is to be sent to a table in the database. Google documentation provides a simple way of doing that: https://developers.google.com/apps-script/guides/jdbc. If data filtering is needed, or if data is from multiple sheets, then it’s necessary to accumulate each row of data to insert into the database before writing it. This can become complicated, so it might be easier to have a special sheet with the data to push to the database and use a generic script (with necessary modifications, such as table and column names)\nConclusion\nMost flexible solution for directly reading and writing to a database. However, some programming skills come in handy, and having a script separate from the spreadsheet seems a little weird\n\n\n28.0.4 Numbers\nThis Apple spreadsheet application doesn’t connect to databases. Use other means to use CSV files for fetching data fo the spreadsheet and updating the database\nConclusion\nNo database connections supported\n\n\n28.0.5 Excel (Windows)\nSetting up database connectivity can be painful and complicated, and may require a system administrator.\nReading\nConnect to the database using the ODBC connector that matches the database you are pulling data from. You can select tables and columns, or write SQL commands to fetch the data into your spreadsheet. Microsoft has a web page containing instructions for multiple data sources; scroll down to see the different sources and their instructions.\nThe following download links may help:\n\nVisual Studio redistributables: https://my.visualstudio.com/Downloads\nODBC drivers: https://dev.mysql.com/downloads/connector/odbc/\n\nWriting\nIt’s much easier to upload a CSV file into the database than to use other methods. Depending upon the database, a search online can provide you with the means for directly writing to the database (or as directly as possible)\nFor example, MySQL methods for writing to the database can be found at https://nanonets.com/blog/import-excel-into-mysql/\nConclusion\nWhile it can be a pain getting the needed software onto the system, you only need to do it once for each database type. Excel provides a direct read/write solution to databases\n\n\n28.0.6 Excel (Mac)\nRestrictions\nOnly SQLServer is supported “out of the box”. For other databases it’s necessary to pay for an ODBC driver to connect\nReading\nUse the SQLServer connectors to read from the database, if that’s an option. Otherwise, generate a CSV file with the data wanted and load that into the spreadsheet\nWriting\nUse the SQLServer connectors to write to the database, if that’s an option. Otherwise, generate a CSV file with the generated data and upload that into the database\nConclusion\nIf you aren’t connecting to SQLServer, you need to use CSV files\n\n\n28.0.7 Libre Office Calc\nInstall the libreoffice-base package to add the Database option to Calc; this may require an administrator to perform and a reboot after it’s installed. Install the appropriate JDBC driver somewhere accessible on the system (you will navigate to the driver when establishing a connection in the next step)\nThe following instructions are written for the MySQL database, but can be easily adjusted for other databases: https://techsparx.com/blog/2016/08/libreoffice-mysql.html\nReading\nPerform a SQL Query to import the data into a spreadsheet\nWriting\nUnable to find a documented way to put data back into a modern relational database. Generate a CSV file and update the database with that\nConclusion\nEasier to set up on Linux-based systems than Excel on Windows is (see above for Excel on Mac). Pulling data directly is on par with other spreadsheet applications, but direct writing appears to be missing.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Spreadsheet with Database Connection Comparison</span>"
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Spreadsheet with Database Connection Comparison</span>"
     ]
   },
   {
     "objectID": "boxr.html",
     "href": "boxr.html",
-    "title": "28  Programmatic access to Box",
+    "title": "29  Programmatic access to Box",
     "section": "",
-    "text": "28.1 Authentication\nIf you intend to use boxr as part of an automated script, use a service app to authenticate.\nTo authenticate to Box, you need to create an “App” at https://app.box.com/developers/console.\nClick “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use boxr as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.\nYou may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email Garrett Flora to ask about this.\nOnce the app is approved, find the app in the Box developer console, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.\nCopy the entire contents of that file into a project-level .Renviron file like so:\nNow restart R to load the .Renviron file and try authenticating with",
+    "text": "29.1 Authentication\nIf you intend to use boxr as part of an automated script, use a service app to authenticate.\nTo authenticate to Box, you need to create an “App” at https://app.box.com/developers/console.\nClick “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use boxr as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.\nYou may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email Garrett Flora to ask about this.\nOnce the app is approved, find the app in the Box developer console, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.\nCopy the entire contents of that file into a project-level .Renviron file like so:\nNow restart R to load the .Renviron file and try authenticating with",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
     ]
   },
   {
     "objectID": "boxr.html#authentication",
     "href": "boxr.html#authentication",
-    "title": "28  Programmatic access to Box",
+    "title": "29  Programmatic access to Box",
     "section": "",
     "text": "Note\n\n\n\nThese instructions are adapted from the boxr documentation with some additional UA and Posit Connect specific tips.\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is where this tutorial diverges from the boxr documentation which has you put this file in a locked directory ~/.boxr-auth/. While that is probably more secure, it is not useful for apps deployed to GitHub actions or Posit Connect, as far as I know.\n\n\n\nBOX_TOKEN_TEXT='&lt;entire contents of token.json&gt;'\n\n\n\n\n\n\nImportant\n\n\n\nThe single quotes around the file contents are important!\n\n\n\n\n\n\n\n\nCaution\n\n\n\nTreat this token like a password and make sure this .Renviron file is NOT pushed to GitHub! Put .Renviron in your .gitignore!\n\n\n\nbox_auth_service(token_text = Sys.getenv(\"BOX_TOKEN_TEXT\"))",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
     ]
   },
   {
     "objectID": "boxr.html#working-with-a-service-app-on-box",
     "href": "boxr.html#working-with-a-service-app-on-box",
-    "title": "28  Programmatic access to Box",
-    "section": "28.2 Working with a service app on Box",
-    "text": "28.2 Working with a service app on Box\nYou may need to create a folder that can be accessed by the service account associated with this token by using box_dir_create(). To allow your user account to see and access that directory, you need to use box_collab_create(), which requires a user_id. You can find your user_id in the “General Settings” tab of the service app on the Box dev console at the very top. I recommend inviting yourself to collaborate on a folder your service app created using role = \"co-owner\" so that you can manage access for others by just going to the folder on arizona.box.com.\nMore about collaborative workflows here.",
+    "title": "29  Programmatic access to Box",
+    "section": "29.2 Working with a service app on Box",
+    "text": "29.2 Working with a service app on Box\nYou may need to create a folder that can be accessed by the service account associated with this token by using box_dir_create(). To allow your user account to see and access that directory, you need to use box_collab_create(), which requires a user_id. You can find your user_id in the “General Settings” tab of the service app on the Box dev console at the very top. I recommend inviting yourself to collaborate on a folder your service app created using role = \"co-owner\" so that you can manage access for others by just going to the folder on arizona.box.com.\nMore about collaborative workflows here.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
     ]
   },
   {
     "objectID": "boxr.html#with-posit-connect",
     "href": "boxr.html#with-posit-connect",
-    "title": "28  Programmatic access to Box",
-    "section": "28.3 With Posit Connect",
-    "text": "28.3 With Posit Connect\nIf you deploy a Shiny app or scheduled .Rmd document on viz.datascience.arizona.edu that needs to use boxr to access Box, you’ll need to set a BOX_TOKEN_TEXT secret environment variable. Find your app or document on Posit Connect and click on the “Vars” tab of the control sidebar. Paste the contents of the token.json file in as the value and give it the name BOX_TOKEN_TEXT. Be sure the code you’re running includes box_auth_service(token_text = Sys.getenv(\"BOX_TOKEN_TEXT\")) to authorize as the service app.\n\n\n\n\n\n\nImportant\n\n\n\nUnlike the .Renviron file, do NOT wrap the token text in single quotes on Posit Connect.",
+    "title": "29  Programmatic access to Box",
+    "section": "29.3 With Posit Connect",
+    "text": "29.3 With Posit Connect\nIf you deploy a Shiny app or scheduled .Rmd document on viz.datascience.arizona.edu that needs to use boxr to access Box, you’ll need to set a BOX_TOKEN_TEXT secret environment variable. Find your app or document on Posit Connect and click on the “Vars” tab of the control sidebar. Paste the contents of the token.json file in as the value and give it the name BOX_TOKEN_TEXT. Be sure the code you’re running includes box_auth_service(token_text = Sys.getenv(\"BOX_TOKEN_TEXT\")) to authorize as the service app.\n\n\n\n\n\n\nImportant\n\n\n\nUnlike the .Renviron file, do NOT wrap the token text in single quotes on Posit Connect.",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
     ]
   },
   {
     "objectID": "boxr.html#with-github-actions",
     "href": "boxr.html#with-github-actions",
-    "title": "28  Programmatic access to Box",
-    "section": "28.4 With GitHub Actions",
-    "text": "28.4 With GitHub Actions\nSimilarly to Posit Connect, you need to add BOX_TOKEN_TEXT as a github secret. In the YAML file for your github action, you’ll want to include something like the following to make that secret accessible to your R script as an environment variable:\njobs:\n  write-to-box:\n    runs-on: ubuntu-latest\n    env:\n      BOX_TOKEN_TEXT: ${{ secrets.BOX_TOKEN_TEXT }}\n\n\n\n\n\n\nNote\n\n\n\nI haven’t tested boxr with GitHub Actions, so this is just theoretical!",
+    "title": "29  Programmatic access to Box",
+    "section": "29.4 With GitHub Actions",
+    "text": "29.4 With GitHub Actions\nSimilarly to Posit Connect, you need to add BOX_TOKEN_TEXT as a github secret. In the YAML file for your github action, you’ll want to include something like the following to make that secret accessible to your R script as an environment variable:\njobs:\n  write-to-box:\n    runs-on: ubuntu-latest\n    env:\n      BOX_TOKEN_TEXT: ${{ secrets.BOX_TOKEN_TEXT }}\n\n\n\n\n\n\nNote\n\n\n\nI haven’t tested boxr with GitHub Actions, so this is just theoretical!",
     "crumbs": [
       "Technical Vignettes",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Programmatic access to Box</span>"
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
     ]
   }
 ]
