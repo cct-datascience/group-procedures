@@ -1,0 +1,22 @@
+# Consultations
+
+## Overview
+
+Members of our group are available to meet with researchers one-on-one to help them solve individual data problems.
+These can be one-off appointments, or recurring meetings.
+
+Here are some helpful things to keep in mind when working with people in this capacity:
+
+## During a meeting
+
+-   [Here is a link to some helpful IT resources at UA.](https://cct-datascience.github.io/group-procedures/software.html)
+-   Remind them about the [Incubator program](https://datascience.cct.arizona.edu/incubator).
+-   Plug the fall reproducibility series.
+-   Ask them how they found out about us.
+
+## After meeting with someone
+
+-   [Document the meeting and what you worked on here.](https://docs.google.com/spreadsheets/d/1RWYvm8w6x4YcqJNbugvD0336XtZTUNVmRkthBbzHF7Y/edit)
+-   Add the meeting to the CCT Effort Spreadsheet (link changes each year; [2024](https://docs.google.com/spreadsheets/d/19Nxa4HiCYmQ4oXa41XR7kBIpRoatxD-Efp0VBUpRLDk/edit#gid=0)).
+-   If it has been a recurrent collaboration, consider following up a few weeks after your last meeting to check on their progress.
+-   Consider collecting testimonial feedback to save [here.](https://docs.google.com/document/d/1m8X8kVeEIDU9Xo3xzLXr0kb2HL_aQYYoh5Qp8a33wHI/edit#heading=h.bfh5rd50u0d7)
