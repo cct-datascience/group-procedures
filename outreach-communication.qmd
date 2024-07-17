@@ -29,7 +29,7 @@ editor:
     -   [prupert\@arizona.edu](mailto:prupert@arizona.edu) Peggy Rupert for Nutritional Sciences and Wellness
     -   [pnielsen322\@arizona.edu](mailto:pnielsen322@arizona.edu) Paula Nielsen for Entomology
     -   [thodges\@arizona.edu](mailto:thodges@arizona.edu) Tanya Hodges for AETI (Yuma)
--   Data Science Institute ["Data Drip"](https://bcf.arl.arizona.edu/news) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu)
+-   Data Science Institute ["The Data Drip"](https://datascience.arizona.edu/news/data-drip-enews) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu)
 -   R-Users AZ listserv, send announcement to Jeff Oliver [jcoliver\@email.arizona.edu](mailto:jcoliver@email.arizona.edu)
 -   CALES [Data Science Ambassadors](https://datascience.arizona.edu/dsa)
 -   EEB grad student coordinator: send announcement to Pennie Rabago-Liebig [pliebig\@arizona.edu](mailto:pliebig@arizona.edu)
@@ -130,7 +130,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 -   Short summary & link to a recent publication from the group or collaborators
 -   Notification of recent release of group's software or documentation
 -   Relevant upcoming events, e.g., conferences or hackathons that group members are attending
--   Link to recently posted news article on [group website](https://datascience.cct.arizona.edu/all-news) (new and improved website coming soon!)
+-   Link to recently posted news article on [group website](https://datascience.cct.arizona.edu/news) (new and improved website coming soon!)
 -   Link to good resources for the type of work we do, e.g., blog post for how to use an R package
 -   Live coverage of an event like a conference talk—this can be a difficult thing to do
 
@@ -156,7 +156,7 @@ To log in, you'll find the password on [stache](https://stache.arizona.edu/) (yo
 
 ### Resources
 
--   [Benefits and how to for scientists using Twitter](https://www.labsexplorer.com/c/twitter-and-scientists-a-love-story_185)
+-   [Benefits and how to for scientists using Twitter](https://app.scientist.com/blog/2019/01/31/twitter-and-scientists-a-love-story)
 -   [UA Brand Resources](https://brand.arizona.edu/)
 -   [Requesting an official UA Tweet](https://uarizona.co1.qualtrics.com/jfe/form/SV_1Nh6GSKXPDQlsKF)
 

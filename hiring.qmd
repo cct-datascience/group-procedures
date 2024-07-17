@@ -33,7 +33,6 @@ All members of the hiring committee should be involved in all steps of the hirin
 -   ES Jobs `Es_jobs_net@ucar.edu`
 -   Academic Data Science Jobs Board <https://academicdatascience.org/jobs>
 -   US-RSE Job Board <https://us-rse.org/jobs/policy/>
--   Rstudio Community <https://community.rstudio.com/t/post-jobs-gigs-here/9254>
 -   NAU ecoinformatics: email katharyn.duffy\@nau.edu
 -   [Other resources (places to advertise) from UA HR](https://hr.arizona.edu/supervisors/recruitment-hiring/guide-successful-searches/advertising-position)
 -   Mastodon
@@ -153,13 +152,13 @@ The University has a structured system called UCAP, defined below, for standardi
 
 #### The University Career Architecture Project (UCAP)
 
-Salaries, raises, and promotion are governed by the [University Career Architecture Project](https://ucap.arizona.edu/).
-As an overview, most full time developers in our group will fall in the PC1-PC3 category as defined by the [UA Work Dimensions spreadsheet](https://ucap.arizona.edu/career-architecture/work-dimensions-staff-pay-structure).
+Salaries, raises, and promotion are governed by the [University Career Architecture Project](https://hr.arizona.edu/compensation/staff-compensation-program).
+As an overview, most full time developers in our group will fall in the PC1-PC4 category as defined by the [UA Work Dimensions spreadsheet](https://hr.arizona.edu/compensation/staff-compensation-program/career-levels-streams).
 They will be in either the Research and Data Analysis or Research Engineering Job functions within the [Research Job families](arizona.edu/job-functions-families).
 
 We strive to have transparency and equity within the group as well as among our peers.
 Like most public institutions, salaries at the University of Arizona are public ([the library lists salary databases by year](https://new.library.arizona.edu/find/ua-info)).
-Salaries follow the [University of Arizona Pay Structure](https://ucap.arizona.edu/content/university-staff-pay-structure).
+Salaries follow the [University of Arizona Pay Structure](https://hr.arizona.edu/compensation/staff-compensation-program/university-staff-pay-structure).
 
 Salaries in DIAG range from \$30k for a recent graduate to \$85k for developers with 10-15 years of experience in relevant technologies and the ability to take on substantial leadership and mentoring roles.
 

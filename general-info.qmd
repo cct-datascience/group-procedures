@@ -7,9 +7,9 @@ title: Campus Logistics
 We work in the Bioscience Research Laboratory (BSRL)
 
 -   General issues in the building
-    -   Submit a ticket for either IT support or miscellaneous building-related issues: <https://keating.bio5.org/ticket_support/tickets.php>
+    -   Submit a ticket for either IT support or miscellaneous building-related issues: <https://keating.bio5.org/ticket_support/>
 -   Copy machine and fax use
-    -   Lomax can connect you to the color copier downstairs; create a ticket to request his help: <https://keating.bio5.org/ticket_support/tickets.php>
+    -   Create a ticket if you need help connecting to the color copier downstairs: <https://keating.bio5.org/ticket_support/>
 -   Mail: there is a group mailbox in the mailroom on the N(orth) side of the building.
 -   Packages: if you receive a package you will be notified by email.
 
