@@ -5,7 +5,7 @@ editor: visual
 
 We have many options for publishing html documents, html-based slides, websites, shiny apps, APIs, etc. to the web.
 
--   **Posit Connect (previously 'RStudio Connect')**: UA has access to a Posit Connect server at viz.datascience.arizona.edu. This is an appropriate venue for publishing Shiny apps, Quarto or RMarkdown documents, datasets using the `pins` package, and `plumber` APIs [**for research purposes**](https://datascience.arizona.edu/analytics-powerhouse/rstudio-connect). Shiny for Python or Flask APIs can also be published to Posit Connect.
+-   **Posit Connect (previously 'RStudio Connect')**: UA has access to a Posit Connect server at viz.datascience.arizona.edu. This is an appropriate venue for publishing Shiny apps, Quarto or RMarkdown documents, datasets using the `pins` package, and `plumber` APIs [**for research purposes**](https://datascience.arizona.edu/analytics-powerhouse/posit-connect). Shiny for Python or Flask APIs can also be published to Posit Connect.
 -   **Quarto Pub**: Our group has a Quarto Pub account that allows publishing of Quarto documents to [cct-datascience.quarto.pub](https://cct-datascience.quarto.pub/). This is appropriate for slides and notes used for teaching workshops. Course websites can be published here also, but because of size and traffic limitations, GitHub pages might be a better choice.
 -   **GitHub pages**: We also have the ability to use GitHub pages for publishing content to the web. This is an appropriate venue for package documentation (e.g. `pkgdown` sites), project websites, and websites for short courses. This venue is also not limited to websites created via Quarto, RMarkdown, etc. so it is possibly an appropriate venue if there is a need for more flexible deployment.
 
