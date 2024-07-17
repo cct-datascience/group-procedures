@@ -21,7 +21,14 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           fail: true
-          args: --glob-ignore-case --exclude docs\.google\.com --exclude hackmd\.io --exclude github\.com\/orgs\/cct-datascience\/projects --exclude calendar\.google\.com --exclude \.php$ './**/*.md' './**/*.qmd'
+          args: >
+            --glob-ignore-case 
+            --exclude docs\.google\.com 
+            --exclude hackmd\.io 
+            --exclude github\.com\/orgs\/cct-datascience\/projects 
+            --exclude calendar\.google\.com 
+            --exclude \.php$ 
+            './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
         if: env.lychee_exit_code != 0 & ${{ github.event_name != 'pull_request' }}
