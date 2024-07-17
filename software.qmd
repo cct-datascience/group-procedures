@@ -30,17 +30,9 @@ This section may be outdated
 
 Every group gets a generous monthly allocation by default, plus infinite lower priority time as available.
 
-To request access to the computer using our group allocations, please:
-
-1.  Go to <https://account.arizona.edu/account/index> to create a HPC account
-2.  Open <https://portal.hpc.arizona.edu/portal/sendlink.php> and enter 'kristinariemer\@arizona.edu' in the sponsors email field.
-3.  If needed, refer to [documentation for details](https://public.confluence.arizona.edu/display/UAHPC/Account+Creation)
-
-Overview of Campus HPC Resources: <https://docs.hpc.arizona.edu/display/UAHPC/HPC+Documentation>
-
-Puma has lots of GPUs:
-
--   [Puma Quick Start](https://public.confluence.arizona.edu/display/UAHPC/Puma+Quick+Start)
+-   [How to create an account](https://hpcdocs.hpc.arizona.edu/registration_and_access/account_creation/)
+    -   Use kristinariemer\@arizona.edu as sponsor email
+-   [Overview of Campus HPC Resources](https://hpcdocs.hpc.arizona.edu/resources/compute_resources/)
 
 ### OpenStack
 
@@ -55,7 +47,8 @@ See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README
 ## Development / Collaboration Tools:
 
 General philosophy is that each person should use what works; for collaborative work it helps to use the same tools!
-Feel free to suggest alternatives... tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.
+Feel free to suggest alternatives...
+tools like GitHub and Slack are chosen because they are the widely adopted and feature-rich.
 
 -   When specifying a new task/app/tool identify why it's needed; what's to be gained
 
