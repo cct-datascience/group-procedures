@@ -28,6 +28,7 @@ jobs:
             --exclude github\.com\/orgs\/cct-datascience\/projects 
             --exclude calendar\.google\.com 
             --exclude \.php$ 
+            --exclude portal\.hpc\.arizona\.edu
             './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
