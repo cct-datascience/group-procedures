@@ -26,7 +26,7 @@ Websites and passwords (Kristina)
 
 -   change permissions as appropriate in group organizations (optional, depending on planned future work)
 
-    -   github organizations
+    -   github organizations <!--# probably needs updating -->
 
         -   az-digitalag
         -   agpipeline
@@ -37,19 +37,19 @@ Websites and passwords (Kristina)
 
     -   Google Drive "Group" and other project-specific folders
 
-    -   Openstack CALS group
+    -   Openstack CALS group <!--# probably not relevant anymore -->
 
 -   Make sure any accounts and websites are transitioned
 
     -   E.g. dockerhub, google drive
 
--   Remove user accounts and home directories from machines
+-   Remove user accounts and home directories from machines <!--# probably not relevant anymore -->
 
-    -    `sudo userdel $name && sudo rm -r /home/$name`
+    -   `sudo userdel $name && sudo rm -r /home/$name`
 
 -   Remove from UA HPC group
 
-    -   go to <https://portal.hpc.arizona.edu/portal/> \> Manage Groups \> kristinariemer
+    -   go to <https://portal.hpc.arizona.edu> \> Manage Groups \> kristinariemer
 
 ### Exit Interview
 
