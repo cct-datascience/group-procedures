@@ -7,8 +7,8 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-  #every monday
-    - cron: "0 0 * * MON"
+  #first of every month
+    - cron: "0 0 1 * *"
 
 jobs:
   linkChecker:
