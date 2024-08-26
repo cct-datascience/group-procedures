@@ -54,7 +54,7 @@ tools like GitHub and Slack are chosen because they are the widely adopted and f
 
 ### Zoom
 
--   Documentation: <https://it.arizona.edu/service/zoom>
+-   Documentation: is available under [Virtual Communication & Collaboation](https://it.arizona.edu/remote-work)
 -   Video conferencing (more robust and feature rich than Slack)
 -   Unless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)
 
@@ -63,7 +63,7 @@ tools like GitHub and Slack are chosen because they are the widely adopted and f
 These aren't our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.
 
 -   Box
-    -   Documentation <https://it.arizona.edu/service/boxua>
+    -   Documentation <https://arizona.account.box.com/login>
     -   Access <https://arizona.account.box.com/login>
 -   Office 365
     -   Documentation <https://it.arizona.edu/service/microsoft-office-365>
