@@ -50,7 +50,7 @@ Feel free to ask anyone in the group questions about these steps, especially in 
 
 You should be on the university's VPN any time you connect to internet outside the UA.
 
--   [ ] Install Cisco Secure Client; instructions [here](https://uarizona.service-now.com/sp?id=sc_cat_item&sys_id=8ab35af01bb830507947edf1604bcb90).
+-   [ ] Install Cisco Secure Client; instructions under [Virtual Private Network (VPN)](https://it.arizona.edu/remote-work).
     -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
 -   [ ] Log in to the VPN by opening Cisco Secure Client, typing in "vpn.arizona.edu/cals-ext", and clicking Connect. Then log in using your UA credentials and 2FA.
 

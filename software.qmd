@@ -17,12 +17,7 @@ The "[University of Arizona Cyberinfrastructure and Research Support](https://pu
 
 ### Bio5 IT group <!--# do we need this section? -->
 
-::: callout-warning
-This section may be outdated
-:::
-
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
--   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
 
 ## Cloud & High Performance Computing
 
@@ -40,8 +35,8 @@ OpenStack is a cloud computing platform similar to AWS and other commercial clou
 
 ### [Exosphere](https://gitlab.com/exosphere/exosphere)
 
-An experimental open stack interface being developed by Julian.
-He would appreciate feedback and feature requests.
+An experimental open stack interface being developed by [Chris Martin](https://gitlab.com/cmart) and [Julian Pistorius](https://datascience.cct.arizona.edu/person/julian-pistorius).
+They would appreciate feedback and feature requests.
 See project [README](https://gitlab.com/exosphere/exosphere/-/blob/master/README.md?ref_type=heads) for install instructions.
 
 ## Development / Collaboration Tools:
@@ -59,7 +54,7 @@ tools like GitHub and Slack are chosen because they are the widely adopted and f
 
 ### Zoom
 
--   Documentation: <https://it.arizona.edu/service/zoom>
+-   Documentation: is available under [Virtual Communication & Collaboation](https://it.arizona.edu/remote-work)
 -   Video conferencing (more robust and feature rich than Slack)
 -   Unless otherwise specified, if you are joining a meeting remotely we will meet in the group room (link pinned to our Slack channel)
 
@@ -68,7 +63,7 @@ tools like GitHub and Slack are chosen because they are the widely adopted and f
 These aren't our primary way of sharing documents, but it will be prudent to set up account because they are sometimes useful.
 
 -   Box
-    -   Documentation <https://it.arizona.edu/service/boxua>
+    -   Documentation <https://arizona.account.box.com/login>
     -   Access <https://arizona.account.box.com/login>
 -   Office 365
     -   Documentation <https://it.arizona.edu/service/microsoft-office-365>
@@ -129,3 +124,14 @@ But often it is useful to edit these videos.
 -   [QGIS](https://qgis.org/en/site/) is a widely used and fully featured open source GIS IDE. We should use this for teaching and documentation (unless python or R will work and the workflow can be scripted).
 -   ArcGIS Desktop and ArcGIS Pro run on Windows. [UA has a campus license](https://softwarelicense.arizona.edu/esri) to these and other ESRI services. And for Windows users there is an Excel plugin for simple maps. UA GIS also provides <https://uagis.maps.arcgis.com/> for sharing map data.
 -   Tyson Swetnam has his Cloud based Ubuntu desktop enabled for GIS.
+
+### Survey123
+
+[Survey123](https://survey123.arcgis.com/) is part of ESRI's offerings at the [University of Arizona](https://uagis.maps.arcgis.com/home/index.html).
+
+It is a cross-platform survey form that doesn't need internet connection to work.
+These forms can become complex and have multiple subforms along with response-displayable content; optional content shows depending on the answer to a question.
+
+The online form create site allows the development of multi-page, single form surveys. 
+The downloadable Survey123 application is only available on Microsoft Windows and can create a much more conplicated form than the online version.
+
