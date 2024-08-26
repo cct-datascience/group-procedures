@@ -17,12 +17,7 @@ The "[University of Arizona Cyberinfrastructure and Research Support](https://pu
 
 ### Bio5 IT group <!--# do we need this section? -->
 
-::: callout-warning
-This section may be outdated
-:::
-
 -   To request IT support, you can submit a ticket at <https://keating.bio5.org/ticket_support/>.
--   You can also contact the IT group lead Lomax Boyd ([lomax\@bio5.org](mailto:lomax@bio5.org)) for any other questions or concerns.
 
 ## Cloud & High Performance Computing
 
