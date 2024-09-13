@@ -1,0 +1,19 @@
+#only runs on PRs, just checks that rendering doesn't fail before merging
+on:
+  pull_request:
+    branches: main
+    
+name: quarto-render-check
+
+jobs:
+  quarto-render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
