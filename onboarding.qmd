@@ -4,17 +4,7 @@ title: Onboarding
 
 ## Before you start
 
--   [ ] HR Paperwork
-    -   [ ] Sign offer letter
-    -   [ ] Complete I-9 verification
-    -   [ ] Establish NetID [here](https://netid-portal.iam.arizona.edu/). You will receive an email with instructions.
-    -   [ ] Log in to UAccess and complete the required tasks in the "New Employee Work-Center".
-    -   [ ] Establish your UA email access.
-    -   [ ] Anything else HR sends you, please complete promptly
--   [ ] Get CatCard
-    -   The CatCard is your official UA employee identification.
-    -   Get your cat card from the CatCard office in the ([Student Union](https://catcard.arizona.edu/obtain_catcard)) or [online](https://mycatcard.arizona.edu/)
-    -   They can look up your employee number if you bring a driver's license or other form of ID.
+-   [ ] Read and follow the [onboarding checklist](https://hr.arizona.edu/employees/new-employee-onboarding) from HR.
 -   [ ] Purchase equipment, either online or at campus bookstore, and set up your office.
     -   Each full time employee will be allocated:
         -   A computer, two monitors, a mouse/track pad/pointing device, a keyboards, and a docking station
@@ -29,6 +19,11 @@ The goal in the first week is to set up your accounts and your physical and virt
 Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack).
 
 -   [ ] Work through CCT-DS Onboarding checklist (this document). It's available as a GitHub issue [here](https://github.com/cct-datascience/group-procedures/issues/new?assignees=&labels=&projects=&template=onboarding-checklist.md&title=%5BYour+name%5D+Onboarding+checklist) so you can track your progress. Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
+-   [ ] Follow any additional steps outlined in the [HR onboarding](https://hr.arizona.edu/employees/new-employee-onboarding) that you haven't yet completed
+-   [ ] Get CatCard
+    -   The CatCard is your official UA employee identification.
+    -   Get your cat card from the CatCard office in the ([Student Union](https://catcard.arizona.edu/obtain_catcard)) or [online](https://mycatcard.arizona.edu/)
+    -   They can look up your employee number if you bring a driver's license or other form of ID.
 -   [ ] Review our group's [Code of Conduct](code-of-conduct.qmd)
 
 ### HR logistics
