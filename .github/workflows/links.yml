@@ -23,13 +23,13 @@ jobs:
           fail: true
           args: >
             --exclude-path _extensions
+            --exclude-path .github
             --exclude docs\.google\.com 
             --exclude hackmd\.io 
             --exclude github\.com\/orgs\/cct-datascience\/projects 
             --exclude calendar\.google\.com 
             --exclude \.php$ 
             --exclude portal\.hpc\.arizona\.edu
-            --exclude file:///
             --glob-ignore-case 
             './**/*.md' './**/*.qmd'
 
