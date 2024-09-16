@@ -2,6 +2,8 @@
 title: Onboarding
 ---
 
+<!--# If you edit this, remember to copy and paste the body into .github/ISSUE_TEMPLATE/onboarding-checklist.md to update it -->
+
 ## Before you start
 
 -   [ ] Read and follow the [onboarding checklist](https://hr.arizona.edu/employees/new-employee-onboarding) from HR.
