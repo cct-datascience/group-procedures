@@ -30,6 +30,7 @@ jobs:
             --exclude \.php$ 
             --exclude portal\.hpc\.arizona\.edu
             --glob-ignore-case 
+            --accept '200..=204, 429'
             './**/*.md' './**/*.qmd'
 
       - name: Create Issue From File
