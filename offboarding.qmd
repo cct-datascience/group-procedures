@@ -18,59 +18,41 @@ In approximately chronological order
 -   Review University of Arizona's [official "leaving" page](https://hr.arizona.edu/employees-affiliates/leaving-ua)
 -   Write resignation letter for UA
     -   Kristina will send this and final date to HR & ALVSCE business office
+-   Review two university checklists in Google Drive [offboarding folder](https://drive.google.com/drive/folders/1t__w3Lgrf7uju6SxXb0pGkfNE0LlTdFQ?usp=drive_link) and complete relevant tasks
 -   Decide if you should become a DCC
     -   [UA DCC guidelines](https://hr.arizona.edu/employees/dccs)
     -   This might make sense if you are continuing collaborations with UA folks, or need to retain access to UA services such as email or Google Drive
     -   This process is initiated before leaving and can only be finalized after final day
--   ...digital accounts
+-   Start to transfer relevant knowledge about projects and trainings
+    -   This process could take a substantial amount of time
+    -   Who should know what depends on the circumstance
+-   Transition resources on digital accounts
     -   **Google Drive**
         -   Move all documents that could be useful for the group from your personal UA Google Drive to the UA CCT DS Google Drive
         -   Any docs you created in the UA CCT DS Google Drive should be accessible to rest of group; we all have default editor access
     -   **GitHub**
+        -   Make a list of all repos you have contributed to for the group, in all organizations and in personal acccount
+    -   **Posit Connect**
+        -   For anything deployed to Connect, either add other team members as collaborators or document where the source document is so that others can deploy it later
+    -   **HPC**
+        -   Make sure all files are in the group folders, as you will lose access on last day
+    -   **toggl**
+        -   Ensure time tracking is up to date as possible before leaving so we can have accurate project hours estimates
 -   Leave contact information (e.g., personal email address) in case we need to reach you
 
 ### After final day
 
 -   Return university-owned equipment
     -   Includes computer equipment and books
-    -   
--   ...digital accounts
-
-### Logistics
-
--   Make sure Kristina knows what your last day will be
--   Return university-owned equipment (computers, books, etc.) to Kristina
--   Create a list of any accounts or permissions that will need to be transferred, and start transferring them.
--   Turn off access to second floor BSRL on Cat Card
-
-Websites and passwords (Kristina)
-
--   change permissions as appropriate in group organizations (optional, depending on planned future work)
-
-    -   github organizations <!--# probably needs updating -->
-
-        -   az-digitalag
-        -   agpipeline
-        -   terraref
-        -   pecanproject
-        -   sentinel-detection
-        -   genophenoenvo
-
-    -   Google Drive "Group" and other project-specific folders
-
-    -   Openstack CALS group <!--# probably not relevant anymore -->
-
--   Make sure any accounts and websites are transitioned
-
-    -   E.g. dockerhub, google drive
-
--   Remove user accounts and home directories from machines <!--# probably not relevant anymore -->
-
-    -   `sudo userdel $name && sudo rm -r /home/$name`
-
--   Remove from UA HPC group
-
-    -   go to <https://portal.hpc.arizona.edu> \> Manage Groups \> kristinariemer
+    -   Either returned to Kristina or mailed to Forbes
+-   Kristina should turn off person's Cat Card access to the second floor of BSRL
+-   These should be done the week after someone's last day
+    -   **GitHub**
+        -   Kristina will change person's permissions to "outside collaborator" and review all group repos to change permissions if necessary
+    -   **HackMD**
+        -   In team space, remove person from member list
+    -   **toggl**
+        -   Deactivate user to open up more seats
 
 ### Exit Interview
 
