@@ -2,13 +2,9 @@
 
 ## Overview
 
-It is to everyone's advantage for career aspirations and changes in personnel to be an ongoing and open discussion.
-
-The person who is leaving should inform Kristina as soon as they begin the process of looking for another position or are considering leaving.
-Then discuss a plan for sharing with other members of the group.
-The convention of giving two weeks notice is *not enough time to wrap up*.
-With more time, the group can help with next steps including finding new positions and creating an exit plan.
-Further, it typically takes a month or more to effectively document and transfer knowledge of what you are working on.
+Please inform Kristina if you will be leaving as soon as it makes sense to.
+It is helpful to give two weeks notice, or longer if possible, to enable enough time to wrap up projects and plan for transition.
+Everyone should be consistently documenting their work in shared locations to make this process more straightforward and smooth.
 
 ### Before final day
 
@@ -21,7 +17,7 @@ In approximately chronological order
 -   Review two university checklists in Google Drive [offboarding folder](https://drive.google.com/drive/folders/1t__w3Lgrf7uju6SxXb0pGkfNE0LlTdFQ?usp=drive_link) and complete relevant tasks
 -   Decide if you should become a DCC
     -   [UA DCC guidelines](https://hr.arizona.edu/employees/dccs)
-    -   This might make sense if you are continuing collaborations with UA folks, or need to retain access to UA services such as email or Google Drive
+    -   This might make sense if you are continuing collaborations with UA folks, or need to retain access to UA services such as email, Google Drive, or the UA HPC
     -   This process is initiated before leaving and can only be finalized after final day
 -   Start to transfer relevant knowledge about projects and trainings
     -   This process could take a substantial amount of time
@@ -40,7 +36,7 @@ In approximately chronological order
     -   **toggl**
         -   Ensure time tracking is up to date as possible before leaving so we can have accurate project hours estimates
 -   Leave contact information (e.g., personal email address) in case we need to reach you
-- Schedule an exit interview with Kristina on or right before your last day
+-   Schedule an exit interview with Kristina on or right before your last day
 
 ### After final day
 
