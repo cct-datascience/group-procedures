@@ -1,4 +1,6 @@
-# source: https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/
+# sources: 
+# https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
+# https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/
 
 # Data from Common Crawl is used to train ChatGPT, Bard, etc.
 User-agent: CCBot
@@ -27,7 +29,14 @@ Disallow: /
 User-agent: FacebookBot
 Disallow: /
 
+# Anthropic AI (Claude)
 User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
 Disallow: /
 
 # ByteDance's bot for gathering LLM training data
@@ -35,4 +44,8 @@ User-agent: Bytespider
 Disallow: /
 
 User-agent: ImagesiftBot 
+Disallow: /
+
+# Takes content and re-writes it using genAI
+User-agent: PerplexityBot
 Disallow: /
