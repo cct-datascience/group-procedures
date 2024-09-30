@@ -22,6 +22,7 @@ jobs:
         with:
           fail: true
           args: >
+            --max-retries 5
             --exclude-path _extensions
             --exclude docs\.google\.com 
             --exclude hackmd\.io 
