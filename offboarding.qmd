@@ -40,6 +40,7 @@ In approximately chronological order
     -   **toggl**
         -   Ensure time tracking is up to date as possible before leaving so we can have accurate project hours estimates
 -   Leave contact information (e.g., personal email address) in case we need to reach you
+- Schedule an exit interview with Kristina on or right before your last day
 
 ### After final day
 
