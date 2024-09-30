@@ -34,7 +34,7 @@ In approximately chronological order
     -   **GitHub**
         -   Make a list of all repos you have contributed to for the group, in all organizations; if there are any repos in personal account, transfer them to our `cct-datascience` organization or another relevant collaborator
     -   **Posit Connect**
-        -   For anything deployed to Connect, either add other team members as collaborators or document where the source document is so that others can deploy it later
+        -   For anything deployed to Connect, either add other team members as collaborators or document where the source document is (e.g. by adding a link to a GitHub repo in a Shiny app) so that others can deploy it later
     -   **HPC**
         -   Make sure all files are in the group folders, as you will lose access on last day
     -   **toggl**
