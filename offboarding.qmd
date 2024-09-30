@@ -25,7 +25,8 @@ In approximately chronological order
     -   This process is initiated before leaving and can only be finalized after final day
 -   Start to transfer relevant knowledge about projects and trainings
     -   This process could take a substantial amount of time
-    -   Who should know what depends on the circumstance
+    -   Focus on bringing documentation up to date
+    -   Meet with relevant people to transfer knowledge and train them as needed
 -   Transition resources on digital accounts
     -   **Google Drive**
         -   Move all documents that could be useful for the group from your personal UA Google Drive to the UA CCT DS Google Drive
