@@ -59,7 +59,8 @@ From the meeting page, copy the registration link to be included in your worksho
 ### Advertise
 
 -   Use [this spreadsheet](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit#gid=0) to keep track of where you have advertised.
--   Add the workshop to our website at https://datascience.cct.arizona.edu/workshops
+-   Add the workshop to our website by creating a new event
+    - In the event body text, you can create a registration button by switching to the source editor and pasting in some HTML like `<a class="btn btn-red" href="zoom-link" target="_blank">Register</a>` where `zoom-link` is the URL to the Zoom registration.
 -   Add the workshop to the Data Science Institute [events page](https://datascience.arizona.edu/get-involved)
 -   Advertise to other groups and email listservs listed [here](outreach-communication.qmd).
 
