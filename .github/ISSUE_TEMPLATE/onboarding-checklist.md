@@ -13,7 +13,7 @@ assignees: ''
     -   Each full time employee will be allocated:
         -   A computer, two monitors, a mouse/track pad/pointing device, a keyboards, and a docking station
         -   Enough outlets and ethernet ports to meet your needs. We can get additional routers / power strips as needed.
-        -   Office supplies - there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask.
+        -   Office supplies—there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask.
     -   If you need anything further, just ask.
 -   [ ] When your equipment arrives, complete a "University of Arizona Certification Statement For Off-Campus Location/Use of Equipment" (from HR).
 
@@ -28,14 +28,14 @@ Feel free to ask anyone in the group questions about these steps, especially in 
     -   The CatCard is your official UA employee identification.
     -   Get your cat card from the CatCard office in the ([Student Union](https://catcard.arizona.edu/obtain_catcard)) or [online](https://mycatcard.arizona.edu/)
     -   They can look up your employee number if you bring a driver's license or other form of ID.
--   [ ] Review our group's [Code of Conduct](code-of-conduct.qmd)
+-   [ ] Review our group's [Code of Conduct](https://cct-datascience.github.io/group-procedures/code-of-conduct.html)
 
 ### HR logistics
 
 -   [ ] Review the materials on the [New to the University of Arizona](https://hr.arizona.edu/employees-affiliates/new-ua) page
 -   [ ] Work through the [New Employee Checklist](https://hr.arizona.edu/sites/default/files/New_Employee_Checklist.pdf)
 -   [ ] Review the [Public Service Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs/arizona-public-service-orientation) and submit the [completion certificate](https://hr.arizona.edu/sites/default/files/hr/employees-affiliates/NewToTheUA/AZPSOrientation/certificate.pdf) to your HR representative (Rosalie).
--   [ ] Sign up for and attend a [Benefits Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs) *scheduled for 8/23*
+-   [ ] Sign up for and attend a [Benefits Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs)
 -   [ ] Familiarize yourself with [Employee Resources](https://hr.arizona.edu/employees-affiliates/new-ua/employee-resources)
 -   [ ] Complete required trainings in the [EDGE learning system](https://edgelearning.arizona.edu/?_gl=1*iko1z6*_ga*MTQyMTAyODIwOC4xNjg3OTYyMjcx*_ga_7PV3540XS3*MTY4OTA4NzIwMS4yMi4xLjE2ODkwODc2MTguMTguMC4w), which include IT security and preventing harassment & discrimination
     -   You may not be able to access EDGE until 24-48 hours after your official start date. You should complete these trainings within your first week on the job.
