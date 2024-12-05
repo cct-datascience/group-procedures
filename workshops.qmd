@@ -5,8 +5,8 @@ editor: visual
 
 ## Task list
 
-To get started creating a workshop, create a new issue on GitHub in the cct-datascience/organization repo using the Workshop Tasks issue template.
-<!--# Shoul this instead by in the CALS-workshops repo? -->This will give you specific tasks to complete.
+To get started creating a workshop, create a new issue on GitHub in the [cct-datascience/organization](https://github.com/cct-datascience/organization/issues) repo using the Workshop Tasks issue template.
+This will give you specific tasks to complete.
 Refer to this document for more detailed instructions on specific tasks.
 
 ## Before the Workshop
@@ -155,7 +155,8 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
         ![](img/zoom_meeting_report2.png)
 
     3)  In the "Report Queue", click the "Download" button next to your workshop to get a .csv file with registrant information
-    4)  Copy the registrants information to [this google sheet](https://docs.google.com/spreadsheets/d/1SU8Wtx7Ku1IMv8DOAU-37E12-AZP0CjnRy1vPSkmNGQ/edit#gid=0).
+
+    4)  Drop this .csv file into the [registration reports folder](https://drive.google.com/drive/u/0/folders/1DOVUhsCiW-nE-6q3ehsjBEYulzt_l4Pl) on our Google Drive.
 -   Usage report
     1.  Go back to Analytics & Reports \> Usage Reports and choose "Usage"
 
@@ -168,8 +169,9 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
     4.  Check the "Show unique users" box and click "Export" to download a csv file showing who actually attended the workshop and how long they stayed.
 
         ![](img/zoom_usage_report2.png)
-    5.  Add the usage information to [this google sheet](https://docs.google.com/spreadsheets/d/15E5JDNiVr9aCWYE4iFSirvwzdllLtWEEZAwYi3_TScE/edit). 
--   "Import" (manually enter) list of registrants who opt into the mailing list to [Emma](outreach-communication.qmd#listserv).
+
+    5.  Drop the .csv file in the [usage reports](https://drive.google.com/drive/u/0/folders/1E3LuHI1jTm22cz7xXAjScMkQcMupuH8M) folder on Google Drive.
+-   Add registrants to our mailing list if they opted in <!--# TODO: link to new stuff about trellis -->
 
 ### Post-workshop survey
 
