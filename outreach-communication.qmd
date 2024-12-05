@@ -12,41 +12,15 @@ editor:
 
 ## Where to announce events:
 
--   Our [email list](#listserv) (try to consolidate events to quarterly emails)
--   [UA Master Calendar](https://news.arizona.edu/calendar)
--   [Data Science Institute events page](https://datascience.arizona.edu/events)
--   Experiment Station Tues morning notes: send announcement to [tmn\@cals.arizona.edu](mailto:tmn@cals.arizona.edu)
--   [CALES Bulletin](https://compass.arizona.edu/bulletin)
--   CALES Grad Student List Serv: send announcement to Dr. Jia Hu [jiahu\@arizona.edu](mailto:jiahu@arizona.edu)
--   Individual CALES departments listservs as appropriate: <!--# TODO: these likely need updating -->
-    -   [ruthholladay\@arizona.edu](mailto:ruthholladay@arizona.edu) Ruth Holladay for SNRE weekly digest
-    -   [jbee\@arizona.edu](mailto:jbee@arizona.edu) Jessica Bee for FCSC/Human Ecology grad student listserv
-    -   \_\_\_ for Plant sciences grad student listserv
-    -   [jabrilithomas\@arizona.edu](mailto:jabrilithomas@arizona.edu) Jabril Thomas for ACBS
-    -   [davaj\@arizona.edu](mailto:davaj@arizona.edu) Dava Jondall for Biosystems Engineering
-    -   [danielleb\@arizona.edu](mailto:danielleb@arizona.edu) Danielle Pilar Buhrow for AREC
-    -   [nmcisaac\@arizona.edu](mailto:nmcisaac@arizona.edu) Naomi McIsaac for Environmental Science
-    -   [prupert\@arizona.edu](mailto:prupert@arizona.edu) Peggy Rupert for Nutritional Sciences and Wellness
-    -   [pnielsen322\@arizona.edu](mailto:pnielsen322@arizona.edu) Paula Nielsen for Entomology
-    -   [thodges\@arizona.edu](mailto:thodges@arizona.edu) Tanya Hodges for AETI (Yuma)
--   Data Science Institute ["The Data Drip"](https://datascience.arizona.edu/news/data-drip-enews) at [Rii-datascienceinstitute\@arizona.edu](mailto:Rii-datascienceinstitute@arizona.edu)
--   R-Users AZ listserv, send announcement to Jeff Oliver [jcoliver\@email.arizona.edu](mailto:jcoliver@email.arizona.edu)
--   CALES [Data Science Ambassadors](https://datascience.arizona.edu/dsa)
--   EEB grad student coordinator: send announcement to Pennie Rabago-Liebig [pliebig\@arizona.edu](mailto:pliebig@arizona.edu)
--   [Form for Bio5 mailing list](https://docs.google.com/forms/d/e/1FAIpQLSfi1LZ53wHt74rcVt68TwNOatsntBtFM-u5Ag9N0ZPzCQ7IzA/viewform)
--   [Office of Postdoctoral Affairs](https://postdoc.arizona.edu/contact-us)
--   Slack
-    -   UA Data Science, RezBaz
--   UA Listservs (as appropriate)
-    -   Drones, GIS
--   See also ["ALVSCE Brand Guidelines and Tools to Promote Your Programs"](https://compass.arizona.edu/marketing/brand)
+Besides our email listserv, we have a [spreadsheet of places to announce events](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit?gid=0#gid=0) Feel free to add to or update it.
 
 ## Group Email Listserv {#listserv}
 
 We currently maintain our email list on the Emma platform.
-We send out \~quarterly emails, and people can sign up for using this link: <https://app.e2ma.net/app2/audience/signup/1965047/1923145/>\
-\
+We send out \~quarterly emails, and people can sign up for our listserv using the link on our [contact page](https://datascience.cct.arizona.edu/contact).
+
 We also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions.
+<!--# unclear if this is technically possible with Trellis lol -->
 
 How to send out emails:
 
@@ -72,6 +46,7 @@ When you respond, it will be from your address but please keep the original grou
 -   `cct-datascience@arizona.edu` is the general 'how to contact us', for use in websites, business cards, posters, etc, in many cases alongside a personal email address.
 
 -   `cct-datascience-admins@arizona.edu` is for shared accounts, licenses, billing etc.
+    Remember to add passwords to [Stache](https://stache.arizona.edu/) and share with group members when creating new accounts.
 
 ## Group Website UA quickstart (Drupal)
 
