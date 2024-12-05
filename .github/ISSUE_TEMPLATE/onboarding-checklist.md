@@ -6,10 +6,6 @@ labels: ''
 assignees: ''
 ---
 
----
-title: Onboarding
----
-
 ## Before you start
 
 -   [ ] Read and follow the [onboarding checklist](https://hr.arizona.edu/employees/new-employee-onboarding) from HR.
@@ -54,8 +50,8 @@ Feel free to ask anyone in the group questions about these steps, especially in 
 You should be on the university's VPN any time you connect to internet outside the UA.
 
 -   [ ] Install Cisco Secure Client; instructions under [Virtual Private Network (VPN)](https://it.arizona.edu/remote-work).
-    -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
 -   [ ] Log in to the VPN by opening Cisco Secure Client, typing in "vpn.arizona.edu/cals-ext", and clicking Connect. Then log in using your UA credentials and 2FA.
+    -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
 
 #### Software set up
 
@@ -80,7 +76,7 @@ When you get your computer...
 Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] UA UITS Accounts, starting here: <https://account.arizona.edu/welcome>
-    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](use-gmail.qmd)
+    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](https://cct-datascience.github.io/group-procedures/use-gmail.html)
     -   [ ] Calendar (Outlook or Gmail)
     -   [ ] Google Apps
     -   [ ] Box
@@ -123,15 +119,15 @@ Create accounts on the following collaboration tools (details provided below):
 -   [ ] Send Kristina a headshot to use for your page on the website.
 -   [ ] Write a short blog post (Renata's is [here](https://datascience.cct.arizona.edu/news/2023/08/renata-diaz-joins-cct-data-science-team) and Eric's is [here](https://datascience.cct.arizona.edu/news/2022/06/welcome-eric-scott)) announcing that you've joined the team.
 -   [ ] Write and update your blurb on your page on the website.
--   [ ] Also send Headshot, Bio, Links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
+-   [ ] Also send headshot, bio, links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
 -   [ ] Make a Mastodon post.
 -   [ ] (Optional) Update your social bios, etc.
 
 ### Integrating into group workflows
 
--   [ ] Read about group expectations and general information [here](general-info.qmd)
+-   [ ] Read about group expectations and general information [here](https://cct-datascience.github.io/group-procedures/general-info.html)
 -   [ ] Populate your calendar with the current group meeting schedule. Kristina will send you invites.
--   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](project-management.qmd) to prepare for these.
+-   [ ] Participate in daily standup meetings, [biweekly sprint planning meetings](https://hackmd.io/ih-qR2B6RJ221MJEFeEqcA), [weekly outreach hour](https://hackmd.io/fxo335XYQXGUpIm6c46TkQ), and [biweekly incubator meetings](https://github.com/orgs/cct-datascience/projects/7). Review [project management page](https://cct-datascience.github.io/group-procedures/project-management.html) to prepare for these.
 -   [ ] Set up your standing meeting with Kristina.
 -   [ ] Begin learning about and using software and data related to projects.
     -   This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings.
@@ -146,7 +142,7 @@ Create accounts on the following collaboration tools (details provided below):
     -   Identify 3-4 Objectives with 3-4 Key Results (\<=12 total) for your first Quarter using the template; [see Q3 2019](https://docs.google.com/spreadsheets/d/18ANZGFdBHBU8l9WbFTE0fErcCaTva3LyazuhAex4FFE/edit#gid=129820665)
 -   [ ] Add your skills to the [group skills matrix](https://docs.google.com/spreadsheets/d/1N95GgtAgvpQ9PhpiYwqWYewWu-FOzeIoQxzX2oldUuk/edit?usp=sharing)
 -   [ ] Read [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
--   [ ] Order business cards: <https://brand.arizona.edu/stationery>
+-   [ ] (Optional) Order business cards: <https://brand.arizona.edu/stationery>
 
 ## First Month
 
