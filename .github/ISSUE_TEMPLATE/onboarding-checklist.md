@@ -24,7 +24,7 @@ title: Onboarding
 ## First Week
 
 The goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university.
-Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack).
+Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within [CALS CCT Slack](https://cals-cct.slack.com)).
 
 -   [ ] Work through CCT-DS Onboarding checklist (this document). It's available as a GitHub issue [here](https://github.com/cct-datascience/group-procedures/issues/new?assignees=&labels=&projects=&template=onboarding-checklist.md&title=%5BYour+name%5D+Onboarding+checklist) so you can track your progress. Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
 -   [ ] Follow any additional steps outlined in the [HR onboarding](https://hr.arizona.edu/employees/new-employee-onboarding) that you haven't yet completed
@@ -51,7 +51,7 @@ Feel free to ask anyone in the group questions about these steps, especially in 
 
 #### Internet
 
-You should be on the university's VPN any time you connect to internet outside the UA.
+You should be on the university's VPN any time you connect to internet outside the UA, or are working from home.
 
 -   [ ] Install Cisco Secure Client; instructions under [Virtual Private Network (VPN)](https://it.arizona.edu/remote-work).
     -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
@@ -62,7 +62,7 @@ You should be on the university's VPN any time you connect to internet outside t
 When you get your computer...
 
 -   [ ] Meet with an admin in CCT (Martin Picazzo as of 2023) to get logged into your computer the first time.
--   [ ] Also install software you will need administrative privileges to install. It can be helpful to come to this meeting with a list of things you expect to use. In future, if you need an admin password to install something, contact Martin to get a temporary password.
+-   [ ] Also install software that you will need administrative privileges to install. It can be helpful to come to this meeting with the CCT admin having a list of things you expect to use. In the future, if you need an admin password to install something, contact Martin to get a temporary password.
 
 #### Computer backups
 
@@ -106,7 +106,7 @@ Create accounts on the following collaboration tools (details provided below):
 -   [ ] Join the [group Hackmd](https://hackmd.io/team/cct-datascience?nav=overview), used for a lot of group notetaking.
     -   [ ] You will need to create a Hackmd account, and then someone from the group will need to add you.
 -   [ ] Get added to Toggl, for time tracking
--   [ ] Log in to get edit access to the website. Navigate to <https://datascience.cct.arizona.edu/user>. Don't log in using the obvious log in form; click on "Log in with NetAuth" (or similar) and log in using your NetID credentials.
+-   [ ] Log in to get edit access to the website. Navigate to <https://datascience.cct.arizona.edu/user>. Click on "Log in using University of Arizona WebAuth" and log in using your NetID credentials.
 -   [ ] Log in to [Stache](stache.arizona.edu), used for sharing passwords and other sensitive information within the university.
 -   [ ] Get added to the group [Posit Connect](https://viz.datascience.arizona.edu/connect/)
     -   You'll have to request access and list a sponsor. This is Kristina.
