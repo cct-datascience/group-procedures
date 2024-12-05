@@ -14,7 +14,7 @@
     "href": "contributing.html",
     "title": "Editing This Book",
     "section": "",
-    "text": "Suggesting a change\nTo suggest a change, click the “Report an issue” link on any page or go to the GitHub repository and open an issue.",
+    "text": "Suggesting a change\nPrerequisites:\nTo suggest a change, click the “Report an issue” link on any page or go to the GitHub repository and open an issue.",
     "crumbs": [
       "Editing This Book"
     ]
@@ -111,7 +111,7 @@
     "href": "project-management.html",
     "title": "4  Agile overview",
     "section": "",
-    "text": "4.1 Rhythm and Hierarchy of Meetings:\nOur group uses the following hierarchy of meetings, from brief daily status reports to quarterly reviews and planning.",
+    "text": "4.1 Rhythm and Hierarchy of Meetings:\nThe Agile process we use is dynamic. All of the procedures here can and should be changed to improve the group’s productivity, cohesion, and fulfillment.\nScrum is an Agile process for software development and project management that we have adapted to our process. You can learn more about Scrum on Wikipedia, but the key features that we have implemented are described below.\nAs part of the Agile process, we continually evaluate and improve these procedures as needed.\nOur group uses the following hierarchy of meetings, from brief daily status reports to quarterly reviews and planning.",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agile overview</span>"
@@ -155,7 +155,7 @@
     "href": "regular-meetings.html",
     "title": "5  Regular Meetings",
     "section": "",
-    "text": "5.1 Standups\nScope: To give everyone a chance to check in about what they’re working on, and to identify possible solutions for barriers to work.\nDocumentation: None\nTiming: Daily at 9:50 am for approximately ten minutes, except for sprint planning and retrospective days\nStructure: Everyone answers the following questions:\nIf this leads to more in-depth discussions, the leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.",
+    "text": "5.1 Standups\nWe have roles that rotate among team members every sprint, which be found here.\nScope: To give everyone a chance to check in about what they’re working on, and to identify possible solutions for barriers to work.\nDocumentation: None\nTiming: Daily at 9:50 am for approximately ten minutes, except for sprint planning and retrospective days\nStructure: Everyone answers the following questions:\nIf this leads to more in-depth discussions, the leader or any other team member should suggest that the participants continue their discussion after the meeting or at a different time.",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regular Meetings</span>"
@@ -232,7 +232,7 @@
     "href": "sprint-planning.html",
     "title": "6  Sprint Planning",
     "section": "",
-    "text": "6.0.1 Roles\nRoles are pre-assigned to different group members (e.g. by this script) in this Google Sheet.",
+    "text": "6.0.1 Roles\nEach section of the sprint meetings will be timed. The Timer is responsible for setting a timer to indicate when the time is up, though the group may collectively decide to continue a conversation.\nRunning notes from sprint planning and retrospective\nRoles are pre-assigned to different group members (e.g. by this script) in this Google Sheet.",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sprint Planning</span>"
@@ -298,7 +298,7 @@
     "href": "impact.html",
     "title": "9  Impact Tracking",
     "section": "",
-    "text": "9.1 Metrics of success",
+    "text": "9.1 Metrics of success\nIt is very important for us to collect information and feedback on how we are helping researchers do their work. We want to have collections of metrics, testimonials, and other forms of data on our engagements and their effectiveness. The methods by which we do this will always be evolving and we’ll list them here.",
     "crumbs": [
       "Group Processes (Agile)",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Impact Tracking</span>"
@@ -408,7 +408,7 @@
     "href": "group-communication.html#email",
     "title": "11  Group Communication",
     "section": "11.2 Email",
-    "text": "11.2 Email\nPlease use your UA email address (@arizona.edu) address for communication. This helps to communicate our UA affiliation. More importantly, you are advised not to combine work and personal email because this will make your personal email open to FOIA requests, in which case your personal email communication could become part of the public domain.\nYou can generate an official UA signature here: https://brand.arizona.edu/generator/email-signature.\nIf you’d like to use gmail instead of Outlook, see instructions here.",
+    "text": "11.2 Email\nPlease use your UA email address (@arizona.edu) address for communication. This helps to communicate our UA affiliation. More importantly, you are advised not to combine work and personal email because this will make your personal email open to FOIA requests, in which case your personal email communication could become part of the public domain.\nYou can generate an official UA signature here: https://brand.arizona.edu/generator/email-signature.\nIf you’d like to use gmail as your inbox instead of Outlook, see instructions here.\nSee also Communications & Outreach.",
     "crumbs": [
       "Group Procedures",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Group Communication</span>"
@@ -452,7 +452,7 @@
     "href": "outreach-communication.html#where-to-announce-events",
     "title": "12  Communications and Outreach",
     "section": "12.2 Where to announce events:",
-    "text": "12.2 Where to announce events:\n\nOur email list (try to consolidate events to quarterly emails)\nUA Master Calendar\nData Science Institute events page\nExperiment Station Tues morning notes: send announcement to tmn@cals.arizona.edu\nCALES Bulletin\nCALES Grad Student List Serv: send announcement to Dr. Jia Hu jiahu@arizona.edu\nIndividual CALES departments listservs as appropriate: \n\nruthholladay@arizona.edu Ruth Holladay for SNRE weekly digest\njbee@arizona.edu Jessica Bee for FCSC/Human Ecology grad student listserv\n___ for Plant sciences grad student listserv\njabrilithomas@arizona.edu Jabril Thomas for ACBS\ndavaj@arizona.edu Dava Jondall for Biosystems Engineering\ndanielleb@arizona.edu Danielle Pilar Buhrow for AREC\nnmcisaac@arizona.edu Naomi McIsaac for Environmental Science\nprupert@arizona.edu Peggy Rupert for Nutritional Sciences and Wellness\npnielsen322@arizona.edu Paula Nielsen for Entomology\nthodges@arizona.edu Tanya Hodges for AETI (Yuma)\n\nData Science Institute “The Data Drip” at Rii-datascienceinstitute@arizona.edu\nR-Users AZ listserv, send announcement to Jeff Oliver jcoliver@email.arizona.edu\nCALES Data Science Ambassadors\nEEB grad student coordinator: send announcement to Pennie Rabago-Liebig pliebig@arizona.edu\nForm for Bio5 mailing list\nOffice of Postdoctoral Affairs\nSlack\n\nUA Data Science, RezBaz\n\nUA Listservs (as appropriate)\n\nDrones, GIS\n\nSee also “ALVSCE Brand Guidelines and Tools to Promote Your Programs”",
+    "text": "12.2 Where to announce events:\nBesides our email listserv, we have a spreadsheet of places to announce events Feel free to add to or update it.",
     "crumbs": [
       "Group Procedures",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Communications and Outreach</span>"
@@ -463,7 +463,7 @@
     "href": "outreach-communication.html#listserv",
     "title": "12  Communications and Outreach",
     "section": "12.3 Group Email Listserv",
-    "text": "12.3 Group Email Listserv\nWe currently maintain our email list on the Emma platform. We send out ~quarterly emails, and people can sign up for using this link: https://app.e2ma.net/app2/audience/signup/1965047/1923145/\n\nWe also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions.\nHow to send out emails:\n\nAsk Matt Rahr to enable your account on Emma\nSign in using your UA email address\nSelect “Campaigns” tab and click “Create New Campaign” button\nAdd relevant campaign name, including year and quarter, and keep default “Regular email” option\nSelect most recent template\nUpdate email text\nClick “Preview” button to see what it will look like to recipients\nClick “Review & send” button to finalize\nUnder “Choose recipients”, add group called “Group announcements: workshop & other”\nAdd subject line and (optional) preheader text\nLeave Sender name and Sender email as is\nHit “Send now” button to send email",
+    "text": "12.3 Group Email Listserv\nWe currently maintain our email list on the Emma platform. We send out ~quarterly emails, and people can sign up for our listserv using the link on our contact page.\nWe also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions. \nHow to send out emails:\n\nAsk Matt Rahr to enable your account on Emma\nSign in using your UA email address\nSelect “Campaigns” tab and click “Create New Campaign” button\nAdd relevant campaign name, including year and quarter, and keep default “Regular email” option\nSelect most recent template\nUpdate email text\nClick “Preview” button to see what it will look like to recipients\nClick “Review & send” button to finalize\nUnder “Choose recipients”, add group called “Group announcements: workshop & other”\nAdd subject line and (optional) preheader text\nLeave Sender name and Sender email as is\nHit “Send now” button to send email",
     "crumbs": [
       "Group Procedures",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Communications and Outreach</span>"
@@ -474,7 +474,7 @@
     "href": "outreach-communication.html#group-emails",
     "title": "12  Communications and Outreach",
     "section": "12.4 Group Emails",
-    "text": "12.4 Group Emails\nWe have two shared emails, cct-datascience@arizona.edu and cct-datascience-admins@arizona.edu. These should go to all people in the group. When you respond, it will be from your address but please keep the original group email address in cc as long as is useful.\n\ncct-datascience@arizona.edu is the general ‘how to contact us’, for use in websites, business cards, posters, etc, in many cases alongside a personal email address.\ncct-datascience-admins@arizona.edu is for shared accounts, licenses, billing etc.",
+    "text": "12.4 Group Emails\nWe have two shared emails, cct-datascience@arizona.edu and cct-datascience-admins@arizona.edu. These should go to all people in the group. When you respond, it will be from your address but please keep the original group email address in cc as long as is useful.\n\ncct-datascience@arizona.edu is the general ‘how to contact us’, for use in websites, business cards, posters, etc, in many cases alongside a personal email address.\ncct-datascience-admins@arizona.edu is for shared accounts, licenses, billing etc. Remember to add passwords to Stache and share with group members when creating new accounts.",
     "crumbs": [
       "Group Procedures",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Communications and Outreach</span>"
@@ -529,7 +529,7 @@
     "href": "getting-credit.html",
     "title": "13  Authorship and Licensing Guidelines",
     "section": "",
-    "text": "13.1 Publications\nFor publications like peer-reviewed journal articles, white papers, conference papers, etc. CCT Data Science members who are substantially involved should be listed as authors. Authorship and author order should be discussed with collaborators early and often (e.g. during the project plan phase of incubator projects). Involvement need not include writing (see CRediT and MeRIT frameworks) to be considered for authorship.",
+    "text": "13.1 Publications\nOur goal is to consistently, accurately and transparently attribute the contribution of each contributor to papers, software, data products and other scientific outputs that our group leads or contributes to. We seek to encourage participation in manuscripts by interested parties, not limited to scientists, developers, and students who are directly involved in our projects. We hope to recognize each contributor who has made a significant and defined contribution.\nBelow we define group protocols and expectations for being acknowledged and acknowledging contributions to different types of content.\nWe generally follow the Contributor Roles Taxonomy (CRediT) to define contributions, but are open when collaborators use other approaches.\nFor publications like peer-reviewed journal articles, white papers, conference papers, etc. CCT Data Science members who are substantially involved should be listed as authors. Authorship and author order should be discussed with collaborators early and often (e.g. during the project plan phase of incubator projects). Involvement need not include writing (see CRediT and MeRIT frameworks) to be considered for authorship.",
     "crumbs": [
       "Group Procedures",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Authorship and Licensing Guidelines</span>"
@@ -870,7 +870,7 @@
     "href": "networking.html",
     "title": "22  Networking at UA",
     "section": "",
-    "text": "22.1 Introduction/info:",
+    "text": "22.1 Introduction/info:\nA list of questions to ask and info to give when talking to new researchers at UA.",
     "crumbs": [
       "Resources",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Networking at UA</span>"
@@ -969,7 +969,7 @@
     "href": "use-gmail.html",
     "title": "24  Using Gmail instead of Outlook",
     "section": "",
-    "text": "Staff members have both an outlook and a gmail account (outlook is default). To set up the gmail, log into outlook.office.com with the netID@email.arizona.edu and search for the forwarding setup. Your forwarding address is netID@catmail.arizona.edu. Then, go to catmail.arizona.edu and sign in. University emails sent to netID@arizona.edu (outlook) should now be forwarded to netID@email.arizona.edu (gmail).\n\nEnable Google Services\n\nIn order to enable Google services on your account, we will need to enable G-Suite on your account.\nTo enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.\nThen, click on “Manage your Accounts” on the left-hand side of the page. You should now be on a page with “Existing Accounts” and “Available Accounts”.\nUnder “Available Accounts” should be “UA Google Apps for Education”. You will need to click that tile to enable G-Suite.\nAfter that, Google services should be available for you and we can set up forwarding.\nYou may already have Google Services enabled. If so you should see a large green banner that says: “Your Google Apps account is enabled. You’re all set!”\n\nSet up forwarding from Outlook\n\nGo to https://outlook.office.com. Then, sign in with your university email.\nOnce at your inbox, click the gear icon in the top righthand corner of the page, which should bring up “Settings”. In the searchbar, search for “Forwarding”, then click on “Forwarding”.\nSelect “Enable forwarding”, and in the box under “Forward my email to”, put in your NetID, and then “@uits.arizona.edu”.\nMake sure to check the box next to “Keep a copy of forwarded messages”, which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.\nClick “Save”, and your forwarding will be set up!\nAll future emails will then be sent to your UA Gmail inbox.\nYou can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn’t work.)",
+    "text": "Important\n\n\n\nIf you set up your email to forward to a gmail inbox, you may not be able to get emails from .gov email addresses! People who send you emails from .gov accounts will have their emails bounce if your email is automatically forwarded.\n\n\nStaff members have both an outlook and a gmail account (outlook is default). To set up the gmail, log into outlook.office.com with the netID@email.arizona.edu and search for the forwarding setup. Your forwarding address is netID@catmail.arizona.edu. Then, go to catmail.arizona.edu and sign in. University emails sent to netID@arizona.edu (outlook) should now be forwarded to netID@email.arizona.edu (gmail).\n\nEnable Google Services\n\nIn order to enable Google services on your account, we will need to enable G-Suite on your account.\nTo enable G-Suite, you will need to sign in at https://account.arizona.edu with your NetID and password.\nThen, click on “Manage your Accounts” on the left-hand side of the page. You should now be on a page with “Existing Accounts” and “Available Accounts”.\nUnder “Available Accounts” should be “UA Google Apps for Education”. You will need to click that tile to enable G-Suite.\nAfter that, Google services should be available for you and we can set up forwarding.\nYou may already have Google Services enabled. If so you should see a large green banner that says: “Your Google Apps account is enabled. You’re all set!”\n\nSet up forwarding from Outlook\n\nGo to https://outlook.office.com. Then, sign in with your university email.\nOnce at your inbox, click the gear icon in the top righthand corner of the page, which should bring up “Settings”. In the searchbar, search for “Forwarding”, then click on “Forwarding”.\nSelect “Enable forwarding”, and in the box under “Forward my email to”, put in your NetID, and then “@uits.arizona.edu”.\nMake sure to check the box next to “Keep a copy of forwarded messages”, which will keep a copy of each message in your Outlook inbox, in case something goes wrong during forwarding.\nClick “Save”, and your forwarding will be set up!\nAll future emails will then be sent to your UA Gmail inbox.\nYou can then sign into your Gmail account at https://mail.google.com (Or https://catmail.arizona.edu - but this sometimes doesn’t work.)",
     "crumbs": [
       "Resources",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Using Gmail instead of Outlook</span>"
@@ -1013,7 +1013,7 @@
     "href": "publishing-to-web.html",
     "title": "26  Publishing to the Web",
     "section": "",
-    "text": "26.1 Posit Connect",
+    "text": "26.1 Posit Connect\nWe have many options for publishing html documents, html-based slides, websites, shiny apps, APIs, etc. to the web.",
     "crumbs": [
       "Technical Vignettes",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Publishing to the Web</span>"
@@ -1079,7 +1079,7 @@
     "href": "boxr.html",
     "title": "29  Programmatic access to Box",
     "section": "",
-    "text": "29.1 Authentication\nIf you intend to use boxr as part of an automated script, use a service app to authenticate.\nTo authenticate to Box, you need to create an “App” at https://app.box.com/developers/console.\nClick “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use boxr as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.\nYou may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email Garrett Flora to ask about this.\nOnce the app is approved, find the app in the Box developer console, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.\nCopy the entire contents of that file into a project-level .Renviron file like so:\nNow restart R to load the .Renviron file and try authenticating with",
+    "text": "29.1 Authentication\nUA accounts have 50GB of free storage on Box and it is a UA-recommended storage location. We can also access Box programmatically through the boxr package in R to read and write files. This is useful for automating data wrangling pipelines, for example, especially since data on Box is versioned by default.\nIf you intend to use boxr as part of an automated script, use a service app to authenticate.\nTo authenticate to Box, you need to create an “App” at https://app.box.com/developers/console.\nClick “Create New App” and choose a Custom App. There are two useful options for the authentication method. If you intend to use boxr as part of an automated pipeline or in a Shiny app, choose “Server Authentication (with JWT)”.\nYou may need to wait for your app to be approved. If for some reason this is taking longer than a few days, email Garrett Flora to ask about this.\nOnce the app is approved, find the app in the Box developer console, click on the “Configuration” tab, and scroll to “Add and Manage Public Keys” section. Click “Generate a Public/Private Keypair” to download a JSON token.\nCopy the entire contents of that file into a project-level .Renviron file like so:\nNow restart R to load the .Renviron file and try authenticating with",
     "crumbs": [
       "Technical Vignettes",
       "<span class='chapter-number'>29</span>  <span class='chapter-title'>Programmatic access to Box</span>"
