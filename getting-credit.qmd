@@ -10,10 +10,56 @@ We generally follow the [Contributor Roles Taxonomy (CRediT)](https://credit.nis
 
 ## Publications
 
+### Expectations as Co-Authors
+
 For publications like peer-reviewed journal articles, white papers, conference papers, etc.
 CCT Data Science members who are substantially involved should be listed as authors.
 Authorship and author order should be discussed with collaborators early and often (e.g. during the project plan phase of incubator projects).
 Involvement need not include writing (see [CRediT](https://credit.niso.org/) and [MeRIT](https://www.merit.help/) frameworks) to be considered for authorship.
+
+### Offering and Assigning Authorship as Leads
+
+When leading a paper or other scholarly product, the group aims to be fair in offering authorship including providing potential co-authors with opportunities to contribute.
+
+Guidelines for different stages of the process:
+
+- **Initial planning (Start of project or collaboration):**
+  - Discuss authorship roles and expectations at the outset of a project; point collaborators to this page to review group policies and CRediT taxonomy.
+  - The scope of contributions that warrant authorship and this timeline should be made clear to all.
+
+- **Draft Stage:**
+  - Revisit the authorship list, reach out to potential co-authors.
+  - Share project scope, target journals. 
+  - Provide regular progress updates.
+  - Communicate opportunities to contribute (e.g., writing, analysis, revision).
+  - Provide at least two weeks (preferably more) for contributors to review drafts or provide input.
+
+- **Prior to Submission:**
+  - Share manuscript with all co-authors for review and approval.
+  - Ensure co-authors meet group and journal authorship criteria.
+  - Identify additional contributors for acknowledgement and confirm funding sources.
+
+- **During Revision:**
+  - Provide sufficient time for all co-authors to approve major revisions.
+
+- **Template letter to collaborators**
+
+```
+**Subject:** Request for Contributions and Feedback on [Product Name]
+
+Dear [Collaborator Name(s)],
+
+I hope this message finds you well. As part of the [Project Title], we are currently drafting [Product Name]. I am reaching out to ensure that all collaborators have the opportunity to contribute and review the manuscript.
+
+Here are the key details:
+- **Scope of Work:**
+- **Target Journal/Outlet:**
+- **Current Timeline:**
+
+We would appreciate your input at this stage. Contributions can include [specific examples].
+
+Thank you for your time and collaboration!
+```
 
 ## Software / Code
 
