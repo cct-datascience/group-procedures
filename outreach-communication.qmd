@@ -16,26 +16,80 @@ Besides our email listserv, we have a [spreadsheet of places to announce events]
 
 ## Group Email Listserv {#listserv}
 
-We currently maintain our email list on the Emma platform.
-We send out \~quarterly emails, and people can sign up for our listserv using the link on our [contact page](https://datascience.cct.arizona.edu/contact).
+We currently maintain our email list on the **University of Arizona Trellis Marketing Cloud** platform.
+We send out \~quarterly emails.
+Our current contact for Trellis assistance is Estefania Villasenor.
 
-We also add people manually to this mailing list, for example, after registering for a workshop and opting in to the mailing list as one of the registration questions.
-<!--# unclear if this is technically possible with Trellis lol -->
+### Enabling group members to send listserv emails
 
-How to send out emails:
+-   Ask Estefania to add someone
+-   Do training in EDGE
 
--   Ask Matt Rahr to enable your account on Emma
--   Sign in using your UA email address
--   Select "Campaigns" tab and click "Create New Campaign" button
--   Add relevant campaign name, including year and quarter, and keep default "Regular email" option
--   Select most recent template
--   Update email text
--   Click "Preview" button to see what it will look like to recipients
--   Click "Review & send" button to finalize
--   Under "Choose recipients", add group called "Group announcements: workshop & other"
--   Add subject line and (optional) preheader text
--   Leave Sender name and Sender email as is
--   Hit "Send now" button to send email
+### Adding contacts to campaign
+
+-   People can sign up using this link: <https://forms-a.trellis.arizona.edu/f/CampaignSubscription?tfa_4=7016R000001VAlU>\
+-   When workshop participants opt into the mailing list, we can ask Estefania to add them manually
+
+### Logging into Trellis
+
+-   Sign in with your UA credentials at [this link](http://marketing.trellis.arizona.edu/login?_gl=1*ixl4c4*_gcl_au*MzY5MzA2NzQuMTcyODMyMjgwNg..*_ga*MTI1MjI5OTgzOS4xNzI4MzIyODA2*_ga_7PV3540XS3*MTczMzQzMzU4Mi4yNy4xLjE3MzM0MzM4MjguMC4wLjE3MzQxMzc1NDU.*_ga_TVNR46VTDV*MTczMzQzMzU4Mi4xLjEuMTczMzQzMzgyOC4wLjAuMA..)
+-   Can alternatively go through the Trellis Marketing Cloud link on the [Trellis login page](https://trellis.arizona.edu/login)
+
+### Drafting email
+
+-   Draft email in **Content Builder**
+-   Click Content Builder icon in top bar, then select "Content Builder"
+-   Find our email template in left-hand window by going to "LOCAL" -\> "Content Builder" folder -\> "Experiment Station Units" subfolder -\> "Emails" subfolder
+-   See adjacent folders named "Images" and "Logos" for useful email content
+-   Duplicate the email template by selecting email and hitting "Duplicate" in right hand side dropdown menu
+-   Edit template by clicking into it, hitting "Edit" button in upper right hand corner, and selecting "Edit Content"
+-   Click on sections to edit text on left hand side
+    -   Example text shows how much recommended text to include
+-   Change images by clicking on image and hitting "Replace" in upper left hand side
+    -   Add images to our "Images" folder
+    -   Do not select "scale to fit"
+    -   Email preview doesn't account correctly for images, so send test email
+-   Drag and drop to add new sections from "Content" -\> "Shared" -\> "Modules"
+-   Save email draft by hitting blue "Save" button in upper right hand corner
+
+### Testing email
+
+-   Do this from draft in **Content Builder**
+-   Send test email by going to "Preview and Test" in upper left hand corner
+-   Add individuals to send test email by selecting people icon in far left hand bar to get "Subscriber Preview and Attributes" section
+-   Go to test campaign by clicking folder icon, then “Salesforce Data Extensions” -\> “Experiment Station Units” -\> “CCT Data Science” and click on "Test Sends"
+-   Include an individual by clicking on them and hitting blue "Select" button in lower right hand corner
+-   Select envelope icon in far left hand bar to get to "Test Send" section
+-   Add email addresses of individuals to email address section
+-   Change "Sender Profile" to "CCT Data Science" and "Content Personalization Options" to "Based on Subscriber Preview..."
+-   Click blue "Send Test" button
+
+### Sending email
+
+-   Send email through **Email Studio**
+-   Click Email Studio icon in top bar, then select "Email Studio"
+-   Click on email to send
+-   Double check that subject and preheader are correct
+-   Click "Send" button in upper right hand corner
+-   Change Sender Profile to "CCT Data Science"
+-   Click "Next" button in upper right hand corner
+-   Choose audience by selecting these folders in left hand side: "Salesforce Data Extensions" -\> "Experiment Station Units" -\> "CCT Data Science", then drag and drop "Data Professionals" from middle pane to "Targeted" window
+-   Click "Next" button in upper right hand corner
+-   Choose "Send Timing" option (most likely send immediately)
+-   Click "Next" button in upper right hand corner
+-   Check that everything is correct, then select box for "This information is correct and this email is ready to send" and hit "Send" button in upper right hand corner
+-   Can review email metrics by going back to main Email Studio window and clicking on email in right hand side pane (it is not known how to view emails that were sent more than a week ago)
+
+### Viewing campaign members
+
+The only way you can do this is to act like you're sending an email
+
+-   Go to **Email Studio** by clicking Email Studio icon in top bar, then selecting "Email Studio"
+-   Click on any email in "Content Builder Emails" tab
+-   Hit "Edit" button in upper right hand corner and select "Edit Content"
+-   Select "Preview and Test" on left hand side
+-   Under "Subscriber Preview and Attributes", select the folder icon and go to "Salesforce Data Extensions" -\> "Experiment Station Units" -\> "CCT Data Science" -\> "Data Professionals"
+-   The search bar is only for subscriber keys. In order to search through list, scroll through entire list and use CTRL+F
 
 ## Group Emails
 
