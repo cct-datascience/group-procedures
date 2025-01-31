@@ -81,13 +81,14 @@ Our current contact for Trellis assistance is Estefania Villasenor.
 
 ### Testing email
 
--   Do this from draft in "Content Builder"
+-   Do this from draft in **Content Builder**
 -   Send test email by going to "Preview and Test" in upper left hand corner
 -   Add individuals to send test email by selecting people icon in far left hand bar to get "Subscriber Preview and Attributes" section
 -   Go to test campaign by clicking folder icon, then “Salesforce Data Extensions” -\> “Experiment Station Units” -\> “CCT Data Science” and click on "Test Sends"
 -   Include an individual by clicking on them and hitting blue "Select" button in lower right hand corner
 -   Select envelope icon in far left hand bar to get to "Test Send" section
 -   Add email addresses of individuals to email address section
+-   Change "Sender Profile" to "CCT Data Science" and "Content Personalization Options" to "Based on Subscriber Preview..."
 -   Click blue "Send Test" button
 
 ### Sending email
@@ -95,9 +96,27 @@ Our current contact for Trellis assistance is Estefania Villasenor.
 -   Send email through **Email Studio**
 -   Click Email Studio icon in top bar, then select "Email Studio"
 -   Click on email to send
+-   Double check that subject and preheader are correct
 -   Click "Send" button in upper right hand corner
 -   Change Sender Profile to "CCT Data Science"
 -   Click "Next" button in upper right hand corner
+-   Choose audience by selecting these folders in left hand side: "Salesforce Data Extensions" -\> "Experiment Station Units" -\> "CCT Data Science", then drag and drop "Data Professionals" from middle pane to "Targeted" window
+-   Click "Next" button in upper right hand corner
+-   Choose "Send Timing" option (most likely send immediately)
+-   Click "Next" button in upper right hand corner
+-   Check that everything is correct, then select box for "This information is correct and this email is ready to send" and hit "Send" button in upper right hand corner
+-   Can review email metrics by going back to main Email Studio window and clicking on email in right hand side pane (it is not known how to view emails that were sent more than a week ago)
+
+### Viewing campaign members
+
+The only way you can do this is to act like you're sending an email
+
+-   Go to **Email Studio** by clicking Email Studio icon in top bar, then selecting "Email Studio"
+-   Click on any email in "Content Builder Emails" tab
+-   Hit "Edit" button in upper right hand corner and select "Edit Content"
+-   Select "Preview and Test" on left hand side
+-   Under "Subscriber Preview and Attributes", select the folder icon and go to "Salesforce Data Extensions" -\> "Experiment Station Units" -\> "CCT Data Science" -\> "Data Professionals"
+-   The search bar is only for subscriber keys. In order to search through list, scroll through entire list and use CTRL+F
 
 ## Group Emails
 
