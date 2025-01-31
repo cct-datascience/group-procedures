@@ -21,7 +21,9 @@ More importantly, you are advised not to combine work and personal email because
 
 You can generate an official UA signature here: <https://brand.arizona.edu/generator/email-signature>.
 
-If you'd like to use gmail instead of Outlook, see instructions [here](use-gmail.qmd).
+If you'd like to use gmail as your inbox instead of Outlook, see instructions [here](use-gmail.qmd).
+
+See also [Communications & Outreach](outreach-communication.qmd).
 
 ## G Suite
 

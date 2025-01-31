@@ -6,37 +6,28 @@ labels: ''
 assignees: ''
 ---
 
----
-title: Onboarding
----
-
 ## Before you start
 
--   [ ] HR Paperwork
-    -   [ ] Sign offer letter
-    -   [ ] Complete I-9 verification
-    -   [ ] Establish NetID [here](https://netid-portal.iam.arizona.edu/). You will receive an email with instructions.
-    -   [ ] Log in to UAccess and complete the required tasks in the "New Employee Work-Center".
-    -   [ ] Establish your UA email access.
-    -   [ ] Anything else HR sends you, please complete promptly
--   [ ] Get CatCard
-    -   The CatCard is your official UA employee identification.
-    -   Get your cat card from the CatCard office in the ([Student Union](https://catcard.arizona.edu/obtain_catcard)) or [online](https://mycatcard.arizona.edu/)
-    -   They can look up your employee number if you bring a driver's license or other form of ID.
+-   [ ] Read and follow the [onboarding checklist](https://hr.arizona.edu/employees/new-employee-onboarding) from HR.
 -   [ ] Purchase equipment, either online or at campus bookstore, and set up your office.
     -   Each full time employee will be allocated:
         -   A computer, two monitors, a mouse/track pad/pointing device, a keyboards, and a docking station
         -   Enough outlets and ethernet ports to meet your needs. We can get additional routers / power strips as needed.
-        -   Office supplies - there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask.
+        -   Office supplies—there should be plenty of the basics: pens, pencils, paper, etc. If need more of anything, please ask.
     -   If you need anything further, just ask.
 -   [ ] When your equipment arrives, complete a "University of Arizona Certification Statement For Off-Campus Location/Use of Equipment" (from HR).
 
 ## First Week
 
 The goal in the first week is to set up your accounts and your physical and virtual workspaces, to meet others in the group and learn about our protocols, and to become familiar with the university.
-Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within CALS CCT Slack).
+Feel free to ask anyone in the group questions about these steps, especially in the group's Slack channel (#datascience channel within [CALS CCT Slack](https://cals-cct.slack.com)).
 
--   [ ] Work through CCT-DS Onboarding checklist (this document). Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
+-   [ ] Work through CCT-DS Onboarding checklist (this document). It's available as a GitHub issue [here](https://github.com/cct-datascience/group-procedures/issues/new?assignees=&labels=&projects=&template=onboarding-checklist.md&title=%5BYour+name%5D+Onboarding+checklist) so you can track your progress. Suggest changes, comment, and ask questions as you go to make it more useful to the next person.
+-   [ ] Follow any additional steps outlined in the [HR onboarding](https://hr.arizona.edu/employees/new-employee-onboarding) that you haven't yet completed
+-   [ ] Get CatCard
+    -   The CatCard is your official UA employee identification.
+    -   Get your cat card from the CatCard office in the ([Student Union](https://catcard.arizona.edu/obtain_catcard)) or [online](https://mycatcard.arizona.edu/)
+    -   They can look up your employee number if you bring a driver's license or other form of ID.
 -   [ ] Review our group's [Code of Conduct](https://cct-datascience.github.io/group-procedures/code-of-conduct.html)
 
 ### HR logistics
@@ -44,7 +35,7 @@ Feel free to ask anyone in the group questions about these steps, especially in 
 -   [ ] Review the materials on the [New to the University of Arizona](https://hr.arizona.edu/employees-affiliates/new-ua) page
 -   [ ] Work through the [New Employee Checklist](https://hr.arizona.edu/sites/default/files/New_Employee_Checklist.pdf)
 -   [ ] Review the [Public Service Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs/arizona-public-service-orientation) and submit the [completion certificate](https://hr.arizona.edu/sites/default/files/hr/employees-affiliates/NewToTheUA/AZPSOrientation/certificate.pdf) to your HR representative (Rosalie).
--   [ ] Sign up for and attend a [Benefits Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs) *scheduled for 8/23*
+-   [ ] Sign up for and attend a [Benefits Orientation](https://hr.arizona.edu/employees-affiliates/new-ua/new-employee-orientation-programs)
 -   [ ] Familiarize yourself with [Employee Resources](https://hr.arizona.edu/employees-affiliates/new-ua/employee-resources)
 -   [ ] Complete required trainings in the [EDGE learning system](https://edgelearning.arizona.edu/?_gl=1*iko1z6*_ga*MTQyMTAyODIwOC4xNjg3OTYyMjcx*_ga_7PV3540XS3*MTY4OTA4NzIwMS4yMi4xLjE2ODkwODc2MTguMTguMC4w), which include IT security and preventing harassment & discrimination
     -   You may not be able to access EDGE until 24-48 hours after your official start date. You should complete these trainings within your first week on the job.
@@ -52,20 +43,40 @@ Feel free to ask anyone in the group questions about these steps, especially in 
     -   [ ] Select and enroll in a retirement plan. You need to enroll in retirment within 30 days of your start date.
     -   [ ] Once you have selected your retirement plan, you can sign up for other benefits. Enroll in other benefits within 31 days of starting.
 
-### Internet
+### Equipment setup
 
-You should be on the university's VPN any time you connect to internet outside the UA.
+#### Internet
+
+You should be on the university's VPN any time you connect to internet outside the UA, or are working from home.
 
 -   [ ] Install Cisco Secure Client; instructions under [Virtual Private Network (VPN)](https://it.arizona.edu/remote-work).
-    -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
 -   [ ] Log in to the VPN by opening Cisco Secure Client, typing in "vpn.arizona.edu/cals-ext", and clicking Connect. Then log in using your UA credentials and 2FA.
+    -   When asked for a third password/NetID+ method, input "push" or "sms" or "passcode" to autheticate via 2FA.
+
+#### Software set up
+
+When you get your computer...
+
+-   [ ] Meet with an admin in CCT (Martin Picazzo as of 2023) to get logged into your computer the first time.
+-   [ ] Also install software that you will need administrative privileges to install. It can be helpful to come to this meeting with the CCT admin having a list of things you expect to use. In the future, if you need an admin password to install something, contact Martin to get a temporary password.
+
+#### Computer backups
+
+We should all have our files backed up in at least two places.
+Ideally, one of these is in the cloud and one of these is on a physical hard drive.
+
+When you get your computer...
+
+-   [ ] Set up cloud backups. (If you are on a Windows machine, you can back up to the UA OneDrive). UA also provides access to Google Drive and Box.
+-   [ ] Set up a regular backup schedule to a physical hard drive.
+-   [ ] Get in the habit of pushing new work to GitHub at least daily!
 
 ### Accounts access
 
 Create accounts on the following collaboration tools (details provided below):
 
 -   [ ] UA UITS Accounts, starting here: <https://account.arizona.edu/welcome>
-    -   [ ] Email and calendar (Outlook or Gmail)
+    -   [ ] Email (Outlook or Gmail). If you want to use Gmail instead of Outlook, set up forwarding using the instructions [here](https://cct-datascience.github.io/group-procedures/use-gmail.html)
     -   [ ] Calendar (Outlook or Gmail)
     -   [ ] Google Apps
     -   [ ] Box
@@ -75,7 +86,7 @@ Create accounts on the following collaboration tools (details provided below):
         -   Download the desktop app and log in via SSO to get your Zoom room link
 -   [ ] UA Office 365: <https://it.arizona.edu/service/microsoft-office-365>
 -   [ ] Join Slack (used for most communication)
-    -   [ ] CCT DS group (the #data-science channel within the CCT). You'll need an invite.
+    -   [ ] CCT DS group (the `#data-science` channel within the CCT). You'll need an invite.
     -   [ ] [UA Data Science](https://jcoliver.github.io/uadatascience-slack/index), for broader DS community at University of Arizona
     -   [ ] [ResBaz](https://researchbazaar.arizona.edu/), community in Tucson for researchers using technology. You'll need an invite.
 -   [ ] Request access to the group's shared Google Drive folders
@@ -84,15 +95,15 @@ Create accounts on the following collaboration tools (details provided below):
     -   [ ] If you don't already have an account sign up at (https://github.com), used to organize our work.
     -   [ ] Get added to our group's GitHub org: <https://github.com/cct-datascience>
     -   Note: We have two GitHub boards, one for [project management](https://github.com/orgs/cct-datascience/projects/8) and one for [incubators](https://github.com/orgs/cct-datascience/projects/7)
-    -   See \[here\]\[1\] for more about 2FA for GitHub and access protocols
+    -   See [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) for more about 2FA for GitHub and access protocols
 -   [ ] Clone the group procedures book, which is where we currently store group and project documentation
     -   [ ] GitHub repo is here: <https://github.com/cct-datascience/group-procedures>
     -   [ ] Book is built with Quarto. You can preview local edits with `quarto preview`. For more info on editing see Quarto docs: <https://quarto.org/docs/books/>
 -   [ ] Join the [group Hackmd](https://hackmd.io/team/cct-datascience?nav=overview), used for a lot of group notetaking.
     -   [ ] You will need to create a Hackmd account, and then someone from the group will need to add you.
 -   [ ] Get added to Toggl, for time tracking
--   [ ] Log in to get edit access to the website. Navigate to <https://datascience.cct.arizona.edu/user>. Don't log in using the obvious log in form; click on "Log in with NetAuth" (or similar) and log in using your NetID credentials.
--   [ ] Log in to [Stache](https://stache.arizona.edu/), used for sharing passwords and other sensitive information within the university.
+-   [ ] Log in to get edit access to the website. Navigate to <https://datascience.cct.arizona.edu/user>. Click on "Log in using University of Arizona WebAuth" and log in using your NetID credentials.
+-   [ ] Log in to [Stache](stache.arizona.edu), used for sharing passwords and other sensitive information within the university.
 -   [ ] Get added to the group [Posit Connect](https://viz.datascience.arizona.edu/connect/)
     -   You'll have to request access and list a sponsor. This is Kristina.
 -   [ ] Log in to the group [Quarto Pub](https://quartopub.com)
@@ -108,7 +119,7 @@ Create accounts on the following collaboration tools (details provided below):
 -   [ ] Send Kristina a headshot to use for your page on the website.
 -   [ ] Write a short blog post (Renata's is [here](https://datascience.cct.arizona.edu/news/2023/08/renata-diaz-joins-cct-data-science-team) and Eric's is [here](https://datascience.cct.arizona.edu/news/2022/06/welcome-eric-scott)) announcing that you've joined the team.
 -   [ ] Write and update your blurb on your page on the website.
--   [ ] Also send Headshot, Bio, Links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
+-   [ ] Also send headshot, bio, links to Matt Rahr (rahr\@ag.arizona.edu) in CCT
 -   [ ] Make a Mastodon post.
 -   [ ] (Optional) Update your social bios, etc.
 
@@ -121,7 +132,8 @@ Create accounts on the following collaboration tools (details provided below):
 -   [ ] Begin learning about and using software and data related to projects.
     -   This can include reading about incubators (on our GitHub project board), funded projects (talk to Kristina and current team members), or trainings.
 -   [ ] Fill out biweekly time sheets every other Friday morning by 10am AZ on [UAccess](https://uaccess.arizona.edu/), which also has pay stubs, insurance info, etc.
-    -   If you are salaried, you only need to put in 1 hour of "PAW - Present at Work" for the pay period (doesn't matter which week).
+    -   If you are salaried, you only need to put in 1 hour of "PAW - Present at Work" for the pay period (doesn't matter which week), and then record any *exception* time (sick/vacation/jury duty). You don't need to enter all of your regular work hours.
+    -   Holidays and university closures will be automatically added to your time sheet.
 
 ## Second Week
 
@@ -130,7 +142,7 @@ Create accounts on the following collaboration tools (details provided below):
     -   Identify 3-4 Objectives with 3-4 Key Results (\<=12 total) for your first Quarter using the template; [see Q3 2019](https://docs.google.com/spreadsheets/d/18ANZGFdBHBU8l9WbFTE0fErcCaTva3LyazuhAex4FFE/edit#gid=129820665)
 -   [ ] Add your skills to the [group skills matrix](https://docs.google.com/spreadsheets/d/1N95GgtAgvpQ9PhpiYwqWYewWu-FOzeIoQxzX2oldUuk/edit?usp=sharing)
 -   [ ] Read [Best Practices in Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
--   [ ] Order business cards: <https://brand.arizona.edu/stationery>
+-   [ ] (Optional) Order business cards: <https://brand.arizona.edu/stationery>
 
 ## First Month
 

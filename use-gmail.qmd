@@ -3,6 +3,11 @@ title: "Using Gmail instead of Outlook"
 editor: visual
 ---
 
+::: callout-important
+If you set up your email to forward to a gmail inbox, you may not be able to get emails from .gov email addresses!
+People who send you emails from .gov accounts will have their emails bounce if your email is automatically forwarded.
+:::
+
 Staff members have both an outlook and a gmail account (outlook is default).
 To set up the gmail, log into [outlook.office.com](https://outlook.office.com) with the netID\@email.arizona.edu and search for the forwarding setup.
 Your forwarding address is netID\@catmail.arizona.edu.
