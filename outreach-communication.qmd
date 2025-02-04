@@ -78,18 +78,21 @@ Our current contact for Trellis assistance is Estefania Villasenor.
 -   Choose "Send Timing" option (most likely send immediately)
 -   Click "Next" button in upper right hand corner
 -   Check that everything is correct, then select box for "This information is correct and this email is ready to send" and hit "Send" button in upper right hand corner
--   Can review email metrics by going back to main Email Studio window and clicking on email in right hand side pane (it is not known how to view emails that were sent more than a week ago)
+-   Once an email is sent, add it to our sends folder so metrics can be viewed easily by going to Tracking -\> Sends, check box for sent email, click Move button, and navigate folder structure as follows: "My Tracking" -\> "MarCom Sends" -\> "CCT DS Team", then click Move button
+-   View metrics by clicking on email of interest from our folder on left hand side of "Sends"
 
 ### Viewing campaign members
 
-The only way you can do this is to act like you're sending an email
+The campaign contents are managed on Trellis itself, which we do not have access to
 
+-   The only way you can do this is to act like you're sending an email
 -   Go to **Email Studio** by clicking Email Studio icon in top bar, then selecting "Email Studio"
 -   Click on any email in "Content Builder Emails" tab
 -   Hit "Edit" button in upper right hand corner and select "Edit Content"
 -   Select "Preview and Test" on left hand side
 -   Under "Subscriber Preview and Attributes", select the folder icon and go to "Salesforce Data Extensions" -\> "Experiment Station Units" -\> "CCT Data Science" -\> "Data Professionals"
 -   The search bar is only for subscriber keys. In order to search through list, scroll through entire list and use CTRL+F
+-   Can **download** email sent list by going to sent email in "Sends", hitting number after "Total Sent", clicking "Export All" button, then selecting these options on the next page: "add all \>\>", CSV, check box for "Would you like the file zipped", and adding email to "Would you like the file emailed?", then clicking "Export" button
 
 ## Group Emails
 
