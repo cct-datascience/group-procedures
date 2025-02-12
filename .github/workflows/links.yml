@@ -31,6 +31,7 @@ jobs:
             --exclude calendar\.google\.com 
             --exclude \.php$ 
             --exclude portal\.hpc\.arizona\.edu
+            --exclude dev\.mysql\.com\/downloads\/connector\/odbc
             --glob-ignore-case 
             --accept '200..=204, 429'
             './**/*.md' './**/*.qmd'
