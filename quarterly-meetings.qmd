@@ -55,7 +55,7 @@ This is also a time for general discussion about group vision, projects, funding
 ## OKRs (Objectives and Key Results)
 
 OKRs are a framework for goalsetting developed and used by Google.
-You can learn more about OKRs from [whatmatters.com](https://www.whatmatters.com/get-started)
+You can learn more about OKRs from [whatmatters.com](https://www.whatmatters.com)
 
 Each member has their own set of OKRs per quarter, and there also may be group OKRs.
 They should all have quantifiable, specific outcomes, and should also be stretch goals.
