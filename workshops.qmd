@@ -60,7 +60,7 @@ From the meeting page, copy the registration link to be included in your worksho
 
 -   Use [this spreadsheet](https://docs.google.com/spreadsheets/d/155tcna1dMWwsZymdKFZPCrnZf3xocw4hPv1JKwOu9MQ/edit#gid=0) to keep track of where you have advertised.
 -   Add the workshop to our website by creating a new event
-    - In the event body text, you can create a registration button by switching to the source editor and pasting in some HTML like `<a class="btn btn-red" href="zoom-link" target="_blank">Register</a>` where `zoom-link` is the URL to the Zoom registration.
+    -   In the event body text, you can create a registration button by switching to the source editor and pasting in some HTML like `<a class="btn btn-red" href="zoom-link" target="_blank">Register</a>` where `zoom-link` is the URL to the Zoom registration.
 -   Add the workshop to the Data Science Institute [events page](https://datascience.arizona.edu/get-involved)
 -   Advertise to other groups and email listservs listed [here](outreach-communication.qmd).
 
@@ -112,12 +112,16 @@ You may need to ask Kristina to give you manager permissions in order to upload 
 -   Sign into YouTube
 -   Select "Create" button in upper right hand corner and then "Upload videos"
 -   Drag and drop video
--   While it's uploading, add name in format "Workshop Wednesdays \[month\] \[year\]: \[workshop title\]"
+-   While it's uploading, add title in format "\<workshop title\> \[\<month year\>\]"
 -   In description, add this content:
-    -   Date: \[date and time\]
-    -   Instructors: \[instructor names\]
-    -   Presented to: \[audience\]
-    -   Description: \[description of workshop as in email announcements\]
+
+> Workshop Wednesday \<date\> (or just the date)\
+> Instructors: \<instructor names\>\
+> Presented to: \<audience\>\
+> \
+> \<description of workshop as in email announcements\>\
+> \<links to slides, code, etc.\>
+
 -   If the video is unedited from the Zoom recording, you can upload the exported .vtt file for closed captions with timings (click "add subtitles", then "upload file", then "with timing")
 -   If possible, include thumbnail from a relevant slide
 -   If you'd like to edit it on YouTube, consider publishing it as "unlisted" initially, but remember to make it public after the edits have processed
