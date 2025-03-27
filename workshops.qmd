@@ -173,6 +173,10 @@ Two reports should be downloaded from the Analytics & Reports page on arizona.zo
     5.  Drop the .csv file in the [usage reports](https://drive.google.com/drive/u/0/folders/1E3LuHI1jTm22cz7xXAjScMkQcMupuH8M) folder on Google Drive.
 -   Add registrants to our mailing list if they opted in <!--# TODO: link to new stuff about trellis -->
 
+::: callout-note
+There is a WIP script to pull these registration and usage reports and wrangle them into a single output here: <https://github.com/cct-datascience/zoom-report-wrangling>
+:::
+
 ### Post-workshop survey
 
 -   Edit the post-workshop survey [Google form](https://docs.google.com/forms/d/1poDmmcCBr6Z5Gg3U3hft4iOUlewsE8NfDCu4on6o2Oc/edit) to add your workshop.
