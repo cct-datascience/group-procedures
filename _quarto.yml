@@ -101,10 +101,12 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     code-copy: true
-    theme: 
-      light: flatly
-      dark: darkly
-      
+    theme:
+      light: 
+        - brand
+      dark:
+        - brand
+      #   - dark.scss
 editor: 
   markdown:
     wrap: sentence
