@@ -6,7 +6,7 @@ title: Logistics
 
 ### Offices
 
-We have dedicated office space in the Bioscience Research Laboratory (BSRL), and can also use the CCT offices/conference room in Forbes if coordinated in advance.
+We have dedicated office space in the [Bioscience Research Laboratory](https://bsrl.arizona.edu/) (BSRL), and can also use the CCT offices/conference room in Forbes if coordinated in advance.
 
 -   General issues in the building
     -   Submit a ticket for either IT support or miscellaneous building-related issues: <https://keating.bio5.org/ticket_support/tickets.php>
