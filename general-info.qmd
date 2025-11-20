@@ -1,10 +1,12 @@
 ---
-title: Campus Logistics
+title: Logistics
 ---
 
-## Offices
+## On Campus Work
 
-We work in the Bioscience Research Laboratory (BSRL)
+### Offices
+
+We have dedicated office space in the [Bioscience Research Laboratory](https://bsrl.arizona.edu/) (BSRL), and can also use the CCT offices/conference room in Forbes if coordinated in advance.
 
 -   General issues in the building
     -   Submit a ticket for either IT support or miscellaneous building-related issues: <https://keating.bio5.org/ticket_support/>
@@ -20,4 +22,8 @@ We work in the Bioscience Research Laboratory (BSRL)
     -   There is a bike storage area on the loading dock; ask Robert for the code.
     -   [TUGO](https://tugobikeshare.com/) is great for getting around campus
 -   Parking: Easiest parking is the garage two blocks east of BSRL: \$2 hourly or \$8 daily.
--   Public Transportation: The [Sunlink Streetcar](https://www.suntran.com/routes-services/sunlink/) stops very close to BSRL on Helen and is currently free.
+-   Public Transportation: The [Sunlink Streetcar](https://www.suntran.com/routes-services/sunlink/) stops very close to BSRL on Helen and is currently free. All Sun Tran rides are also free.
+
+## Travel
+
+## Purchasing
