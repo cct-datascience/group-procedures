@@ -12,7 +12,7 @@ on:
 
 jobs:
   linkChecker:
-    runs-on: ubuntu-32GB
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
