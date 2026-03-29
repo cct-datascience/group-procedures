@@ -1,0 +1,53 @@
+color:
+  palette:
+  #primary brand colors
+    red: "#AB0520"
+    blue: "#0C234B"
+  #neutral colors
+    white: "#FFF"
+    black: "#000"
+    warm-gray: "#F4EDE5"
+    cool-gray: "#E2E9EB"
+  #complimentary colors
+    midnight: "#001C48"
+    azurite: "#1E5288"
+    oasis: "#378DBD"
+    chili: "#8B0015"
+  #highlight/accent colors
+    bloom: "#EF4056"
+    sky: "#81D3EB"
+    leaf: "#70B865"
+    river: "#007D84"
+    mesa: "#A95C42"
+  foreground: black
+  background: white
+  primary: chili
+  secondary: "#49595e"
+  success: leaf
+  info: sky
+  warning: mesa
+  danger: bloom
+  light: "#DEE2E6"
+  dark: "#343A40"
+
+typography:
+  base: 
+    family: Proxima Nova
+  headings: 
+    family: Proxima Nova
+    weight: 700
+    color: blue
+  monospace-inline:
+    family: Fira Code
+    color: azurite
+    background-color: cool-gray
+  link:
+    decoration: underline
+    
+logo:
+  medium: logo.png
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-fg: white
